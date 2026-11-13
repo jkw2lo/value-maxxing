@@ -47,6 +47,15 @@ Then invert it. Separate the marketing vocabulary that does NOT correlate with q
 Include the things that look like value to a price-sensitive shopper and are not. This is the section this reader most needs and least often gets. Typical shapes: the bulk pack whose unit price is worse than it appears; the mid-tier that costs nearly as much as the good tier while performing like the cheap one; the beginner/student grade that gets replaced within months; the bundle padded with items nobody uses; the brand charging a premium for a rebadged commodity product. Name the specific trap in THIS category, why it looks good, why it isn't, and what to do instead.
 </value_traps>
 
+<price_segments>
+Break the market's prices down by the one attribute that most changes what a shopper pays, and that they pick before they pick a brand. Choose it for THIS category: total carat weight for diamond jewelry (1 ct, 2 ct, 3 ct, 5 ct); ply for toilet paper (1-ply, 2-ply, 3-ply); conventional / organic / small-batch for food; capacity, size or engine for durables. When no single attribute like that drives price, segment by quality tier instead (budget / mid-range / premium, or functional / premium). Say in one sentence which attribute you chose and why it beats the alternatives.
+Use 3-6 segments, ordered from cheapest to most expensive. For each, give: the price range a shopper will actually see for a typical item, from real listings (low to high, in dollars, for the item or common pack, not per unit); the typical price most people pay; the per-unit range on your normalization unit where it applies; what the extra money buys over the segment below; the best-value pick within that segment; and what to watch out for at that level. If the buyer named a segment, still cover all of them so they can see what one step up or down costs.
+</price_segments>
+
+<brands>
+Profile every brand behind the products you cover, plus any major brand a shopper will see that you didn't cover. For each: its positioning (budget, mainstream, store brand, premium, specialist, luxury, enthusiast) and reputation in a sentence or two, who makes it if that matters (store brands made by a name manufacturer, rebadges, lab vs. mined, licensed names), 2-4 pros and 2-4 cons that are true of the brand as a whole rather than one product, its typical price range, who it suits, and a one-line verdict for a value-maximizing buyer. Note warranty, return, resale or service differences where they change the value math.
+</brands>
+
 <purchase_strategy>
 End with named strategies, not a single winner. At least: the cheapest path that isn't a mistake, the best-value build, and the no-compromise build. Give each a real total cost with itemized picks, and state what it deliberately gives up. Also cover how to enter the category cheaply and what to upgrade first when the buyer outgrows the entry setup.
 </purchase_strategy>
@@ -59,20 +68,10 @@ Where you are uncertain — a price you could not confirm, a category where test
 Deliver the analysis at the scope asked. If the category is ambiguous (it spans several distinct sub-markets that don't share a normalization unit), pick the most likely reading, say which reading you picked in one sentence, and analyze that — don't analyze all of them shallowly.
 </calibration>
 
-<verdict_rules>
-Pick the timing signal with these rules, checked in order. The reference product is the one you would recommend to most readers (best value).
-- AVOID_CATEGORY: a different kind of product does the same job clearly better per dollar for most buyers. Say which.
-- WAIT_FOR_SALE: its street price today is at least ~15% above its buy-under, and a sale that reaches the buy-under is likely within about 3 months.
-- BUY_SELECTIVELY: only when where and what you buy matters more than when, because much of what a shopper will see is risky: counterfeits, misleading labels, reformulated or grey-market stock, or prices that vary wildly by seller.
-- BUY_NOW: otherwise. The pick is at or near its buy-under today, or it rarely discounts, so waiting buys little.
-Having better and worse products, or recommending specific picks, is NOT a reason for BUY_SELECTIVELY: every report does that.
-State the signal and the rule that decided it in one sentence.
-</verdict_rules>
-
 <your_call>
 End the brief with YOUR CALL, two parts a shopper can act on today:
 1. STRIKE PRICE: the pack price (and the price per unit) at or below which to buy your recommended item.
-2. BUY NOW or WAIT: either buy a specific item now (exact product and pack size, the store, today's price) because it is at or under its strike price, or wait (today's price, the strike price, and which sale or month is likely to get there). If the category isn't worth buying, say what to buy instead.
+2. TODAY'S PRICE vs. USUAL: for that exact item and pack size, its usual price range when it is not on sale (low and high, from what you saw across retailers and its price history), today's best price and the store. Say whether today's price is lower than usual (on sale now), typical, or higher than usual. If it isn't at or under the strike price, say which sale or month usually gets it there. If the category isn't worth buying, say what to buy instead.
 Then list DEALS SEEN: specific current offers you actually saw on a store page or listing during research (product and pack size, store, price, link, any condition such as a coupon, membership or subscription). List only offers you saw; if you saw none, write "none seen".
 </your_call>
 

@@ -1,0 +1,1212 @@
+{
+ "expertise": "intermediate",
+ "saved_at": "2026-11-13T12:00:00.000Z",
+ "report": {
+  "category": "Diamond tennis bracelets",
+  "scope": "US market, lab-grown and natural diamonds, 1–10 carats total weight, mostly 14K gold. Prices seen online on Nov 13, 2026, two weeks before Black Friday.",
+  "generated_at": "2026-11-13",
+  "price_source": "live",
+  "primer": {
+   "what_it_is": "A flexible bracelet of matching diamonds set in a continuous line, sold by total carat weight (ct tw): the combined weight of every stone.",
+   "must_haves": [
+    {
+     "feature": "Box clasp with a safety catch",
+     "why": "A figure-8 or fold-over safety stops the bracelet falling off if the clasp pops."
+    },
+    {
+     "feature": "14K gold or platinum",
+     "why": "Holds stones securely for decades; silver and 10K wear faster."
+    },
+    {
+     "feature": "Matched, graded stones",
+     "why": "Stones of the same color and size look like one line of light."
+    },
+    {
+     "feature": "A grade you can read",
+     "why": "Color and clarity (e.g. F-G / VS2-SI1) tell you what you're paying for."
+    }
+   ],
+   "premium_features": [
+    {
+     "feature": "Natural diamonds",
+     "why": "Buys rarity and tradition, not a look; costs 1.8–2.9x lab at 5 ct."
+    },
+    {
+     "feature": "Four prongs per stone",
+     "why": "More secure than two or three prongs for daily wear."
+    },
+    {
+     "feature": "Platinum",
+     "why": "Heavier and naturally white; costs more than 14K white gold."
+    }
+   ],
+   "avoid": [
+    {
+     "thing": "Sterling silver for daily wear",
+     "why": "Soft prongs bend, so stones loosen."
+    },
+    {
+     "thing": "Cluster settings with I2-I3 stones",
+     "why": "Many tiny dull stones fake a bigger look."
+    },
+    {
+     "thing": "\"50% off\" mall tags",
+     "why": "The original price is set so the sale looks big."
+    }
+   ]
+  },
+  "verdict": {
+   "headline": "Buy lab-grown in 14K online; 5 ct costs barely more than 2–3 ct, and Black Friday is two weeks away.",
+   "signal": "WAIT_FOR_SALE",
+   "confidence": "Moderate: about 18 listings priced across seven sellers; Costco US and price history were not seen.",
+   "reasoning": "Lab-grown 14K bracelets with F-G / VS2-SI1 stones now cost $675–$830 per carat at 5 ct, against $1,150–$1,940 for natural. Per-carat price falls as total weight rises, so the 5 ct lab bracelet is the sweet spot. Mall natural bracelets cost up to $3,220 per carat for the same look.",
+   "price_watch_summary": "Blue Nile's 5 ct lab bracelet is $3,374 (30% off $4,820); aim for $3,000 or less during Black Friday, Nov 27–30."
+  },
+  "recommendation": {
+   "action": "WAIT",
+   "product": "Blue Nile 7\" Two-Prong Lab-Grown Tennis Bracelet, 14K white gold, 5 ct tw (F-G / VS2-SI1)",
+   "retailer": "Blue Nile",
+   "current_price": 3374,
+   "usual_low": 3374,
+   "usual_high": 4820,
+   "strike_price": 3000,
+   "pack_size": 5,
+   "strike_unit_price": 600,
+   "wait_for": "Black Friday to Cyber Monday (Nov 27–30)",
+   "why": "Graded 14K lab stones at the lowest per-carat price seen; a holiday promo near 38% off reaches $3,000."
+  },
+  "normalization": {
+   "unit": "Price per carat of total diamond weight, compared within the same diamond type, grade and metal",
+   "unit_short": "ct",
+   "unit_rationale": "Shoppers compare sticker prices, but a $2,000 bracelet can hold 1 ct or 10 ct. Price per carat shows that bigger lab bracelets are cheaper per carat, and that mall natural pieces cost 2–4x online lab.",
+   "quality_adjustment": "Compare like with like: lab vs. natural, 14K vs. 10K or silver, and the stated grade. Natural at the same grade costs about 1.8–2.9x lab; silver and 10K should cost clearly less than 14K.",
+   "formula": "Value = price ÷ total carats, then compared only against the same diamond type, metal and grade",
+   "bands": [
+    {
+     "label": "Bargain lab",
+     "low": 250,
+     "high": 500,
+     "verdict": "Silver or ungraded lab; check metal and grade first"
+    },
+    {
+     "label": "Lab 14K sweet spot",
+     "low": 500,
+     "high": 900,
+     "verdict": "Graded lab in gold; the value zone"
+    },
+    {
+     "label": "Small lab or low-grade natural",
+     "low": 900,
+     "high": 1500,
+     "verdict": "Fine, but you pay for size or I1 stones"
+    },
+    {
+     "label": "Natural, good grades",
+     "low": 1500,
+     "high": 2500,
+     "verdict": "Pay for natural only if it matters to you"
+    },
+    {
+     "label": "Mall natural premium",
+     "low": 2500,
+     "high": 3500,
+     "verdict": "Same look online for about half"
+    }
+   ],
+   "size_economics": "Per-carat prices fall as total weight rises: Brilliant Earth lab is $1,895 per carat at 1 ct, $983 at 3 ct and $830 at 5 ct. Moving from 2 ct to 5 ct lab adds only a few hundred dollars on sale."
+  },
+  "diminishing_returns": {
+   "knee_unit_price": 700,
+   "knee_example": "Blue Nile 5 ct lab, 14K, F-G / VS2-SI1 at $3,374 ($675 per carat)",
+   "below_knee": "Below ~$500 per carat you drop to sterling silver, 10K gold or ungraded stones: weaker prongs or unknown sparkle.",
+   "above_knee": "Above ~$900 per carat you mostly pay for natural origin, small-size labor or a mall brand, not a better-looking bracelet.",
+   "curve": [
+    {
+     "unit_price": 300,
+     "quality": 52,
+     "label": "Silver / ungraded lab"
+    },
+    {
+     "unit_price": 500,
+     "quality": 65,
+     "label": null
+    },
+    {
+     "unit_price": 700,
+     "quality": 80,
+     "label": "Sweet spot: graded 14K lab"
+    },
+    {
+     "unit_price": 850,
+     "quality": 83,
+     "label": null
+    },
+    {
+     "unit_price": 1200,
+     "quality": 85,
+     "label": null
+    },
+    {
+     "unit_price": 1500,
+     "quality": 87,
+     "label": null
+    },
+    {
+     "unit_price": 1940,
+     "quality": 90,
+     "label": "Natural H-I / SI"
+    },
+    {
+     "unit_price": 3220,
+     "quality": 90,
+     "label": "Mall natural"
+    }
+   ]
+  },
+  "awards": {
+   "best_overall": {
+    "product": "Blue Nile Four-Prong Diamond Tennis Bracelet, 14K white gold, 5 ct tw (H-I / SI1-SI2)",
+    "why": "Eye-clean natural stones in the most secure setting; buy it only on a 30–40% sale."
+   },
+   "best_value": {
+    "product": "Blue Nile 7\" Two-Prong Lab-Grown Tennis Bracelet, 14K white gold, 5 ct tw (F-G / VS2-SI1)",
+    "why": "$675 per carat for graded 14K lab, the lowest seen."
+   },
+   "best_budget": {
+    "product": "KAY Signature Collection Lab-Grown Diamond Tennis Bracelet, 10K white gold, 3 ct tw",
+    "why": "$1,999.99 for 3 ct in gold; the cheapest gold option that isn't a mistake."
+   },
+   "best_premium": {
+    "product": "Brilliant Earth Natural Diamond Tennis Bracelet, 14K, 5 ct tw",
+    "why": "Traceable natural stones, recycled gold and a showroom to see it in."
+   },
+   "best_for_beginners": {
+    "product": "James Allen Three-Prong Lab-Grown Tennis Bracelet, 14K white gold, 2 ct tw (F-G / VS2-SI1)",
+    "why": "A modest, wearable size with a clear grade and choice of length."
+   },
+   "longest_lasting": {
+    "product": "Blue Nile 7\" Four-Prong Lab-Grown Tennis Bracelet, 14K white gold, 2 ct (F-G / VS2-SI1)",
+    "why": "Four prongs per stone in 14K hold up best to daily wear."
+   },
+   "avoid": {
+    "product": "Kay Diamond Tennis Bracelet, 14K yellow gold, 3 ct tw (natural)",
+    "why": "$3,220 per carat with no grade shown; about 1.7x Blue Nile's natural price."
+   }
+  },
+  "spec_criteria": [
+   {
+    "spec": "Metal and clasp",
+    "weight": 20,
+    "what_good_looks_like": "14K gold or platinum; box clasp plus figure-8 or fold-over safety",
+    "how_to_check": "Metal line in the title; clasp photos or the specs tab",
+    "why_it_matters": "Prongs and clasp are what fail; 14K holds stones for decades"
+   },
+   {
+    "spec": "Diamond grade",
+    "weight": 20,
+    "what_good_looks_like": "Color G-H or better, clarity SI1 or better (I1 acceptable only if inspected)",
+    "how_to_check": "Grade line, e.g. \"F-G / VS2-SI1\"",
+    "why_it_matters": "Low color looks yellow; low clarity looks dull in small stones"
+   },
+   {
+    "spec": "Lab-grown vs. natural",
+    "weight": 15,
+    "what_good_looks_like": "Whichever you chose, priced against its own kind",
+    "how_to_check": "\"Lab-grown\" in the title; natural is usually just \"diamond\"",
+    "why_it_matters": "Natural costs 1.8–2.9x more for the same look"
+   },
+   {
+    "spec": "Prongs per stone",
+    "weight": 15,
+    "what_good_looks_like": "Four prongs for daily wear; two or three is fine for occasional wear",
+    "how_to_check": "Title (\"Four-Prong\") or close-up photo",
+    "why_it_matters": "More prongs mean less chance of losing a stone"
+   },
+   {
+    "spec": "Stone matching and cut",
+    "weight": 15,
+    "what_good_looks_like": "Even size and color along the line",
+    "how_to_check": "360° video or in person; uneven stones show at arm's length",
+    "why_it_matters": "A tennis bracelet reads as one line of light"
+   },
+   {
+    "spec": "Grading report",
+    "weight": 10,
+    "what_good_looks_like": "IGI or GIA report covering the bracelet",
+    "how_to_check": "Listing details; ask before buying",
+    "why_it_matters": "Without one, the grade is the seller's word"
+   },
+   {
+    "spec": "Length",
+    "weight": 5,
+    "what_good_looks_like": "Wrist size plus about 0.5–1 inch (6.5\", 7\", 7.5\")",
+    "how_to_check": "Length option on the listing",
+    "why_it_matters": "Too tight stresses the clasp; too loose catches"
+   }
+  ],
+  "marketing_noise": [
+   {
+    "claim": "\"3 ct tw\"",
+    "reality": "Total weight of all stones; says nothing about grade or metal."
+   },
+   {
+    "claim": "\"50% off\" or \"was $7,999.99\"",
+    "reality": "Mall reference prices few people pay; compare price per carat instead."
+   },
+   {
+    "claim": "\"Investment piece\"",
+    "reality": "Resale is a fraction of retail for natural and near zero for lab."
+   },
+   {
+    "claim": "\"Certified\"",
+    "reality": "Can mean a store's own paperwork; look for IGI or GIA."
+   },
+   {
+    "claim": "\"Conflict-free\"",
+    "reality": "Nearly universal claim; not a quality signal."
+   }
+  ],
+  "value_traps": [
+   {
+    "trap": "Mall \"50% off\" natural bracelets",
+    "why_it_looks_good": "Kay Outlet 3 ct at $3,999.99, \"was $7,999.99\"",
+    "why_it_isnt": "That's still $1,333 per carat in 10K with no grade shown; Blue Nile's natural 5 ct sells for $1,151 per carat on sale.",
+    "instead": "Compare price per carat at the same grade online."
+   },
+   {
+    "trap": "Big carats in sterling silver",
+    "why_it_looks_good": "3 ct for $999",
+    "why_it_isnt": "Silver prongs bend and wear, so stones loosen; it isn't a forever piece.",
+    "instead": "Pay about $1,000 more for 10K or 14K gold if you'll wear it daily."
+   },
+   {
+    "trap": "Cluster bracelets",
+    "why_it_looks_good": "Natural \"3 ct tw\" for about $2,200",
+    "why_it_isnt": "Many tiny I2-I3 stones grouped to look bigger; dull up close.",
+    "instead": "Buy a lab line bracelet with a stated grade."
+   },
+   {
+    "trap": "Buying a small lab bracelet to save money",
+    "why_it_looks_good": "1 ct lab costs less than 3 ct",
+    "why_it_isnt": "Per carat it costs 2x more ($1,895 vs. $983), and natural is only $600 more at 1 ct.",
+    "instead": "Go natural at 1 ct, or step up to 5 ct lab for the best per-carat price."
+   },
+   {
+    "trap": "Natural as an investment",
+    "why_it_looks_good": "Natural diamonds feel like they hold value",
+    "why_it_isnt": "Retail markups mean resale is a fraction of the price.",
+    "instead": "Buy natural only if origin matters to you emotionally."
+   }
+  ],
+  "tiers": [
+   {
+    "tier": "Budget lab (silver or 10K)",
+    "price_range": "$999–$2,000 for 3 ct",
+    "unit_price_range": "$333–$667 per carat",
+    "who_its_for": "Trying the look, occasional wear",
+    "representative_brands": [
+     "Zales",
+     "Kay Signature"
+    ],
+    "verdict": "Fine starter; upgrade metal for daily wear"
+   },
+   {
+    "tier": "Online lab, 14K",
+    "price_range": "$2,820–$4,150",
+    "unit_price_range": "$300–$1,455 per carat",
+    "who_its_for": "Most buyers",
+    "representative_brands": [
+     "Blue Nile",
+     "Brilliant Earth",
+     "James Allen",
+     "Clean Origin",
+     "LabGrownDiamonds.com"
+    ],
+    "verdict": "The value zone, especially at 5 ct"
+   },
+   {
+    "tier": "Online natural",
+    "price_range": "$2,495–$9,690",
+    "unit_price_range": "$1,150–$2,500 per carat",
+    "who_its_for": "Buyers who want natural stones",
+    "representative_brands": [
+     "Blue Nile",
+     "Brilliant Earth",
+     "Costco"
+    ],
+    "verdict": "Buy on a 30–40% sale"
+   },
+   {
+    "tier": "Mall natural",
+    "price_range": "$4,000–$9,660 for 3 ct",
+    "unit_price_range": "$1,333–$3,220 per carat",
+    "who_its_for": "Buying in person today",
+    "representative_brands": [
+     "Kay",
+     "Zales"
+    ],
+    "verdict": "Same look online for about half"
+   }
+  ],
+  "consensus": {
+   "expert_view": "Buying guides agree lab-grown is the value choice for tennis bracelets, where small stones make lab and natural indistinguishable; the clasp and prongs matter most for wear.",
+   "community_view": "Owners recommend online sellers over malls, insist on a box clasp with a safety catch, and treat lab bracelets as everyday jewelry rather than an asset.",
+   "where_they_disagree": "Some still favor natural for heirlooms and resale, though resale values don't support the price gap."
+  },
+  "products": [
+   {
+    "name": "Blue Nile 7\" Two-Prong Lab-Grown Tennis Bracelet, 14K white gold, 5 ct tw (F-G / VS2-SI1)",
+    "brand": "Blue Nile",
+    "tier": "Online lab, 14K",
+    "segment": "5 ct",
+    "price_basis": "seen",
+    "street_price": 3374,
+    "pack_size": 5,
+    "unit_price": 674.8,
+    "quality_score": 80,
+    "value_score": 95,
+    "historical_low": 3374,
+    "typical_sale": "Listed $4,820; was 30% off when seen. Blue Nile runs 30–40% promos often",
+    "buy_under": 3000,
+    "where_to_buy": [
+     "Blue Nile"
+    ],
+    "pros": [
+     "$675 per carat, lowest seen for graded 14K lab",
+     "F-G / VS2-SI1 stones: white and eye-clean",
+     "30-day returns"
+    ],
+    "cons": [
+     "Two prongs per stone hold less securely than four",
+     "Price swings with promos; $4,820 list is an anchor"
+    ],
+    "best_for": "The most bracelet for the money if lab-grown is fine for you"
+   },
+   {
+    "name": "Brilliant Earth Lab-Grown Tennis Bracelet, 14K, 5 ct tw",
+    "brand": "Brilliant Earth",
+    "tier": "Online lab, 14K",
+    "segment": "5 ct",
+    "price_basis": "seen",
+    "street_price": 4150,
+    "pack_size": 5,
+    "unit_price": 830.0,
+    "quality_score": 82,
+    "value_score": 80,
+    "historical_low": 4150,
+    "typical_sale": "Occasional sitewide promos; rarely deep",
+    "buy_under": 3700,
+    "where_to_buy": [
+     "Brilliant Earth"
+    ],
+    "pros": [
+     "Certified lab diamonds",
+     "Recycled gold, strong ethics story",
+     "Showrooms to try it on"
+    ],
+    "cons": [
+     "About $830 per carat, ~23% above Blue Nile's sale price",
+     "Rarely discounted"
+    ],
+    "best_for": "Buyers who want to see it in person before buying"
+   },
+   {
+    "name": "Brilliant Earth Lab-Grown Tennis Bracelet, 14K, 3 ct tw",
+    "brand": "Brilliant Earth",
+    "tier": "Online lab, 14K",
+    "segment": "3 ct",
+    "price_basis": "seen",
+    "street_price": 2950,
+    "pack_size": 3,
+    "unit_price": 983.33,
+    "quality_score": 80,
+    "value_score": 72,
+    "historical_low": null,
+    "typical_sale": "Occasional sitewide promos",
+    "buy_under": 2600,
+    "where_to_buy": [
+     "Brilliant Earth"
+    ],
+    "pros": [
+     "Certified lab diamonds",
+     "Daily-wear size"
+    ],
+    "cons": [
+     "$983 per carat; small sizes cost more per carat"
+    ],
+    "best_for": "A daily-wear bracelet with a showroom nearby"
+   },
+   {
+    "name": "Brilliant Earth Lab-Grown Tennis Bracelet, 14K, 1 ct tw",
+    "brand": "Brilliant Earth",
+    "tier": "Online lab, 14K",
+    "segment": "1 ct",
+    "price_basis": "seen",
+    "street_price": 1895,
+    "pack_size": 1,
+    "unit_price": 1895.0,
+    "quality_score": 78,
+    "value_score": 45,
+    "historical_low": null,
+    "typical_sale": "Occasional sitewide promos",
+    "buy_under": 1600,
+    "where_to_buy": [
+     "Brilliant Earth"
+    ],
+    "pros": [
+     "Delicate, stackable",
+     "Certified lab diamonds"
+    ],
+    "cons": [
+     "$1,895 per carat: most of the price is gold and labor",
+     "Natural version is only $600 more"
+    ],
+    "best_for": "A thin stacking bracelet"
+   },
+   {
+    "name": "Brilliant Earth Natural Diamond Tennis Bracelet, 14K, 1 ct tw",
+    "brand": "Brilliant Earth",
+    "tier": "Online natural",
+    "segment": "1 ct",
+    "price_basis": "seen",
+    "street_price": 2495,
+    "pack_size": 1,
+    "unit_price": 2495.0,
+    "quality_score": 80,
+    "value_score": 50,
+    "historical_low": null,
+    "typical_sale": "Occasional sitewide promos",
+    "buy_under": 2200,
+    "where_to_buy": [
+     "Brilliant Earth"
+    ],
+    "pros": [
+     "Natural diamonds for only ~$600 over lab at this size"
+    ],
+    "cons": [
+     "Small stones; little visible difference from lab"
+    ],
+    "best_for": "Someone who wants natural stones on a smaller budget"
+   },
+   {
+    "name": "Brilliant Earth Natural Diamond Tennis Bracelet, 14K, 5 ct tw",
+    "brand": "Brilliant Earth",
+    "tier": "Online natural",
+    "segment": "5 ct",
+    "price_basis": "seen",
+    "street_price": 7500,
+    "pack_size": 5,
+    "unit_price": 1500.0,
+    "quality_score": 88,
+    "value_score": 55,
+    "historical_low": null,
+    "typical_sale": "Occasional sitewide promos",
+    "buy_under": 6800,
+    "where_to_buy": [
+     "Brilliant Earth"
+    ],
+    "pros": [
+     "Natural diamonds, traceability story",
+     "Showrooms"
+    ],
+    "cons": [
+     "$1,500 per carat, 1.8x the lab version"
+    ],
+    "best_for": "A natural heirloom piece bought in person"
+   },
+   {
+    "name": "Blue Nile Four-Prong Diamond Tennis Bracelet, 14K white gold, 5 ct tw (H-I / SI1-SI2)",
+    "brand": "Blue Nile",
+    "tier": "Online natural",
+    "segment": "5 ct",
+    "price_basis": "seen",
+    "street_price": 9690,
+    "pack_size": 5,
+    "unit_price": 1938.0,
+    "quality_score": 92,
+    "value_score": 50,
+    "historical_low": null,
+    "typical_sale": "Natural pieces also join 30–40% sitewide events",
+    "buy_under": 6500,
+    "where_to_buy": [
+     "Blue Nile"
+    ],
+    "pros": [
+     "Four prongs per stone: most secure common setting",
+     "SI clarity: eye-clean natural stones"
+    ],
+    "cons": [
+     "$1,938 per carat at list, 2.9x the lab bracelet",
+     "Resale is a fraction of the price"
+    ],
+    "best_for": "An heirloom natural piece, bought on a big sale"
+   },
+   {
+    "name": "Blue Nile Diamond Tennis Bracelet, 14K white gold, 5 ct tw (H-I / I1)",
+    "brand": "Blue Nile",
+    "tier": "Online natural",
+    "segment": "5 ct",
+    "price_basis": "seen",
+    "street_price": 5754,
+    "pack_size": 5,
+    "unit_price": 1150.8,
+    "quality_score": 72,
+    "value_score": 62,
+    "historical_low": 5754,
+    "typical_sale": "Listed $9,590; 40% off when seen",
+    "buy_under": 5500,
+    "where_to_buy": [
+     "Blue Nile"
+    ],
+    "pros": [
+     "Cheapest natural 5 ct seen: $1,151 per carat"
+    ],
+    "cons": [
+     "I1 clarity: inclusions may show on close look",
+     "Fewer, larger stones (49) at lower grade"
+    ],
+    "best_for": "Natural on a budget, if you inspect the stones"
+   },
+   {
+    "name": "Blue Nile 7\" Four-Prong Lab-Grown Tennis Bracelet, 14K white gold, 2 ct (F-G / VS2-SI1)",
+    "brand": "Blue Nile",
+    "tier": "Online lab, 14K",
+    "segment": "2 ct",
+    "price_basis": "seen",
+    "street_price": 2910,
+    "pack_size": 2,
+    "unit_price": 1455.0,
+    "quality_score": 82,
+    "value_score": 60,
+    "historical_low": null,
+    "typical_sale": "Joins sitewide promos",
+    "buy_under": 2300,
+    "where_to_buy": [
+     "Blue Nile"
+    ],
+    "pros": [
+     "Four prongs per stone",
+     "White, eye-clean stones"
+    ],
+    "cons": [
+     "$1,455 per carat; the 5 ct costs only ~$460 more on sale"
+    ],
+    "best_for": "Daily wear where security matters most"
+   },
+   {
+    "name": "James Allen Three-Prong Lab-Grown Tennis Bracelet, 14K white gold, 2 ct tw (F-G / VS2-SI1)",
+    "brand": "James Allen",
+    "tier": "Online lab, 14K",
+    "segment": "2 ct",
+    "price_basis": "seen",
+    "street_price": 2820,
+    "pack_size": 2,
+    "unit_price": 1410.0,
+    "quality_score": 80,
+    "value_score": 60,
+    "historical_low": null,
+    "typical_sale": "Black Friday and holiday promos",
+    "buy_under": 2300,
+    "where_to_buy": [
+     "James Allen"
+    ],
+    "pros": [
+     "Choose length and quality grade",
+     "Graded lab stones"
+    ],
+    "cons": [
+     "$1,410 per carat",
+     "Three prongs: between two and four for security"
+    ],
+    "best_for": "A first tennis bracelet in a modest size"
+   },
+   {
+    "name": "James Allen Four-Prong Lab-Grown Tennis Bracelet, 14K white gold, 3 ct tw",
+    "brand": "James Allen",
+    "tier": "Online lab, 14K",
+    "segment": "3 ct",
+    "price_basis": "seen",
+    "street_price": 3550,
+    "pack_size": 3,
+    "unit_price": 1183.33,
+    "quality_score": 82,
+    "value_score": 58,
+    "historical_low": null,
+    "typical_sale": "Black Friday and holiday promos",
+    "buy_under": 2900,
+    "where_to_buy": [
+     "James Allen"
+    ],
+    "pros": [
+     "Four prongs per stone"
+    ],
+    "cons": [
+     "$1,183 per carat, pricier than Brilliant Earth's 3 ct"
+    ],
+    "best_for": "Buyers set on four prongs at 3 ct"
+   },
+   {
+    "name": "Clean Origin Round Lab-Grown Diamond Tennis Bracelet, 14K white gold, 10 ct tw",
+    "brand": "Clean Origin",
+    "tier": "Online lab, 14K",
+    "segment": "7–10 ct",
+    "price_basis": "seen",
+    "street_price": 2999,
+    "pack_size": 10,
+    "unit_price": 299.9,
+    "quality_score": 70,
+    "value_score": 90,
+    "historical_low": null,
+    "typical_sale": "Frequent promos",
+    "buy_under": 2999,
+    "where_to_buy": [
+     "Clean Origin"
+    ],
+    "pros": [
+     "About $300 per carat: the cheapest large lab bracelet seen",
+     "14K gold"
+    ],
+    "cons": [
+     "Stone grade not shown on the listing",
+     "10 ct is a very bold look"
+    ],
+    "best_for": "Maximum sparkle per dollar, if you confirm the grade first"
+   },
+   {
+    "name": "LabGrownDiamonds.com Round Lab-Grown Tennis Bracelet, 5 ct tw",
+    "brand": "LabGrownDiamonds.com",
+    "tier": "Online lab, 14K",
+    "segment": "5 ct",
+    "price_basis": "seen",
+    "street_price": 3450,
+    "pack_size": 5,
+    "unit_price": 690.0,
+    "quality_score": 76,
+    "value_score": 82,
+    "historical_low": null,
+    "typical_sale": "Frequent promos",
+    "buy_under": 3100,
+    "where_to_buy": [
+     "LabGrownDiamonds.com"
+    ],
+    "pros": [
+     "$690 per carat"
+    ],
+    "cons": [
+     "Smaller seller; check return terms and grading"
+    ],
+    "best_for": "A second quote against Blue Nile"
+   },
+   {
+    "name": "KAY Signature Collection Lab-Grown Diamond Tennis Bracelet, 10K white gold, 3 ct tw",
+    "brand": "Kay",
+    "tier": "Mall lab",
+    "segment": "3 ct",
+    "price_basis": "seen",
+    "street_price": 1999.99,
+    "pack_size": 3,
+    "unit_price": 666.66,
+    "quality_score": 66,
+    "value_score": 78,
+    "historical_low": null,
+    "typical_sale": "Kay runs near-constant promotions",
+    "buy_under": 1700,
+    "where_to_buy": [
+     "Kay",
+     "Kay Outlet"
+    ],
+    "pros": [
+     "$667 per carat",
+     "Try on in a mall store"
+    ],
+    "cons": [
+     "10K gold: less gold, more alloy",
+     "Quality grade not shown"
+    ],
+    "best_for": "The cheapest gold bracelet that isn't a mistake"
+   },
+   {
+    "name": "Zales 3 ct tw Lab-Grown Diamond Tennis Bracelet, sterling silver (F/VS2)",
+    "brand": "Zales",
+    "tier": "Budget lab, silver",
+    "segment": "3 ct",
+    "price_basis": "seen",
+    "street_price": 999,
+    "pack_size": 3,
+    "unit_price": 333.0,
+    "quality_score": 50,
+    "value_score": 70,
+    "historical_low": null,
+    "typical_sale": "Frequent promos",
+    "buy_under": 999,
+    "where_to_buy": [
+     "Zales"
+    ],
+    "pros": [
+     "$333 per carat",
+     "Good stated grade (F/VS2)"
+    ],
+    "cons": [
+     "Sterling silver prongs wear and bend; tarnishes",
+     "Hard to resize or repair"
+    ],
+    "best_for": "Occasional wear, or trying the look first"
+   },
+   {
+    "name": "Kay Outlet Diamond Tennis Bracelet, 10K rose gold, 3 ct tw (natural)",
+    "brand": "Kay",
+    "tier": "Mall natural",
+    "segment": "3 ct",
+    "price_basis": "seen",
+    "street_price": 3999.99,
+    "pack_size": 3,
+    "unit_price": 1333.33,
+    "quality_score": 64,
+    "value_score": 40,
+    "historical_low": 3999.99,
+    "typical_sale": "Shown as 50% off $7,999.99",
+    "buy_under": 3500,
+    "where_to_buy": [
+     "Kay Outlet"
+    ],
+    "pros": [
+     "Natural diamonds in gold for under $4,000"
+    ],
+    "cons": [
+     "$1,333 per carat in 10K, with no grade shown",
+     "The 50% off is against a price few pay"
+    ],
+    "best_for": "Only if you need natural and must buy in person"
+   },
+   {
+    "name": "Kay Diamond Tennis Bracelet, 14K yellow gold, 3 ct tw (natural)",
+    "brand": "Kay",
+    "tier": "Mall natural",
+    "segment": "3 ct",
+    "price_basis": "seen",
+    "street_price": 9659.99,
+    "pack_size": 3,
+    "unit_price": 3220.0,
+    "quality_score": 75,
+    "value_score": 10,
+    "historical_low": null,
+    "typical_sale": "Kay promos rarely reach online prices",
+    "buy_under": 4500,
+    "where_to_buy": [
+     "Kay"
+    ],
+    "pros": [
+     "Natural diamonds, 14K gold"
+    ],
+    "cons": [
+     "$3,220 per carat: about 1.7x Blue Nile's best natural",
+     "Grade not shown"
+    ],
+    "best_for": "No one: buy the same thing online for about half"
+   },
+   {
+    "name": "Costco Round Brilliant 5.00 ctw Diamond Tennis Bracelet, 14kt gold (VS2 / I)",
+    "brand": "Costco",
+    "tier": "Warehouse natural",
+    "segment": "5 ct",
+    "price_basis": "estimate",
+    "street_price": 5500,
+    "pack_size": 5,
+    "unit_price": 1100.0,
+    "quality_score": 85,
+    "value_score": 70,
+    "historical_low": null,
+    "typical_sale": "Rarely discounted; listing showed unavailable",
+    "buy_under": 5500,
+    "where_to_buy": [
+     "Costco (membership)"
+    ],
+    "pros": [
+     "Graded natural VS2 / I stones",
+     "Costco's long return policy"
+    ],
+    "cons": [
+     "US price not seen; listing unavailable",
+     "Membership required"
+    ],
+    "best_for": "Costco members wanting natural with an easy return"
+   }
+  ],
+  "deal_intelligence": {
+   "volatility": "High: online jewelers run 30–40% promotions often, and lab-grown prices keep falling year over year.",
+   "sale_cadence": [
+    {
+     "event": "Black Friday to Cyber Monday",
+     "timing": "Nov 27–30, 2026",
+     "typical_depth": "30–40% off at online jewelers (estimate)"
+    },
+    {
+     "event": "Holiday gifting promos",
+     "timing": "Early to mid December",
+     "typical_depth": "20–30% off"
+    },
+    {
+     "event": "Valentine's Day",
+     "timing": "Late January to Feb 14",
+     "typical_depth": "20–30% off"
+    },
+    {
+     "event": "Mother's Day",
+     "timing": "Late April to mid May",
+     "typical_depth": "20–30% off"
+    }
+   ],
+   "best_time_to_buy": "Black Friday to Cyber Monday, Nov 27–30, 2026.",
+   "patience_payoff": "Waiting two weeks could save about $375 on the Blue Nile 5 ct lab bracelet ($3,374 to $3,000).",
+   "discount_honesty": "Online list prices are anchors (Blue Nile $4,820 list, sold at $3,374); mall \"50% off\" prices start even higher. Judge every deal by price per carat."
+  },
+  "purchase_paths": [
+   {
+    "name": "Cheapest path that isn't a mistake",
+    "goal": "Real gold, real sparkle, lowest price",
+    "total_cost": 1999.99,
+    "items": [
+     {
+      "item": "KAY Signature lab-grown tennis bracelet, 10K white gold, 3 ct tw",
+      "price": 1999.99,
+      "why": "$667 per carat in gold"
+     }
+    ],
+    "rationale": "Gold holds the stones; the 3 ct size is the classic look.",
+    "tradeoff": "10K and no stated grade; wait for a Kay promo near $1,700."
+   },
+   {
+    "name": "Best value",
+    "goal": "The most bracelet per dollar",
+    "total_cost": 3000,
+    "items": [
+     {
+      "item": "Blue Nile two-prong lab-grown tennis bracelet, 14K white gold, 5 ct tw (F-G / VS2-SI1)",
+      "price": 3000,
+      "why": "Black Friday target; $3,374 today"
+     }
+    ],
+    "rationale": "The lowest per-carat price for graded 14K lab, in a statement size.",
+    "tradeoff": "Two prongs per stone; lab-grown has little resale value."
+   },
+   {
+    "name": "No-compromise",
+    "goal": "Natural heirloom, bought well",
+    "total_cost": 6500,
+    "items": [
+     {
+      "item": "Blue Nile four-prong natural tennis bracelet, 14K white gold, 5 ct tw (H-I / SI1-SI2)",
+      "price": 6500,
+      "why": "Target on a ~33% sale; $9,690 list"
+     }
+    ],
+    "rationale": "Natural, eye-clean stones in the most secure setting.",
+    "tradeoff": "About 2x the lab bracelet for the same look."
+   }
+  ],
+  "deals_found": [
+   {
+    "product": "Blue Nile two-prong lab-grown tennis bracelet, 14K, 5 ct tw",
+    "retailer": "Blue Nile",
+    "price": 3374,
+    "pack_size": 5,
+    "url": "https://www.bluenile.com/jewelry/bracelets/7-two-prong-lab-grown-diamond-tennis-bracelet-in-14k-white-gold-5-ct-tw-f-g-vs2-si1-item-252316",
+    "note": "30% off $4,820"
+   },
+   {
+    "product": "Blue Nile natural tennis bracelet, 14K, 5 ct tw (H-I / I1)",
+    "retailer": "Blue Nile",
+    "price": 5754,
+    "pack_size": 5,
+    "url": "https://www.bluenile.com/jewelry/bracelets/diamond-tennis-bracelet-in-14k-white-gold-5-ct-tw-item-195851",
+    "note": "40% off $9,590"
+   },
+   {
+    "product": "Clean Origin lab-grown tennis bracelet, 14K, 10 ct tw",
+    "retailer": "Clean Origin",
+    "price": 2999,
+    "pack_size": 10,
+    "url": "https://www.cleanorigin.com/jewelry/diamond-bracelets/",
+    "note": ""
+   },
+   {
+    "product": "Zales lab-grown tennis bracelet, sterling silver, 3 ct tw (F/VS2)",
+    "retailer": "Zales",
+    "price": 999,
+    "pack_size": 3,
+    "url": "https://www.zales.com/3-ct-tw-labgrown-diamond-tennis-bracelet-sterling-silver-fvs2/p/V-20603249",
+    "note": "Sterling silver"
+   },
+   {
+    "product": "Kay Outlet natural tennis bracelet, 10K rose gold, 3 ct tw",
+    "retailer": "Kay Outlet",
+    "price": 3999.99,
+    "pack_size": 3,
+    "url": "https://www.kayoutlet.com/diamond-tennis-bracelet-3-ct-tw-roundcut-10k-rose-gold-7/p/V-111927505",
+    "note": "Shown as 50% off"
+   }
+  ],
+  "price_segments": {
+   "dimension": "Total carat weight",
+   "why": "Carat weight sets the look and moves the price more than brand; within each size, lab vs. natural is the second big lever.",
+   "segments": [
+    {
+     "label": "1 ct",
+     "price_low": 1500,
+     "price_high": 2500,
+     "typical_price": 1900,
+     "unit_price_range": "$1,900–$2,500 per carat",
+     "what_you_get": "A thin stacking bracelet; most of the price is gold and labor, so lab and natural cost nearly the same.",
+     "best_pick": "Brilliant Earth Natural Diamond Tennis Bracelet, 14K, 1 ct tw",
+     "watch_out": "Lab saves only about $600 here; at this size natural is the better buy if you care."
+    },
+    {
+     "label": "2 ct",
+     "price_low": 2820,
+     "price_high": 4090,
+     "typical_price": 2900,
+     "unit_price_range": "$1,400–$2,000 per carat",
+     "what_you_get": "Visible sparkle for daily wear without looking flashy.",
+     "best_pick": "Blue Nile 7\" Four-Prong Lab-Grown Tennis Bracelet, 14K white gold, 2 ct (F-G / VS2-SI1)",
+     "watch_out": "On sale, a 5 ct lab bracelet costs only a few hundred dollars more."
+    },
+    {
+     "label": "3 ct",
+     "price_low": 999,
+     "price_high": 9660,
+     "typical_price": 2950,
+     "unit_price_range": "$333–$3,220 per carat",
+     "what_you_get": "The classic size; the widest price spread of any segment.",
+     "best_pick": "KAY Signature Collection Lab-Grown Diamond Tennis Bracelet, 10K white gold, 3 ct tw",
+     "watch_out": "Mall natural pieces at 3 ct cost up to 10x a silver lab bracelet of the same weight."
+    },
+    {
+     "label": "5 ct",
+     "price_low": 3374,
+     "price_high": 9690,
+     "typical_price": 4150,
+     "unit_price_range": "Lab $675–$830 · natural $1,150–$1,940 per carat",
+     "what_you_get": "A statement bracelet; the lowest per-carat price for graded 14K lab.",
+     "best_pick": "Blue Nile 7\" Two-Prong Lab-Grown Tennis Bracelet, 14K white gold, 5 ct tw (F-G / VS2-SI1)",
+     "watch_out": "Natural at 5 ct is 1.8–2.9x the lab price for stones that look the same."
+    },
+    {
+     "label": "7–10 ct",
+     "price_low": 2999,
+     "price_high": 14900,
+     "typical_price": null,
+     "unit_price_range": "Lab ~$300 · natural ~$1,860 per carat",
+     "what_you_get": "A bold, red-carpet look; lab prices here have collapsed.",
+     "best_pick": "Clean Origin Round Lab-Grown Diamond Tennis Bracelet, 14K white gold, 10 ct tw",
+     "watch_out": "Confirm the stone grade; big totals sometimes hide low color and clarity."
+    }
+   ]
+  },
+  "brands": [
+   {
+    "brand": "Blue Nile",
+    "positioning": "Online jeweler, lab and natural",
+    "summary": "The largest online diamond jeweler; lists grades on every bracelet and runs frequent 30–40% promotions.",
+    "pros": [
+     "Lowest graded 14K lab price seen",
+     "Grades shown per listing",
+     "Natural pieces also go on sale"
+    ],
+    "cons": [
+     "List prices are anchors for constant sales",
+     "Can't try on (few showrooms)"
+    ],
+    "price_range": "$2,910–$9,690",
+    "best_for": "Value buyers who will wait for a sale",
+    "verdict": "The default place to buy; never pay list."
+   },
+   {
+    "brand": "Brilliant Earth",
+    "positioning": "Ethics-focused jeweler with showrooms",
+    "summary": "Sells certified lab and traceable natural bracelets in recycled metals, with showrooms in major cities.",
+    "pros": [
+     "Try on in showrooms",
+     "Clear lab vs. natural pricing",
+     "Recycled gold"
+    ],
+    "cons": [
+     "About 15–25% above Blue Nile on sale",
+     "Rarely discounted deeply"
+    ],
+    "price_range": "$1,895–$7,500",
+    "best_for": "Buyers who want to see it first",
+    "verdict": "Fair, steady prices; pay the premium only for the showroom."
+   },
+   {
+    "brand": "James Allen",
+    "positioning": "Online jeweler, customizable",
+    "summary": "Lets you pick length, prongs and quality grade; strong imaging on loose stones, less so on bracelets.",
+    "pros": [
+     "Pick grade and length",
+     "Four-prong options"
+    ],
+    "cons": [
+     "Higher per carat than Brilliant Earth and Blue Nile at 3 ct"
+    ],
+    "price_range": "$2,820–$3,550 (lab)",
+    "best_for": "Someone who wants a specific spec",
+    "verdict": "Good for custom specs; compare against Blue Nile on Black Friday."
+   },
+   {
+    "brand": "Clean Origin",
+    "positioning": "Lab-only online jeweler",
+    "summary": "Lab-grown specialist with some of the lowest per-carat bracelet prices online.",
+    "pros": [
+     "About $300 per carat at 10 ct",
+     "Frequent promos"
+    ],
+    "cons": [
+     "Listing doesn't show grade",
+     "Less known for after-sale service"
+    ],
+    "price_range": "$1,825–$2,999",
+    "best_for": "Big-carat looks on a budget",
+    "verdict": "Exceptional price; ask for the grading report before buying."
+   },
+   {
+    "brand": "LabGrownDiamonds.com",
+    "positioning": "Lab-only online seller",
+    "summary": "Direct seller of lab-grown jewelry; useful as a price check.",
+    "pros": [
+     "$690 per carat at 5 ct"
+    ],
+    "cons": [
+     "Smaller company; check returns and grading"
+    ],
+    "price_range": "$3,450–$4,000 (5 ct)",
+    "best_for": "A second quote",
+    "verdict": "Competitive; buy only with clear return terms."
+   },
+   {
+    "brand": "Kay",
+    "positioning": "Mall jeweler (Signet)",
+    "summary": "America's biggest mall jewelry chain, with an outlet arm and near-constant promotions.",
+    "pros": [
+     "Try on and buy today",
+     "Cheap 10K lab option"
+    ],
+    "cons": [
+     "Natural pieces cost ~1.7x online",
+     "\"50% off\" tags are anchors",
+     "Grades often not shown"
+    ],
+    "price_range": "$2,000–$9,660",
+    "best_for": "Buying in person this week",
+    "verdict": "Only the lab Signature line is competitive."
+   },
+   {
+    "brand": "Zales",
+    "positioning": "Mall jeweler (Signet)",
+    "summary": "Kay's sister chain, heavy on sterling-silver lab pieces and outlet discounts.",
+    "pros": [
+     "$999 lab bracelet with a stated F/VS2 grade"
+    ],
+    "cons": [
+     "Silver prongs wear and bend",
+     "Cluster pieces use I2-I3 stones"
+    ],
+    "price_range": "$999–$3,650",
+    "best_for": "Trying the look cheaply",
+    "verdict": "Fine as a starter; not a forever piece."
+   },
+   {
+    "brand": "Costco",
+    "positioning": "Warehouse club",
+    "summary": "Sells graded natural tennis bracelets (VS2 / I) with Costco's return policy; stock comes and goes.",
+    "pros": [
+     "Grades listed",
+     "Generous returns"
+    ],
+    "cons": [
+     "US 5 ct price not seen; often out of stock",
+     "Membership required"
+    ],
+    "price_range": "~$5,000–$6,000 (5 ct, estimate)",
+    "best_for": "Members wanting natural with low risk",
+    "verdict": "Worth checking for natural; lab is still far cheaper."
+   }
+  ],
+  "caveats": [
+   "Prices come from search results and listing snapshots on Nov 13, 2026; promotions change daily.",
+   "Costco's US price wasn't visible (listing showed unavailable); its row is an estimate.",
+   "Blue Nile's usual range ($3,374–$4,820) is inferred from its list and sale prices; no price history was seen.",
+   "Black Friday discount depths are estimates from typical past promotions.",
+   "Clean Origin's 10 ct listing doesn't state a stone grade."
+  ],
+  "sources": [
+   {
+    "title": "Blue Nile: two-prong lab-grown tennis bracelet, 5 ct",
+    "url": "https://www.bluenile.com/jewelry/bracelets/7-two-prong-lab-grown-diamond-tennis-bracelet-in-14k-white-gold-5-ct-tw-f-g-vs2-si1-item-252316"
+   },
+   {
+    "title": "Blue Nile: four-prong natural tennis bracelet, 5 ct (H-I / SI1-SI2)",
+    "url": "https://www.bluenile.com/jewelry/bracelets/7-four-prong-diamond-tennis-bracelet-in-14k-white-gold-5-ct-tw-h-i-si1-si2-item-252195"
+   },
+   {
+    "title": "Blue Nile: natural tennis bracelet, 5 ct",
+    "url": "https://www.bluenile.com/jewelry/bracelets/diamond-tennis-bracelet-in-14k-white-gold-5-ct-tw-item-195851"
+   },
+   {
+    "title": "Blue Nile: four-prong lab-grown tennis bracelet, 2 ct",
+    "url": "https://www.bluenile.com/jewelry/bracelets/7-four-prong-lab-grown-diamond-tennis-bracelet-in-14k-white-gold-2-ct-f-g-vs2-si1-item-148204"
+   },
+   {
+    "title": "Brilliant Earth: How much is a tennis bracelet?",
+    "url": "https://www.brilliantearth.com/guides/how-much-is-a-tennis-bracelet/"
+   },
+   {
+    "title": "James Allen: 2 ct lab-grown tennis bracelet",
+    "url": "https://www.jamesallen.com/bracelets/tennis-bracelets/14k-white-gold-three-prong-lab-created-diamond-tennis-bracelet-200-ctw-f-g-vs2-si1-item-133337"
+   },
+   {
+    "title": "Clean Origin: lab-grown diamond bracelets",
+    "url": "https://www.cleanorigin.com/jewelry/diamond-bracelets/"
+   },
+   {
+    "title": "LabGrownDiamonds.com: tennis bracelets",
+    "url": "https://labgrowndiamonds.com/collections/lab-grown-diamond-tennis-bracelets"
+   },
+   {
+    "title": "Kay: Signature lab-grown tennis bracelet, 3 ct",
+    "url": "https://www.kay.com/kay-signature-collection-labgrown-diamond-tennis-bracelet-3-ct-tw-10k-white-gold-7/p/V-410358307"
+   },
+   {
+    "title": "Kay: natural tennis bracelet, 14K yellow gold, 3 ct",
+    "url": "https://www.kay.com/diamond-tennis-bracelet-3-ct-tw-14k-yellow-gold-7/p/V-112054907"
+   },
+   {
+    "title": "Kay Outlet: natural tennis bracelet, 10K rose gold, 3 ct",
+    "url": "https://www.kayoutlet.com/diamond-tennis-bracelet-3-ct-tw-roundcut-10k-rose-gold-7/p/V-111927505"
+   },
+   {
+    "title": "Zales: lab-grown tennis bracelet, sterling silver, 3 ct",
+    "url": "https://www.zales.com/3-ct-tw-labgrown-diamond-tennis-bracelet-sterling-silver-fvs2/p/V-20603249"
+   },
+   {
+    "title": "Costco: 5.00 ctw VS2 / I tennis bracelet",
+    "url": "https://www.costco.com/p/-/1345012"
+   },
+   {
+    "title": "Oliver Smith Jeweler: tennis bracelets",
+    "url": "https://oliversmithjeweler.com/collections/tennis-bracelets"
+   },
+   {
+    "title": "Quantum Qarat: tennis bracelet cost guide",
+    "url": "https://www.quantumqarat.com/blog/jewelry-knowledge/tennis-bracelet-cost-guide-carats-metals-and-value"
+   },
+   {
+    "title": "GIA 4Cs: tennis bracelet buying guide",
+    "url": "https://4cs.gia.edu/en-us/blog/tennis-bracelet-buying-guide/"
+   },
+   {
+    "title": "Whiteflash: tennis bracelet settings",
+    "url": "https://www.whiteflash.com/blog/tennis-bracelet-settings/"
+   }
+  ]
+ }
+}

@@ -1,0 +1,1161 @@
+{
+ "expertise": "intermediate",
+ "saved_at": "2026-11-13T12:05:00.000Z",
+ "report": {
+  "category": "Robot vacuums",
+  "scope": "US market, home robot vacuums and vacuum-mop combos, from basic bots to full-dock flagships. Prices seen Nov 6–13, 2026, during early Black Friday sales.",
+  "generated_at": "2026-11-13",
+  "price_source": "live",
+  "primer": {
+   "what_it_is": "A small robot that vacuums (and often mops) your floors on a schedule, then returns to its dock to charge.",
+   "must_haves": [
+    {
+     "feature": "LiDAR navigation",
+     "why": "A spinning laser maps your home so the robot cleans in rows, not random bumps."
+    },
+    {
+     "feature": "Room-by-room control in the app",
+     "why": "Clean the kitchen after dinner without running the whole house."
+    },
+    {
+     "feature": "Easy-to-find replacement parts",
+     "why": "Brushes, filters and pads are a recurring cost for years."
+    }
+   ],
+   "premium_features": [
+    {
+     "feature": "Self-emptying dock",
+     "why": "Empties the bin for you; you touch it every few weeks."
+    },
+    {
+     "feature": "Mop-washing dock",
+     "why": "Washes and dries the mop and refills water; worth it with lots of hard floor."
+    },
+    {
+     "feature": "Camera obstacle avoidance",
+     "why": "Dodges cords, socks and pet mess."
+    }
+   ],
+   "avoid": [
+    {
+     "thing": "Bots without LiDAR",
+     "why": "They bump around randomly and miss spots."
+    },
+    {
+     "thing": "Paying list price",
+     "why": "Robot vacuums are discounted 30–50% several times a year."
+    },
+    {
+     "thing": "Brands with uncertain support",
+     "why": "Robots depend on apps and parts for years."
+    }
+   ]
+  },
+  "verdict": {
+   "headline": "Buy a mid-range mop-washing dock during early Black Friday; flagships add little for most homes.",
+   "signal": "BUY_NOW",
+   "confidence": "Moderate: current prices seen for 10 models; four flagship and older-model prices are estimates.",
+   "reasoning": "Counting purchase price over about four years plus parts, a $230 LiDAR bot costs ~$87 a year and a full mop-washing dock ~$215–$290. Cleaning gains flatten above the mid-range full dock; flagships at $1,000–$1,600 mostly add obstacle avoidance and arms.",
+   "price_watch_summary": "The Eufy Omni C28 is $459.99 (down from $799.99) right now; buy at $460 or less."
+  },
+  "recommendation": {
+   "action": "BUY_NOW",
+   "product": "Eufy Omni C28",
+   "retailer": "Amazon",
+   "current_price": 459.99,
+   "usual_low": 599,
+   "usual_high": 799.99,
+   "strike_price": 460,
+   "pack_size": null,
+   "strike_unit_price": null,
+   "wait_for": "",
+   "why": "A full mop-washing, self-emptying dock at a mid-range price; early Black Friday already reached the strike price."
+  },
+  "normalization": {
+   "unit": "Cost per year of ownership: purchase price ÷ expected years of service, plus yearly parts",
+   "unit_short": "year",
+   "unit_rationale": "Sticker price ignores that docks need bags, pads and cleaning solution, and that cheap bots die sooner. Cost per year puts a $230 bot and a $1,600 flagship on the same scale.",
+   "quality_adjustment": "Expected life: about 3 years for basic bots, 4 for mainstream LiDAR models, 5 for flagships. Yearly parts: about $25–$30 for vacuum-only, $60 with a self-empty dock (bags), $100–$120 with a mop-washing dock (pads, solution, bags). These are estimates from owner and maintenance guides.",
+   "formula": "Cost per year = price ÷ expected years + yearly parts",
+   "bands": [
+    {
+     "label": "Basic",
+     "low": 75,
+     "high": 100,
+     "verdict": "Vacuum only; pick LiDAR"
+    },
+    {
+     "label": "Self-emptying",
+     "low": 100,
+     "high": 180,
+     "verdict": "Hands-off vacuuming"
+    },
+    {
+     "label": "Full dock sweet spot",
+     "low": 180,
+     "high": 260,
+     "verdict": "Hands-off vacuuming and mopping"
+    },
+    {
+     "label": "Premium",
+     "low": 260,
+     "high": 340,
+     "verdict": "Upper mid-range or last year's flagship"
+    },
+    {
+     "label": "Flagship",
+     "low": 340,
+     "high": 450,
+     "verdict": "Small gains for most homes"
+    }
+   ],
+   "size_economics": "No bulk angle; the lever is timing. Last year's flagship often sells for half its launch price when the new one arrives."
+  },
+  "diminishing_returns": {
+   "knee_unit_price": 215,
+   "knee_example": "Eufy Omni C28 at $459.99: full mop-washing dock for ~$215 a year",
+   "below_knee": "Below ~$130 a year you give up the self-empty dock, and below ~$85 you lose LiDAR maps.",
+   "above_knee": "Above ~$290 a year you pay for camera avoidance, extending arms and top suction ratings, which most homes rarely notice.",
+   "curve": [
+    {
+     "unit_price": 82,
+     "quality": 35,
+     "label": "No LiDAR"
+    },
+    {
+     "unit_price": 87,
+     "quality": 62,
+     "label": "LiDAR vacuum"
+    },
+    {
+     "unit_price": 130,
+     "quality": 72,
+     "label": null
+    },
+    {
+     "unit_price": 170,
+     "quality": 76,
+     "label": null
+    },
+    {
+     "unit_price": 215,
+     "quality": 82,
+     "label": "Sweet spot: full dock"
+    },
+    {
+     "unit_price": 238,
+     "quality": 85,
+     "label": null
+    },
+    {
+     "unit_price": 290,
+     "quality": 87,
+     "label": null
+    },
+    {
+     "unit_price": 420,
+     "quality": 93,
+     "label": "Flagship"
+    }
+   ]
+  },
+  "awards": {
+   "best_overall": {
+    "product": "Dreame X60 Max Ultra Complete",
+    "why": "Tom's Guide's best robot vacuum of 2026; top navigation and suction."
+   },
+   "best_value": {
+    "product": "Eufy Omni C28",
+    "why": "Full mop-washing dock for $459.99, down from $799.99."
+   },
+   "best_budget": {
+    "product": "Roborock Q7 M5",
+    "why": "LiDAR maps and room control for $229.99."
+   },
+   "best_premium": {
+    "product": "Roborock S8 MaxV Ultra",
+    "why": "Last year's flagship with camera avoidance at about $800."
+   },
+   "best_for_beginners": {
+    "product": "Dreame D10 Plus Gen 2",
+    "why": "Self-emptying with LiDAR for about $280; simple and low-effort."
+   },
+   "longest_lasting": {
+    "product": "Roborock Qrevo 2 Pro",
+    "why": "Roborock's parts availability and app track record favor a long life."
+   },
+   "avoid": {
+    "product": "iRobot Roomba Combo j9+",
+    "why": "Replaced model, pricey parts, and support uncertain after the Picea sale."
+   }
+  },
+  "spec_criteria": [
+   {
+    "spec": "Navigation",
+    "weight": 25,
+    "what_good_looks_like": "LiDAR (laser) mapping with saved multi-floor maps",
+    "how_to_check": "\"LiDAR\" or \"laser\" in the spec list",
+    "why_it_matters": "The biggest single jump in cleaning coverage"
+   },
+   {
+    "spec": "Dock type",
+    "weight": 20,
+    "what_good_looks_like": "Self-empty for carpet homes; mop-washing for hard floors",
+    "how_to_check": "Dock description: \"self-emptying\", \"mop washing\", \"hot-air drying\"",
+    "why_it_matters": "Decides how often you touch the robot"
+   },
+   {
+    "spec": "Tested cleaning results",
+    "weight": 20,
+    "what_good_looks_like": "Strong pickup scores on carpet and edges in independent tests",
+    "how_to_check": "Vacuum Wars, Tom's Guide or Consumer Reports tests",
+    "why_it_matters": "Suction numbers (Pa) aren't measured the same way across brands"
+   },
+   {
+    "spec": "Obstacle avoidance",
+    "weight": 15,
+    "what_good_looks_like": "Camera or structured-light avoidance",
+    "how_to_check": "Spec list: \"AI obstacle avoidance\", \"camera\"",
+    "why_it_matters": "Avoids cords, socks and pet mess"
+   },
+   {
+    "spec": "Parts cost and availability",
+    "weight": 10,
+    "what_good_looks_like": "Cheap third-party brushes, filters and bags",
+    "how_to_check": "Search \"<model> replacement kit\" on Amazon",
+    "why_it_matters": "A $100-a-year habit for dock models"
+   },
+   {
+    "spec": "Brand support",
+    "weight": 10,
+    "what_good_looks_like": "Stable company with years of app updates",
+    "how_to_check": "Recent news and app update history",
+    "why_it_matters": "The robot relies on the app for maps and schedules"
+   }
+  ],
+  "marketing_noise": [
+   {
+    "claim": "Suction in Pa (e.g. 20,000 Pa)",
+    "reality": "Not measured consistently; tested pickup matters more."
+   },
+   {
+    "claim": "\"Was $1,399.99\"",
+    "reality": "List prices are set for sales; most models sell 30–50% below list several times a year."
+   },
+   {
+    "claim": "\"AI cleaning\"",
+    "reality": "Usually means camera obstacle avoidance; check for a camera."
+   },
+   {
+    "claim": "\"60 days hands-free\"",
+    "reality": "Depends on bag size and pet hair; pads and tanks still need attention."
+   }
+  ],
+  "value_traps": [
+   {
+    "trap": "A cheap bot without LiDAR",
+    "why_it_looks_good": "Eufy RoboVac 11S at about $170",
+    "why_it_isnt": "Random bumping misses spots and can't do room control; a LiDAR Roborock Q7 M5 is about $60 more.",
+    "instead": "Start at the Roborock Q7 M5."
+   },
+   {
+    "trap": "Discounted old flagship from a shaky brand",
+    "why_it_looks_good": "Roomba Combo j9+ at ~$899, 'was $1,399.99'",
+    "why_it_isnt": "Replaced model, pricey proprietary parts, and support uncertain after iRobot's sale to Picea.",
+    "instead": "Roborock S8 MaxV Ultra or a mid-range full dock."
+   },
+   {
+    "trap": "Buying a mop dock for a carpeted home",
+    "why_it_looks_good": "Full docks are on deep sale",
+    "why_it_isnt": "You pay ~$100 a year in pads and solution for mopping you rarely use.",
+    "instead": "A self-emptying vacuum like the Dreame D10 Plus Gen 2."
+   },
+   {
+    "trap": "This year's flagship at launch",
+    "why_it_looks_good": "Best reviews and newest features",
+    "why_it_isnt": "Last year's flagship often costs half and cleans nearly as well.",
+    "instead": "Buy the outgoing model after a new launch."
+   }
+  ],
+  "tiers": [
+   {
+    "tier": "Vacuum only",
+    "price_range": "$150–$250",
+    "unit_price_range": "$80–$90 / year",
+    "who_its_for": "Small homes, tight budgets",
+    "representative_brands": [
+     "Roborock",
+     "Eufy"
+    ],
+    "verdict": "Pick LiDAR"
+   },
+   {
+    "tier": "Self-emptying",
+    "price_range": "$280–$450",
+    "unit_price_range": "$130–$170 / year",
+    "who_its_for": "Carpet and pet homes",
+    "representative_brands": [
+     "Dreame",
+     "Roborock",
+     "Shark"
+    ],
+    "verdict": "Buy on sale only"
+   },
+   {
+    "tier": "Mop-washing dock",
+    "price_range": "$460–$900",
+    "unit_price_range": "$215–$290 / year",
+    "who_its_for": "Homes with lots of hard floor",
+    "representative_brands": [
+     "Eufy",
+     "Roborock",
+     "Dreame"
+    ],
+    "verdict": "The sweet spot"
+   },
+   {
+    "tier": "Flagship",
+    "price_range": "$800–$1,600",
+    "unit_price_range": "$260–$420 / year",
+    "who_its_for": "Large homes wanting the best",
+    "representative_brands": [
+     "Dreame",
+     "Roborock",
+     "Eufy",
+     "Ecovacs",
+     "iRobot"
+    ],
+    "verdict": "Buy last year's model"
+   }
+  ],
+  "consensus": {
+   "expert_view": "Reviewers split on the top pick (Dreame X60 Max Ultra, Shark PowerDetect, Eufy X10 Pro Omni) but agree LiDAR and a good dock matter more than peak suction.",
+   "community_view": "Owners favor Roborock for reliability, expect 3–5 years of life with basic care, and warn about the steady cost of brushes, filters and pads.",
+   "where_they_disagree": "Experts rank flagships highest; owners often say a mid-range model with a good dock covers what they need."
+  },
+  "products": [
+   {
+    "name": "Eufy RoboVac 11S",
+    "brand": "Eufy",
+    "tier": "Budget, no LiDAR",
+    "segment": "Vacuum only",
+    "price_basis": "estimate",
+    "street_price": 170,
+    "pack_size": null,
+    "unit_price": 81.67,
+    "quality_score": 35,
+    "value_score": 45,
+    "historical_low": null,
+    "typical_sale": "Often $130–$150 on sale",
+    "buy_under": 130,
+    "where_to_buy": [
+     "Amazon",
+     "Walmart"
+    ],
+    "pros": [
+     "Very cheap",
+     "Quiet, slim"
+    ],
+    "cons": [
+     "Bumps around randomly; no map or room control",
+     "No app or Wi-Fi on the base model"
+    ],
+    "best_for": "One small room on a tight budget"
+   },
+   {
+    "name": "Roborock Q7 M5",
+    "brand": "Roborock",
+    "tier": "Entry LiDAR",
+    "segment": "Vacuum only",
+    "price_basis": "seen",
+    "street_price": 229.99,
+    "pack_size": null,
+    "unit_price": 87.5,
+    "quality_score": 62,
+    "value_score": 92,
+    "historical_low": 149.99,
+    "typical_sale": "Seen at $149.99 in a spring sale",
+    "buy_under": 180,
+    "where_to_buy": [
+     "Amazon",
+     "Roborock"
+    ],
+    "pros": [
+     "LiDAR maps and room-by-room cleaning",
+     "Basic mopping pad"
+    ],
+    "cons": [
+     "Empty the bin yourself",
+     "Mop is a drag pad, not a scrubber"
+    ],
+    "best_for": "Most homes that don't need a dock"
+   },
+   {
+    "name": "Roborock Q7 M5+ (self-emptying)",
+    "brand": "Roborock",
+    "tier": "Entry LiDAR",
+    "segment": "Self-emptying",
+    "price_basis": "estimate",
+    "street_price": 429.99,
+    "pack_size": null,
+    "unit_price": 167.5,
+    "quality_score": 70,
+    "value_score": 70,
+    "historical_low": 237.49,
+    "typical_sale": "Seen at $237.49 in a spring sale",
+    "buy_under": 260,
+    "where_to_buy": [
+     "Amazon",
+     "Roborock"
+    ],
+    "pros": [
+     "LiDAR plus self-empty dock",
+     "Weeks between bin trips"
+    ],
+    "cons": [
+     "List price is steep; buy only on sale",
+     "Bags add ~$30 a year"
+    ],
+    "best_for": "Pet homes wanting self-empty cheaply"
+   },
+   {
+    "name": "Dreame D10 Plus Gen 2",
+    "brand": "Dreame",
+    "tier": "Entry LiDAR",
+    "segment": "Self-emptying",
+    "price_basis": "estimate",
+    "street_price": 280,
+    "pack_size": null,
+    "unit_price": 130.0,
+    "quality_score": 72,
+    "value_score": 88,
+    "historical_low": 99.99,
+    "typical_sale": "List $300; refurbished seen at $99.99",
+    "buy_under": 240,
+    "where_to_buy": [
+     "Amazon",
+     "Dreame"
+    ],
+    "pros": [
+     "Self-emptying with LiDAR under $300",
+     "Tom's Guide budget pick"
+    ],
+    "cons": [
+     "Basic mop",
+     "Smaller brand support network"
+    ],
+    "best_for": "Self-empty on a budget"
+   },
+   {
+    "name": "Shark PowerDetect 2-in-1 Robot Vacuum & Mop (AV2800ZE)",
+    "brand": "Shark",
+    "tier": "Mainstream hybrid",
+    "segment": "Self-emptying",
+    "price_basis": "seen",
+    "street_price": 399.99,
+    "pack_size": null,
+    "unit_price": 170.0,
+    "quality_score": 76,
+    "value_score": 74,
+    "historical_low": null,
+    "typical_sale": "Seen at 52% off in an early Black Friday roundup",
+    "buy_under": 360,
+    "where_to_buy": [
+     "Amazon",
+     "Best Buy",
+     "Shark"
+    ],
+    "pros": [
+     "Self-emptying, bagless dock",
+     "Strong on carpet and pet hair"
+    ],
+    "cons": [
+     "Mop is basic; no pad washing",
+     "Tom's Guide pick but mid-pack navigation"
+    ],
+    "best_for": "Carpet-heavy, pet homes"
+   },
+   {
+    "name": "Shark Matrix Plus 2-in-1",
+    "brand": "Shark",
+    "tier": "Mainstream hybrid",
+    "segment": "Self-emptying",
+    "price_basis": "estimate",
+    "street_price": 350,
+    "pack_size": null,
+    "unit_price": 157.5,
+    "quality_score": 70,
+    "value_score": 70,
+    "historical_low": null,
+    "typical_sale": "Seen in a $300–$450 range",
+    "buy_under": 300,
+    "where_to_buy": [
+     "Amazon",
+     "Walmart"
+    ],
+    "pros": [
+     "Self-emptying",
+     "Grid cleaning pattern"
+    ],
+    "cons": [
+     "Older model",
+     "Mop doesn't lift on carpet"
+    ],
+    "best_for": "Shark fans on a budget"
+   },
+   {
+    "name": "Eufy Omni C28",
+    "brand": "Eufy",
+    "tier": "Mid-range full dock",
+    "segment": "Mop-washing dock",
+    "price_basis": "seen",
+    "street_price": 459.99,
+    "pack_size": null,
+    "unit_price": 215.0,
+    "quality_score": 82,
+    "value_score": 95,
+    "historical_low": 459.99,
+    "typical_sale": "Seen at $459.99, down from $799.99 (Nov 12)",
+    "buy_under": 460,
+    "where_to_buy": [
+     "Amazon",
+     "Eufy"
+    ],
+    "pros": [
+     "Dock washes and dries the mop, empties the bin",
+     "Full-dock features at a mid-range price"
+    ],
+    "cons": [
+     "Consumables run ~$100 a year",
+     "Compact dock means smaller tanks"
+    ],
+    "best_for": "Homes with lots of hard floor"
+   },
+   {
+    "name": "Roborock Qrevo 2 Pro",
+    "brand": "Roborock",
+    "tier": "Mid-range full dock",
+    "segment": "Mop-washing dock",
+    "price_basis": "seen",
+    "street_price": 549.98,
+    "pack_size": null,
+    "unit_price": 237.5,
+    "quality_score": 85,
+    "value_score": 85,
+    "historical_low": null,
+    "typical_sale": "Seen at $549.98 (Nov 6)",
+    "buy_under": 500,
+    "where_to_buy": [
+     "Amazon",
+     "Roborock"
+    ],
+    "pros": [
+     "Spinning mops that lift on carpet",
+     "Roborock's reliable app and maps"
+    ],
+    "cons": [
+     "About $90 more than the Omni C28",
+     "Consumables ~$100 a year"
+    ],
+    "best_for": "Mixed floors wanting a proven brand"
+   },
+   {
+    "name": "Roborock Q Revo",
+    "brand": "Roborock",
+    "tier": "Mid-range full dock",
+    "segment": "Mop-washing dock",
+    "price_basis": "estimate",
+    "street_price": 600,
+    "pack_size": null,
+    "unit_price": 250.0,
+    "quality_score": 84,
+    "value_score": 75,
+    "historical_low": null,
+    "typical_sale": "Around $600 in a 2026 guide",
+    "buy_under": 450,
+    "where_to_buy": [
+     "Amazon"
+    ],
+    "pros": [
+     "LiDAR, 5,500 Pa, mop-washing dock",
+     "A 'best for most people' pick"
+    ],
+    "cons": [
+     "Older model; the Qrevo 2 Pro is newer for less"
+    ],
+    "best_for": "Only if it drops below $450"
+   },
+   {
+    "name": "Eufy Omni E28",
+    "brand": "Eufy",
+    "tier": "Mid-range full dock",
+    "segment": "Mop-washing dock",
+    "price_basis": "seen",
+    "street_price": 629.98,
+    "pack_size": null,
+    "unit_price": 257.5,
+    "quality_score": 84,
+    "value_score": 70,
+    "historical_low": null,
+    "typical_sale": "Seen at $629.98 on Amazon (Nov 6)",
+    "buy_under": 520,
+    "where_to_buy": [
+     "Amazon"
+    ],
+    "pros": [
+     "Full dock plus a detachable handheld vacuum"
+    ],
+    "cons": [
+     "~$170 more than the C28 for the handheld"
+    ],
+    "best_for": "Someone who also wants a handheld"
+   },
+   {
+    "name": "Eufy X10 Pro Omni",
+    "brand": "Eufy",
+    "tier": "Mid-range full dock",
+    "segment": "Mop-washing dock",
+    "price_basis": "seen",
+    "street_price": 699.99,
+    "pack_size": null,
+    "unit_price": 275.0,
+    "quality_score": 84,
+    "value_score": 68,
+    "historical_low": 479.99,
+    "typical_sale": "Seen at $479.99 in a spring sale",
+    "buy_under": 480,
+    "where_to_buy": [
+     "Amazon",
+     "Eufy"
+    ],
+    "pros": [
+     "NBC Select best overall",
+     "Strong suction and mop pressure"
+    ],
+    "cons": [
+     "$699.99 now vs. $479.99 in spring: wait"
+    ],
+    "best_for": "Buy only near $480"
+   },
+   {
+    "name": "Roborock Qrevo CurvX",
+    "brand": "Roborock",
+    "tier": "Upper mid-range",
+    "segment": "Mop-washing dock",
+    "price_basis": "seen",
+    "street_price": 749.99,
+    "pack_size": null,
+    "unit_price": 250.0,
+    "quality_score": 86,
+    "value_score": 66,
+    "historical_low": null,
+    "typical_sale": "Seen at $749.99 (Nov 6)",
+    "buy_under": 650,
+    "where_to_buy": [
+     "Amazon",
+     "Roborock"
+    ],
+    "pros": [
+     "Taller suction, curved dock",
+     "Edge mopping"
+    ],
+    "cons": [
+     "Small gains over the Qrevo 2 Pro for $200 more"
+    ],
+    "best_for": "Roborock buyers wanting the newer dock"
+   },
+   {
+    "name": "Roborock S8 MaxV Ultra",
+    "brand": "Roborock",
+    "tier": "Previous flagship",
+    "segment": "Flagship",
+    "price_basis": "estimate",
+    "street_price": 799.99,
+    "pack_size": null,
+    "unit_price": 260.0,
+    "quality_score": 89,
+    "value_score": 70,
+    "historical_low": null,
+    "typical_sale": "Around $799.99 in a 2026 guide",
+    "buy_under": 700,
+    "where_to_buy": [
+     "Amazon",
+     "Roborock"
+    ],
+    "pros": [
+     "Camera obstacle avoidance",
+     "Previous flagship, now discounted"
+    ],
+    "cons": [
+     "Superseded by Saros models"
+    ],
+    "best_for": "Flagship features at a mid-range price"
+   },
+   {
+    "name": "Dreame L60 Ultra PE",
+    "brand": "Dreame",
+    "tier": "Upper mid-range",
+    "segment": "Mop-washing dock",
+    "price_basis": "estimate",
+    "street_price": 899.99,
+    "pack_size": null,
+    "unit_price": 280.0,
+    "quality_score": 87,
+    "value_score": 62,
+    "historical_low": null,
+    "typical_sale": "Listed $899.99 in a 2026 guide",
+    "buy_under": 700,
+    "where_to_buy": [
+     "Amazon",
+     "Dreame"
+    ],
+    "pros": [
+     "Extending mop and side brush",
+     "Strong obstacle avoidance"
+    ],
+    "cons": [
+     "Pricey for a non-flagship"
+    ],
+    "best_for": "Corner-cleaning sticklers"
+   },
+   {
+    "name": "Ecovacs Deebot X8 Pro Omni",
+    "brand": "Ecovacs",
+    "tier": "Flagship mop",
+    "segment": "Flagship",
+    "price_basis": "estimate",
+    "street_price": 999,
+    "pack_size": null,
+    "unit_price": 309.8,
+    "quality_score": 88,
+    "value_score": 58,
+    "historical_low": null,
+    "typical_sale": "Price not seen; estimate",
+    "buy_under": 800,
+    "where_to_buy": [
+     "Amazon",
+     "Ecovacs"
+    ],
+    "pros": [
+     "Roller mop: best dedicated mopping (Robotvachub)"
+    ],
+    "cons": [
+     "Price not confirmed",
+     "Ecovacs app less polished"
+    ],
+    "best_for": "Mostly hard floors where mopping matters most"
+   },
+   {
+    "name": "Dreame X60 Max Ultra Complete",
+    "brand": "Dreame",
+    "tier": "Flagship",
+    "segment": "Flagship",
+    "price_basis": "estimate",
+    "street_price": 1599,
+    "pack_size": null,
+    "unit_price": 429.8,
+    "quality_score": 95,
+    "value_score": 50,
+    "historical_low": null,
+    "typical_sale": "Price not seen; estimate",
+    "buy_under": 1200,
+    "where_to_buy": [
+     "Amazon",
+     "Dreame"
+    ],
+    "pros": [
+     "Tom's Guide best robot vacuum of 2026",
+     "Top navigation and suction"
+    ],
+    "cons": [
+     "Roughly 3.5x the Omni C28 for incremental gains",
+     "Price not confirmed"
+    ],
+    "best_for": "Large homes wanting the best"
+   },
+   {
+    "name": "Eufy Omni S2",
+    "brand": "Eufy",
+    "tier": "Flagship",
+    "segment": "Flagship",
+    "price_basis": "seen",
+    "street_price": 1599.99,
+    "pack_size": null,
+    "unit_price": 430.0,
+    "quality_score": 90,
+    "value_score": 45,
+    "historical_low": null,
+    "typical_sale": "Listed $1,599.99; Omni S2 Pro launched Nov 5",
+    "buy_under": 1100,
+    "where_to_buy": [
+     "Eufy",
+     "Amazon"
+    ],
+    "pros": [
+     "Eufy's flagship dock"
+    ],
+    "cons": [
+     "Just superseded by the S2 Pro",
+     "Little gain over the C28 for most homes"
+    ],
+    "best_for": "Wait for a post-launch price drop"
+   },
+   {
+    "name": "iRobot Roomba Combo j9+",
+    "brand": "iRobot",
+    "tier": "Previous flagship",
+    "segment": "Flagship",
+    "price_basis": "estimate",
+    "street_price": 899,
+    "pack_size": null,
+    "unit_price": 344.75,
+    "quality_score": 78,
+    "value_score": 30,
+    "historical_low": null,
+    "typical_sale": "List $1,399.99; regularly ~$800–$899",
+    "buy_under": 600,
+    "where_to_buy": [
+     "Amazon",
+     "iRobot"
+    ],
+    "pros": [
+     "Good obstacle avoidance",
+     "Auto-fill dock"
+    ],
+    "cons": [
+     "Replaced by the Combo 10 Max",
+     "iRobot sold to Picea in Jan 2026; long-term support uncertain",
+     "Pricey proprietary consumables"
+    ],
+    "best_for": "No one at this price"
+   }
+  ],
+  "deal_intelligence": {
+   "volatility": "Very high: prices swing 30–50% between list and sales, and models turn over yearly.",
+   "sale_cadence": [
+    {
+     "event": "Black Friday to Cyber Monday",
+     "timing": "Nov 27–30, 2026 (early deals already live)",
+     "typical_depth": "30–50% off"
+    },
+    {
+     "event": "Amazon Prime Day",
+     "timing": "July",
+     "typical_depth": "30–50% off"
+    },
+    {
+     "event": "Amazon Big Spring Sale",
+     "timing": "March",
+     "typical_depth": "20–45% off"
+    },
+    {
+     "event": "New model launches",
+     "timing": "Jan (CES) and spring",
+     "typical_depth": "Previous flagships drop 30–50%"
+    }
+   ],
+   "best_time_to_buy": "Now through Cyber Monday (Nov 30); Prime Day in July is the next big chance.",
+   "patience_payoff": "Some models dip lower in spring (X10 Pro Omni hit $479.99), but early Black Friday prices are already near their lows.",
+   "discount_honesty": "List prices are inflated; judge deals against the last sale price, not the 'was' price."
+  },
+  "purchase_paths": [
+   {
+    "name": "Cheapest path that isn't a mistake",
+    "goal": "Scheduled, mapped vacuuming",
+    "total_cost": 229.99,
+    "items": [
+     {
+      "item": "Roborock Q7 M5",
+      "price": 229.99,
+      "why": "LiDAR maps and room control"
+     }
+    ],
+    "rationale": "LiDAR is the one feature worth paying for at the bottom.",
+    "tradeoff": "You empty the bin; mopping is basic."
+   },
+   {
+    "name": "Best value",
+    "goal": "Hands-off vacuuming and mopping",
+    "total_cost": 459.99,
+    "items": [
+     {
+      "item": "Eufy Omni C28",
+      "price": 459.99,
+      "why": "Full dock at a mid-range price"
+     }
+    ],
+    "rationale": "The cost-per-year sweet spot.",
+    "tradeoff": "About $100 a year in pads, solution and bags."
+   },
+   {
+    "name": "No-compromise",
+    "goal": "The best robot available",
+    "total_cost": 1599,
+    "items": [
+     {
+      "item": "Dreame X60 Max Ultra Complete",
+      "price": 1599,
+      "why": "Top-tested 2026 model (price estimated)"
+     }
+    ],
+    "rationale": "Best navigation, suction and avoidance.",
+    "tradeoff": "About 3.5x the Omni C28 for small gains."
+   }
+  ],
+  "deals_found": [
+   {
+    "product": "Eufy Omni C28",
+    "retailer": "Amazon",
+    "price": 459.99,
+    "pack_size": null,
+    "url": "https://vacuumwars.com/black-friday-deals/",
+    "note": "Down from $799.99 (Nov 12)"
+   },
+   {
+    "product": "Shark PowerDetect 2-in-1 (AV2800ZE)",
+    "retailer": "Amazon",
+    "price": 399.99,
+    "pack_size": null,
+    "url": "https://www.technobezz.com/news/black-friday-robot-vacuum-deals",
+    "note": "52% off"
+   },
+   {
+    "product": "Roborock Qrevo 2 Pro",
+    "retailer": "Amazon",
+    "price": 549.98,
+    "pack_size": null,
+    "url": "https://www.technobezz.com/news/black-friday-robot-vacuum-deals",
+    "note": "Nov 6"
+   },
+   {
+    "product": "Roborock Q7 M5",
+    "retailer": "Amazon",
+    "price": 229.99,
+    "pack_size": null,
+    "url": "https://vacuumwars.com/roborock-buyer-guide/",
+    "note": ""
+   },
+   {
+    "product": "Dreame D10 Plus Gen 2 (refurbished)",
+    "retailer": "Dreame via Slickdeals",
+    "price": 99.99,
+    "pack_size": null,
+    "url": "https://slickdeals.net/f/18791830-refurbished-dreame-d10-plus-gen-2-robot-vacuum-self-emptying-lidar-100-free-shipping-99-99",
+    "note": "Refurbished; may have ended"
+   }
+  ],
+  "price_segments": {
+   "dimension": "Dock type",
+   "why": "What the dock does (nothing, empties the bin, or also washes the mop) sets the price band more than brand does.",
+   "segments": [
+    {
+     "label": "Vacuum only",
+     "price_low": 150,
+     "price_high": 250,
+     "typical_price": 230,
+     "unit_price_range": "$80–$90 / year",
+     "what_you_get": "A robot that vacuums on a schedule; LiDAR models map rooms.",
+     "best_pick": "Roborock Q7 M5",
+     "watch_out": "Skip non-LiDAR bots; LiDAR costs only ~$60 more."
+    },
+    {
+     "label": "Self-emptying",
+     "price_low": 280,
+     "price_high": 450,
+     "typical_price": 350,
+     "unit_price_range": "$130–$170 / year",
+     "what_you_get": "A dock that empties the bin, so you touch it every few weeks, not every run.",
+     "best_pick": "Dreame D10 Plus Gen 2",
+     "watch_out": "Bags add ~$30 a year; list prices are inflated, so buy on sale."
+    },
+    {
+     "label": "Mop-washing dock",
+     "price_low": 460,
+     "price_high": 900,
+     "typical_price": 600,
+     "unit_price_range": "$215–$290 / year",
+     "what_you_get": "A dock that also washes and dries the mop and refills water: real hands-off mopping.",
+     "best_pick": "Eufy Omni C28",
+     "watch_out": "Consumables run ~$100 a year; worth it only with lots of hard floor."
+    },
+    {
+     "label": "Flagship",
+     "price_low": 800,
+     "price_high": 1600,
+     "typical_price": 1200,
+     "unit_price_range": "$260–$420 / year",
+     "what_you_get": "Best obstacle avoidance, extending arms, top suction.",
+     "best_pick": "Roborock S8 MaxV Ultra",
+     "watch_out": "Last year's flagship often costs half; this year's adds little for most homes."
+    }
+   ]
+  },
+  "brands": [
+   {
+    "brand": "Roborock",
+    "positioning": "Mainstream to premium; navigation leader",
+    "summary": "Widely regarded as the most reliable navigation and app; spans $230 entry bots to $1,000+ flagships.",
+    "pros": [
+     "Excellent LiDAR maps and app",
+     "Broad lineup at every price",
+     "Parts widely available"
+    ],
+    "cons": [
+     "Confusing model names",
+     "List prices high; buy on sale"
+    ],
+    "price_range": "$230–$1,000+",
+    "best_for": "Most buyers",
+    "verdict": "The safe default at any budget."
+   },
+   {
+    "brand": "Eufy (Anker)",
+    "positioning": "Value brand",
+    "summary": "Anker's robot line; reviewers call it the best-value brand of 2026, with full docks at mid-range prices.",
+    "pros": [
+     "Aggressive sale pricing",
+     "Full mop docks under $500 on sale"
+    ],
+    "cons": [
+     "Fast model turnover",
+     "Some big swings between list and sale"
+    ],
+    "price_range": "$170–$1,600",
+    "best_for": "Value buyers who time sales",
+    "verdict": "Best value in full-dock robots right now."
+   },
+   {
+    "brand": "Dreame",
+    "positioning": "Performance-focused, budget to flagship",
+    "summary": "Tops several 2026 tests (X60 Max Ultra) and makes the best sub-$300 self-emptying bot (D10 Plus Gen 2).",
+    "pros": [
+     "Top-tier navigation and suction",
+     "Strong budget model"
+    ],
+    "cons": [
+     "Smaller US support network",
+     "Flagships are expensive"
+    ],
+    "price_range": "$280–$1,600",
+    "best_for": "Budget self-empty or no-compromise flagship",
+    "verdict": "Great at both ends; check support before buying."
+   },
+   {
+    "brand": "Shark",
+    "positioning": "Mainstream US brand",
+    "summary": "Big-box favorite with strong carpet and pet-hair cleaning and bagless self-empty docks.",
+    "pros": [
+     "Sold everywhere",
+     "Good on carpet and pet hair",
+     "Bagless docks"
+    ],
+    "cons": [
+     "Navigation and mopping trail Roborock and Eufy",
+     "Frequent 'was' price anchors"
+    ],
+    "price_range": "$300–$600",
+    "best_for": "Carpet-heavy, pet homes",
+    "verdict": "Fine on deep sales; otherwise Roborock or Eufy."
+   },
+   {
+    "brand": "iRobot (Roomba)",
+    "positioning": "Former category leader",
+    "summary": "Filed Chapter 11 in Dec 2025; sold to its supplier Picea in Jan 2026. The company says apps and support continue.",
+    "pros": [
+     "Mature obstacle avoidance",
+     "Physical buttons work without the cloud"
+    ],
+    "cons": [
+     "Long-term support uncertain",
+     "Pricey consumables",
+     "Behind rivals on features per dollar"
+    ],
+    "price_range": "$300–$1,400",
+    "best_for": "Owners already in the Roomba system",
+    "verdict": "Avoid new purchases at full price."
+   },
+   {
+    "brand": "Ecovacs",
+    "positioning": "Mop-focused premium",
+    "summary": "Known for mopping; the Deebot X8 Pro Omni's roller mop is rated the best dedicated mopping system.",
+    "pros": [
+     "Best-in-class mopping"
+    ],
+    "cons": [
+     "App and navigation a step behind Roborock"
+    ],
+    "price_range": "$500–$1,300 (estimate)",
+    "best_for": "Hard-floor homes",
+    "verdict": "Pick it if mopping matters most."
+   }
+  ],
+  "caveats": [
+   "Expected life and yearly parts costs are estimates from owner reports and maintenance guides.",
+   "Prices for the Dreame X60 Max Ultra Complete, Ecovacs X8 Pro Omni, Roborock S8 MaxV Ultra, Q Revo, Dreame L60 Ultra PE and Roomba Combo j9+ were not seen on a store page this week.",
+   "The Eufy Omni C28's usual range ($599–$799.99) is inferred from its list price; no price history was seen.",
+   "iRobot reports say apps and support continue after the Picea sale; one outlet reported otherwise."
+  ],
+  "sources": [
+   {
+    "title": "Tom's Guide: best robot vacuums 2026",
+    "url": "https://www.tomsguide.com/us/best-robot-vacuums,review-2000.html"
+   },
+   {
+    "title": "Tom's Guide: best robot vacuums, expert tested",
+    "url": "https://www.tomsguide.com/best-picks/the-best-robot-vacuums"
+   },
+   {
+    "title": "TechGearLab: best robot vacuums",
+    "url": "https://www.techgearlab.com/topics/smart-home/best-robot-vacuum"
+   },
+   {
+    "title": "Robotvachub: best robot vacuum brands 2026",
+    "url": "https://robotvachub.com/best/best-robot-vacuum-brands/"
+   },
+   {
+    "title": "Robotvachub: best robot vacuum 2026",
+    "url": "https://robotvachub.com/best/best-robot-vacuum/"
+   },
+   {
+    "title": "NBC Select: best robot vacuums",
+    "url": "https://www.nbcnews.com/select/amp/rcna224709"
+   },
+   {
+    "title": "Vacuum Wars: early Black Friday deals 2026",
+    "url": "https://vacuumwars.com/black-friday-deals/"
+   },
+   {
+    "title": "Technobezz: Black Friday robot vacuum deals",
+    "url": "https://www.technobezz.com/news/black-friday-robot-vacuum-deals"
+   },
+   {
+    "title": "Vacuum Wars: Roborock buyer guide",
+    "url": "https://vacuumwars.com/roborock-buyer-guide/"
+   },
+   {
+    "title": "Vacuum Wars: Eufy lineup 2026",
+    "url": "https://vacuumwars.com/eufy-robot-vacuum-lineup/"
+   },
+   {
+    "title": "Forbes Vetted: Shark vs. Roomba 2026",
+    "url": "https://www.forbes.com/sites/forbes-personal-shopper/article/roomba-vs-shark/"
+   },
+   {
+    "title": "Tom's Guide: iRobot files for bankruptcy",
+    "url": "https://www.tomsguide.com/home/smart-home/roomba-maker-irobot-files-for-bankruptcy-after-35-years-what-it-means-for-you"
+   },
+   {
+    "title": "Fortune: iRobot files for bankruptcy",
+    "url": "https://fortune.com/2025/12/16/roomba-parent-company-irobot-files-for-bankruptcy/"
+   },
+   {
+    "title": "RoboVacGuide: replacement parts you'll rebuy",
+    "url": "https://robovacguide.com/robot-vacuum-replacement-parts/"
+   },
+   {
+    "title": "BGR: how long robot vacuums last",
+    "url": "https://www.bgr.com/2196782/how-long-do-owners-say-robot-vacuums-last-lifespan/"
+   }
+  ]
+ }
+}

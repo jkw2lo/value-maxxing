@@ -97,9 +97,6 @@
             "AVOID_CATEGORY"
           ]
         },
-        "buy_score": {
-          "type": "number"
-        },
         "confidence": {
           "type": "string"
         },
@@ -113,10 +110,84 @@
       "required": [
         "headline",
         "signal",
-        "buy_score",
         "confidence",
         "reasoning",
         "price_watch_summary"
+      ],
+      "additionalProperties": false
+    },
+    "recommendation": {
+      "type": "object",
+      "properties": {
+        "action": {
+          "type": "string",
+          "enum": [
+            "BUY_NOW",
+            "WAIT",
+            "SKIP"
+          ]
+        },
+        "product": {
+          "type": "string"
+        },
+        "retailer": {
+          "type": "string"
+        },
+        "current_price": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "usual_low": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "usual_high": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "strike_price": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "pack_size": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "strike_unit_price": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "wait_for": {
+          "type": "string"
+        },
+        "why": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "action",
+        "product",
+        "retailer",
+        "current_price",
+        "usual_low",
+        "usual_high",
+        "strike_price",
+        "pack_size",
+        "strike_unit_price",
+        "wait_for",
+        "why"
       ],
       "additionalProperties": false
     },
@@ -364,6 +435,7 @@
     "scope",
     "primer",
     "verdict",
+    "recommendation",
     "normalization",
     "diminishing_returns",
     "awards",

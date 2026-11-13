@@ -135,6 +135,124 @@
         "where_they_disagree"
       ],
       "additionalProperties": false
+    },
+    "price_segments": {
+      "type": "object",
+      "properties": {
+        "dimension": {
+          "type": "string"
+        },
+        "why": {
+          "type": "string"
+        },
+        "segments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "price_low": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "price_high": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "typical_price": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "unit_price_range": {
+                "type": "string"
+              },
+              "what_you_get": {
+                "type": "string"
+              },
+              "best_pick": {
+                "type": "string"
+              },
+              "watch_out": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "label",
+              "price_low",
+              "price_high",
+              "typical_price",
+              "unit_price_range",
+              "what_you_get",
+              "best_pick",
+              "watch_out"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "dimension",
+        "why",
+        "segments"
+      ],
+      "additionalProperties": false
+    },
+    "brands": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "brand": {
+            "type": "string"
+          },
+          "positioning": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string"
+          },
+          "pros": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "cons": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "price_range": {
+            "type": "string"
+          },
+          "best_for": {
+            "type": "string"
+          },
+          "verdict": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "brand",
+          "positioning",
+          "summary",
+          "pros",
+          "cons",
+          "price_range",
+          "best_for",
+          "verdict"
+        ],
+        "additionalProperties": false
+      }
     }
   },
   "required": [
@@ -142,7 +260,9 @@
     "marketing_noise",
     "value_traps",
     "tiers",
-    "consensus"
+    "consensus",
+    "price_segments",
+    "brands"
   ],
   "additionalProperties": false
 }
