@@ -1,0 +1,1101 @@
+{
+ "expertise": "intermediate",
+ "saved_at": "2026-11-13T12:10:00.000Z",
+ "report": {
+  "category": "Whey protein powder",
+  "scope": "US market, whey concentrate and isolate powders for everyday use. Plant powders appear only as a caution. Prices seen Nov 10–13, 2026.",
+  "generated_at": "2026-11-13",
+  "price_source": "live",
+  "primer": {
+   "what_it_is": "Powdered milk protein you mix into water, milk or smoothies to hit a daily protein target, most often for training or weight management.",
+   "must_haves": [
+    {
+     "feature": "20–30 g protein per scoop",
+     "why": "Enough to count as a real serving of protein."
+    },
+    {
+     "feature": "Whey listed first in ingredients",
+     "why": "Shows the protein is mostly whey, not cheap fillers."
+    },
+    {
+     "feature": "Third-party testing",
+     "why": "Checks the protein claim and heavy metals, since there are no federal limits."
+    }
+   ],
+   "premium_features": [
+    {
+     "feature": "Isolate",
+     "why": "Less lactose and fat; worth it if dairy upsets you."
+    },
+    {
+     "feature": "Grass-fed sourcing",
+     "why": "A sourcing preference; it doesn't add protein."
+    },
+    {
+     "feature": "Sport certification (NSF Certified for Sport, Informed Choice)",
+     "why": "Needed only if you're drug-tested."
+    }
+   ],
+   "avoid": [
+    {
+     "thing": "Mass gainers sold as protein",
+     "why": "Mostly sugar; one popular gainer was flagged for arsenic."
+    },
+    {
+     "thing": "Comparing by price per tub or per serving",
+     "why": "Scoop sizes differ; compare price per gram of protein."
+    },
+    {
+     "thing": "Plant powders for 'clean' reasons",
+     "why": "Consumer Reports found high lead in almost all plant powders it tested."
+    }
+   ]
+  },
+  "verdict": {
+   "headline": "Kirkland whey at about 3¢ per gram is the value floor; most people don't need isolate.",
+   "signal": "BUY_NOW",
+   "confidence": "Moderate: five prices seen this week; others come from price trackers and reviews.",
+   "reasoning": "Per gram of protein, Kirkland ($0.030) and sale-priced Myprotein ($0.026–0.03) cost about half of Gold Standard at Walmart ($0.047). Isolates run 5.4–8.5¢ and boutique grass-fed 8–12¢, paying for lactose removal and labels rather than more protein.",
+   "price_watch_summary": "Kirkland 5.4 lb is $56.74 on Costco same-day; warehouses range $48.99–$64.99. Buy at $57 or less."
+  },
+  "recommendation": {
+   "action": "BUY_NOW",
+   "product": "Kirkland Signature Whey Protein, Creamy Chocolate, 5.4 lb",
+   "retailer": "Costco",
+   "current_price": 56.74,
+   "usual_low": 48.99,
+   "usual_high": 64.99,
+   "strike_price": 57,
+   "pack_size": 1900,
+   "strike_unit_price": 0.03,
+   "wait_for": "",
+   "why": "The lowest price per gram of protein seen, and Costco rarely discounts it further."
+  },
+  "normalization": {
+   "unit": "Price per gram of protein",
+   "unit_short": "g",
+   "unit_rationale": "Price per tub or per serving misleads: tubs range from 400 g to 2,100 g of protein, and scoops from 20 g to 28 g. Price per gram of protein is the only fair comparison.",
+   "quality_adjustment": "Grams of protein = servings × protein per scoop from the label. Treat isolate as a digestive upgrade, not more protein. Mass gainers and blends count only their protein grams.",
+   "formula": "Price per gram = tub price ÷ (servings × grams of protein per scoop)",
+   "bands": [
+    {
+     "label": "Value floor",
+     "low": 0.02,
+     "high": 0.03,
+     "verdict": "Warehouse or sale concentrate"
+    },
+    {
+     "label": "Mainstream concentrate",
+     "low": 0.03,
+     "high": 0.045,
+     "verdict": "Fair price"
+    },
+    {
+     "label": "Value isolate",
+     "low": 0.045,
+     "high": 0.065,
+     "verdict": "Pay this only if you need isolate"
+    },
+    {
+     "label": "Premium isolate",
+     "low": 0.065,
+     "high": 0.09,
+     "verdict": "Paying for brand or flavor"
+    },
+    {
+     "label": "Boutique",
+     "low": 0.09,
+     "high": 0.13,
+     "verdict": "Certifications and labels"
+    }
+   ],
+   "size_economics": "Bigger tubs are cheaper per gram: Gold Standard is about 3.7¢ in Costco's 5.64 lb tub vs. 4.7¢ in Walmart's 5 lb. Small 20–30 serving bags carry the highest per-gram prices."
+  },
+  "diminishing_returns": {
+   "knee_unit_price": 0.03,
+   "knee_example": "Kirkland Signature Whey, 5.4 lb, at $56.74 (about 3¢ per gram)",
+   "below_knee": "Below ~2.6¢ per gram there's little left to save; going lower usually means gainers or blends with less real protein.",
+   "above_knee": "Above ~4.5¢ per gram you pay for isolate filtering, flavors, grass-fed sourcing or certification, not more protein.",
+   "curve": [
+    {
+     "unit_price": 0.026,
+     "quality": 74,
+     "label": null
+    },
+    {
+     "unit_price": 0.03,
+     "quality": 78,
+     "label": "Sweet spot: Kirkland"
+    },
+    {
+     "unit_price": 0.037,
+     "quality": 82,
+     "label": null
+    },
+    {
+     "unit_price": 0.047,
+     "quality": 82,
+     "label": "Gold Standard (Walmart)"
+    },
+    {
+     "unit_price": 0.054,
+     "quality": 83,
+     "label": null
+    },
+    {
+     "unit_price": 0.077,
+     "quality": 87,
+     "label": "Grass-fed isolate"
+    },
+    {
+     "unit_price": 0.084,
+     "quality": 86,
+     "label": null
+    },
+    {
+     "unit_price": 0.114,
+     "quality": 87,
+     "label": null
+    }
+   ]
+  },
+  "awards": {
+   "best_overall": {
+    "product": "Optimum Nutrition Gold Standard 100% Whey, 5 lb",
+    "why": "The benchmark: reliable, mixes well, many flavors; buy it on sale."
+   },
+   "best_value": {
+    "product": "Kirkland Signature Whey Protein, Creamy Chocolate, 5.4 lb",
+    "why": "About 3¢ per gram of protein, the lowest seen."
+   },
+   "best_budget": {
+    "product": "Myprotein Impact Whey Protein, 5.5 lb",
+    "why": "Matches Kirkland per gram on a 50%+ sale, no membership needed."
+   },
+   "best_premium": {
+    "product": "Transparent Labs Grass-Fed Whey Protein Isolate, 30 servings",
+    "why": "Clean, high-protein grass-fed isolate."
+   },
+   "best_for_beginners": {
+    "product": "Equate Whey Protein Powder",
+    "why": "Cheap, easy to find at Walmart, and low in lead in CR's retest."
+   },
+   "longest_lasting": {
+    "product": "",
+    "why": ""
+   },
+   "avoid": {
+    "product": "Optimum Nutrition Serious Mass Weight Gainer, 12 lb",
+    "why": "Mostly sugar, and CR found twice its arsenic limit per serving."
+   }
+  },
+  "spec_criteria": [
+   {
+    "spec": "Protein per scoop and per tub",
+    "weight": 25,
+    "what_good_looks_like": "24–28 g protein per ~30–32 g scoop (about 80% protein)",
+    "how_to_check": "Nutrition facts: protein per serving × servings per container",
+    "why_it_matters": "It's the denominator for value"
+   },
+   {
+    "spec": "Third-party testing",
+    "weight": 20,
+    "what_good_looks_like": "NSF Certified for Sport, Informed Choice, or published heavy-metal tests",
+    "how_to_check": "Seal on the tub; search the certifier's database",
+    "why_it_matters": "No federal limits exist for lead or arsenic in protein powder"
+   },
+   {
+    "spec": "No amino-acid spiking",
+    "weight": 15,
+    "what_good_looks_like": "No added glycine, taurine or 'protein blend' boosters",
+    "how_to_check": "Ingredients list after whey",
+    "why_it_matters": "Cheap amino acids can inflate the protein number"
+   },
+   {
+    "spec": "Protein type",
+    "weight": 15,
+    "what_good_looks_like": "Concentrate unless dairy bothers you; then isolate",
+    "how_to_check": "First ingredient: \"whey protein concentrate\" vs. \"isolate\"",
+    "why_it_matters": "Isolate costs ~2x per gram"
+   },
+   {
+    "spec": "Taste and mixability",
+    "weight": 15,
+    "what_good_looks_like": "Mixes smooth in a shaker; a flavor you'll finish",
+    "how_to_check": "Reviews; buy a small bag before a 5 lb tub",
+    "why_it_matters": "An unfinished tub is the worst value"
+   },
+   {
+    "spec": "Sweeteners and additives",
+    "weight": 10,
+    "what_good_looks_like": "Short list matching your preferences",
+    "how_to_check": "Ingredients list",
+    "why_it_matters": "Personal tolerance (sucralose, gums)"
+   }
+  ],
+  "marketing_noise": [
+   {
+    "claim": "\"Grass-fed\"",
+    "reality": "A sourcing claim; doesn't change protein content or value."
+   },
+   {
+    "claim": "\"Hydrolyzed\" or \"fast-absorbing\"",
+    "reality": "Little proven benefit for most people; costs more."
+   },
+   {
+    "claim": "\"Up to 60% off\"",
+    "reality": "Some brands set list prices to be discounted year-round."
+   },
+   {
+    "claim": "\"Clean\" or \"natural\"",
+    "reality": "No standard definition; check third-party testing instead."
+   },
+   {
+    "claim": "Price per serving",
+    "reality": "Serving sizes vary; compare price per gram of protein."
+   }
+  ],
+  "value_traps": [
+   {
+    "trap": "Mass gainers",
+    "why_it_looks_good": "12 lb for about $65",
+    "why_it_isnt": "Mostly sugar; protein costs ~8¢ per gram, and CR flagged Serious Mass for arsenic.",
+    "instead": "Whey plus real food for calories."
+   },
+   {
+    "trap": "Small premium bags",
+    "why_it_looks_good": "$50–$55 feels like a normal tub price",
+    "why_it_isnt": "Only 400–500 g of protein: 11–12¢ per gram, about 4x Kirkland.",
+    "instead": "Compare price per gram; buy 5 lb tubs."
+   },
+   {
+    "trap": "Isolate when dairy doesn't bother you",
+    "why_it_looks_good": "Higher protein percentage",
+    "why_it_isnt": "You pay about 2x per gram for lactose removal you don't need.",
+    "instead": "Buy concentrate."
+   },
+   {
+    "trap": "Plant protein as the 'clean' choice",
+    "why_it_looks_good": "Marketed as natural",
+    "why_it_isnt": "CR found high lead in almost all plant powders tested; whey was lowest.",
+    "instead": "Whey, or a plant powder with published heavy-metal tests."
+   }
+  ],
+  "tiers": [
+   {
+    "tier": "Warehouse and sale concentrate",
+    "price_range": "$49–$65 (5.4–5.5 lb)",
+    "unit_price_range": "2.6–3.4¢ per gram",
+    "who_its_for": "Most people",
+    "representative_brands": [
+     "Kirkland Signature",
+     "Myprotein",
+     "Equate"
+    ],
+    "verdict": "The value floor"
+   },
+   {
+    "tier": "Mainstream name brands",
+    "price_range": "$71–$115 (5 lb)",
+    "unit_price_range": "3.7–5.6¢ per gram",
+    "who_its_for": "Brand and flavor loyalists",
+    "representative_brands": [
+     "Optimum Nutrition",
+     "Naked Nutrition",
+     "Muscle Milk"
+    ],
+    "verdict": "Buy on sale"
+   },
+   {
+    "tier": "Isolate",
+    "price_range": "$42–$107",
+    "unit_price_range": "5.4–8.5¢ per gram",
+    "who_its_for": "Lactose-sensitive buyers",
+    "representative_brands": [
+     "NOW Foods",
+     "Dymatize",
+     "Isopure"
+    ],
+    "verdict": "Only if dairy bothers you"
+   },
+   {
+    "tier": "Boutique grass-fed",
+    "price_range": "$50–$65 (small tubs)",
+    "unit_price_range": "7.7–12¢ per gram",
+    "who_its_for": "Certification or label priorities",
+    "representative_brands": [
+     "Transparent Labs",
+     "Momentous",
+     "Clean Simple Eats"
+    ],
+    "verdict": "Paying for labels"
+   }
+  ],
+  "consensus": {
+   "expert_view": "Value rankings put Kirkland and sale-priced Myprotein at the top per gram; Consumer Reports found whey generally lowest in lead and recommends checking for third-party testing.",
+   "community_view": "Lifters favor Kirkland and Gold Standard for value and taste, buy isolate only for digestion, and treat boutique brands as optional.",
+   "where_they_disagree": "Reviewers often rank premium isolates highest for taste and purity; value-focused rankings favor concentrates."
+  },
+  "products": [
+   {
+    "name": "Kirkland Signature Whey Protein, Creamy Chocolate, 5.4 lb",
+    "brand": "Kirkland Signature",
+    "tier": "Warehouse store brand",
+    "segment": "Concentrate / blend",
+    "price_basis": "seen",
+    "street_price": 56.74,
+    "pack_size": 1900,
+    "unit_price": 0.0299,
+    "quality_score": 78,
+    "value_score": 98,
+    "historical_low": 48.99,
+    "typical_sale": "Tracked $48.99–$64.99 across Costco warehouses (Nov 10)",
+    "buy_under": 57,
+    "where_to_buy": [
+     "Costco (membership)"
+    ],
+    "pros": [
+     "About 3¢ per gram of protein, the lowest seen",
+     "25 g protein per scoop",
+     "Costco returns"
+    ],
+    "cons": [
+     "Membership required",
+     "One flavor; price varies by warehouse"
+    ],
+    "best_for": "Anyone with a Costco membership"
+   },
+   {
+    "name": "Optimum Nutrition Gold Standard 100% Whey, 5 lb",
+    "brand": "Optimum Nutrition",
+    "tier": "Mainstream name brand",
+    "segment": "Concentrate / blend",
+    "price_basis": "seen",
+    "street_price": 82.99,
+    "pack_size": 1750,
+    "unit_price": 0.0474,
+    "quality_score": 82,
+    "value_score": 72,
+    "historical_low": null,
+    "typical_sale": "Listed $99.99–$114.99; seen at $82.99 and $96.28",
+    "buy_under": 80,
+    "where_to_buy": [
+     "Walmart",
+     "Amazon",
+     "Costco"
+    ],
+    "pros": [
+     "The benchmark whey: many flavors, mixes well",
+     "Sold everywhere"
+    ],
+    "cons": [
+     "About 4.7¢ per gram at Walmart; list price runs to $114.99",
+     "Blend of concentrate and isolate"
+    ],
+    "best_for": "Non-members who want a known brand"
+   },
+   {
+    "name": "Optimum Nutrition Gold Standard 100% Whey, 5.64 lb (Costco, 80 servings)",
+    "brand": "Optimum Nutrition",
+    "tier": "Mainstream name brand",
+    "segment": "Concentrate / blend",
+    "price_basis": "estimate",
+    "street_price": 71.49,
+    "pack_size": 1920,
+    "unit_price": 0.0372,
+    "quality_score": 82,
+    "value_score": 85,
+    "historical_low": null,
+    "typical_sale": "Last seen at $71.49 over a year ago",
+    "buy_under": 72,
+    "where_to_buy": [
+     "Costco"
+    ],
+    "pros": [
+     "Bigger tub, lower per-gram price than Walmart"
+    ],
+    "cons": [
+     "Price not current",
+     "Not always stocked"
+    ],
+    "best_for": "Costco members who prefer Gold Standard"
+   },
+   {
+    "name": "Myprotein Impact Whey Protein, 5.5 lb",
+    "brand": "Myprotein",
+    "tier": "Online direct",
+    "segment": "Concentrate / blend",
+    "price_basis": "estimate",
+    "street_price": 60,
+    "pack_size": 2100,
+    "unit_price": 0.0286,
+    "quality_score": 74,
+    "value_score": 90,
+    "historical_low": null,
+    "typical_sale": "Near-constant 40–60% off list",
+    "buy_under": 55,
+    "where_to_buy": [
+     "Myprotein"
+    ],
+    "pros": [
+     "About 2.6–3¢ per gram on sale",
+     "Huge flavor range"
+    ],
+    "cons": [
+     "List prices exist to be discounted",
+     "Shipping times vary"
+    ],
+    "best_for": "Price hunters who order online"
+   },
+   {
+    "name": "Equate Whey Protein Powder",
+    "brand": "Equate (Walmart)",
+    "tier": "Store brand",
+    "segment": "Concentrate / blend",
+    "price_basis": "unknown",
+    "street_price": null,
+    "pack_size": null,
+    "unit_price": 0.038,
+    "quality_score": 70,
+    "value_score": 80,
+    "historical_low": null,
+    "typical_sale": "Walmart everyday price",
+    "buy_under": null,
+    "where_to_buy": [
+     "Walmart"
+    ],
+    "pros": [
+     "About 3.8¢ per gram (third-party estimate)",
+     "Among the lowest lead levels in CR's Jan 2026 retest (55% of its limit)"
+    ],
+    "cons": [
+     "Price not confirmed",
+     "Limited flavors"
+    ],
+    "best_for": "Walmart shoppers wanting a cheap, tested option"
+   },
+   {
+    "name": "Naked Whey (unflavored grass-fed concentrate), 5 lb",
+    "brand": "Naked Nutrition",
+    "tier": "Clean-label concentrate",
+    "segment": "Concentrate / blend",
+    "price_basis": "estimate",
+    "street_price": 76,
+    "pack_size": 1900,
+    "unit_price": 0.04,
+    "quality_score": 78,
+    "value_score": 80,
+    "historical_low": null,
+    "typical_sale": "Periodic site and Amazon promos",
+    "buy_under": 70,
+    "where_to_buy": [
+     "Amazon",
+     "Naked Nutrition"
+    ],
+    "pros": [
+     "Single ingredient",
+     "About 4¢ per gram"
+    ],
+    "cons": [
+     "Unflavored; needs blending"
+    ],
+    "best_for": "People who want no sweeteners"
+   },
+   {
+    "name": "Muscle Milk Pro Series Protein Powder",
+    "brand": "Muscle Milk",
+    "tier": "Mainstream blend",
+    "segment": "Concentrate / blend",
+    "price_basis": "estimate",
+    "street_price": null,
+    "pack_size": null,
+    "unit_price": 0.051,
+    "quality_score": 65,
+    "value_score": 60,
+    "historical_low": null,
+    "typical_sale": "Amazon price swings",
+    "buy_under": null,
+    "where_to_buy": [
+     "Amazon"
+    ],
+    "pros": [
+     "About 5.1¢ per gram (Amazon tracker)"
+    ],
+    "cons": [
+     "Milk-protein blend, not pure whey"
+    ],
+    "best_for": "Shoppers already loyal to Muscle Milk"
+   },
+   {
+    "name": "NOW Sports Whey Protein Isolate, unflavored, 5 lb",
+    "brand": "NOW Foods",
+    "tier": "Value isolate",
+    "segment": "Isolate",
+    "price_basis": "estimate",
+    "street_price": 107,
+    "pack_size": 1980,
+    "unit_price": 0.054,
+    "quality_score": 82,
+    "value_score": 75,
+    "historical_low": null,
+    "typical_sale": "Amazon and iHerb promos",
+    "buy_under": 95,
+    "where_to_buy": [
+     "Amazon",
+     "iHerb"
+    ],
+    "pros": [
+     "Cheapest isolate tracked (about 5.4¢ per gram)",
+     "Third-party tested brand"
+    ],
+    "cons": [
+     "Unflavored",
+     "Nearly 2x Kirkland per gram"
+    ],
+    "best_for": "Lactose-sensitive buyers on a budget"
+   },
+   {
+    "name": "Dymatize ISO100 Hydrolyzed Whey Isolate, 20 servings",
+    "brand": "Dymatize",
+    "tier": "Premium isolate",
+    "segment": "Isolate",
+    "price_basis": "estimate",
+    "street_price": 41.99,
+    "pack_size": 500,
+    "unit_price": 0.084,
+    "quality_score": 86,
+    "value_score": 55,
+    "historical_low": null,
+    "typical_sale": "Bigger tubs and sales cut per-gram cost",
+    "buy_under": 38,
+    "where_to_buy": [
+     "Amazon",
+     "GNC",
+     "Walmart"
+    ],
+    "pros": [
+     "Fast-mixing, low lactose",
+     "Fun flavors"
+    ],
+    "cons": [
+     "About 8.4¢ per gram in the small bag"
+    ],
+    "best_for": "Lactose-sensitive buyers who care about taste"
+   },
+   {
+    "name": "Isopure Zero Carb Whey Isolate, 3 lb",
+    "brand": "Isopure",
+    "tier": "Premium isolate",
+    "segment": "Isolate",
+    "price_basis": "estimate",
+    "street_price": 93.5,
+    "pack_size": 1100,
+    "unit_price": 0.085,
+    "quality_score": 84,
+    "value_score": 50,
+    "historical_low": null,
+    "typical_sale": "Amazon promos",
+    "buy_under": 80,
+    "where_to_buy": [
+     "Amazon",
+     "Walmart"
+    ],
+    "pros": [
+     "Zero carb, clear-ish shakes"
+    ],
+    "cons": [
+     "About 8.5¢ per gram"
+    ],
+    "best_for": "Strict low-carb diets"
+   },
+   {
+    "name": "Ghost Whey Protein, 2 lb",
+    "brand": "Ghost",
+    "tier": "Lifestyle brand",
+    "segment": "Concentrate / blend",
+    "price_basis": "estimate",
+    "street_price": 55,
+    "pack_size": 650,
+    "unit_price": 0.0846,
+    "quality_score": 75,
+    "value_score": 40,
+    "historical_low": null,
+    "typical_sale": "Frequent brand promos",
+    "buy_under": 45,
+    "where_to_buy": [
+     "Amazon",
+     "GNC",
+     "Target"
+    ],
+    "pros": [
+     "Popular candy-collab flavors"
+    ],
+    "cons": [
+     "About 8.5¢ per gram for a blend: paying for flavor branding"
+    ],
+    "best_for": "Taste-first buyers"
+   },
+   {
+    "name": "Transparent Labs Grass-Fed Whey Protein Isolate, 30 servings",
+    "brand": "Transparent Labs",
+    "tier": "Clean-label isolate",
+    "segment": "Grass-fed / clean-label isolate",
+    "price_basis": "seen",
+    "street_price": 64.99,
+    "pack_size": 840,
+    "unit_price": 0.0774,
+    "quality_score": 88,
+    "value_score": 55,
+    "historical_low": 59.99,
+    "typical_sale": "Seen at $59.99 in reviews",
+    "buy_under": 58,
+    "where_to_buy": [
+     "Amazon",
+     "Transparent Labs",
+     "Vitamin Shoppe"
+    ],
+    "pros": [
+     "28 g protein per scoop, short ingredient list",
+     "Grass-fed isolate"
+    ],
+    "cons": [
+     "About 7.7¢ per gram, 2.6x Kirkland"
+    ],
+    "best_for": "Clean-label isolate buyers"
+   },
+   {
+    "name": "Momentous Essential Grass-Fed Whey Isolate, 24 servings",
+    "brand": "Momentous",
+    "tier": "Boutique isolate",
+    "segment": "Grass-fed / clean-label isolate",
+    "price_basis": "estimate",
+    "street_price": 54.95,
+    "pack_size": 480,
+    "unit_price": 0.1145,
+    "quality_score": 86,
+    "value_score": 30,
+    "historical_low": null,
+    "typical_sale": "Occasional brand promos",
+    "buy_under": 48,
+    "where_to_buy": [
+     "Momentous",
+     "Amazon"
+    ],
+    "pros": [
+     "Sport-certified brand, minimal ingredients"
+    ],
+    "cons": [
+     "About 11¢ per gram, nearly 4x Kirkland"
+    ],
+    "best_for": "Tested athletes who need certification"
+   },
+   {
+    "name": "Clean Simple Eats Whey Protein Powder",
+    "brand": "Clean Simple Eats",
+    "tier": "Boutique blend",
+    "segment": "Grass-fed / clean-label isolate",
+    "price_basis": "estimate",
+    "street_price": 49.99,
+    "pack_size": 400,
+    "unit_price": 0.125,
+    "quality_score": 80,
+    "value_score": 35,
+    "historical_low": null,
+    "typical_sale": "Brand promos",
+    "buy_under": 45,
+    "where_to_buy": [
+     "Clean Simple Eats"
+    ],
+    "pros": [
+     "Lowest lead in CR's Jan 2026 retest (42% of its limit)"
+    ],
+    "cons": [
+     "Roughly 12¢ per gram (price estimated)"
+    ],
+    "best_for": "Buyers prioritizing lowest tested lead"
+   },
+   {
+    "name": "Optimum Nutrition Serious Mass Weight Gainer, 12 lb",
+    "brand": "Optimum Nutrition",
+    "tier": "Mass gainer",
+    "segment": "Concentrate / blend",
+    "price_basis": "estimate",
+    "street_price": 64.99,
+    "pack_size": 800,
+    "unit_price": 0.0812,
+    "quality_score": 30,
+    "value_score": 10,
+    "historical_low": null,
+    "typical_sale": "Frequent promos",
+    "buy_under": null,
+    "where_to_buy": [
+     "Amazon",
+     "Walmart"
+    ],
+    "pros": [
+     "Cheap per pound"
+    ],
+    "cons": [
+     "Mostly sugar: ~1,250 calories a serving",
+     "CR flagged 8.5 µg inorganic arsenic per serving, twice its limit"
+    ],
+    "best_for": "No one buying for protein"
+   }
+  ],
+  "deal_intelligence": {
+   "volatility": "Moderate: warehouse prices are steady but vary by location; online brands swing 40–60% between list and sale.",
+   "sale_cadence": [
+    {
+     "event": "Black Friday to Cyber Monday",
+     "timing": "Nov 27–30, 2026",
+     "typical_depth": "Myprotein 50–60% off; name brands 20–30%"
+    },
+    {
+     "event": "Costco instant savings",
+     "timing": "Rotating monthly coupon books",
+     "typical_depth": "$5–$15 off name brands"
+    },
+    {
+     "event": "Amazon Subscribe & Save",
+     "timing": "Always",
+     "typical_depth": "5–15% off"
+    },
+    {
+     "event": "New Year fitness sales",
+     "timing": "Late December to January",
+     "typical_depth": "20–40% off"
+    }
+   ],
+   "best_time_to_buy": "Kirkland: any time. Myprotein and name brands: Black Friday or New Year.",
+   "patience_payoff": "Little for Kirkland (a cheaper warehouse saves ~$8); large for Myprotein, which you should never buy at list.",
+   "discount_honesty": "Myprotein's list prices are anchors; Walmart's Gold Standard 'was' prices vary by flavor ($99.99–$114.99)."
+  },
+  "purchase_paths": [
+   {
+    "name": "Cheapest path that isn't a mistake",
+    "goal": "Lowest cost per gram",
+    "total_cost": 56.74,
+    "items": [
+     {
+      "item": "Kirkland Signature Whey Protein, 5.4 lb",
+      "price": 56.74,
+      "why": "About 3¢ per gram"
+     }
+    ],
+    "rationale": "The value floor for anyone with a Costco membership.",
+    "tradeoff": "One flavor; membership required."
+   },
+   {
+    "name": "Best value without a membership",
+    "goal": "Low cost per gram, known brand",
+    "total_cost": 82.99,
+    "items": [
+     {
+      "item": "Optimum Nutrition Gold Standard 100% Whey, 5 lb (Walmart)",
+      "price": 82.99,
+      "why": "Seen on sale; about 4.7¢ per gram"
+     }
+    ],
+    "rationale": "Widely available, reliable taste and mixing.",
+    "tradeoff": "About 1.6x Kirkland per gram; Myprotein on a 50% sale is cheaper."
+   },
+   {
+    "name": "No-compromise",
+    "goal": "Clean-label isolate",
+    "total_cost": 64.99,
+    "items": [
+     {
+      "item": "Transparent Labs Grass-Fed Whey Protein Isolate, 30 servings",
+      "price": 64.99,
+      "why": "28 g protein per scoop, short ingredient list"
+     }
+    ],
+    "rationale": "Isolate digestion with a clean label.",
+    "tradeoff": "About 2.6x Kirkland per gram."
+   }
+  ],
+  "deals_found": [
+   {
+    "product": "Kirkland Signature Whey Protein, 5.4 lb",
+    "retailer": "Costco (same-day)",
+    "price": 56.74,
+    "pack_size": 1900,
+    "url": "https://sameday.costco.com/store/costco/products/53543841-kirkland-signature-whey-protein-creamy-chocolate-5-4-lb",
+    "note": "Membership; warehouses $48.99–$64.99"
+   },
+   {
+    "product": "Optimum Nutrition Gold Standard 100% Whey, 5 lb",
+    "retailer": "Walmart",
+    "price": 82.99,
+    "pack_size": 1750,
+    "url": "https://www.walmart.com/ip/Optimum-Nutrition-Gold-Standard-100-Whey-Protein-Powder-Extreme-Milk-Chocolate-24g-Protein-5-LB/35456401",
+    "note": "Sale price; varies by flavor"
+   },
+   {
+    "product": "Transparent Labs Grass-Fed Whey Isolate, 30 servings",
+    "retailer": "Amazon",
+    "price": 64.99,
+    "pack_size": 840,
+    "url": "https://www.amazon.com/Transparent-Labs-Grass-Fed-Servings-Chocolate/dp/B0F8P8J3XB",
+    "note": ""
+   }
+  ],
+  "price_segments": {
+   "dimension": "Protein type",
+   "why": "Concentrate, isolate or boutique grass-fed sets the per-gram price more than brand does. Tub prices cover 400–2,100 g of protein, so compare the per-gram range.",
+   "segments": [
+    {
+     "label": "Concentrate / blend",
+     "price_low": 48.99,
+     "price_high": 99.99,
+     "typical_price": 60,
+     "unit_price_range": "2.6–5¢ per gram of protein",
+     "what_you_get": "Ordinary whey (about 70–80% protein); fine for nearly everyone who digests dairy.",
+     "best_pick": "Kirkland Signature Whey Protein, Creamy Chocolate, 5.4 lb",
+     "watch_out": "Blends with milk protein or added amino acids can inflate the label."
+    },
+    {
+     "label": "Isolate",
+     "price_low": 41.99,
+     "price_high": 107,
+     "typical_price": 90,
+     "unit_price_range": "5.4–8.5¢ per gram of protein",
+     "what_you_get": "Filtered further to ~90% protein with little lactose: easier on sensitive stomachs, mixes thinner.",
+     "best_pick": "NOW Sports Whey Protein Isolate, unflavored, 5 lb",
+     "watch_out": "Costs about 2x concentrate per gram; skip it if dairy doesn't bother you."
+    },
+    {
+     "label": "Grass-fed / clean-label isolate",
+     "price_low": 49.99,
+     "price_high": 64.99,
+     "typical_price": 55,
+     "unit_price_range": "7.7–12¢ per gram of protein",
+     "what_you_get": "Grass-fed sourcing, short ingredient lists, sport certifications.",
+     "best_pick": "Transparent Labs Grass-Fed Whey Protein Isolate, 30 servings",
+     "watch_out": "Small tubs hide 3–4x the per-gram cost of Kirkland."
+    }
+   ]
+  },
+  "brands": [
+   {
+    "brand": "Kirkland Signature",
+    "positioning": "Warehouse store brand",
+    "summary": "Costco's whey, launched in 2024; consistently the cheapest whey per gram of protein in the US.",
+    "pros": [
+     "About 2.6–3.4¢ per gram",
+     "25 g protein per scoop",
+     "Costco returns"
+    ],
+    "cons": [
+     "Membership required",
+     "One flavor; price varies by warehouse"
+    ],
+    "price_range": "$48.99–$64.99 (5.4 lb)",
+    "best_for": "Costco members",
+    "verdict": "The default buy for members."
+   },
+   {
+    "brand": "Optimum Nutrition",
+    "positioning": "Mainstream benchmark",
+    "summary": "Gold Standard is the reference whey: many flavors, easy to find, frequently discounted; it also makes Serious Mass, which CR flagged for arsenic.",
+    "pros": [
+     "Trusted, consistent",
+     "Many flavors",
+     "Costco and Walmart deals"
+    ],
+    "cons": [
+     "About 4–5.6¢ per gram off-sale",
+     "Serious Mass flagged by CR"
+    ],
+    "price_range": "$71–$115 (5 lb)",
+    "best_for": "Non-members wanting a known brand",
+    "verdict": "Buy Gold Standard only on sale; skip Serious Mass."
+   },
+   {
+    "brand": "Myprotein",
+    "positioning": "Online direct value",
+    "summary": "UK-based direct seller whose Impact Whey is among the cheapest per gram, but only at its near-constant sale prices.",
+    "pros": [
+     "About 2.6–3¢ per gram on sale",
+     "Huge flavor range"
+    ],
+    "cons": [
+     "List prices are anchors",
+     "Slow shipping at times"
+    ],
+    "price_range": "~$40–$70 (sale, 5.5 lb)",
+    "best_for": "Non-members hunting the lowest price",
+    "verdict": "Excellent on a 50%+ sale; never pay list."
+   },
+   {
+    "brand": "Dymatize",
+    "positioning": "Premium isolate",
+    "summary": "ISO100 is a well-regarded hydrolyzed isolate with popular flavors.",
+    "pros": [
+     "Low lactose, mixes fast",
+     "Good taste"
+    ],
+    "cons": [
+     "About 8.4¢ per gram in small bags"
+    ],
+    "price_range": "$42+ (20 servings)",
+    "best_for": "Lactose-sensitive buyers",
+    "verdict": "Buy the big tub on sale, or choose NOW isolate."
+   },
+   {
+    "brand": "NOW Foods",
+    "positioning": "Value supplement brand",
+    "summary": "No-frills supplement maker; its whey isolate is the cheapest isolate per gram on Amazon.",
+    "pros": [
+     "About 5.4¢ per gram for isolate",
+     "Reputation for testing"
+    ],
+    "cons": [
+     "Unflavored options taste plain"
+    ],
+    "price_range": "~$95–$110 (5 lb, estimate)",
+    "best_for": "Budget isolate",
+    "verdict": "The value isolate."
+   },
+   {
+    "brand": "Transparent Labs",
+    "positioning": "Clean-label premium",
+    "summary": "Grass-fed whey isolate with a short ingredient list and 28 g protein per scoop.",
+    "pros": [
+     "Clean ingredients",
+     "High protein per scoop"
+    ],
+    "cons": [
+     "About 7.7¢ per gram"
+    ],
+    "price_range": "$59.99–$64.99 (30 servings)",
+    "best_for": "Clean-label isolate buyers",
+    "verdict": "Good product; you pay ~2.6x Kirkland for the label."
+   },
+   {
+    "brand": "Naked Nutrition",
+    "positioning": "Single-ingredient",
+    "summary": "Unflavored grass-fed whey with nothing added.",
+    "pros": [
+     "One ingredient",
+     "About 4¢ per gram"
+    ],
+    "cons": [
+     "Bland without blending"
+    ],
+    "price_range": "~$76 (5 lb, estimate)",
+    "best_for": "Smoothie makers avoiding sweeteners",
+    "verdict": "Best clean option per gram."
+   },
+   {
+    "brand": "Momentous",
+    "positioning": "Boutique, sport-certified",
+    "summary": "Pricey grass-fed isolate marketed to athletes who need sport certification.",
+    "pros": [
+     "Sport certification",
+     "Minimal ingredients"
+    ],
+    "cons": [
+     "About 11¢ per gram"
+    ],
+    "price_range": "~$55–$65 (24–25 servings)",
+    "best_for": "Drug-tested athletes",
+    "verdict": "Only if you need the certification."
+   },
+   {
+    "brand": "Equate (Walmart)",
+    "positioning": "Store brand",
+    "summary": "Walmart's whey; cheap and low in lead in Consumer Reports' Jan 2026 retest.",
+    "pros": [
+     "About 3.8¢ per gram",
+     "Low tested lead"
+    ],
+    "cons": [
+     "Price not confirmed",
+     "Few flavors"
+    ],
+    "price_range": "Not confirmed",
+    "best_for": "Non-members at Walmart",
+    "verdict": "A solid cheap option without a membership."
+   },
+   {
+    "brand": "Clean Simple Eats",
+    "positioning": "Boutique wellness brand",
+    "summary": "Lowest lead of any powder in Consumer Reports' Jan 2026 retest.",
+    "pros": [
+     "Lowest tested lead"
+    ],
+    "cons": [
+     "Roughly 4x Kirkland per gram"
+    ],
+    "price_range": "~$50 (estimate)",
+    "best_for": "Lowest-lead priority",
+    "verdict": "Pay up only if lead is your top concern."
+   }
+  ],
+  "caveats": [
+   "Protein per tub is estimated from serving counts and protein per scoop (e.g. Kirkland ~76 servings × 25 g).",
+   "Myprotein, Naked, NOW, Isopure, Ghost, Momentous, Clean Simple Eats and Serious Mass prices come from price trackers or reviews, not store pages seen this week.",
+   "Equate and Muscle Milk show only a tracked price per gram; tub prices weren't confirmed.",
+   "Consumer Reports didn't publish full lab data for every product."
+  ],
+  "sources": [
+   {
+    "title": "Costco same-day: Kirkland Signature Whey Protein 5.4 lb",
+    "url": "https://sameday.costco.com/store/costco/products/53543841-kirkland-signature-whey-protein-creamy-chocolate-5-4-lb"
+   },
+   {
+    "title": "Warehouse Runner: Kirkland whey price tracker",
+    "url": "https://app.warehouserunner.com/costco/1780375-kirkland-signature-whey-protein-creamy-chocolate-5-4lb"
+   },
+   {
+    "title": "Walmart: ON Gold Standard 5 lb",
+    "url": "https://www.walmart.com/ip/Optimum-Nutrition-Gold-Standard-100-Whey-Protein-Powder-Extreme-Milk-Chocolate-24g-Protein-5-LB/35456401"
+   },
+   {
+    "title": "Costco same-day: ON Gold Standard 80 servings",
+    "url": "https://sameday.costco.com/store/costco/products/19527995-optimum-nutrition-gold-standard-100-whey-protein-powder-chocolate-80-servings-80-servings"
+   },
+   {
+    "title": "Compare Protein Prices: cheapest whey (Nov 2026)",
+    "url": "https://compareproteinprices.com/blog/cheapest-whey-protein-us/"
+   },
+   {
+    "title": "Whey Wijzer: best whey per gram",
+    "url": "https://whey-wijzer.fit/en-us/best-whey-protein"
+   },
+   {
+    "title": "WheySearch: best whey under $50",
+    "url": "https://wheysearch.com/en-us/blog/best-whey-protein-under-50-us-2026"
+   },
+   {
+    "title": "Amazon: Transparent Labs Grass-Fed Whey Isolate",
+    "url": "https://www.amazon.com/Transparent-Labs-Grass-Fed-Servings-Chocolate/dp/B0F8P8J3XB"
+   },
+   {
+    "title": "Fuelstackr: Transparent Labs vs. Momentous",
+    "url": "https://fuelstackr.com/blog/transparent-labs-vs-momentous-grass-fed-whey-protein-2025-review/"
+   },
+   {
+    "title": "Consumer Reports: protein supplements test results (Jan 2026)",
+    "url": "https://article.images.consumerreports.org/image/upload/v1767807742/prod/content/dam/CRO-images-2026/Special%20Projects/Consumer-Reports-Protein-Supplements-Test-Methodology-and-Test-Results-January-2026.pdf"
+   },
+   {
+    "title": "Food Safety News: CR finds excessive lead in protein shakes",
+    "url": "https://www.foodsafetynews.com/2025/10/consumer-reports-finds-excessive-amounts-of-lead-in-protein-shakes"
+   },
+   {
+    "title": "NPR: lead in popular protein powders",
+    "url": "https://www.wfae.org/health/2025-10-16/a-study-found-lead-in-popular-protein-powders-heres-why-you-shouldnt-panic"
+   },
+   {
+    "title": "Garage Gym Reviews: best whey protein",
+    "url": "https://www.garagegymreviews.com/best-whey-protein"
+   },
+   {
+    "title": "Stack3d: how competitive is Kirkland whey",
+    "url": "https://www.stack3d.com/2024/07/how-competitive-is-costcos-kirkland-whey-protein/"
+   }
+  ]
+ }
+}

@@ -114,6 +114,10 @@
   .vm-side-item-cat { display: block; font-size: 13.5px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .vm-side-item-meta { display: flex; align-items: center; gap: 6px; font-size: 11.5px; color: var(--ink-faint); margin-top: 1px; white-space: nowrap; overflow: hidden; }
   .vm-side-dot { width: 7px; height: 7px; border-radius: 50%; flex: none; }
+  .vm-side-spin { width: 9px; height: 9px; border-radius: 50%; flex: none; border: 2px solid var(--accent); border-top-color: transparent; animation: vm-side-spin 0.9s linear infinite; box-sizing: border-box; }
+  @keyframes vm-side-spin { to { transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: reduce) { .vm-side-spin { animation: none; border-top-color: var(--accent); opacity: 0.6; } }
+  .vm-side-job .vm-side-item-meta { color: var(--ink-soft); }
   .vm-side-empty { font-size: 12.5px; color: var(--ink-faint); margin: 0 4px; line-height: 1.45; }
   .vm-side-example .vm-side-item-cat { font-weight: 500; }
   .vm-side-foot { margin-top: auto; padding-top: 12px; border-top: 1px solid var(--rule); display: flex; flex-direction: column; align-items: flex-start; gap: 2px; }
@@ -235,12 +239,18 @@
   /* the call: strike price + buy now / wait */
   .vm-call { display: grid; grid-template-columns: minmax(0, 260px) minmax(0, 1fr); border: 1px solid var(--rule); border-radius: var(--radius); background: var(--paper); overflow: hidden; }
   .vm-call-one { grid-template-columns: minmax(0, 1fr); }
+  .vm-gauge { position: relative; margin: 30px 2px 4px; max-width: 420px; }
+  .vm-gauge-bar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; gap: 2px; }
+  .vm-gauge-bar span { display: block; height: 100%; opacity: 0.85; }
+  .vm-gauge-now { position: absolute; top: 4px; width: 16px; height: 16px; border-radius: 50%; background: var(--ink); border: 3px solid var(--paper); transform: translate(-50%, -50%); box-sizing: border-box; }
+  .vm-gauge-now-label { position: absolute; top: -24px; font-size: 12.5px; font-weight: 700; white-space: nowrap; color: var(--ink); font-variant-numeric: tabular-nums; }
+  .vm-gauge-strike { position: absolute; top: -3px; width: 2px; height: 14px; background: var(--ink-soft); transform: translateX(-50%); }
+  .vm-gauge-scale { display: flex; justify-content: space-between; font-size: 11px; color: var(--ink-faint); margin-top: 6px; }
   .vm-call-strike { padding: 16px 20px 18px; border-right: 1px solid var(--rule); text-align: center; min-width: 0; }
   .vm-call-act { padding: 16px 22px 18px; min-width: 0; }
   @media (max-width: 620px) { .vm-call { grid-template-columns: minmax(0, 1fr); } .vm-call-strike { border-right: 0; border-bottom: 1px solid var(--rule); } }
   .vm-call p { margin: 0; overflow-wrap: break-word; }
   .vm-call .vm-call-k { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-faint); margin: 0 0 8px; text-align: left; }
-  .vm-dial { display: block; margin: 0 auto 4px; max-width: 100%; height: auto; }
   .vm-call .vm-call-big { font-family: var(--font-head); font-size: 30px; font-weight: 700; color: var(--ink); line-height: 1.1; }
   .vm-call-big span { font-family: var(--font-body); font-size: 14px; font-weight: 400; color: var(--ink-soft); }
   .vm-call .vm-call-sub { font-size: 13.5px; color: var(--ink-soft); margin-top: 4px; }
@@ -557,6 +567,38 @@
   @media (max-width: 420px) { .vm-proscons { grid-template-columns: minmax(0, 1fr); } }
   .vm-proscons ul { margin: 4px 0 0; padding-left: 16px; }
   .vm-proscons li { margin-bottom: 3px; }
+  /* price by segment */
+  .vm-sg-row { display: grid; grid-template-columns: minmax(120px, 26%) minmax(0, 1fr); gap: 16px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--rule); }
+  .vm-sg-name { font-size: 13.5px; font-weight: 600; line-height: 1.3; display: flex; gap: 7px; align-items: baseline; min-width: 0; }
+  .vm-sg-track { position: relative; height: 18px; margin: 0 8px; }
+  .vm-sg-base { position: absolute; left: 0; right: 0; top: 50%; height: 2px; background: var(--rule); transform: translateY(-50%); }
+  .vm-sg-bar { position: absolute; top: 50%; height: 10px; min-width: 4px; border-radius: 5px; transform: translateY(-50%); }
+  .vm-sg-typ { position: absolute; top: 50%; width: 12px; height: 12px; border-radius: 50%; background: var(--ink); border: 2px solid var(--card); transform: translate(-50%, -50%); box-sizing: border-box; }
+  .vm-sg-prod { position: absolute; top: 50%; width: 9px; height: 9px; border-radius: 50%; background: var(--card); border: 2px solid var(--ink-soft); transform: translate(-50%, -50%); box-sizing: border-box; }
+  .vm-sg-text { font-size: 12.5px; color: var(--ink-soft); margin: 4px 8px 0; line-height: 1.4; font-variant-numeric: tabular-nums; }
+  .vm-sg-text b { color: var(--ink); }
+  .vm-sg-axis { display: grid; grid-template-columns: minmax(120px, 26%) minmax(0, 1fr); gap: 16px; font-size: 11px; color: var(--ink-faint); font-variant-numeric: tabular-nums; }
+  .vm-sg-axis div { position: relative; height: 18px; margin: 4px 8px 0; }
+  .vm-sg-axis div span { position: absolute; white-space: nowrap; }
+  @media (max-width: 600px) { .vm-sg-row, .vm-sg-axis { grid-template-columns: minmax(0, 1fr); gap: 6px; } .vm-sg-axis > span { display: none; } }
+  .vm-sg-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 18px; }
+  .vm-sg-card { border: 1px solid var(--rule); border-radius: var(--radius); padding: 14px 16px; min-width: 0; font-size: 13px; line-height: 1.5; color: var(--ink-soft); }
+  .vm-sg-card p { margin: 0 0 6px; }
+  .vm-sg-card b { color: var(--ink); font-weight: 600; }
+  .vm-sg-card-label { font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 700; color: var(--ink-soft); display: flex; gap: 7px; align-items: center; }
+  .vm-sg-card-price { font-size: 18px; font-weight: 700; color: var(--ink); line-height: 1.25; }
+  .vm-sg-card-meta { font-size: 12.5px; color: var(--ink-faint); }
+  .vm-sg-watch { background: var(--paper); border-radius: 6px; padding: 7px 9px; margin-top: 8px !important; }
+  /* brands */
+  .vm-brands { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px; }
+  .vm-brand { border: 1px solid var(--rule); border-radius: var(--radius); padding: 14px 16px; min-width: 0; font-size: 13px; line-height: 1.5; }
+  .vm-brand-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; }
+  .vm-brand-name { font-weight: 700; font-size: 15px; margin: 0; line-height: 1.3; min-width: 0; }
+  .vm-brand-price { font-size: 12.5px; color: var(--ink-soft); font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .vm-brand-pos { color: var(--ink-faint); font-size: 12px; margin: 2px 0 8px; }
+  .vm-brand-summary { color: var(--ink-soft); margin: 0 0 10px; }
+  .vm-brand-verdict { background: var(--accent-soft); border-radius: 6px; padding: 8px 10px; margin: 10px 0 0; color: var(--ink); }
+  .vm-brand-verdict b { font-weight: 600; }
   .vm-paths { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 12px; }
   .vm-path-card { border: 1px solid var(--rule); border-radius: var(--radius); padding: 16px; background: var(--card); min-width: 0; display: flex; flex-direction: column; }
   .vm-path-head { display:flex; justify-content: space-between; align-items: baseline; gap: 10px; margin-bottom: 6px; }
@@ -858,13 +900,16 @@
 "- BUY_SELECTIVELY: only when where and what you buy matters more than when, because much of what a shopper will see is risky: counterfeits, misleading labels, reformulated or grey-market stock, or prices that vary wildly by seller.",
 "- BUY_NOW: otherwise. The pick is at or near its buy-under today, or it rarely discounts, so waiting buys little.",
 "Having better and worse products, or recommending specific picks, is NOT a reason for BUY_SELECTIVELY: every report does that.",
-"State the signal and the rule that decided it in one sentence.",
-"</verdict_rules>",
-"",
+"</verdict_rules>"
+  ].join("\n");
+
+  // The research brief ends with this; the report shows it as the strike
+  // price and a Google Flights-style gauge of today's price vs. usual.
+  var YOUR_CALL = [
 "<your_call>",
 "End the brief with YOUR CALL, two parts a shopper can act on today:",
 "1. STRIKE PRICE: the pack price (and the price per unit) at or below which to buy your recommended item.",
-"2. BUY NOW or WAIT: either buy a specific item now (exact product and pack size, the store, today's price) because it is at or under its strike price, or wait (today's price, the strike price, and which sale or month is likely to get there). If the category isn't worth buying, say what to buy instead.",
+"2. TODAY'S PRICE vs. USUAL: for that exact item and pack size, its usual price range when it is not on sale (low and high, from what you saw across retailers and its price history), today's best price and the store. Say whether today's price is lower than usual (on sale now), typical, or higher than usual. If it isn't at or under the strike price, say which sale or month usually gets it there. If the category isn't worth buying, say what to buy instead.",
 "Then list DEALS SEEN: specific current offers you actually saw on a store page or listing during research (product and pack size, store, price, link, any condition such as a coupon, membership or subscription). List only offers you saw; if you saw none, write \"none seen\".",
 "</your_call>"
   ].join("\n");
@@ -910,6 +955,15 @@
 "Include the things that look like value to a price-sensitive shopper and are not. This is the section this reader most needs and least often gets. Typical shapes: the bulk pack whose unit price is worse than it appears; the mid-tier that costs nearly as much as the good tier while performing like the cheap one; the beginner/student grade that gets replaced within months; the bundle padded with items nobody uses; the brand charging a premium for a rebadged commodity product. Name the specific trap in THIS category, why it looks good, why it isn't, and what to do instead.",
 "</value_traps>",
 "",
+"<price_segments>",
+"Break the market's prices down by the one attribute that most changes what a shopper pays, and that they pick before they pick a brand. Choose it for THIS category: total carat weight for diamond jewelry (1 ct, 2 ct, 3 ct, 5 ct); ply for toilet paper (1-ply, 2-ply, 3-ply); conventional / organic / small-batch for food; capacity, size or engine for durables. When no single attribute like that drives price, segment by quality tier instead (budget / mid-range / premium, or functional / premium). Say in one sentence which attribute you chose and why it beats the alternatives.",
+"Use 3-6 segments, ordered from cheapest to most expensive. For each, give: the price range a shopper will actually see for a typical item, from real listings (low to high, in dollars, for the item or common pack, not per unit); the typical price most people pay; the per-unit range on your normalization unit where it applies; what the extra money buys over the segment below; the best-value pick within that segment; and what to watch out for at that level. If the buyer named a segment, still cover all of them so they can see what one step up or down costs.",
+"</price_segments>",
+"",
+"<brands>",
+"Profile every brand behind the products you cover, plus any major brand a shopper will see that you didn't cover. For each: its positioning (budget, mainstream, store brand, premium, specialist, luxury, enthusiast) and reputation in a sentence or two, who makes it if that matters (store brands made by a name manufacturer, rebadges, lab vs. mined, licensed names), 2-4 pros and 2-4 cons that are true of the brand as a whole rather than one product, its typical price range, who it suits, and a one-line verdict for a value-maximizing buyer. Note warranty, return, resale or service differences where they change the value math.",
+"</brands>",
+"",
 "<purchase_strategy>",
 "End with named strategies, not a single winner. At least: the cheapest path that isn't a mistake, the best-value build, and the no-compromise build. Give each a real total cost with itemized picks, and state what it deliberately gives up. Also cover how to enter the category cheaply and what to upgrade first when the buyer outgrows the entry setup.",
 "</purchase_strategy>",
@@ -922,7 +976,7 @@
 "Deliver the analysis at the scope asked. If the category is ambiguous (it spans several distinct sub-markets that don't share a normalization unit), pick the most likely reading, say which reading you picked in one sentence, and analyze that \u2014 don't analyze all of them shallowly.",
 "</calibration>",
 "",
-VERDICT_RULES
+YOUR_CALL
   ].join("\n");
 
   var STRUCTURE_SYSTEM_PROMPT = [
@@ -942,14 +996,20 @@ VERDICT_RULES
 "",
 "- products: one row for EVERY product the brief names, including ones with estimated or missing prices. price_basis is \"seen\" when the brief cites a price seen at a store or listing during research, \"estimate\" when it is marked (est.), approximate or from memory, and \"unknown\" when the brief gives no price (then the price fields are null). A number the brief does not give is null, never 0.",
 "",
-"- verdict.signal: use what the brief states. If it states none, apply these rules (ignore the instructions about writing the brief):",
+"- verdict.signal: use what the brief states. If it states none, apply these rules:",
 VERDICT_RULES,
 "",
-"- recommendation: the brief's YOUR CALL. action is BUY_NOW when it says to buy a specific item today, WAIT when it says to hold out for a lower price, SKIP when it says the category isn't worth buying. product is the exact item and pack size, using the same name as its products row. current_price and strike_price are pack prices for that item; strike_unit_price is the strike per unit_short; retailer is where to buy it. wait_for names the sale or month to wait for (empty unless WAIT). why is one plain sentence. If the brief has no explicit call, take the best-value pick and its buy-under: BUY_NOW if its price today is at or under the buy-under, otherwise WAIT.",
+"- recommendation: the brief's YOUR CALL. action is BUY_NOW when today's price is at or under the strike price, WAIT when a sale is worth waiting for, SKIP when it says the category isn't worth buying. product is the exact item and pack size, using the same name as its products row. current_price and strike_price are pack prices for that item; usual_low and usual_high are its usual pack price range when not on sale (null when the brief gives no range); strike_unit_price is the strike per unit_short; retailer is where to buy it. wait_for names the sale or month to wait for (empty unless WAIT). why is one plain sentence. If the brief has no explicit call, take the best-value pick and its buy-under: BUY_NOW if its price today is at or under the buy-under, otherwise WAIT.",
 "",
 "- deals_found: only the specific offers the brief says were seen on a store page or listing (DEALS SEEN, or prices it cites with a store). Never an estimate. url only when the brief gives one, else empty. note is a condition such as \"Subscribe & Save\", \"membership required\" or \"rollback\", else empty. Empty array if none were seen.",
 "",
 "- awards: leave an award's product and why empty when it doesn't really apply to this category (e.g. longest_lasting for a consumable) rather than repeating another pick.",
+"",
+"- price_segments: the brief's price breakdown by segment. dimension is the attribute it segments by, as a shopper would say it (\"Total carat weight\", \"Ply\", \"Sourcing\", \"Quality tier\"); why is its one-sentence reason. segments are ordered cheapest first. label is the segment name as a shopper would say it (\"1 ct\", \"2-ply\", \"Organic\", \"Mid-range\"). price_low and price_high are the dollar range for a typical item or common pack in that segment (not per unit); typical_price is what most people pay; unit_price_range is the per-unit range as text (\"$0.04–$0.06 / sheet\"), or empty. what_you_get is what the money buys over the segment below; best_pick is the best-value product in the segment, using the same name as its products row; watch_out is the main risk at that level. Use null for a number the brief does not give.",
+"",
+"- brands: one entry for every brand the brief profiles, plus any brand behind a product row that it doesn't. positioning is a short label (\"Store brand\", \"Premium\", \"Lab-grown specialist\"). summary is one or two sentences on what the brand is and how it's regarded. pros and cons are short phrases true of the brand as a whole. price_range is text (\"$900–$4,500\"). best_for and verdict are one line each; verdict speaks to a value-maximizing buyer.",
+"",
+"- products.segment: the price_segments label the product falls in, spelled exactly as in the brief's segment breakdown; empty if it fits none.",
 "",
 "Scores are comparative within this report: quality_score ranks products against each other on the brief's own criteria, value_score ranks quality delivered per dollar. Spread them across the available range \u2014 if everything scores 70-80 the chart tells the reader nothing.",
 "",
@@ -1042,8 +1102,8 @@ VERDICT_RULES,
       }, ["headline","signal","confidence","reasoning","price_watch_summary"]),
       recommendation: strObj({
         action: { type: "string", enum: ["BUY_NOW","WAIT","SKIP"] },
-        product: S, retailer: S, current_price: NN, strike_price: NN, pack_size: NN, strike_unit_price: NN, wait_for: S, why: S
-      }, ["action","product","retailer","current_price","strike_price","pack_size","strike_unit_price","wait_for","why"]),
+        product: S, retailer: S, current_price: NN, usual_low: NN, usual_high: NN, strike_price: NN, pack_size: NN, strike_unit_price: NN, wait_for: S, why: S
+      }, ["action","product","retailer","current_price","usual_low","usual_high","strike_price","pack_size","strike_unit_price","wait_for","why"]),
       normalization: strObj({
         unit: S, unit_short: S, unit_rationale: S, quality_adjustment: S, formula: S,
         bands: arr(strObj({ label: S, low: N, high: N, verdict: S }, ["label","low","high","verdict"])),
@@ -1067,18 +1127,23 @@ VERDICT_RULES,
       marketing_noise: arr(strObj({ claim: S, reality: S }, ["claim","reality"])),
       value_traps: arr(strObj({ trap: S, why_it_looks_good: S, why_it_isnt: S, instead: S }, ["trap","why_it_looks_good","why_it_isnt","instead"])),
       tiers: arr(strObj({ tier: S, price_range: S, unit_price_range: S, who_its_for: S, representative_brands: SA, verdict: S }, ["tier","price_range","unit_price_range","who_its_for","representative_brands","verdict"])),
-      consensus: strObj({ expert_view: S, community_view: S, where_they_disagree: S }, ["expert_view","community_view","where_they_disagree"])
-    }, ["spec_criteria","marketing_noise","value_traps","tiers","consensus"]);
+      consensus: strObj({ expert_view: S, community_view: S, where_they_disagree: S }, ["expert_view","community_view","where_they_disagree"]),
+      price_segments: strObj({
+        dimension: S, why: S,
+        segments: arr(strObj({ label: S, price_low: NN, price_high: NN, typical_price: NN, unit_price_range: S, what_you_get: S, best_pick: S, watch_out: S }, ["label","price_low","price_high","typical_price","unit_price_range","what_you_get","best_pick","watch_out"]))
+      }, ["dimension","why","segments"]),
+      brands: arr(strObj({ brand: S, positioning: S, summary: S, pros: SA, cons: SA, price_range: S, best_for: S, verdict: S }, ["brand","positioning","summary","pros","cons","price_range","best_for","verdict"]))
+    }, ["spec_criteria","marketing_noise","value_traps","tiers","consensus","price_segments","brands"]);
   }
 
   function schemaPart3() {
     // products + deal_intelligence + purchase_paths + caveats + sources
     return strObj({
       products: arr(strObj({
-        name: S, brand: S, tier: S, price_basis: { type: "string", enum: ["seen", "estimate", "unknown"] },
+        name: S, brand: S, tier: S, segment: S, price_basis: { type: "string", enum: ["seen", "estimate", "unknown"] },
         street_price: NN, pack_size: NN, unit_price: NN, quality_score: N, value_score: N,
         historical_low: NN, typical_sale: S, buy_under: NN, where_to_buy: SA, pros: SA, cons: SA, best_for: S
-      }, ["name","brand","tier","price_basis","street_price","pack_size","unit_price","quality_score","value_score","historical_low","typical_sale","buy_under","where_to_buy","pros","cons","best_for"])),
+      }, ["name","brand","tier","segment","price_basis","street_price","pack_size","unit_price","quality_score","value_score","historical_low","typical_sale","buy_under","where_to_buy","pros","cons","best_for"])),
       deal_intelligence: strObj({
         volatility: S,
         sale_cadence: arr(strObj({ event: S, timing: S, typical_depth: S }, ["event","timing","typical_depth"])),
@@ -1097,8 +1162,8 @@ VERDICT_RULES,
 
   var STRUCTURE_FOCUS = [
     "For this pass, extract ONLY: the category and scope, the plain-language primer (what the product is, must-have features, premium features, things to avoid), the verdict, the recommendation (strike price and buy-now-or-wait call), the normalization approach, the diminishing-returns curve, and the seven awards. Ignore every other aspect of the brief \u2014 spec criteria, products, purchase paths, and sources are handled in separate passes and must not appear here.",
-    "For this pass, extract ONLY: the ranked spec criteria with weights, the marketing-noise/reality pairs, the value traps, the market tiers, and the expert/community consensus. Ignore the verdict, products, purchase paths, and sources \u2014 those are handled in separate passes.",
-    "For this pass, extract ONLY: the full list of named products with prices and scores, deal intelligence (volatility, sale cadence, timing), the named purchase paths with itemized costs, the specific deals seen, the caveats, and the sources. Ignore the verdict, normalization, and spec criteria \u2014 those are handled in separate passes."
+    "For this pass, extract ONLY: the ranked spec criteria with weights, the marketing-noise/reality pairs, the value traps, the market tiers, the expert/community consensus, the price breakdown by segment, and the brand profiles. Ignore the verdict, products, purchase paths, and sources \u2014 those are handled in separate passes.",
+    "For this pass, extract ONLY: the full list of named products with prices, scores and segment, deal intelligence (volatility, sale cadence, timing), the named purchase paths with itemized costs, the specific deals seen, the caveats, and the sources. Ignore the verdict, normalization, and spec criteria \u2014 those are handled in separate passes."
   ];
   // ============================================================
   // Small SVG chart helpers
@@ -1257,8 +1322,16 @@ VERDICT_RULES,
     r.value_traps = L(r.value_traps).map(O);
     r.tiers = L(r.tiers).map(function (t) { t = O(t); t.representative_brands = L(t.representative_brands); return t; });
     r.consensus = O(r.consensus);
+    var segs = r.price_segments = O(r.price_segments);
+    segs.dimension = String(segs.dimension || ""); segs.why = String(segs.why || "");
+    segs.segments = L(segs.segments).map(O).filter(function (x) { return x.label; }).map(function (x) {
+      ["price_low", "price_high", "typical_price"].forEach(function (k) { x[k] = N0(x[k]) || null; });
+      if (x.price_low != null && x.price_high != null && x.price_low > x.price_high) { var t = x.price_low; x.price_low = x.price_high; x.price_high = t; }
+      return x;
+    });
+    r.brands = L(r.brands).map(O).filter(function (b) { return b.brand; }).map(function (b) { b.pros = L(b.pros); b.cons = L(b.cons); return b; });
     r.products = L(r.products).map(function (p) {
-      p = O(p); p.pros = L(p.pros); p.cons = L(p.cons); p.where_to_buy = L(p.where_to_buy);
+      p = O(p); p.pros = L(p.pros); p.cons = L(p.cons); p.where_to_buy = L(p.where_to_buy); p.segment = String(p.segment || "").trim();
       ["street_price", "unit_price", "quality_score", "value_score", "historical_low", "buy_under"].forEach(function (k) { p[k] = N0(p[k]); });
       // A price of 0 is never real: older reports used 0 for "couldn't find it".
       ["street_price", "unit_price", "historical_low", "buy_under"].forEach(function (k) { if (p[k] === 0) p[k] = null; });
@@ -1275,7 +1348,7 @@ VERDICT_RULES,
     r.caveats = L(r.caveats); r.sources = L(r.sources).map(O).filter(function (s) { return s.url || s.title; });
     r.coverage = O(r.coverage); r.coverage.brands = L(r.coverage.brands).map(O).filter(function (b) { return b.brand; });
     var rec = r.recommendation = O(r.recommendation);
-    ["current_price", "strike_price", "pack_size", "strike_unit_price"].forEach(function (k) { rec[k] = N0(rec[k]) || null; });
+    ["current_price", "usual_low", "usual_high", "strike_price", "pack_size", "strike_unit_price"].forEach(function (k) { rec[k] = N0(rec[k]) || null; });
     rec.action = ["BUY_NOW", "WAIT", "SKIP"].indexOf(String(rec.action || "").toUpperCase()) >= 0 ? String(rec.action).toUpperCase() : "";
     ["product", "retailer", "wait_for", "why"].forEach(function (k) { rec[k] = String(rec[k] || ""); });
     r.deals_found = L(r.deals_found).map(O).filter(function (x) { return x.product && N0(x.price); })
@@ -1332,11 +1405,12 @@ VERDICT_RULES,
     var cands = r.products.filter(function (p) { return p.buy_under != null && p !== avoidP; });
     var pref = [a.best_value.product, a.best_overall.product].map(function (nm) { return nm ? matchProduct(cands, nm) : null; }).filter(Boolean)[0] ||
       cands.slice().sort(byValue)[0] || null;
-    var c = { derived: !rec.product, action: "", p: null, name: "", retailer: "", now: null, strike: null, pack: null, strikeUnit: null, waitFor: "", why: "", alt: null };
+    var c = { derived: !rec.product, action: "", usualLow: null, usualHigh: null, p: null, name: "", retailer: "", now: null, strike: null, pack: null, strikeUnit: null, waitFor: "", why: "", alt: null };
     if (rec.product) {
       c.p = matchProduct(r.products, rec.product);
       c.action = rec.action || "WAIT"; c.name = rec.product; c.retailer = rec.retailer;
       c.now = rec.current_price; c.strike = rec.strike_price; c.pack = rec.pack_size; c.strikeUnit = rec.strike_unit_price;
+      c.usualLow = rec.usual_low; c.usualHigh = rec.usual_high;
       c.waitFor = rec.wait_for; c.why = rec.why;
     } else {
       if (!pref) return null;
@@ -1368,65 +1442,83 @@ VERDICT_RULES,
     if (c.action === "BUY_NOW" && c.now != null && c.strike != null && c.now > c.strike * 1.08) c.action = "WAIT";
     return c;
   }
-  function strikeGap(c) {
-    if (c.now == null || c.strike == null || !c.strike) return null;
-    var d = (c.now - c.strike) / c.strike;
-    return { d: d, text: Math.abs(d) < 0.005 ? "At the strike price" : Math.round(Math.abs(d) * 100) + "% " + (d > 0 ? "above" : "below") + " the strike price" };
-  }
-  var CALL_META = {
-    BUY_NOW: { verb: "Buy now", cls: "good" },
-    WAIT: { verb: "Wait for a better price", cls: "warning" },
-    SKIP: { verb: "Skip this category", cls: "critical" }
-  };
 
-  // Price meter: where today's price sits against the strike price.
-  function priceDialSVG(c) {
-    if (c.now == null || c.strike == null) return "";
-    var s = c.strike, lo = Math.min(s * 0.8, c.now * 0.95), hi = Math.max(s * 1.3, c.now * 1.08);
-    var cx = 110, cy = 108, rad = 80;
-    function ang(x) { return Math.PI - Math.max(0, Math.min(1, (x - lo) / (hi - lo))) * Math.PI; }
-    function pt(a, rr) { return [cx + rr * Math.cos(a), cy - rr * Math.sin(a)]; }
-    function arc(x0, x1, color) {
-      var p0 = pt(ang(x0), rad), p1 = pt(ang(x1), rad);
-      return '<path d="M ' + p0[0].toFixed(1) + " " + p0[1].toFixed(1) + " A " + rad + " " + rad + " 0 0 1 " + p1[0].toFixed(1) + " " + p1[1].toFixed(1) + '" stroke="' + color + '" stroke-width="13" fill="none"/>';
+  // ------------------------------------------------------------
+  // Today's price, Google Flights style: lower than usual, typical, or
+  // higher than usual for the recommended item, plus whether a sale is
+  // worth waiting for. The usual range comes from research when given;
+  // otherwise it is the item's regular price give or take 5%.
+  // ------------------------------------------------------------
+  var LEVEL_META = {
+    low: { label: "Lower than usual", short: "Low price", cls: "good", color: "good" },
+    typical: { label: "Typical price", short: "Typical price", cls: "warning", color: "warning" },
+    high: { label: "Higher than usual", short: "High price", cls: "critical", color: "critical" }
+  };
+  function priceLevel(c) {
+    if (!c || c.action === "SKIP" || c.now == null) return null;
+    var ref = c.p && c.p.street_price != null ? c.p.street_price : c.now;
+    var given = c.usualLow != null && c.usualHigh != null && c.usualHigh >= c.usualLow;
+    var lo = given ? c.usualLow : ref * 0.95, hi = given ? c.usualHigh : ref * 1.05;
+    var key = c.now < lo * 0.995 ? "low" : c.now > hi * 1.005 ? "high" : "typical";
+    return { key: key, lo: lo, hi: hi, ref: ref, given: given, waitWorth: c.strike != null && c.strike < c.now * 0.97 };
+  }
+  function usualText(lv, money, now) {
+    if (!lv.given && now != null && Math.abs(now - lv.ref) < lv.ref * 0.005) return ""; // "now $43 · regular price $43" says nothing
+    if (lv.given) return "usually " + (Math.abs(lv.hi - lv.lo) < 0.005 ? money(lv.lo) : money(lv.lo) + "–" + money(lv.hi));
+    return "regular price " + money(lv.ref);
+  }
+  // The one line that says what to do about today's price.
+  function levelAction(c, lv) {
+    if (lv.key === "low") {
+      var off = lv.lo ? Math.round((lv.lo - c.now) / lv.lo * 100) : 0;
+      return c.strike != null && c.now <= c.strike * 1.005 ? "<b>On sale now</b>, at or under the strike price. A good time to buy."
+        : "<b>On sale now</b>" + (off >= 1 ? ", " + off + "% below usual" : "") + "." + (c.strike != null ? " The strike price is " + fmtMoney(c.strike) + "." : "");
     }
-    var amberTo = Math.min(hi, s * 1.12);
-    var zones = arc(lo, s, "var(--status-good)") + arc(s, amberTo, "var(--status-warning)") + (hi > amberTo ? arc(amberTo, hi, "var(--status-critical)") : "");
-    var ta = ang(s), t0 = pt(ta, rad - 11), t1 = pt(ta, rad + 11), tl = pt(ta, rad + 15);
-    var tick = '<line x1="' + t0[0].toFixed(1) + '" y1="' + t0[1].toFixed(1) + '" x2="' + t1[0].toFixed(1) + '" y2="' + t1[1].toFixed(1) + '" stroke="var(--ink)" stroke-width="2.5"/>' +
-      '<text x="' + tl[0].toFixed(1) + '" y="' + (tl[1] + 3).toFixed(1) + '" text-anchor="' + (tl[0] < cx - 8 ? "end" : tl[0] > cx + 8 ? "start" : "middle") + '" font-size="10.5" font-weight="700" fill="var(--ink)">Strike</text>';
-    var na = ang(c.now), np = pt(na, rad - 18);
-    var g = strikeGap(c);
-    var big = Math.abs(g.d) < 0.005 ? "At strike" : Math.round(Math.abs(g.d) * 100) + "% " + (g.d > 0 ? "over" : "under");
-    return '<svg class="vm-dial" viewBox="0 0 220 140" width="200" role="img" aria-label="Today ' + esc(fmtMoney(c.now)) + ", strike " + esc(fmtMoney(c.strike)) + ": " + esc(g.text) + '">' +
-      zones + tick +
-      '<line x1="' + cx + '" y1="' + cy + '" x2="' + np[0].toFixed(1) + '" y2="' + np[1].toFixed(1) + '" stroke="var(--ink)" stroke-width="3" stroke-linecap="round"/>' +
-      '<circle cx="' + cx + '" cy="' + cy + '" r="5" fill="var(--ink)"/>' +
-      '<text x="' + cx + '" y="' + (cy + 25) + '" text-anchor="middle" font-size="17" font-weight="700" fill="var(--ink)">' + esc(big) + "</text>" +
-      "</svg>";
+    if (c.strike != null && c.now <= c.strike * 1.005) return "<b>Good time to buy:</b> at or under the strike price.";
+    if (lv.waitWorth) return "<b>Wait for a sale</b> and buy at " + fmtMoney(c.strike) + " or less." + (c.waitFor ? " Watch for " + esc(c.waitFor) + "." : "");
+    if (lv.key === "high") return "<b>Wait</b> for it to come back to about " + fmtMoney(lv.hi) + ".";
+    return "<b>Rarely discounts much.</b> Fine to buy at this price.";
+  }
+  function priceGaugeHTML(c, lv) {
+    // A strike far outside the usual range (odd source data) would squash the bands, so it isn't drawn then.
+    var showStrike = c.strike != null && c.strike >= lv.lo * 0.6 && c.strike <= lv.hi * 1.15;
+    var vals = [lv.lo, lv.hi, c.now].concat(showStrike ? [c.strike] : []);
+    var span = Math.max.apply(null, vals) - Math.min.apply(null, vals) || lv.hi * 0.1 || 1;
+    var dMin = Math.max(0, Math.min.apply(null, vals) - span * 0.6), dMax = Math.max.apply(null, vals) + span * 0.6;
+    function pos(v) { return (Math.max(0, Math.min(1, (v - dMin) / (dMax - dMin))) * 100).toFixed(2); }
+    var a = pos(lv.lo), b = pos(lv.hi), n = pos(c.now);
+    var nowEdge = n < 12 ? "0" : n > 88 ? "-100%" : "-50%";
+    var strike = showStrike ? '<span class="vm-gauge-strike" style="left:' + pos(c.strike) + '%" title="Strike price ' + esc(fmtMoney(c.strike)) + '"></span>' : "";
+    return '<div class="vm-gauge" role="img" aria-label="' + esc("Today " + fmtMoney(c.now) + ", " + LEVEL_META[lv.key].label.toLowerCase() + (usualText(lv, fmtMoney, c.now) ? "; " + usualText(lv, fmtMoney, c.now) : "")) + '">' +
+      '<span class="vm-gauge-now-label" style="left:' + n + "%;transform:translateX(" + nowEdge + ')">' + (c.nowEst ? "~" : "") + fmtMoney(c.now) + " today</span>" +
+      '<div class="vm-gauge-bar"><span style="width:' + a + '%;background:var(--status-good)"></span><span style="width:' + (b - a).toFixed(2) + '%;background:var(--status-warning)"></span><span style="flex:1;background:var(--status-critical)"></span></div>' +
+      strike + '<span class="vm-gauge-now" style="left:' + n + '%"></span>' +
+      '<div class="vm-gauge-scale"><span>Lower than usual</span><span>Typical</span><span>Higher</span></div></div>';
   }
 
   function callHTML(r, o) {
     o = o || {};
     var c = buildCall(r);
     if (!c) return "";
-    var u = r.normalization.unit_short, m = CALL_META[c.action] || CALL_META.WAIT;
-    var g = strikeGap(c), money = function (n) { return (c.nowEst ? "~" : "") + fmtMoney(n); };
+    var u = r.normalization.unit_short, lv = priceLevel(c);
+    var money = function (n) { return (c.nowEst ? "~" : "") + fmtMoney(n); };
     var packTxt = c.pack ? Math.round(c.pack) + " " + unitPlural(u, Math.round(c.pack)) : "";
     var strikeCol = c.action === "SKIP" || c.strike == null ? "" :
       '<p class="vm-call-k">1 · Strike price</p>' +
-      (o.doc ? "" : priceDialSVG(c)) +
       '<p class="vm-call-big">' + fmtMoney(c.strike) + " <span>or less</span></p>" +
       '<p class="vm-call-sub">' + [packTxt ? "for " + packTxt : "", c.strikeUnit != null ? fmtUnit(c.strikeUnit) + " per " + esc(u) : ""].filter(Boolean).join(" · ") + "</p>" +
       (r.diminishing_returns.knee_unit_price != null ? '<p class="vm-call-note">Category sweet spot: ' + fmtUnit(r.diminishing_returns.knee_unit_price) + " per " + esc(u) + "</p>" : "");
     var lines = [];
-    if (c.now != null) lines.push("Now <b>" + money(c.now) + "</b>" + (c.retailer ? " at " + esc(c.retailer) : "") + (g ? " · " + esc(g.text) : ""));
+    if (c.now != null) lines.push("Now <b>" + money(c.now) + "</b>" + (c.retailer ? " at " + esc(c.retailer) : "") + (lv && usualText(lv, money, c.now) ? " · " + usualText(lv, money, c.now) : ""));
     else if (c.retailer) lines.push("At " + esc(c.retailer) + " · no current price found");
-    if (c.action === "WAIT" && c.waitFor) lines.push("Watch for: " + esc(c.waitFor));
+    if (lv) lines.push(levelAction(c, lv));
+    else if (c.action !== "SKIP" && c.waitFor) lines.push("Watch for: " + esc(c.waitFor));
     var alt = c.alt && c.alt.buy_under != null ? '<p class="vm-call-alt">Prefer ' + esc(c.alt.name) + "? Wait for " + pMoney(c.alt, c.alt.buy_under) + (c.alt.street_price != null ? " (now " + pMoney(c.alt, c.alt.street_price) + ")" : "") + ".</p>" : "";
-    var actCol = '<p class="vm-call-k">' + (strikeCol ? "2 · " : "") + "Our call</p>" +
-      '<p class="vm-call-verb vm-tone-' + m.cls + '">' + esc(m.verb) + "</p>" +
+    var verb = c.action === "SKIP" ? { label: "Not worth buying", cls: "critical" } : lv ? LEVEL_META[lv.key] : { label: "No current price found", cls: "" };
+    var actCol = '<p class="vm-call-k">' + (strikeCol ? "2 · " : "") + (c.action === "SKIP" ? "Our call" : "Today’s price") + "</p>" +
+      '<p class="vm-call-verb vm-tone-' + verb.cls + '">' + esc(verb.label) + "</p>" +
       (c.action !== "SKIP" && c.name ? '<p class="vm-call-item">' + esc(c.name) + "</p>" : "") +
+      (lv && !o.doc ? priceGaugeHTML(c, lv) : "") +
       lines.map(function (l) { return '<p class="vm-call-line">' + l + "</p>"; }).join("") +
       (c.why ? '<p class="vm-call-why">' + esc(c.why) + "</p>" : "") + alt;
     if (o.doc) return '<table class="q-cols doc-call" cellspacing="0" cellpadding="0"><tr>' + (strikeCol ? "<td>" + strikeCol + "</td>" : "") + "<td>" + actCol + "</td></tr></table>";
@@ -1741,13 +1833,18 @@ VERDICT_RULES,
       }).join("") + "</table>";
     }
 
-    if (dr.knee_unit_price != null || r.tiers.length) {
+    var qSegs = r.price_segments.segments.filter(function (x) { return segPriceText(x); });
+    if (dr.knee_unit_price != null || r.tiers.length || qSegs.length) {
       out += h("What to pay");
       var qEx = kneeExamples(r);
       if (dr.knee_unit_price != null) out += '<p class="q-big">Sweet spot <b>' + fmtUnit(dr.knee_unit_price) + "</b> per " + esc(n.unit_short) + "</p>" +
         (qEx.length ? '<p class="q-sub">In real packs: ' + qEx.map(function (x) { return "<b>" + esc(x.text) + "</b> (" + esc(x.p.name) + ")"; }).join(" · ") + "</p>"
           : dr.knee_example ? '<p class="q-sub">' + esc(firstSentence(dr.knee_example)) + "</p>" : "");
-      if (r.tiers.length) out += '<table class="q-list" cellspacing="0" cellpadding="0">' + r.tiers.map(function (t) {
+      if (qSegs.length) out += '<p class="q-sub" style="margin:14px 0 0"><b>By ' + esc(segDimension(r) || "segment") + "</b></p>" +
+        '<table class="q-list" cellspacing="0" cellpadding="0" style="margin-top:4px">' + qSegs.map(function (x) {
+          return "<tr><td>" + esc(x.label) + "</td><td><b>" + segPriceText(x) + "</b>" + (x.typical_price != null && (x.price_low != null || x.price_high != null) ? " · typical " + fmtMoney(x.typical_price) : "") + "</td></tr>";
+        }).join("") + "</table>";
+      else if (r.tiers.length) out += '<table class="q-list" cellspacing="0" cellpadding="0">' + r.tiers.map(function (t) {
         return "<tr><td>" + esc(t.tier) + "</td><td>" + esc(t.price_range) + "</td></tr>";
       }).join("") + "</table>";
     }
@@ -1844,10 +1941,10 @@ VERDICT_RULES,
     var main = REPORT_PARTS.map(function (part) {
       return '<div class="vm-part" id="part-' + part.id + '"><div class="vm-part-row"><span class="vm-part-num">' + esc(part.label) + '</span><h3 class="vm-part-title">' + esc(part.title) + '</h3><span class="vm-part-rule"></span></div>' +
         '<p class="vm-part-desc">' + esc(part.desc) + "</p></div>" +
-        part.sections.map(function (id) {
-          var s = SECTION_META[id], body = renderSectionBody(id, r, tierOrder);
+        partSections(part, r).map(function (id) {
+          var body = renderSectionBody(id, r, tierOrder);
           sectionsAll += body;
-          return '<div class="vm-section">' + accordion(id, s.num, s.title, takeaways[id], body, openSet.indexOf(id) !== -1) + "</div>";
+          return '<div class="vm-section">' + accordion(id, sectionNum(id, r), sectionTitle(id, r), takeaways[id], body, openSet.indexOf(id) !== -1) + "</div>";
         }).join("");
     }).join("");
     main += '<div class="vm-part" id="part-notes"><div class="vm-part-row"><span class="vm-part-num">Notes</span><h3 class="vm-part-title">Caveats &amp; sources</h3><span class="vm-part-rule"></span></div></div>' + renderNotes(r);
@@ -1884,7 +1981,7 @@ VERDICT_RULES,
     }
     return bar + recovered + summary + calcHTML(r) +
       '<div class="vm-analysis-head"><h2>Full analysis</h2><span></span><button class="vm-link-btn" type="button" id="vm-collapse-all">Collapse all</button></div>' +
-      '<div class="vm-report-layout"><div class="vm-report-toc-col">' + renderTOC(takeaways) + "</div>" +
+      '<div class="vm-report-layout"><div class="vm-report-toc-col">' + renderTOC(takeaways, r) + "</div>" +
       '<div class="vm-report-main">' + main + "</div></div>";
   }
 
@@ -1998,12 +2095,144 @@ VERDICT_RULES,
       (notes.length ? '<h4 class="vm-sub-h">What experts and owners say</h4><div class="vm-consensus-grid">' + notes.map(function (x) { return '<div class="vm-consensus-note"><h4>' + esc(x[0]) + "</h4>" + esc(x[1]) + "</div>"; }).join("") + "</div>" : "");
   }
 
+  // ------------------------------------------------------------
+  // Price by segment: the attribute that most changes what a shopper
+  // pays (carat weight, ply, organic vs. not, or plain quality tier).
+  // ------------------------------------------------------------
+  function segKey(x) { return String(x || "").toLowerCase().replace(/[^a-z0-9]+/g, ""); }
+  function segProducts(r, seg) {
+    var k = segKey(seg.label);
+    return k ? r.products.filter(function (p) { return p.street_price != null && segKey(p.segment) === k; }) : [];
+  }
+  function segPriceText(x) {
+    if (x.price_low != null && x.price_high != null) return x.price_low === x.price_high ? fmtMoney(x.price_low) : fmtMoney(x.price_low) + "–" + fmtMoney(x.price_high);
+    if (x.price_low != null) return "from " + fmtMoney(x.price_low);
+    if (x.price_high != null) return "up to " + fmtMoney(x.price_high);
+    return x.typical_price != null ? "about " + fmtMoney(x.typical_price) : "";
+  }
+  function segmentTakeaway(r) {
+    var ss = r.price_segments.segments.filter(function (x) { return segPriceText(x); });
+    if (!ss.length) return "";
+    var first = ss[0], last = ss[ss.length - 1];
+    var t = first.label + " " + segPriceText(first);
+    if (last !== first) t += " up to " + last.label + " " + segPriceText(last);
+    return t;
+  }
+  // Round ticks on a linear or log axis.
+  function segTicks(lo, hi, log) {
+    var out = [];
+    if (log) {
+      for (var e = Math.floor(Math.log10(lo)); e <= Math.ceil(Math.log10(hi)); e++) {
+        [1, 2, 5].forEach(function (m) { var v = m * Math.pow(10, e); if (v >= lo && v <= hi) out.push(v); });
+      }
+      while (out.length > 6) out = out.filter(function (v, i) { return i % 2 === 0; });
+      return out;
+    }
+    var raw = (hi - lo) / 4, mag = Math.pow(10, Math.floor(Math.log10(raw))), step = [1, 2, 2.5, 5, 10].map(function (m) { return m * mag; }).filter(function (s) { return s >= raw; })[0];
+    for (var v = Math.ceil(lo / step) * step; v <= hi + 1e-9; v += step) out.push(v);
+    return out;
+  }
+  function fmtTick(v) {
+    if (v >= 1000000) return "$" + +(v / 1000000).toFixed(1) + "M";
+    if (v >= 10000) return "$" + Math.round(v / 1000) + "k";
+    if (v >= 1000) return "$" + +(v / 1000).toFixed(1) + "k";
+    return fmtMoney(v);
+  }
+  function segmentRangeHTML(r) {
+    var ss = r.price_segments.segments;
+    var vals = [];
+    ss.forEach(function (x) {
+      [x.price_low, x.price_high, x.typical_price].forEach(function (v) { if (v != null && v > 0) vals.push(v); });
+      segProducts(r, x).forEach(function (p) { vals.push(p.street_price); });
+    });
+    if (vals.length < 2) return "";
+    var min = Math.min.apply(null, vals), max = Math.max.apply(null, vals);
+    if (!(max > min)) return "";
+    // Segments often span 10x or more (1 ct vs 5 ct): a log axis keeps the cheap ones visible.
+    var log = max / min > 8;
+    var lo = log ? min / 1.12 : Math.max(0, min - (max - min) * 0.05), hi = log ? max * 1.12 : max + (max - min) * 0.05;
+    function pos(v) {
+      var f = log ? (Math.log(v) - Math.log(lo)) / (Math.log(hi) - Math.log(lo)) : (v - lo) / (hi - lo);
+      return (Math.max(0, Math.min(1, f)) * 100).toFixed(2) + "%";
+    }
+    var anyProducts = false;
+    var rows = ss.map(function (x, i) {
+      var a = x.price_low != null ? x.price_low : x.typical_price, b = x.price_high != null ? x.price_high : x.typical_price;
+      var color = rampAt(i, ss.length);
+      var bar = a != null && b != null ? '<span class="vm-sg-bar" style="left:' + pos(a) + ";width:calc(" + pos(b) + " - " + pos(a) + ");background:" + color + '"></span>' : "";
+      var typ = x.typical_price != null ? '<span class="vm-sg-typ" style="left:' + pos(x.typical_price) + '" title="Typical ' + esc(fmtMoney(x.typical_price)) + '"></span>' : "";
+      var prods = segProducts(r, x).map(function (p) {
+        anyProducts = true;
+        return '<span class="vm-sg-prod" style="left:' + pos(p.street_price) + '" title="' + esc(p.name + ": " + pMoney(p, p.street_price)) + '"></span>';
+      }).join("");
+      var text = [segPriceText(x) ? "<b>" + segPriceText(x) + "</b>" : "", x.typical_price != null && (x.price_low != null || x.price_high != null) ? "typical " + fmtMoney(x.typical_price) : "", esc(x.unit_price_range || "")].filter(Boolean).join(" · ");
+      return '<div class="vm-sg-row"><div class="vm-sg-name"><span class="vm-swatch" style="background:' + color + '"></span>' + esc(x.label) + "</div>" +
+        '<div><div class="vm-sg-track"><span class="vm-sg-base"></span>' + bar + typ + prods + "</div>" +
+        (text ? '<p class="vm-sg-text">' + text + "</p>" : "") + "</div></div>";
+    }).join("");
+    // Labels center on their tick, except near an edge where centering would clip them.
+    var ticks = segTicks(lo, hi, log).map(function (v) {
+      var f = parseFloat(pos(v)), shift = f < 6 ? "0" : f > 94 ? "-100%" : "-50%";
+      return '<span style="left:' + pos(v) + ";transform:translateX(" + shift + ')">' + fmtTick(v) + "</span>";
+    }).join("");
+    return '<div class="vm-chart-legend">' +
+      '<span><span class="vm-swatch" style="background:var(--tier-2)"></span>Price range</span>' +
+      '<span><span class="vm-swatch" style="border-radius:50%;background:var(--ink)"></span>Typical price</span>' +
+      (anyProducts ? '<span><span class="vm-swatch" style="border-radius:50%;background:var(--card);border:2px solid var(--ink-soft);box-sizing:border-box"></span>A product in this report</span>' : "") + "</div>" +
+      rows +
+      '<div class="vm-sg-axis"><span></span><div>' + ticks + "</div></div>" +
+      (log ? '<p class="vm-footnote" style="margin-top:4px">Log scale: each step to the right multiplies the price, so cheaper segments stay readable.</p>' : "");
+  }
+  function renderSegments(r) {
+    var ps = r.price_segments, ss = ps.segments;
+    if (!ss.length) return "";
+    var tableHtml = tableHTML(["Segment", "Price range", "Typical", "Per unit", "Best value pick"], ss.map(function (x) {
+      return ["<b>" + esc(x.label) + "</b>", segPriceText(x) || "N/A", fmtMoney(x.typical_price), esc(x.unit_price_range || "—"), esc(x.best_pick || "—")];
+    }), { num: [1, 2] });
+    var cards = ss.map(function (x, i) {
+      var pick = x.best_pick ? matchProduct(r.products, x.best_pick) : null;
+      var pickLine = x.best_pick ? "<p><b>Best value pick:</b> " + esc(x.best_pick) + (pick && pick.buy_under != null ? " · buy at <b>" + pMoney(pick, pick.buy_under) + "</b> or less" : "") + "</p>" : "";
+      return '<div class="vm-sg-card"><p class="vm-sg-card-label"><span class="vm-swatch" style="background:' + rampAt(i, ss.length) + '"></span>' + esc(x.label) + "</p>" +
+        '<p class="vm-sg-card-price">' + (segPriceText(x) || "Price not found") + "</p>" +
+        (x.typical_price != null || x.unit_price_range ? '<p class="vm-sg-card-meta">' + [x.typical_price != null ? "Typical " + fmtMoney(x.typical_price) : "", esc(x.unit_price_range || "")].filter(Boolean).join(" · ") + "</p>" : "") +
+        (x.what_you_get ? "<p><b>" + (i ? "What the step up buys:" : "What you get:") + "</b> " + esc(x.what_you_get) + "</p>" : "") +
+        pickLine +
+        (x.watch_out ? '<p class="vm-sg-watch"><b>Watch out:</b> ' + esc(x.watch_out) + "</p>" : "") + "</div>";
+    }).join("");
+    return (ps.why ? '<p class="vm-def-text" style="margin-top:0">' + esc(ps.why) + "</p>" : "") +
+      tableTwinBlock("vm-segs", segmentRangeHTML(r), tableHtml) +
+      '<div class="vm-sg-cards">' + cards + "</div>";
+  }
+
+  // ------------------------------------------------------------
+  // Brands: who's behind the products, and what each is good and bad at.
+  // ------------------------------------------------------------
+  function brandProducts(r, b) {
+    var k = normName(b.brand);
+    return r.products.filter(function (p) { var pb = normName(p.brand); return pb && (pb === k || brandIn(b.brand, pb) || brandIn(p.brand, k)); });
+  }
+  function renderBrands(r) {
+    if (!r.brands.length) return "";
+    return '<div class="vm-brands">' + r.brands.map(function (b) {
+      var prods = brandProducts(r, b).map(function (p) { return p.name; });
+      return '<div class="vm-brand"><div class="vm-brand-head"><p class="vm-brand-name">' + esc(b.brand) + "</p>" +
+        (b.price_range ? '<span class="vm-brand-price">' + esc(b.price_range) + "</span>" : "") + "</div>" +
+        (b.positioning ? '<p class="vm-brand-pos">' + esc(b.positioning) + "</p>" : "") +
+        (b.summary ? '<p class="vm-brand-summary">' + esc(b.summary) + "</p>" : "") +
+        (b.pros.length || b.cons.length ? '<div class="vm-proscons"><div><b style="color:var(--status-good)">Pros</b><ul>' + b.pros.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul></div>" +
+          '<div><b style="color:var(--status-critical)">Cons</b><ul>' + b.cons.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul></div></div>" : "") +
+        (b.best_for ? '<p class="vm-product-best" style="margin:8px 0 0"><b style="color:var(--ink)">Best for:</b> ' + esc(b.best_for) + "</p>" : "") +
+        (b.verdict ? '<p class="vm-brand-verdict"><b>Verdict:</b> ' + esc(b.verdict) + "</p>" : "") +
+        (prods.length ? '<p class="vm-footnote" style="margin-top:8px">In this report: ' + esc(prods.join(", ")) + "</p>" : "") + "</div>";
+    }).join("") + "</div>";
+  }
+
   function renderContenders(products, tierOrder) {
     if (!products.length) return '<p class="vm-def-text">No products in this report.</p>';
     var scatterTable = tableHTML(["Product", "Per unit", "Quality", "Value"], products.map(function (p) { return [esc(p.name), pUnit(p, p.unit_price), p.quality_score == null ? "—" : String(p.quality_score), p.value_score == null ? "—" : String(p.value_score)]; }), { num: [1, 2, 3] });
     var pwTable = tableHTML(["Product", "Street", "Lowest seen", "Buy under"], products.map(function (p) { return [esc(p.name), pMoney(p, p.street_price), fmtMoney(p.historical_low), "<b>" + pMoney(p, p.buy_under) + "</b>"]; }), { num: [1, 2, 3] });
     var cards = products.map(function (p) {
-      return '<div class="vm-product"><p class="vm-product-name">' + esc(p.name) + "</p>" + (p.brand || p.tier ? '<p class="vm-product-brand">' + esc([p.brand, p.tier].filter(Boolean).join(" · ")) + "</p>" : "") +
+      return '<div class="vm-product"><p class="vm-product-name">' + esc(p.name) + "</p>" + (p.brand || p.tier || p.segment ? '<p class="vm-product-brand">' + esc([p.brand, p.tier, p.segment].filter(Boolean).join(" · ")) + "</p>" : "") +
         '<p class="vm-product-prices"><span>Street <b>' + pMoney(p, p.street_price) + "</b>" + (isEst(p) && p.street_price != null ? ' <span class="vm-est">estimate</span>' : "") + "</span><span>Buy under <b>" + pMoney(p, p.buy_under) + "</b></span>" + (p.unit_price != null ? "<span>" + pUnit(p, p.unit_price) + " / unit</span>" : "") + (p.quality_score != null ? "<span>Quality <b>" + p.quality_score + "</b></span>" : "") + (p.value_score != null ? "<span>Value <b>" + p.value_score + "</b></span>" : "") + "</p>" +
         (p.best_for ? '<p class="vm-product-best"><b style="color:var(--ink)">Best for:</b> ' + esc(p.best_for) + "</p>" : "") +
         (p.pros.length || p.cons.length ? '<div class="vm-proscons"><div><b style="color:var(--status-good)">Pros</b><ul>' + p.pros.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul></div>" +
@@ -2019,9 +2248,10 @@ VERDICT_RULES,
 
   // Sortable comparison table: click a column to sort (numbers high-to-low first).
   function compareTable(products) {
+    var hasSeg = products.some(function (p) { return p.segment; });
     var cols = [
       ["Product", function (p) { return p.name; }, "text"],
-      ["Tier", function (p) { return p.tier; }, "text"],
+      hasSeg ? ["Segment", function (p) { return p.segment; }, "text"] : ["Tier", function (p) { return p.tier; }, "text"],
       ["Street", function (p) { return p.street_price; }, "num"],
       ["Per unit", function (p) { return p.unit_price; }, "num"],
       ["Quality", function (p) { return p.quality_score; }, "num"],
@@ -2160,28 +2390,52 @@ VERDICT_RULES,
 
   // Sections grouped into four parts so the report reads as chapters, not one long run of identical cards.
   var REPORT_PARTS = [
-    { id: "orient", label: "Part 1", title: "Get oriented", desc: "What it is and what to pay.", sections: ["primer", "priceexp"] },
+    { id: "orient", label: "Part 1", title: "Get oriented", desc: "What it is and what to pay.", sections: ["primer", "priceexp", "segments"] },
     { id: "judge", label: "Part 2", title: "How to judge value", desc: "How to compare, and where extra money stops paying off.", sections: ["norm", "dr", "specs"] },
-    { id: "avoid", label: "Part 3", title: "Avoid mistakes", desc: "Deals that aren’t, and how the market is tiered.", sections: ["traps", "tiers"] },
+    { id: "avoid", label: "Part 3", title: "Know the market", desc: "Deals that aren’t, how the market is tiered, and who the brands are.", sections: ["traps", "tiers", "brands"] },
     { id: "buy", label: "Part 4", title: "What to buy, and when", desc: "Products, price targets, timing and shopping lists.", sections: ["contenders", "dealintel", "paths"] }
   ];
   var SECTION_META = {
-    primer: { num: "1", title: "Start here" },
-    priceexp: { num: "2", title: "What to expect to pay" },
-    norm: { num: "3", title: "Compare by the right unit" },
-    dr: { num: "4", title: "Diminishing returns" },
-    specs: { num: "5", title: "What actually predicts quality" },
-    traps: { num: "6", title: "Value traps" },
-    tiers: { num: "7", title: "Market tiers & consensus" },
-    contenders: { num: "8", title: "Contenders" },
-    dealintel: { num: "9", title: "Deal timing" },
-    paths: { num: "10", title: "Purchase strategies" }
+    primer: { title: "Start here" },
+    priceexp: { title: "What to expect to pay" },
+    segments: { title: "Prices by segment" },
+    norm: { title: "Compare by the right unit" },
+    dr: { title: "Diminishing returns" },
+    specs: { title: "What actually predicts quality" },
+    traps: { title: "Value traps" },
+    tiers: { title: "Market tiers & consensus" },
+    brands: { title: "Brands compared" },
+    contenders: { title: "Contenders" },
+    dealintel: { title: "Deal timing" },
+    paths: { title: "Purchase strategies" }
   };
+  // Sections that only exist when the report carries their data (older reports lack them).
+  function hasSection(id, r) {
+    if (id === "segments") return r.price_segments.segments.length > 0;
+    if (id === "brands") return r.brands.length > 0;
+    return true;
+  }
+  function partSections(part, r) { return part.sections.filter(function (id) { return hasSection(id, r); }); }
+  // Numbered by what this report shows, so an older report without segments doesn't skip from 2 to 4.
+  function sectionNum(id, r) {
+    var shown = [];
+    REPORT_PARTS.forEach(function (part) { shown = shown.concat(partSections(part, r)); });
+    return String(shown.indexOf(id) + 1);
+  }
+  // "Price by total carat weight" reads better than a generic title when the report names its dimension.
+  function sectionTitle(id, r) {
+    if (id === "segments" && r && r.price_segments.dimension) return "Price by " + segDimension(r);
+    return SECTION_META[id].title;
+  }
+  function segDimension(r) {
+    var d = r.price_segments.dimension;
+    return /^[A-Z][a-z]/.test(d) && !/^[A-Z][a-z]*[A-Z]/.test(d) ? d.charAt(0).toLowerCase() + d.slice(1) : d;
+  }
 
   var OPEN_DEFAULTS = {
-    beginner: ["primer", "priceexp", "contenders", "paths"],
-    intermediate: ["priceexp", "dr", "tiers", "contenders", "paths"],
-    expert: ["priceexp", "norm", "dr", "specs", "traps", "tiers", "contenders", "dealintel", "paths"]
+    beginner: ["primer", "priceexp", "segments", "contenders", "paths"],
+    intermediate: ["priceexp", "segments", "dr", "tiers", "brands", "contenders", "paths"],
+    expert: ["priceexp", "segments", "norm", "dr", "specs", "traps", "tiers", "brands", "contenders", "dealintel", "paths"]
   };
 
   function buildTakeaways(r) {
@@ -2194,20 +2448,21 @@ VERDICT_RULES,
       specs: r.spec_criteria.length ? r.spec_criteria.slice().sort(function (a, b) { return b.weight - a.weight; })[0].spec + " matters most" : "",
       traps: r.value_traps.length ? r.value_traps.length + " trap" + (r.value_traps.length === 1 ? "" : "s") + ", starting with: " + r.value_traps[0].trap : "No major traps flagged",
       tiers: r.tiers.map(function (t) { return t.tier; }).join(" → "),
+      segments: segmentTakeaway(r),
+      brands: r.brands.length ? r.brands.length + " brand" + (r.brands.length === 1 ? "" : "s") + ": " + r.brands.slice(0, 4).map(function (b) { return b.brand; }).join(", ") + (r.brands.length > 4 ? " and " + (r.brands.length - 4) + " more" : "") : "",
       contenders: r.products.length + " products compared, with buy-under prices",
       dealintel: r.verdict.price_watch_summary || r.deal_intelligence.best_time_to_buy || "",
       paths: r.purchase_paths.map(function (p) { return p.name; }).join(" · ")
     };
   }
 
-  function renderTOC(takeaways) {
+  function renderTOC(takeaways, r) {
     return '<nav class="vm-toc" aria-label="Report contents">' +
       '<button class="vm-toc-item" type="button" data-toc-jump="summary"><span class="vm-toc-num">★</span><span><span class="vm-toc-title">Summary</span></span></button>' +
       REPORT_PARTS.map(function (part) {
-        return '<p class="vm-toc-group">' + esc(part.label + " · " + part.title) + "</p>" + part.sections.map(function (id) {
-          var s = SECTION_META[id];
-          return '<button class="vm-toc-item" type="button" data-toc-jump="' + id + '"><span class="vm-toc-num">' + s.num + "</span>" +
-            '<span><span class="vm-toc-title">' + esc(s.title) + "</span></span></button>";
+        return '<p class="vm-toc-group">' + esc(part.label + " · " + part.title) + "</p>" + partSections(part, r).map(function (id) {
+          return '<button class="vm-toc-item" type="button" data-toc-jump="' + id + '"><span class="vm-toc-num">' + sectionNum(id, r) + "</span>" +
+            '<span><span class="vm-toc-title">' + esc(sectionTitle(id, r)) + "</span></span></button>";
         }).join("");
       }).join("") +
       '<p class="vm-toc-group">Notes</p><button class="vm-toc-item" type="button" data-toc-jump="notes"><span class="vm-toc-num">•</span><span><span class="vm-toc-title">Caveats &amp; sources</span></span></button>' +
@@ -2223,6 +2478,8 @@ VERDICT_RULES,
       case "specs": return renderSpecDecoder(r.spec_criteria, r.marketing_noise);
       case "traps": return renderValueTraps(r.value_traps);
       case "tiers": return renderTiersConsensus(r.tiers, r.consensus);
+      case "segments": return renderSegments(r);
+      case "brands": return renderBrands(r);
       case "contenders": return renderContenders(r.products, tierOrder);
       case "dealintel": return renderDealIntel(r.deal_intelligence, r.verdict);
       case "paths": return renderPurchasePaths(r.purchase_paths);
@@ -2427,7 +2684,9 @@ VERDICT_RULES,
     if (pill || docPws) facts.push(["Timing", pill + (docPws ? (pill ? "<br>" : "") + esc(docPws) : "")]);
     var dc = buildCall(r);
     if (dc && dc.strike != null && dc.action !== "SKIP") facts.push(["Strike price", "<b>" + fmtMoney(dc.strike) + "</b> or less" + (dc.pack ? " for " + Math.round(dc.pack) + " " + esc(unitPlural(n.unit_short, Math.round(dc.pack))) : "") + (dc.strikeUnit != null ? " (" + fmtUnit(dc.strikeUnit) + " per " + esc(n.unit_short) + ")" : "") + (dc.name ? " — " + esc(dc.name) : "")]);
-    if (dc) facts.push(["Our call", "<b>" + esc((CALL_META[dc.action] || CALL_META.WAIT).verb) + "</b>" + (dc.action !== "SKIP" && dc.name ? ": " + esc(dc.name) : "") + (dc.now != null ? ", now " + fmtMoney(dc.now) + (dc.retailer ? " at " + esc(dc.retailer) : "") : "") + (dc.action === "WAIT" && dc.waitFor ? ". Watch for " + esc(dc.waitFor) : "") + "."]);
+    var dlv = priceLevel(dc);
+    if (dc && dc.action === "SKIP") facts.push(["Our call", "<b>Not worth buying.</b>" + (dc.why ? " " + esc(dc.why) : "")]);
+    else if (dc && dlv) facts.push(["Today’s price", "<b>" + esc(LEVEL_META[dlv.key].label) + "</b>" + (dc.name ? ": " + esc(dc.name) : "") + ", now " + fmtMoney(dc.now) + (dc.retailer ? " at " + esc(dc.retailer) : "") + (usualText(dlv, fmtMoney, dc.now) ? " (" + usualText(dlv, fmtMoney, dc.now) + ")" : "") + ". " + levelAction(dc, dlv)]);
     if (v.confidence) facts.push(["Confidence", esc(firstSentence(v.confidence))]);
     var docEx = kneeExamples(r, 2).map(function (x) { return x.text; }).join(" or ");
     if (dr.knee_unit_price != null) facts.push(["Sweet-spot price", "<b>" + fmtUnit(dr.knee_unit_price) + " per " + esc(n.unit_short) + "</b>" + (docEx ? " — in real packs, " + esc(docEx) : dr.knee_example && dr.knee_example.length <= 90 ? " — about what " + esc(dr.knee_example) + " costs" : "")]);
@@ -2452,16 +2711,15 @@ VERDICT_RULES,
 
     // ---- contents ----
     out += '<div class="doc-toc"><p class="doc-label" style="margin:0">Contents</p><ol>' + REPORT_PARTS.map(function (part) {
-      return '<li class="doc-toc-part">' + esc(part.label + " · " + part.title) + "</li>" + part.sections.map(function (id) {
-        return '<li value="' + SECTION_META[id].num + '"><a href="#s-' + id + '">' + esc(SECTION_META[id].title) + "</a></li>";
+      return '<li class="doc-toc-part">' + esc(part.label + " · " + part.title) + "</li>" + partSections(part, r).map(function (id) {
+        return '<li value="' + sectionNum(id, r) + '"><a href="#s-' + id + '">' + esc(sectionTitle(id, r)) + "</a></li>";
       }).join("");
     }).join("") + '<li class="doc-toc-part">Notes</li><li style="list-style:none"><a href="#s-notes">Caveats &amp; sources</a></li></ol></div>';
 
     // ---- sections ----
     function sec(id, body) {
       if (!body) return "";
-      var s = SECTION_META[id];
-      return '<h3 id="s-' + id + '"><span class="n">' + s.num + "</span>" + esc(s.title) + "</h3>" + body;
+      return '<h3 id="s-' + id + '"><span class="n">' + sectionNum(id, r) + "</span>" + esc(sectionTitle(id, r)) + "</h3>" + body;
     }
     var bodies = {};
     var p = r.primer;
@@ -2508,6 +2766,21 @@ VERDICT_RULES,
     })) : "") +
       para("What experts say:", r.consensus.expert_view) + para("What owners and enthusiasts say:", r.consensus.community_view) + para("Where they disagree:", r.consensus.where_they_disagree);
 
+    var segs = r.price_segments.segments;
+    bodies.segments = segs.length ? (r.price_segments.why ? "<p>" + esc(r.price_segments.why) + "</p>" : "") +
+      tbl(["Segment", "Price range", "Typical", "What you get", "Best value pick"], segs.map(function (x) {
+        return ["<b>" + esc(x.label) + "</b>" + (x.unit_price_range ? '<br><span class="doc-meta">' + esc(x.unit_price_range) + "</span>" : ""), segPriceText(x) || "N/A", fmtMoney(x.typical_price), esc(x.what_you_get), esc(x.best_pick)];
+      }), [1, 2]) +
+      (segs.some(function (x) { return x.watch_out; }) ? "<h4>What to watch at each level</h4><ul>" + segs.filter(function (x) { return x.watch_out; }).map(function (x) { return "<li><b>" + esc(x.label) + ":</b> " + esc(x.watch_out) + "</li>"; }).join("") + "</ul>" : "") : "";
+
+    bodies.brands = r.brands.map(function (b) {
+      return '<div class="doc-keep"><h5>' + esc(b.brand) + "</h5>" +
+        (b.positioning || b.price_range ? '<p class="doc-meta">' + esc([b.positioning, b.price_range].filter(Boolean).join(" · ")) + "</p>" : "") +
+        (b.summary ? "<p>" + esc(b.summary) + "</p>" : "") +
+        (b.pros.length || b.cons.length ? '<table class="doc-pc" cellspacing="0" cellpadding="0"><tr><td><b class="doc-good sans" style="font-size:13px">Pros</b><ul>' + b.pros.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + '</ul></td><td><b class="doc-bad sans" style="font-size:13px">Cons</b><ul>' + b.cons.map(function (x) { return "<li>" + esc(x) + "</li>"; }).join("") + "</ul></td></tr></table>" : "") +
+        para("Best for:", b.best_for) + para("Verdict:", b.verdict) + "</div>";
+    }).join("");
+
     var prods = r.products;
     var scatter = !word && prods.length ? scatterSVG(prods, tierOrder).replace('class="vm-chart-legend"', 'class="doc-legend"').replace(/<span class="vm-swatch" style="border-radius:50%;background:([^"]+)"><\/span>/g, '<i style="background:$1"></i>') : "";
     bodies.contenders = (scatter ? "<figure>" + scatter + "<figcaption>Each dot is a product. Higher is better quality; further left is cheaper per unit.</figcaption></figure>" : "") +
@@ -2539,7 +2812,7 @@ VERDICT_RULES,
 
     REPORT_PARTS.forEach(function (part) {
       out += '<div class="doc-part"><p class="doc-part-label">' + esc(part.label) + "</p><h2>" + esc(part.title) + '</h2><p class="doc-part-desc">' + esc(part.desc) + "</p>" +
-        part.sections.map(function (id) { return sec(id, bodies[id]); }).join("") + "</div>";
+        partSections(part, r).map(function (id) { return sec(id, bodies[id]); }).join("") + "</div>";
     });
 
     out += '<div class="doc-part" style="break-before:auto"><p class="doc-part-label">Notes</p><h2 id="s-notes">Caveats &amp; sources</h2>' + coverageHTML(r, true) +
@@ -3220,9 +3493,16 @@ VERDICT_RULES,
     var cur = CURRENT && CURRENT.report && !(CURRENT.opts && CURRENT.opts.example) && document.querySelector(".vm-report") ? libFind(CURRENT.report) : null;
     var items = LIB.items.filter(function (it) { return !qv || [it.category, it.best_overall, it.best_value].join(" ").toLowerCase().indexOf(qv) >= 0; });
     document.getElementById("vm-side-count").textContent = LIB.items.length ? "· " + LIB.items.length : "";
-    if (!LIB.items.length) list.innerHTML = '<p class="vm-side-empty">' + (LIB.loaded ? "No reports yet. Each report you make is saved here automatically." : "Loading…") + "</p>";
-    else if (!items.length) list.innerHTML = '<p class="vm-side-empty">Nothing matches “' + esc(qv) + "”.</p>";
-    else list.innerHTML = items.map(function (it) {
+    var viewing = document.querySelector(".vm-gen-run[data-job]"), viewingId = viewing ? viewing.getAttribute("data-job") : "";
+    var jobsHtml = (JOBS || []).map(function (job) {
+      var run = job.status === "running";
+      return '<button class="vm-side-item vm-side-job" type="button" data-job-id="' + esc(job.id) + '"' + (viewingId === job.id ? ' aria-current="true"' : "") + ' title="' + esc(capFirst(job.input.category)) + '">' +
+        '<span class="vm-side-item-cat">' + esc(capFirst(job.input.category)) + "</span>" +
+        '<span class="vm-side-item-meta">' + (run ? '<i class="vm-side-spin" aria-hidden="true"></i>' + esc(jobStepLabel(job)) : '<i class="vm-side-dot" style="background:var(--status-critical)"></i>Didn’t finish · open to retry') + "</span></button>";
+    }).join("");
+    if (!LIB.items.length) list.innerHTML = jobsHtml + (jobsHtml && LIB.loaded ? "" : '<p class="vm-side-empty">' + (LIB.loaded ? "No reports yet. Each report you make is saved here automatically." : "Loading…") + "</p>");
+    else if (!items.length) list.innerHTML = jobsHtml + '<p class="vm-side-empty">Nothing matches “' + esc(qv) + "”.</p>";
+    else list.innerHTML = jobsHtml + items.map(function (it) {
       var m = sideStatus(it);
       return '<button class="vm-side-item" type="button" data-open-id="' + esc(it.id) + '"' + (cur && cur.id === it.id ? ' aria-current="true"' : "") + ' title="' + esc(capFirst(it.category || "Untitled")) + '">' +
         '<span class="vm-side-item-cat">' + esc(capFirst(it.category || "Untitled")) + "</span>" +
@@ -3231,11 +3511,21 @@ VERDICT_RULES,
     var ex = document.getElementById("vm-side-example");
     if (ex) { if (CURRENT && CURRENT.opts && CURRENT.opts.example && document.querySelector(".vm-report")) ex.setAttribute("aria-current", "true"); else ex.removeAttribute("aria-current"); }
   }
-  // Sidebar status: the report's call (Buy now / Wait / Skip), else its older timing signal.
-  var CALL_SIDE = { BUY_NOW: { label: "Buy now", color: "good" }, WAIT: { label: "Wait", color: "warning" }, SKIP: { label: "Skip", color: "critical" } };
+  // Sidebar status: today's price level for the recommended item (Low / Typical / High price).
   function sideStatus(it) {
-    if (it._call === undefined) { try { var c = it.report ? buildCall(normalizeReport(it.report)) : null; it._call = c ? c.action : ""; } catch (e) { it._call = ""; } }
-    return CALL_SIDE[it._call] || SIGNAL_META[it.signal] || null;
+    if (it._lvl === undefined) {
+      try {
+        var c = it.report ? buildCall(normalizeReport(it.report)) : null, lv = priceLevel(c);
+        it._lvl = !c ? null : c.action === "SKIP" ? { label: "Not worth buying", color: "critical" } : lv ? { label: LEVEL_META[lv.key].short, color: LEVEL_META[lv.key].color } : null;
+      } catch (e) { it._lvl = null; }
+    }
+    return it._lvl;
+  }
+  // "Researching · 14 look-ups": the step a running job is on, for the sidebar.
+  function jobStepLabel(job) {
+    var names = ["Mapping the market", "Researching", "Checking coverage", "Organizing", "Saving"];
+    for (var i = 0; i < job.steps.length; i++) if (job.steps[i].state === "active") return names[i] + (i === 1 && job.lookups ? " · " + job.lookups + " look-up" + (job.lookups === 1 ? "" : "s") : i === 3 && /of 3/.test(job.steps[i].note) ? " · " + job.steps[i].note.replace(" ready", "") : "");
+    return "Running";
   }
   function closeSideOnMobile() {
     var side = document.getElementById("vm-side");
@@ -3254,6 +3544,12 @@ VERDICT_RULES,
       this.setAttribute("aria-expanded", open ? "true" : "false");
     });
     document.getElementById("vm-side-list").addEventListener("click", function (e) {
+      var jb = e.target.closest("[data-job-id]");
+      if (jb) {
+        var job = JOBS.filter(function (j) { return j.id === jb.getAttribute("data-job-id"); })[0];
+        if (job) { closeSideOnMobile(); showJob(job); }
+        return;
+      }
       var b = e.target.closest("[data-open-id]");
       if (!b) return;
       var it = LIB.items.filter(function (x) { return x.id === b.getAttribute("data-open-id"); })[0];
@@ -3480,7 +3776,23 @@ VERDICT_RULES,
   // Generate a report inside Claude
   // ============================================================
 
-  var GEN = { running: false, ctl: null, brief: "", input: null, map: null, reads: [] };
+  // Report runs in progress, or stopped with an error. A finished run's report
+  // moves to the library and the job is dropped.
+  var JOBS = [];
+  var MAX_RUNNING = 3; // more parallel runs mostly trade speed for rate limits
+  function newJob(input) {
+    return {
+      id: "job-" + Date.now() + "-" + Math.random().toString(36).slice(2, 7), input: input, status: "running",
+      ctl: new AbortController(), brief: "", map: null, reads: [], added: [], log: [], lookups: 0,
+      error: "", canRetryStructure: false, offerEstimate: false,
+      steps: [{ state: "active", note: "Listing the brands a shopper expects, from what Claude knows" }, { state: "", note: "Waiting" }, { state: "", note: "Waiting" }, { state: "", note: "Waiting" }, { state: "", note: "Waiting" }]
+    };
+  }
+  function runningJobs() { return (JOBS || []).filter(function (j) { return j.status === "running"; }); }
+  function removeJob(job) { JOBS = JOBS.filter(function (j) { return j !== job; }); renderSidebar(); }
+  function jobView(job) { return document.querySelector('.vm-gen-run[data-job="' + job.id + '"]'); }
+  // Closing the page ends every run, so warn while any is going.
+  window.addEventListener("beforeunload", function (e) { if (runningJobs().length) { e.preventDefault(); e.returnValue = ""; } });
 
   function liveResearchPreamble() {
     return [
@@ -3566,16 +3878,16 @@ VERDICT_RULES,
   }
 
   // Step 3: research left some mapped brands out, so cover them in an addendum.
-  function buildGapFillPrompt(input, missing, live) {
+  function buildGapFillPrompt(input, missing, live, brief) {
     return [
       "A research brief on \"" + input.category + "\" for a value-focused shopper left out these brands, which a shopper in this market would expect to see:",
       missing.map(function (c) { return "- " + [c.brand, c.product].filter(Boolean).join(" — ") + (c.est_price != null ? " (typical ~$" + c.est_price + (c.size ? " / " + c.size : "") + ")" : ""); }).join("\n"),
       "",
-      "Write a short addendum covering each one in the brief's style, from your own knowledge: the specific product, typical street price and unit price marked (est.)" + (live ? " because they were not checked in the browser this run" : "") + ", main retailers, how its quality compares with the market leaders, two or three pros and cons, who it suits, and a buy-under price. If one does not belong (discontinued, not sold in this market, a different category), say so in one line instead.",
+      "Write a short addendum covering each one in the brief's style, from your own knowledge: the specific product, typical street price and unit price marked (est.)" + (live ? " because they were not checked in the browser this run" : "") + ", main retailers, how its quality compares with the market leaders, which price segment it falls in, two or three pros and cons, who it suits, and a buy-under price. Add a short brand profile: positioning and reputation, brand-level pros and cons, typical price range, and a one-line verdict for a value buyer. If one does not belong (discontinued, not sold in this market, a different category), say so in one line instead.",
       "Start with the heading: ADDENDUM: brands added in the coverage check. Output only the addendum.",
       "",
       "<brief>",
-      GEN.brief.slice(0, 24000),
+      String(brief || "").slice(0, 24000),
       "</brief>"
     ].join("\n");
   }
@@ -3585,7 +3897,7 @@ VERDICT_RULES,
     return String(t || "").slice(0, 6000);
   }
   var browserQueue = Promise.resolve();
-  function readViaBrowser(url, signal) {
+  function readViaBrowser(job, url, signal) {
     var run = browserQueue.then(function () {
       if (signal && signal.aborted) throw new Error("Stopped");
       return CAP.mcp.callTool(BROWSER_SERVER, "navigate", { url: url }, { signal: signal, cache: false })
@@ -3602,7 +3914,7 @@ VERDICT_RULES,
           if (text.length >= 300 && !/lite\.duckduckgo\.com/.test(url)) {
             var title = (text.split("\n").map(function (l) { return l.trim(); }).filter(function (l) { return l.length > 8; })[0] || "").slice(0, 90);
             var host = url; try { host = new URL(url).hostname.replace(/^www\./, ""); } catch (e) {}
-            GEN.reads.push({ title: title ? host + ": " + title : host, url: url });
+            job.reads.push({ title: title ? host + ": " + title : host, url: url });
           }
           return text || "(The page had no readable text. It may block automated reading; try a search instead.)";
         });
@@ -3611,7 +3923,8 @@ VERDICT_RULES,
     return run;
   }
 
-  function browserTools(log) {
+  function browserTools(job) {
+    function log(kind, text) { genLog(job, kind, text); }
     return [
       {
         name: "search_web",
@@ -3621,7 +3934,7 @@ VERDICT_RULES,
           var q = String(input.query || "").slice(0, 300);
           if (!q) throw new Error("Empty query");
           log("search", q);
-          return readViaBrowser("https://lite.duckduckgo.com/lite/?q=" + encodeURIComponent(q), context.signal);
+          return readViaBrowser(job, "https://lite.duckduckgo.com/lite/?q=" + encodeURIComponent(q), context.signal);
         }
       },
       {
@@ -3633,52 +3946,72 @@ VERDICT_RULES,
           if (!/^https?:\/\//i.test(url)) throw new Error("Use a full http(s) URL");
           var host = url; try { host = new URL(url).hostname.replace(/^www\./, ""); } catch (e) {}
           log("read", host);
-          return readViaBrowser(url, context.signal);
+          return readViaBrowser(job, url, context.signal);
         }
       }
     ];
   }
 
-  function genStepHtml() {
-    return '<ol class="vm-gen-steps">' +
-      '<li id="vm-gs-1" class="vm-gs-active"><b>Map the market</b><span id="vm-gs-1-note">Listing the brands a shopper expects, from what Claude knows</span></li>' +
-      '<li id="vm-gs-2"><b>Research</b><span id="vm-gs-2-note">Waiting</span></li>' +
-      '<li id="vm-gs-3"><b>Check coverage</b><span id="vm-gs-3-note">Waiting</span></li>' +
-      '<li id="vm-gs-4"><b>Organize into a report</b><span id="vm-gs-4-note">Waiting</span></li>' +
-      '<li id="vm-gs-5"><b>Save</b><span id="vm-gs-5-note">Waiting</span></li></ol>';
+  function genStepHtml(job) {
+    var names = ["Map the market", "Research", "Check coverage", "Organize into a report", "Save"];
+    return '<ol class="vm-gen-steps">' + names.map(function (nm, i) {
+      var s = job.steps[i];
+      return '<li data-step="' + (i + 1) + '" class="' + stepClass(s.state) + '"><b>' + nm + '</b><span class="vm-gs-note">' + esc(s.note) + "</span></li>";
+    }).join("") + "</ol>";
   }
+  function stepClass(state) { return state === "active" ? "vm-gs-active" : state === "done" ? "vm-gs-done" : state === "error" ? "vm-gs-error" : ""; }
 
-  function showGenerating(input) {
+  // The progress view for one run, rebuilt from the job's own state, so the
+  // reader can leave it (open a report, start another) and come back to it.
+  function showJob(job) {
+    var input = job.input;
     subtitle.textContent = "";
-    root.innerHTML = '<div class="vm-form vk-wide vm-gen-run">' +
+    root.innerHTML = '<div class="vm-form vk-wide vm-gen-run" data-job="' + esc(job.id) + '">' +
       '<p class="vm-eyebrow">' + (input.live ? "Live prices" : "Quick estimate") + "</p>" +
       '<h2 class="vm-gen-title">Building your ' + esc(input.category) + " report</h2>" +
-      '<p class="vk-step-help" id="vm-gen-hint">' + (input.live ? "Claude lists the brands it knows first, then checks reviews and prices in the desktop app’s browser. This usually takes 5–10 minutes." : "Claude is writing from what it already knows. This usually takes 2–4 minutes.") + "</p>" +
-      genStepHtml() +
-      '<div class="vm-gen-log" id="vm-gen-log" aria-live="polite"></div>' +
-      '<details class="vm-gen-brief"><summary>Show the research as it’s written</summary><pre id="vm-gen-brief"></pre></details>' +
-      '<div class="vm-row" style="margin-top:16px"><button class="vm-btn-ghost" type="button" id="vm-gen-stop">Stop</button></div>' +
+      '<p class="vk-step-help vm-gen-hint">' + (job.status === "running" ? (input.live ? "Claude lists the brands it knows first, then checks reviews and prices in the desktop app’s browser. This usually takes 5–10 minutes." : "Claude is writing from what it already knows. This usually takes 2–4 minutes.") +
+        " You can start another report or read a saved one meanwhile. This one keeps running in the sidebar; just keep this page open." : "") + "</p>" +
+      genStepHtml(job) +
+      '<div class="vm-gen-log" aria-live="polite"></div>' +
+      '<details class="vm-gen-brief"><summary>Show the research as it’s written</summary><pre></pre></details>' +
+      (job.status === "running" ? '<div class="vm-row" style="margin-top:16px"><button class="vm-btn-ghost" type="button" data-gen-stop>Stop</button></div>' : "") +
       "</div>";
-    document.getElementById("vm-gen-stop").addEventListener("click", function () { if (GEN.ctl) GEN.ctl.abort(); });
+    var view = jobView(job);
+    job.log.forEach(function (x) { appendLogRow(view, x); });
+    view.querySelector(".vm-gen-brief pre").textContent = job.brief;
+    var stop = view.querySelector("[data-gen-stop]");
+    if (stop) stop.addEventListener("click", function () { job.ctl.abort(); });
+    if (job.status === "failed") renderJobError(job);
+    renderSidebar();
     window.scrollTo(0, 0);
   }
 
-  function setStep(n, state, note) {
-    var li = document.getElementById("vm-gs-" + n); if (!li) return;
-    li.className = state === "active" ? "vm-gs-active" : state === "done" ? "vm-gs-done" : state === "error" ? "vm-gs-error" : "";
-    if (note != null) document.getElementById("vm-gs-" + n + "-note").textContent = note;
+  function setStep(job, n, state, note) {
+    var s = job.steps[n - 1];
+    s.state = state;
+    if (note != null) s.note = note;
+    var view = jobView(job), li = view && view.querySelector('[data-step="' + n + '"]');
+    if (li) { li.className = stepClass(state); li.querySelector(".vm-gs-note").textContent = s.note; }
+    renderSidebar();
   }
-  function genLog(kind, text) {
-    var box = document.getElementById("vm-gen-log"); if (!box) return;
+  function appendLogRow(view, x) {
+    var box = view && view.querySelector(".vm-gen-log"); if (!box) return;
     var row = document.createElement("div");
     row.className = "vm-gen-log-row";
-    row.innerHTML = '<span class="vm-gen-tag">' + (kind === "search" ? "Search" : kind === "read" ? "Read" : "Note") + "</span><span></span>";
-    row.lastChild.textContent = text;
+    row.innerHTML = '<span class="vm-gen-tag">' + (x.kind === "search" ? "Search" : x.kind === "read" ? "Read" : "Note") + "</span><span></span>";
+    row.lastChild.textContent = x.text;
     box.appendChild(row);
     while (box.children.length > 60) box.removeChild(box.firstChild);
     box.scrollTop = box.scrollHeight;
-    var n = box.querySelectorAll(".vm-gen-log-row").length;
-    setStep(2, "active", n + " look-up" + (n === 1 ? "" : "s") + " so far");
+  }
+  function genLog(job, kind, text) {
+    var x = { kind: kind, text: text };
+    job.log.push(x);
+    if (job.log.length > 60) job.log.shift();
+    appendLogRow(jobView(job), x);
+    if (kind === "note") return;
+    job.lookups++;
+    setStep(job, 2, "active", job.lookups + " look-up" + (job.lookups === 1 ? "" : "s") + " so far");
   }
 
   function sampleErrorText(e) {
@@ -3705,71 +4038,86 @@ VERDICT_RULES,
     return "The desktop browser didn’t respond (" + (c || "unknown") + "). Try again, or use Quick estimate.";
   }
 
+  // Several reports can run at once. Each run is a job with its own state;
+  // they share only Claude (separate requests) and the desktop browser, whose
+  // page reads are queued so two runs never navigate the same tab at once.
+  function sameInput(a, b) {
+    return a.category.trim().toLowerCase() === b.category.trim().toLowerCase() && (a.context || "").trim() === (b.context || "").trim() && a.live === b.live && a.expertise === b.expertise;
+  }
   function startGenerate(input) {
-    if (GEN.running || !CAP.sample) return;
-    GEN.running = true; GEN.input = input; GEN.brief = ""; GEN.map = null; GEN.reads = []; GEN.added = [];
-    GEN.ctl = new AbortController();
-    var signal = GEN.ctl.signal;
-    showGenerating(input);
-    var first = input.live ? checkBrowser(signal).then(function () { genLog("note", "Browser connected"); }, function (e) { throw { browser: true, e: e }; }) : Promise.resolve();
+    if (!CAP.sample) return;
+    var same = runningJobs().filter(function (j) { return sameInput(j.input, input); })[0];
+    if (same) { toast("That report is already running"); showJob(same); return; }
+    if (runningJobs().length >= MAX_RUNNING) { toast("Up to " + MAX_RUNNING + " reports can run at once. Start this one when another finishes.", 4500); return; }
+    // A failed run of the same report is replaced, not duplicated.
+    JOBS.filter(function (j) { return j.status === "failed" && sameInput(j.input, input); }).forEach(removeJob);
+    clearDraft(); // the draft became this run; the next New report starts empty
+    var job = newJob(input);
+    JOBS.unshift(job);
+    showJob(job);
+    runJob(job);
+  }
+
+  function runJob(job) {
+    var input = job.input, signal = job.ctl.signal;
+    var first = input.live ? checkBrowser(signal).then(function () { genLog(job, "note", "Browser connected"); }, function (e) { throw { browser: true, e: e }; }) : Promise.resolve();
     first.then(function () {
-      setStep(2, "", "Waiting");
       return CAP.sample.json(buildMarketMapPrompt(input.category, input.context), { signal: signal, modelTier: "default" })
         .then(function (map) {
           map = O(map); map.candidates = L(map.candidates).map(O).filter(function (c) { return c.brand; });
-          GEN.map = map;
+          job.map = map;
           var n = mapBrands(map).length;
-          setStep(1, "done", n ? n + " brands listed" : "Skipped");
-          if (n) genLog("note", "Starting list: " + mapBrands(map).map(function (c) { return c.brand; }).join(", "));
+          setStep(job, 1, "done", n ? n + " brands listed" : "Skipped");
+          if (n) genLog(job, "note", "Starting list: " + mapBrands(map).map(function (c) { return c.brand; }).join(", "));
         }, function (e) {
           if (signal.aborted || (e && e.code === "cancelled")) throw e;
-          setStep(1, "done", "Skipped (" + ((e && e.code) || "no list") + ")");
+          setStep(job, 1, "done", "Skipped (" + ((e && e.code) || "no list") + ")");
         });
     }).then(function () {
-      setStep(2, "active", input.live ? "Reviews and testing first, then prices" : "Thinking it through");
+      setStep(job, 2, "active", input.live ? "Reviews and testing first, then prices" : "Thinking it through");
       var opts = {
         signal: signal,
         modelTier: input.live ? "default" : "complex",
-        onText: function (u) { GEN.brief = u.text; var pre = document.getElementById("vm-gen-brief"); if (pre) pre.textContent = u.text; }
+        onText: function (u) { job.brief = u.text; var v = jobView(job), pre = v && v.querySelector(".vm-gen-brief pre"); if (pre) pre.textContent = u.text; }
       };
-      if (input.live) opts.tools = browserTools(genLog);
+      if (input.live) opts.tools = browserTools(job);
       else opts.cache = false;
-      return CAP.sample(buildGeneratePrompt(input.category, input.context, input.expertise, input.live, GEN.map), opts);
+      return CAP.sample(buildGeneratePrompt(input.category, input.context, input.expertise, input.live, job.map), opts);
     }).then(function (res) {
-      GEN.brief = res.text;
-      setStep(2, "done", res.truncated ? "Done (the brief was cut short)" : "Done");
-      return fillGaps(input, signal);
+      job.brief = res.text;
+      setStep(job, 2, "done", res.truncated ? "Done (the brief was cut short)" : "Done");
+      return fillGaps(job, signal);
     }).then(function () {
-      return structureBrief(input, signal);
+      return structureBrief(job, signal);
     }).catch(function (err) {
-      GEN.running = false;
-      if (err && err.code === "cancelled" || signal.aborted) { genFailed("Stopped.", false); return; }
-      if (err && err.browser) { genFailed(browserErrorText(err.e), false, true); return; }
+      if (err && err.code === "cancelled" || signal.aborted) { genFailed(job, "Stopped.", false); return; }
+      if (err && err.browser) { genFailed(job, browserErrorText(err.e), false, true); return; }
       if (err && err.e && err.e.code) err = err.e;
-      genFailed(sampleErrorText(err), !!GEN.brief && GEN.brief.length > 400);
+      genFailed(job, sampleErrorText(err), !!job.brief && job.brief.length > 400);
     });
   }
 
-  function fillGaps(input, signal) {
-    if (!GEN.map || !mapBrands(GEN.map).length) { setStep(3, "done", "Skipped (no starting list)"); return Promise.resolve(); }
-    var missing = missingFromBrief(GEN.map, GEN.brief).slice(0, 12);
-    var total = mapBrands(GEN.map).length;
-    if (!missing.length) { setStep(3, "done", "All " + total + " brands covered"); return Promise.resolve(); }
-    setStep(3, "active", missing.length + " of " + total + " brands missing; adding them");
-    genLog("note", "Research skipped: " + missing.map(function (c) { return c.brand; }).join(", "));
-    return CAP.sample(buildGapFillPrompt(input, missing, input.live), { signal: signal, modelTier: "default" }).then(function (res) {
+  function fillGaps(job, signal) {
+    var input = job.input;
+    if (!job.map || !mapBrands(job.map).length) { setStep(job, 3, "done", "Skipped (no starting list)"); return Promise.resolve(); }
+    var missing = missingFromBrief(job.map, job.brief).slice(0, 12);
+    var total = mapBrands(job.map).length;
+    if (!missing.length) { setStep(job, 3, "done", "All " + total + " brands covered"); return Promise.resolve(); }
+    setStep(job, 3, "active", missing.length + " of " + total + " brands missing; adding them");
+    genLog(job, "note", "Research skipped: " + missing.map(function (c) { return c.brand; }).join(", "));
+    return CAP.sample(buildGapFillPrompt(input, missing, input.live, job.brief), { signal: signal, modelTier: "default" }).then(function (res) {
       var add = String(res.text || "").trim();
-      if (add) { GEN.brief += "\n\n" + add; GEN.added = missing.map(function (c) { return c.brand; }); }
-      setStep(3, "done", "Added " + missing.length + " brand" + (missing.length === 1 ? "" : "s") + " (estimated prices)");
+      if (add) { job.brief += "\n\n" + add; job.added = missing.map(function (c) { return c.brand; }); }
+      setStep(job, 3, "done", "Added " + missing.length + " brand" + (missing.length === 1 ? "" : "s") + " (estimated prices)");
     }, function (e) {
       if (signal.aborted || (e && e.code === "cancelled")) throw e;
-      setStep(3, "done", "Couldn’t add the missing brands; they’re listed in the report");
+      setStep(job, 3, "done", "Couldn’t add the missing brands; they’re listed in the report");
     });
   }
 
   // Record what the starting list covered, and what research found beyond it.
-  function buildCoverage(r) {
-    var mapped = mapBrands(GEN.map);
+  function buildCoverage(job, r) {
+    var mapped = mapBrands(job.map);
     if (!mapped.length) return null;
     var brands = mapped.map(function (c) {
       var hit = r.products.filter(function (p) { var h = normName(p.brand + " " + p.name); return brandIn(c.brand, h); });
@@ -3784,24 +4132,25 @@ VERDICT_RULES,
       var known = mappedNorm.some(function (m) { return m && (pb.indexOf(m) >= 0 || m.indexOf(pb) >= 0); });
       if (!known && extra.indexOf(p.brand || p.name) < 0) extra.push(p.brand || p.name);
     });
-    return { brands: brands, found_in_research: extra, added_in_check: GEN.added || [] };
+    return { brands: brands, found_in_research: extra, added_in_check: job.added || [] };
   }
 
-  function mergeSources(r) {
+  function mergeSources(job, r) {
     var have = {};
     var good = L(r.sources).filter(function (x) { return x && /^https?:\/\//.test(x.url || ""); });
     good.forEach(function (x) { have[x.url] = 1; });
-    GEN.reads.forEach(function (x) { if (!have[x.url]) { have[x.url] = 1; good.push({ title: x.title, url: x.url }); } });
+    job.reads.forEach(function (x) { if (!have[x.url]) { have[x.url] = 1; good.push({ title: x.title, url: x.url }); } });
     return good.slice(0, 40);
   }
 
-  function structureBrief(input, signal) {
-    setStep(4, "active", "Organizing in three parts…");
-    var prompts = buildStructurePrompt(GEN.brief, false, "parts");
+  function structureBrief(job, signal) {
+    var input = job.input;
+    setStep(job, 4, "active", "Organizing in three parts…");
+    var prompts = buildStructurePrompt(job.brief, false, "parts");
     var done = 0;
     return Promise.all(prompts.map(function (p) {
       return CAP.sample.json(p, { signal: signal, modelTier: "default" }).then(function (obj) {
-        done++; setStep(4, "active", done + " of 3 parts ready");
+        done++; setStep(job, 4, "active", done + " of 3 parts ready");
         return obj;
       });
     })).then(function (objs) {
@@ -3811,54 +4160,63 @@ VERDICT_RULES,
       if (!r.category) r.category = input.category;
       r.generated_at = todayStr();
       r.price_source = input.live ? "live" : "estimate";
-      r.sources = mergeSources(r);
-      var cov = buildCoverage(normalizeReport(r));
+      r.sources = mergeSources(job, r);
+      var cov = buildCoverage(job, normalizeReport(r));
       if (cov) r.coverage = cov;
-      setStep(4, "done", "Done");
-      setStep(5, "active", "Saving…");
-      GEN.running = false;
-      acceptNewReport(r, input.expertise);
+      setStep(job, 4, "done", "Done");
+      setStep(job, 5, "active", "Saving…");
+      acceptNewReport(r, input.expertise, job);
     });
   }
 
-  function genFailed(message, canRetryStructure, offerEstimate) {
-    GEN.running = false;
-    var box = document.querySelector(".vm-gen-run");
-    if (!box) return;
-    var stop = document.getElementById("vm-gen-stop"); if (stop) stop.remove();
-    var hint = document.getElementById("vm-gen-hint"); if (hint) hint.textContent = "";
+  function genFailed(job, message, canRetryStructure, offerEstimate) {
+    job.status = "failed";
+    job.error = message; job.canRetryStructure = !!canRetryStructure; job.offerEstimate = !!offerEstimate;
+    job.steps.forEach(function (s) { if (s.state === "active") s.state = "error"; });
+    if (jobView(job)) showJob(job);
+    else { renderSidebar(); toast("The " + job.input.category + " report didn’t finish. Open it in the sidebar to retry.", 5000); }
+  }
+
+  function renderJobError(job) {
+    var view = jobView(job);
+    if (!view) return;
     var div = document.createElement("div");
     div.className = "vm-gen-error";
     div.innerHTML = "<p></p>" + '<div class="vm-row">' +
-      (canRetryStructure ? '<button class="vm-btn" type="button" id="vm-gen-retry2">Finish from the research so far</button>' : "") +
-      (offerEstimate ? '<button class="vm-btn" type="button" id="vm-gen-est">Use Quick estimate</button>' : '<button class="vm-btn' + (canRetryStructure ? "-ghost" : "") + '" type="button" id="vm-gen-again">Try again</button>') +
-      '<button class="vm-btn-ghost" type="button" id="vm-gen-back">Back</button></div>';
-    div.querySelector("p").textContent = message;
-    box.appendChild(div);
-    var r2 = document.getElementById("vm-gen-retry2");
-    if (r2) r2.addEventListener("click", function () {
-      div.remove(); GEN.running = true; GEN.ctl = new AbortController();
-      structureBrief(GEN.input, GEN.ctl.signal).catch(function (e) { genFailed(sampleErrorText(e && e.code ? e : { code: "invalid_json" }), true); });
+      (job.canRetryStructure ? '<button class="vm-btn" type="button" data-gen="finish">Finish from the research so far</button>' : "") +
+      (job.offerEstimate ? '<button class="vm-btn" type="button" data-gen="estimate">Use Quick estimate</button>' : '<button class="vm-btn' + (job.canRetryStructure ? "-ghost" : "") + '" type="button" data-gen="again">Try again</button>') +
+      '<button class="vm-btn-ghost" type="button" data-gen="discard">Discard</button></div>';
+    div.querySelector("p").textContent = job.error;
+    view.appendChild(div);
+    function on(act, fn) { var b = div.querySelector('[data-gen="' + act + '"]'); if (b) b.addEventListener("click", fn); }
+    on("finish", function () {
+      if (runningJobs().length >= MAX_RUNNING) { toast("Up to " + MAX_RUNNING + " reports can run at once."); return; }
+      job.status = "running"; job.error = ""; job.ctl = new AbortController();
+      showJob(job);
+      structureBrief(job, job.ctl.signal).catch(function (e) { genFailed(job, sampleErrorText(e && e.code ? e : { code: "invalid_json" }), true); });
     });
-    var est = document.getElementById("vm-gen-est");
-    if (est) est.addEventListener("click", function () { startGenerate(Object.assign({}, GEN.input, { live: false })); });
-    var again = document.getElementById("vm-gen-again");
-    if (again) again.addEventListener("click", function () { startGenerate(GEN.input); });
-    document.getElementById("vm-gen-back").addEventListener("click", showForm);
+    on("estimate", function () { removeJob(job); startGenerate(Object.assign({}, job.input, { live: false })); });
+    on("again", function () { removeJob(job); startGenerate(job.input); });
+    on("discard", function () { removeJob(job); showForm(); });
   }
 
   // A new report cost AI usage to make, so it is kept twice: in My reports
-  // and (unless turned off) as a downloaded file.
-  function acceptNewReport(report, exp) {
-    clearDraft(); // the draft became this report; the next New report starts empty
+  // and (unless turned off) as a downloaded file. If the reader is watching
+  // this run it opens; if they moved on, it lands in the sidebar quietly.
+  function acceptNewReport(report, exp, job) {
+    var watching = !job || !!jobView(job);
+    if (job) removeJob(job);
     var known = libFind(report);
     var wantFile = !known && (SETTINGS.autoDownload || !STORAGE_AVAILABLE);
-    showReport(report, exp, {});
+    if (watching) showReport(report, exp, {});
     if (known) { toast("Already saved"); return; }
     libSave(report, exp).then(function (res) {
-      updateSavedStatus(report, { expertise: exp });
+      if (watching) updateSavedStatus(report, { expertise: exp });
+      renderSidebar();
       if (wantFile || !res) downloadReportFile(report, exp, "full");
-      toast(res ? (wantFile ? "Saved · downloading a copy" : "Saved") : "Couldn’t save here, so a copy is downloading", 4000);
+      var name = capFirst(normalizeReport(report).category);
+      toast(watching ? (res ? (wantFile ? "Saved · downloading a copy" : "Saved") : "Couldn’t save here, so a copy is downloading")
+        : (res ? name + " report is ready. It’s at the top of your reports." : name + " report is ready, but couldn’t be saved here, so a copy is downloading."), watching ? 4000 : 6000);
     });
   }
 
@@ -3877,7 +4235,9 @@ VERDICT_RULES,
       return;
     }
     btn.disabled = false; btn.hidden = false;
-    status.textContent = "";
+    var run = runningJobs();
+    status.textContent = !run.length ? "" : run.length >= MAX_RUNNING ? MAX_RUNNING + " reports are running, the most at once. Start this one when one finishes."
+      : run.length + " report" + (run.length === 1 ? " is" : "s are") + " already running. This one will run alongside" + (run.some(function (j) { return j.input.live; }) ? "; live-price runs share the browser, so each takes a little longer." : ".");
   }
 
   // ============================================================
@@ -3896,7 +4256,9 @@ VERDICT_RULES,
   PARTS[0].required = PARTS[0].required.concat(["generated_at"]);
   var FULL_SCHEMA = { type: "object", properties: {}, required: [], additionalProperties: false };
   // Added after the first kit release: JSON pasted from older prompts may lack them.
-  var OPTIONAL_TOP = ["recommendation", "deals_found"];
+  var OPTIONAL_TOP = ["recommendation", "deals_found", "price_segments", "brands"];
+  // Nested fields added later (products[].segment): older JSON may lack them.
+  var OPTIONAL_NESTED = { segment: 1, usual_low: 1, usual_high: 1 };
   PARTS.forEach(function (p) {
     Object.keys(p.properties).forEach(function (k) { FULL_SCHEMA.properties[k] = p.properties[k]; });
     FULL_SCHEMA.required = FULL_SCHEMA.required.concat(p.required);
@@ -4021,6 +4383,7 @@ VERDICT_RULES,
     }
     if (types.indexOf("object") >= 0 && schema.properties && typeOk("object", v)) {
       (schema.required || []).forEach(function (k) {
+        if (v[k] === undefined && OPTIONAL_NESTED[k]) return;
         var r = checkNode(schema.properties[k], v[k], path ? path + "." + k : k, issues);
         if (r !== undefined) v[k] = r;
       });

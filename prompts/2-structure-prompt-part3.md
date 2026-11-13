@@ -22,7 +22,7 @@ Two fields need care:
 
 - products: one row for EVERY product the brief names, including ones with estimated or missing prices. price_basis is "seen" when the brief cites a price seen at a store or listing during research, "estimate" when it is marked (est.), approximate or from memory, and "unknown" when the brief gives no price (then the price fields are null). A number the brief does not give is null, never 0.
 
-- verdict.signal: use what the brief states. If it states none, apply these rules (ignore the instructions about writing the brief):
+- verdict.signal: use what the brief states. If it states none, apply these rules:
 <verdict_rules>
 Pick the timing signal with these rules, checked in order. The reference product is the one you would recommend to most readers (best value).
 - AVOID_CATEGORY: a different kind of product does the same job clearly better per dollar for most buyers. Say which.
@@ -30,21 +30,19 @@ Pick the timing signal with these rules, checked in order. The reference product
 - BUY_SELECTIVELY: only when where and what you buy matters more than when, because much of what a shopper will see is risky: counterfeits, misleading labels, reformulated or grey-market stock, or prices that vary wildly by seller.
 - BUY_NOW: otherwise. The pick is at or near its buy-under today, or it rarely discounts, so waiting buys little.
 Having better and worse products, or recommending specific picks, is NOT a reason for BUY_SELECTIVELY: every report does that.
-State the signal and the rule that decided it in one sentence.
 </verdict_rules>
 
-<your_call>
-End the brief with YOUR CALL, two parts a shopper can act on today:
-1. STRIKE PRICE: the pack price (and the price per unit) at or below which to buy your recommended item.
-2. BUY NOW or WAIT: either buy a specific item now (exact product and pack size, the store, today's price) because it is at or under its strike price, or wait (today's price, the strike price, and which sale or month is likely to get there). If the category isn't worth buying, say what to buy instead.
-Then list DEALS SEEN: specific current offers you actually saw on a store page or listing during research (product and pack size, store, price, link, any condition such as a coupon, membership or subscription). List only offers you saw; if you saw none, write "none seen".
-</your_call>
-
-- recommendation: the brief's YOUR CALL. action is BUY_NOW when it says to buy a specific item today, WAIT when it says to hold out for a lower price, SKIP when it says the category isn't worth buying. product is the exact item and pack size, using the same name as its products row. current_price and strike_price are pack prices for that item; strike_unit_price is the strike per unit_short; retailer is where to buy it. wait_for names the sale or month to wait for (empty unless WAIT). why is one plain sentence. If the brief has no explicit call, take the best-value pick and its buy-under: BUY_NOW if its price today is at or under the buy-under, otherwise WAIT.
+- recommendation: the brief's YOUR CALL. action is BUY_NOW when today's price is at or under the strike price, WAIT when a sale is worth waiting for, SKIP when it says the category isn't worth buying. product is the exact item and pack size, using the same name as its products row. current_price and strike_price are pack prices for that item; usual_low and usual_high are its usual pack price range when not on sale (null when the brief gives no range); strike_unit_price is the strike per unit_short; retailer is where to buy it. wait_for names the sale or month to wait for (empty unless WAIT). why is one plain sentence. If the brief has no explicit call, take the best-value pick and its buy-under: BUY_NOW if its price today is at or under the buy-under, otherwise WAIT.
 
 - deals_found: only the specific offers the brief says were seen on a store page or listing (DEALS SEEN, or prices it cites with a store). Never an estimate. url only when the brief gives one, else empty. note is a condition such as "Subscribe & Save", "membership required" or "rollback", else empty. Empty array if none were seen.
 
 - awards: leave an award's product and why empty when it doesn't really apply to this category (e.g. longest_lasting for a consumable) rather than repeating another pick.
+
+- price_segments: the brief's price breakdown by segment. dimension is the attribute it segments by, as a shopper would say it ("Total carat weight", "Ply", "Sourcing", "Quality tier"); why is its one-sentence reason. segments are ordered cheapest first. label is the segment name as a shopper would say it ("1 ct", "2-ply", "Organic", "Mid-range"). price_low and price_high are the dollar range for a typical item or common pack in that segment (not per unit); typical_price is what most people pay; unit_price_range is the per-unit range as text ("$0.04–$0.06 / sheet"), or empty. what_you_get is what the money buys over the segment below; best_pick is the best-value product in the segment, using the same name as its products row; watch_out is the main risk at that level. Use null for a number the brief does not give.
+
+- brands: one entry for every brand the brief profiles, plus any brand behind a product row that it doesn't. positioning is a short label ("Store brand", "Premium", "Lab-grown specialist"). summary is one or two sentences on what the brand is and how it's regarded. pros and cons are short phrases true of the brand as a whole. price_range is text ("$900–$4,500"). best_for and verdict are one line each; verdict speaks to a value-maximizing buyer.
+
+- products.segment: the price_segments label the product falls in, spelled exactly as in the brief's segment breakdown; empty if it fits none.
 
 Scores are comparative within this report: quality_score ranks products against each other on the brief's own criteria, value_score ranks quality delivered per dollar. Spread them across the available range — if everything scores 70-80 the chart tells the reader nothing.
 
@@ -52,7 +50,7 @@ Plain language: the reader never sees the brief, so never mention "the brief", "
 
 Be complete in coverage and tight in wording. Include EVERY product, trap, spec, tier and sale event the brief names; never drop items to save space. Within each item, write for a skimmer: the shortest wording that keeps the facts, usually one sentence, never more than two. Headline, award "why", best_for and verdict lines: under 25 words. Pros, cons, must-haves and items: short phrases, not sentences. Keep every number, price and qualifier from the brief; cut filler, repetition across fields, and hedges.
 
-THIS IS PART 3 OF 3. For this pass, extract ONLY: the full list of named products with prices and scores, deal intelligence (volatility, sale cadence, timing), the named purchase paths with itemized costs, the specific deals seen, the caveats, and the sources. Ignore the verdict, normalization, and spec criteria — those are handled in separate passes.
+THIS IS PART 3 OF 3. For this pass, extract ONLY: the full list of named products with prices, scores and segment, deal intelligence (volatility, sale cadence, timing), the named purchase paths with itemized costs, the specific deals seen, the caveats, and the sources. Ignore the verdict, normalization, and spec criteria — those are handled in separate passes.
 
 Output rules:
 - Reply with ONE valid JSON object inside a single ```json code block, and nothing else — no introduction, no commentary afterwards.
@@ -77,6 +75,9 @@ Output rules:
       "type": "string"
      },
      "tier": {
+      "type": "string"
+     },
+     "segment": {
       "type": "string"
      },
      "price_basis": {
@@ -152,6 +153,7 @@ Output rules:
      "name",
      "brand",
      "tier",
+     "segment",
      "price_basis",
      "street_price",
      "pack_size",
