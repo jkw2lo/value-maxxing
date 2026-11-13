@@ -1,0 +1,859 @@
+{
+ "expertise": "intermediate",
+ "saved_at": null,
+ "report": {
+  "_recovered": true,
+  "category": "Toilet Paper",
+  "scope": "US retail market, 2-ply consumer bath tissue, mid-2025 pricing. Covers warehouse club, mass retail, grocery, drug store, and direct-to-consumer channels. Excludes 1-ply, facial tissue, and commercial/institutional products.",
+  "generated_at": "2026-08-07",
+  "primer": {
+   "what_it_is": "Consumer bath tissue sold in rolls, measured meaningfully only in cost per square foot of 2-ply paper actually delivered. The category has been deeply distorted by shrinkflation and roll-naming theater (Mega, Super Mega, Double, etc.) since 2019, making roll count and even sheet count actively misleading comparisons without knowing sheet dimensions. The correct unit is adjusted effective square footage: raw square feet multiplied by a quality multiplier (0.70–1.20) that reflects basis weight and how many sheets you actually consume per use.",
+   "must_haves": [
+    {
+     "feature": "Minimum ~200 sheets per double roll (or ~425 per Kirkland-style warehouse roll)",
+     "why": "Below this threshold the roll is thin-sheeted; sheet count only matters alongside sheet dimensions, but a very low count is a reliable flag for either tiny sheets or very few of them"
+    },
+    {
+     "feature": "Sheet dimensions of at least 4.0\" × 4.0\" (16 sq in)",
+     "why": "Sheet area has been cut repeatedly since 2019; anything smaller meaningfully changes usage patterns and forces more sheets per use, erasing any apparent price savings"
+    },
+    {
+     "feature": "2-ply construction with structural integrity (sheets hold together under moderate thumb pressure without pilling or showing pinholes at embossing seams)",
+     "why": "This is the functional proxy for basis weight (GSM), which is almost never disclosed on packaging. A sheet that pills or tears at the embossing perforations has too little fiber density to clean effectively per sheet"
+    },
+    {
+     "feature": "Cost at or below ~$0.025 per adjusted effective square foot",
+     "why": "This is the knee of the diminishing-returns curve. Below this you are in the zone of genuinely inadequate tissue; above it you are paying for incremental softness and embossing refinement, not meaningfully better function"
+    }
+   ],
+   "premium_features": [
+    {
+     "feature": "Sheet dimensions of 4.5\" × 4.5\" or larger (as with Kirkland Signature)",
+     "why": "Larger sheets reduce per-use sheet consumption and represent the primary reason warehouse-club tissue performs so well on a normalized basis"
+    },
+    {
+     "feature": "Higher basis weight / GSM (roughly 45–56 GSM for 2-ply combined)",
+     "why": "Denser fiber means the sheet holds up under pressure, cleans more effectively per sheet, and doesn't shed fibers. Quality multiplier rises from ~0.95 to ~1.1–1.2, meaningfully lowering adjusted effective cost"
+    },
+    {
+     "feature": "Functional embossing texture (e.g., Cottonelle's CleanRipple pattern)",
+     "why": "Actual textured surface increases cleaning effectiveness per sheet — this is a real functional feature, not just marketing, unlike purely decorative embossing"
+    },
+    {
+     "feature": "3-ply construction with substantive ply thickness (not thin plies stacked to inflate ply count)",
+     "why": "Adds structural integrity and reduces sheets-per-use when each ply contributes real basis weight; best exemplified by Who Gives a Crap Premium Bamboo"
+    },
+    {
+     "feature": "FSC certification (virgin wood pulp products)",
+     "why": "A real chain-of-custody certification for sustainable forestry sourcing — not a quality signal but it means what it says, unlike 'hypoallergenic' or 'dermatologist tested'"
+    }
+   ],
+   "avoid": [
+    {
+     "thing": "Charmin Ultra Soft at full retail price",
+     "why": "The open, lofty fiber structure that creates softness causes pilling, fiber shedding, and tearing at embossing perforations under pressure. Independent testing consistently finds it requires more sheets per use than Ultra Strong at the same price. It is an inferior product within the Charmin line despite commanding the same price"
+    },
+    {
+     "thing": "Great Value and comparable budget store brands at mass retail",
+     "why": "Basis weight is measurably lower, sheet size has been cut, and the quality multiplier of ~0.70–0.75 means adjusted effective cost (~$0.036/sq ft) is actually worse than Angel Soft despite the lower nominal price. Buyers going through paper faster erase all apparent savings"
+    },
+    {
+     "thing": "Charmin Essentials / Charmin Basic line at drug stores",
+     "why": "Budget-positioned Charmin that carries the brand premium without Ultra-line quality. Performs worse than Angel Soft at the same or higher price; sheet count, sheet size, and basis weight are all lower than the Ultra line. The correct substitute for budget-minded Charmin buyers is Angel Soft"
+    },
+    {
+     "thing": "Post-consumer recycled tissue (Seventh Generation, 365 Whole Foods)",
+     "why": "Recycling degrades cellulose fiber length, the basis of both softness and tensile strength. Adjusted effective cost is approximately $0.050–0.065/sq ft — the worst value in the category. If sustainability is the motivation, bamboo tissue delivers better quality and more clearly renewable sourcing at a lower effective premium"
+    },
+    {
+     "thing": "Roll-count equivalency marketing math ('18 Mega Rolls = 72 Regular Rolls')",
+     "why": "The 'regular roll' baseline used in these calculations has itself shrunk over time and is not the regular roll currently sold. These numbers are self-serving marketing that cannot be used for cross-brand comparison. Always compute square feet yourself from sheet count × sheet dimensions"
+    },
+    {
+     "thing": "Drug store mega-pack purchases at full retail",
+     "why": "CVS and Walgreens sale stacking with ExtraBucks can yield real discounts, but even a well-stacked drug store deal rarely beats Kirkland's everyday price of ~$0.014/sq ft. Drug store purchasing is only worthwhile below ~$20 for 18 mega rolls of Charmin Ultra Strong or equivalent premium tissue"
+    }
+   ]
+  },
+  "awards": {
+   "best_overall": {
+    "product": "Kirkland Signature 2-Ply Bath Tissue, 30-count (Costco)",
+    "why": "Unmatched cost per adjusted sq ft at ~$0.014, genuine quality with ~4.5\"×4.5\" sheets and ~425 sheets per roll, and no timing or coupon-clipping required. The single best purchase in the category for any household with Costco access."
+   },
+   "best_value": {
+    "product": "Angel Soft 2-Ply, 36 Double Rolls (Walmart/Target/grocery), purchased at or below $17",
+    "why": "The best value available without a warehouse club membership. At the $17 sale threshold, adjusted effective cost approaches ~$0.024/sq ft — near the knee of the quality curve. Available everywhere, goes on sale every 4–6 weeks, and delivers adequate quality without the thin-sheet problems of true budget brands."
+   },
+   "best_budget": {
+    "product": "Angel Soft 2-Ply, 36 Double Rolls at full retail (~$20)",
+    "why": "Even at full retail, Angel Soft at ~$0.024 adjusted sq ft beats every budget store brand on a normalized basis because its quality multiplier (~0.90) is meaningfully higher than Great Value (~0.70–0.75). It is the floor of 'this tissue actually works without making you use more of it.'"
+   },
+   "best_premium": {
+    "product": "Cottonelle Ultra Comfort, 18 Mega Rolls, purchased below $19 on promotion",
+    "why": "Functional CleanRipple embossing delivers real cleaning efficacy beyond smooth tissue, quality multiplier of ~1.05, and it consistently outperforms Charmin Ultra Soft in independent testing. At sub-$19 promotional pricing the value gap versus Kirkland narrows to a defensible softness premium. Charmin Ultra Strong is a close second with slightly better basis weight but less functional embossing."
+   },
+   "best_for_beginners": {
+    "product": "Angel Soft 2-Ply, bulk pack from Walmart",
+    "why": "Wide availability with no membership required, forgiving price (easy to find on sale), clearly adequate quality that establishes a meaningful baseline. Trying Kirkland afterward reveals the quality ceiling without sticker shock. Starting here avoids the common beginner mistake of buying either Great Value (too thin) or Charmin Ultra Soft (overpays for a weakness)."
+   },
+   "longest_lasting": {
+    "product": "Kirkland Signature 2-Ply Bath Tissue, 30-count (Costco)",
+    "why": "425 sheets per roll at 4.5\"×4.5\" gives ~59.8 sq ft per roll — roughly double the linear footage of a Charmin Mega Roll. A 30-roll pack delivers ~1,793 raw sq ft of tissue, making it the longest-lasting per purchase event. A 1–2 person household can expect roughly one pack per quarter."
+   },
+   "avoid": {
+    "product": "Charmin Ultra Soft, any pack size, at full retail",
+    "why": "Same price as Charmin Ultra Strong but inferior performance: the plush open-fiber construction pills, sheds, and tears at embossing perforations under pressure. Independent panel testing consistently finds higher per-use sheet consumption than Ultra Strong. You pay a brand-softness premium for a product that underperforms within its own brand family. If you want Charmin, buy Ultra Strong."
+   }
+  },
+  "normalization": {
+   "bands": [
+    {
+     "label": "Exceptional value",
+     "verdict": "Buy without hesitation. Only warehouse-club tissue (Kirkland, Member's Mark) reaches this band at ~71 adj sq ft/$. No premium brand competes here.",
+     "low": 50,
+     "high": 999
+    },
+    {
+     "label": "Good value",
+     "verdict": "Solid purchase. Angel Soft on sale (~42 adj sq ft/$) lands here. Adequate quality, no meaningful sacrifice.",
+     "low": 30,
+     "high": 50
+    },
+    {
+     "label": "Acceptable",
+     "verdict": "Defensible at this band if you prefer the brand or lack warehouse access. Angel Soft at full retail and Presto via Subscribe & Save sit here.",
+     "low": 20,
+     "high": 30
+    },
+    {
+     "label": "Premium tax",
+     "verdict": "You are paying for softness and brand experience, not function. Charmin Ultra Strong (~$0.040 adj/sq ft = ~25 adj sq ft/$) and Cottonelle Ultra Comfort sit here at retail. Justifiable only at promotional pricing or if you genuinely value the tactile premium.",
+     "low": 10,
+     "high": 20
+    },
+    {
+     "label": "Poor value",
+     "verdict": "Avoid or reconsider. Seventh Generation recycled (~15–20 adj sq ft/$), Charmin Ultra Soft at retail, and drug-store full-price packs land here. You are paying a large premium for worse or equivalent function.",
+     "low": 0,
+     "high": 10
+    }
+   ],
+   "unit": "Adjusted effective square feet per dollar",
+   "unit_short": "adj sq ft / $",
+   "unit_rationale": "'Cost per roll' is meaningless because 'roll' is a marketing variable. 'Cost per sheet' is misleading because sheet area varies up to 40% between brands. Raw square footage is better but ignores basis weight: thin tissue requires more sheets per use, so a low-GSM sheet delivers less effective cleaning per square foot. The adjusted unit multiplies raw sq ft by a quality multiplier (0.70–1.20 based on estimated basis weight and pilling behavior) to produce effective sq ft — the amount of paper that actually does useful work per dollar spent.",
+   "quality_adjustment": "Quality multiplier ranges from 0.70 (budget store brands: thin, pills, tears at perforations) to 1.20 (premium 3-ply bamboo with high basis weight). Midrange 2-ply with adequate basis weight scores ~0.90–1.00; premium 2-ply like Charmin Ultra Strong scores ~1.10; plush-but-weak constructions like Charmin Ultra Soft score ~0.85 despite premium positioning. Multipliers are estimated from published tensile data, consumer testing reports, and press-and-hold behavior described in review sources; GSM is not disclosed on consumer packaging.",
+   "formula": "Adjusted effective sq ft per dollar = [(sheets per roll × sheet width inches × sheet length inches / 144) × roll count × quality multiplier] ÷ total price",
+   "size_economics": "Larger pack sizes are almost always better value in this category, with one exception. The Costco 30-roll pack beats 12-roll packs of the same tissue by roughly 15–20% per sq ft due to bulk pricing. The exception is when a smaller pack goes on deep promotional sale — a 12-roll Charmin at a drug store ExtraBucks deal can temporarily beat its own 18-roll street price. Always compute per-sq-ft on the actual promotional price, not the pack size. Storage space is the binding constraint on bulk buying; a 30-roll pack of Kirkland requires meaningful linen-closet space."
+  },
+  "diminishing_returns": {
+   "curve": [
+    {
+     "unit_price": 0.01,
+     "quality": 72,
+     "label": "Kirkland Signature — value floor with good quality"
+    },
+    {
+     "unit_price": 0.02,
+     "quality": 78,
+     "label": null
+    },
+    {
+     "unit_price": 0.03,
+     "quality": 82,
+     "label": "Knee — Angel Soft on sale"
+    },
+    {
+     "unit_price": 0.03,
+     "quality": 85,
+     "label": null
+    },
+    {
+     "unit_price": 0.04,
+     "quality": 72,
+     "label": "Great Value — below knee despite higher price (thin tissue)"
+    },
+    {
+     "unit_price": 0.04,
+     "quality": 88,
+     "label": "Charmin Ultra Strong at retail"
+    },
+    {
+     "unit_price": 0.04,
+     "quality": 89,
+     "label": "Cottonelle Ultra Comfort at retail"
+    },
+    {
+     "unit_price": 0.05,
+     "quality": 91,
+     "label": "Who Gives a Crap Premium Bamboo"
+    }
+   ],
+   "knee_unit_price": 0.03,
+   "knee_example": "Angel Soft 2-ply 36 double rolls at ~$17 sale price (~$0.024 adjusted per sq ft). This is the lowest price at which tissue quality is genuinely adequate — no pilling, no thin sheets, acceptable basis weight. Above this price, incremental quality improvements are real but functionally marginal.",
+   "below_knee": "Tissue is genuinely degraded: thin sheets that pill under pressure, tearing at embossing perforations, low basis weight that forces more sheets per use. Great Value store brand (~$0.036 adj/sq ft) and Charmin Essentials fall here. The experience is noticeably worse and the apparent savings evaporate due to higher usage.",
+   "above_knee": "Incrementally better softness, embossing density, and tactile experience. Charmin Ultra Strong (~$0.040 adj/sq ft) and Cottonelle Ultra Comfort (~$0.043 adj/sq ft) occupy this zone at retail. Real quality differences exist but are not proportional to the 2–3× price premium over Kirkland. Who Gives a Crap bamboo (~$0.044 adj/sq ft) adds sustainability positioning at roughly the same functional level as Charmin Ultra Strong."
+  },
+  "spec_criteria": [
+   {
+    "spec": "Cost per adjusted square foot of 2-ply tissue delivered",
+    "weight": 40,
+    "what_good_looks_like": "Under $0.020 per adjusted sq ft (Kirkland Signature at ~$0.014) is the value floor where tissue remains genuinely good. Angel Soft at ~$0.024 is acceptable. Anything above $0.030 requires a quality justification.",
+    "how_to_check": "Find (sheets per roll) × (sheet width in inches × sheet length in inches ÷ 144) × roll count to get total sq ft. Divide pack price by total sq ft. Multiply by quality multiplier (0.70–0.75 for budget-thin, 0.90 for midrange, 1.0–1.1 for premium basis weight) to get adjusted effective cost.",
+    "why_it_matters": "Roll count and sheet count are both actively manipulated marketing variables. Sheet dimensions vary by roughly 40% in area between brands at the extremes. Cost per sq ft is the only unit that makes cross-brand comparison honest."
+   },
+   {
+    "spec": "Sheet dimensions (width × length)",
+    "weight": 20,
+    "what_good_looks_like": "Closer to the legacy standard of 4.5\" × 4.5\" (20.25 sq in). Kirkland Signature is approximately 4.5\" × 4.5\". Charmin has shrunk to approximately 4.0\" × 4.0\" (16 sq in), a 21% area reduction from the legacy standard.",
+    "how_to_check": "Check the product description on the retailer website (usually buried in the spec table). If not listed, calculate: total linear feet of tissue per roll ÷ stated sheet length = sheet count; cross-check against stated sheet count. If dimensions are unavailable entirely, treat per-sheet cost comparisons as unreliable.",
+    "why_it_matters": "A Charmin sheet and a Kirkland sheet are not the same unit. Buying by sheet count without dimensions gives a false comparison. Shrinkflation has continued through 2025 and any historical dimension data more than 18 months old should be re-verified."
+   },
+   {
+    "spec": "Basis weight / tissue density (GSM proxy)",
+    "weight": 20,
+    "what_good_looks_like": "38–42 GSM combined 2-ply is budget-thin; 45–50 GSM is solid midrange; 52+ GSM is premium. Charmin Ultra Strong and Cottonelle Ultra Comfort are in the upper midrange to premium band. Great Value and budget store brands are at or below 40 GSM.",
+    "how_to_check": "GSM is almost never printed on consumer packaging. Practical proxy: hold several sheets up to light and press thumb against them — quality product has visible density and doesn't show pinholes or tear at embossing perforations. Pilling under moderate pressure indicates low basis weight. Quality multipliers in this report: 0.70–0.75 for budget-thin, 0.90 for Angel Soft tier, 1.0 for Cottonelle Ultra Comfort, 1.1 for Charmin Ultra Strong.",
+    "why_it_matters": "Low-GSM tissue requires more sheets per use, which partially or fully erases nominal price savings. Great Value's adjusted effective cost (~$0.036 per sq ft) is worse than Angel Soft (~$0.024) despite a lower nominal price precisely because of this effect. Usage rate is the hidden multiplier on every price comparison."
+   },
+   {
+    "spec": "Sheet count per roll",
+    "weight": 10,
+    "what_good_looks_like": "For a standard/regular roll: 150+ sheets is adequate; under 150 is a thin product. For a double roll: 200+ is the reasonable floor (Angel Soft double roll = ~200 sheets). For warehouse-club product: Kirkland at 425 sheets per roll is the benchmark.",
+    "how_to_check": "Printed on every pack. Necessary but not sufficient — must be combined with sheet dimensions. A 425-sheet Kirkland roll and a 286-sheet Charmin Mega Roll are not comparable without knowing dimensions. Verify sheet count matches linear footage math as a sanity check.",
+    "why_it_matters": "Sheet count is the most commonly cited spec in purchasing decisions and the most commonly misused. It is only meaningful in context of sheet size and basis weight. Listed here because it is still the first number a buyer sees and needs to be correctly interpreted rather than ignored."
+   },
+   {
+    "spec": "Ply count and ply integrity",
+    "weight": 10,
+    "what_good_looks_like": "2-ply is the practical standard for adequate cleaning performance. 3-ply (e.g. Who Gives a Crap Premium Bamboo) adds structural integrity when plies have meaningful thickness. A dense 2-ply outperforms a thin 3-ply. Budget 2-ply products can have plies so thin that the ply count is more marketing than reality.",
+    "how_to_check": "Ply count is on the label. The useful test is ply integrity: does pulling the two plies apart reveal substantial individual sheets, or do they disintegrate into thin films? Structural ply-to-ply adhesion without pilling under pressure indicates real 2-ply construction.",
+    "why_it_matters": "Ply count is necessary context but insufficient on its own. The common buyer error is treating all 2-ply products as equivalent. Charmin Ultra Soft is 2-ply with a low-density open fiber structure that performs worse under pressure than Angel Soft's denser 2-ply construction."
+   }
+  ],
+  "marketing_noise": [
+   {
+    "claim": "Mega Roll = 4 Regular Rolls (or similar equivalency number)",
+    "reality": "The 'regular roll' baseline used in these equivalency calculations is approximately 154 sheets at legacy sheet dimensions. Both the regular rolls actually sold today and the mega rolls are measured against a baseline that has itself shrunk over time. The equivalency numbers are self-serving marketing math calculated against a shrinking reference unit. They should be ignored entirely in favor of computing actual square footage."
+   },
+   {
+    "claim": "Dermatologist tested / Hypoallergenic",
+    "reality": "'Dermatologist tested' means the manufacturer paid a dermatologist to review the product; it is self-reported and not independently certified. 'Hypoallergenic' has no regulatory standard definition for tissue. Neither claim predicts anything about softness, basis weight, or performance. They are comfort signals aimed at sensitive-skin buyers, not meaningful specifications."
+   },
+   {
+    "claim": "CleanRipple texture / 3-layer comfort / Advanced cleaning action",
+    "reality": "'CleanRipple' (Cottonelle's embossing brand name) is a real functional feature — the texture does improve cleaning effectiveness compared to flat tissue — but it is one brand's name for a textured emboss pattern, not an independent standard. '3-layer comfort' is not the same as 3-ply; 'layers' can describe embossing depth rather than ply count. Evaluate embossing by feel and ply integrity test, not by the brand name applied to it."
+   },
+   {
+    "claim": "Ultra Soft is better than Ultra Strong because softness = quality",
+    "reality": "Within the Charmin line, Ultra Soft has a more open, lofty fiber structure that is softer to the touch but pills, sheds fibers, and tears at embossing perforations under pressure. Independent panel testing consistently finds Ultra Soft requires more sheets per use than Ultra Strong. Ultra Strong has better basis weight and tensile strength at the same price. The softness premium of Ultra Soft translates to a functional disadvantage in use."
+   },
+   {
+    "claim": "FSC certified means sustainable and high quality",
+    "reality": "FSC (Forest Stewardship Council) certification is a real, audited chain-of-custody certification for virgin wood pulp sourcing from responsibly managed forests. It means what it says about forestry practices. It is not a quality signal for tissue performance — FSC-certified tissue can be budget-thin or premium. It also says nothing about whether bamboo or recycled-fiber alternatives are better overall sustainability choices, which involves transport, processing, and water use tradeoffs FSC doesn't address."
+   },
+   {
+    "claim": "Recycled paper tissue is better for the environment",
+    "reality": "Post-consumer recycled fiber tissue degrades cellulose fiber length through the recycling process, which reduces both softness and tensile strength — you get genuinely worse tissue quality. The sustainability gain is also debated: recycling tissue fiber is less efficient than recycling cardboard or paper because tissue fibers are already short. Bamboo-fiber tissue (e.g. Who Gives a Crap Premium) offers better quality and more clearly renewable sourcing, though transport and processing offset some of the raw-material benefit. The honest version of this tradeoff is: either pay the bamboo premium knowingly or accept that the recycled-paper category offers a poor quality-per-dollar ratio with a debatable sustainability benefit."
+   }
+  ],
+  "value_traps": [
+   {
+    "trap": "Charmin Ultra Soft (premium softness line)",
+    "why_it_looks_good": "It is the most prominently marketed Charmin product, positioned as the top of the line, and it is genuinely softer to the touch than Ultra Strong due to an open, lofty fiber structure. Buyers associate softness with quality.",
+    "why_it_isnt": "The open fiber structure that creates softness also causes pilling, fiber shedding, and tearing at embossing perforations under pressure. Independent testing consistently finds Ultra Soft requires more sheets per use than Ultra Strong for equivalent results. It costs the same per roll as Ultra Strong while delivering worse functional performance. Adjusted effective cost is arguably worse than Ultra Strong despite identical raw pricing.",
+    "instead": "Charmin Ultra Strong within the Charmin line at the same price. It has better basis weight, better tensile strength, and requires fewer sheets per use. If you're buying Charmin, Ultra Strong is the correct product."
+   },
+   {
+    "trap": "Budget store brands (Great Value, Kroger-owned equivalents)",
+    "why_it_looks_good": "Significantly lower nominal price than branded tissue. Looks like a straight discount on a commodity product. Walmart's Great Value 12 mega rolls at ~$9.44 versus Charmin at $25 appears to be a large savings.",
+    "why_it_isnt": "Basis weight is measurably lower (quality multiplier 0.70–0.75 versus 1.0–1.1 for premium). Sheet size has been cut. The adjusted effective cost for Great Value (~$0.036 per sq ft) is worse than Angel Soft (~$0.024) despite the lower nominal price, because you go through it significantly faster. Budget tissue fails the thumb-pressure test immediately — pinholes and tearing at embossing seams indicate insufficient GSM for effective use.",
+    "instead": "Angel Soft 2-ply in bulk packs is the quality floor where tissue actually performs like tissue. At ~$0.022 per raw sq ft with a 0.90 quality multiplier (~$0.024 adjusted), it is both cheaper and better-performing than budget store brands on an effective-use basis."
+   },
+   {
+    "trap": "Drug store sale-stacking on name-brand tissue (CVS, Walgreens ExtraBucks promotions)",
+    "why_it_looks_good": "CVS and Walgreens run 'spend $30, get $10 back' promotions that stack with manufacturer coupons and sale prices. These appear to offer large discounts — sometimes 30–40% off printed price — on premium Charmin and Cottonelle.",
+    "why_it_isnt": "Even at 30% below street price, Charmin Ultra Strong works out to roughly $0.028–0.032 per adjusted sq ft — still 2× the cost of Kirkland Signature at $0.014. Drug store promotions rarely if ever bring name-brand tissue below warehouse-club pricing. The effort required to manage ExtraBucks timing, manufacturer coupons, and Ibotta stacking returns real but limited savings that cap at 20–30% below street price. For most buyers, the friction exceeds the benefit versus just buying Kirkland.",
+    "instead": "Kirkland Signature at Costco or Member's Mark at Sam's Club for the best achievable per-sq-ft cost. If warehouse club access is unavailable, Angel Soft at grocery sale price (~$17 or below for 36 double rolls) is a better use of optimization effort than drug store stacking."
+   },
+   {
+    "trap": "'Mega Roll' roll-count advertising",
+    "why_it_looks_good": "Packs advertised as '18 Mega Rolls = 72 Regular Rolls' appear to deliver four times the product of an 18-regular-roll pack. Buyers use roll-count to compare packs across brands.",
+    "why_it_isnt": "The 'regular roll' baseline used in equivalency math is calculated against a legacy sheet count and dimension that no current product actually delivers. Both the regular rolls sold today and the mega rolls being measured have shrunk since the equivalency baseline was set. The math is self-referential marketing that tells you nothing about actual sq ft delivered. A Charmin 18-mega-roll pack at ~571 total sq ft and a Kirkland 30-roll pack at ~1,793 total sq ft cannot be compared by roll count or the advertised equivalency numbers.",
+    "instead": "Compute total square footage yourself using (sheets per roll) × (sheet width × sheet length ÷ 144) × roll count. Divide pack price by total sq ft. Compare that number across products. This takes about two minutes with a phone and eliminates all equivalency-count manipulation."
+   },
+   {
+    "trap": "Charmin Essentials / Essentials Strong (drug store mid-tier)",
+    "why_it_looks_good": "Carries the Charmin brand name at a lower price point (~$10–13 for 12-count), appearing to offer the Charmin quality standard at a discount relative to the Ultra line.",
+    "why_it_isnt": "Charmin Essentials is a budget-positioned line with lower sheet count, smaller sheet dimensions (some reports of ~3.92\" × 3.7\"), and lower basis weight than the Ultra line. It performs worse than Angel Soft at the same or higher price. It is designed to capture brand-loyal buyers anchoring on the Charmin name while trying to economize. There is no combination of sheet count and price that makes Essentials a better buy than Angel Soft.",
+    "instead": "Angel Soft 2-ply. If you want Charmin quality, buy Charmin Ultra Strong. Charmin Essentials occupies a price-quality position that is inferior to both."
+   }
+  ],
+  "tiers": [
+   {
+    "tier": "Warehouse Club — Best Value",
+    "price_range": "$22–$26 per 30-roll pack (Costco Kirkland) or $22–$26 per 45-roll pack (Sam's Club Member's Mark)",
+    "unit_price_range": "~$0.013–$0.014 per raw sq ft; ~$0.014–$0.015 per adjusted sq ft",
+    "who_its_for": "Any household with a warehouse club membership that can store 30–45 rolls. The value advantage is decisive — roughly 2.5–3× better per-sq-ft cost than name-brand tissue at full retail, with quality that is genuinely good rather than merely adequate. The Costco membership ($65/year) amortizes well for households buying 2+ packs of name-brand paper annually.",
+    "representative_brands": [],
+    "verdict": "The only recommendation if you have warehouse club access. Kirkland Signature is the value benchmark for the entire category. Sheet dimensions (~4.5\" × 4.5\") and sheet count (425 per roll) are genuinely larger than most branded competitors. Basis weight is solid midrange. Nothing in this category comes close on adjusted cost per sq ft."
+   },
+   {
+    "tier": "Grocery/Mass Retail Midrange — Best Without Membership",
+    "price_range": "$15–$22 for 36-double-roll bulk packs",
+    "unit_price_range": "~$0.022–$0.027 per raw sq ft; ~$0.024–$0.028 per adjusted sq ft",
+    "who_its_for": "Buyers without warehouse club access, or who want tissue available at any grocery/mass retail chain without a trip to Costco. Angel Soft is the correct anchor; buy when it hits $17 or below for 36 double rolls and purchase two packs at that price.",
+    "representative_brands": [],
+    "verdict": "Angel Soft is the quality floor where tissue genuinely performs. Sheet dimensions (~4.5\" × 4.0\") are larger than Charmin's current cuts. Basis weight is adequate — no pilling, holds under pressure. Goes on sale approximately every 4–6 weeks at grocery chains; $17 or below for 36 double rolls is the buy threshold. Presto! via Amazon Subscribe & Save is a reasonable alternative for Prime members but offers no meaningful advantage over Angel Soft."
+   },
+   {
+    "tier": "Premium Name-Brand — Softness/Texture Premium",
+    "price_range": "$22–$26 for 18 mega rolls at full retail; $19–$21 on promotion",
+    "unit_price_range": "~$0.040–$0.048 per raw sq ft; ~$0.040–$0.045 per adjusted sq ft",
+    "who_its_for": "Buyers who value premium softness and embossing refinement, are willing to pay 2.5–3× the warehouse-club rate per sq ft for a perceptibly better tactile experience, and ideally buy on promotion rather than at full retail. Cottonelle Ultra Comfort is the better choice over Charmin Ultra Soft (better functional performance at the same price). Charmin Ultra Strong is the right pick within the Charmin line.",
+    "representative_brands": [],
+    "verdict": "Real quality premium — denser basis weight, better embossing, less sheet-per-use — but the quality improvement does not offset 2.5–3× higher cost on any functional calculation. Defensible if bought at sub-$20 for 18 mega rolls on drug store promotion. Not defensible at full retail versus Kirkland. Never buy Charmin Ultra Soft or Charmin Essentials in this tier; Ultra Soft underperforms Ultra Strong at the same price, and Essentials underperforms Angel Soft."
+   },
+   {
+    "tier": "Sustainability/Specialty — Premium with Sourcing Story",
+    "price_range": "$55–$75+ for 48-roll packs",
+    "unit_price_range": "~$0.044–$0.053 per raw sq ft; ~$0.037–$0.046 per adjusted sq ft (bamboo 3-ply quality multiplier ~1.15–1.20)",
+    "who_its_for": "Buyers for whom environmental sourcing is a genuine priority and who are willing to pay a material premium for bamboo-fiber tissue. Adjusted effective cost is broadly comparable to Charmin Ultra Strong — you're paying for sourcing, not dramatically better performance. Avoid post-consumer recycled products in this tier; they cost as much or more with worse quality and a debatable sustainability advantage.",
+    "representative_brands": [],
+    "verdict": "Who Gives a Crap Premium Bamboo is genuinely decent tissue — 3-ply, real basis weight, minimal pilling — at a premium price. On an adjusted per-sq-ft basis it lands near Charmin Ultra Strong, so you're paying the same effective rate for a sustainability narrative rather than a quality premium. Seventh Generation and post-consumer recycled products in this tier are poor value: worse quality than bamboo at similar prices, with a less clear environmental benefit. If sustainability matters, choose bamboo over recycled."
+   },
+   {
+    "tier": "Budget Store Brand — Apparent Savings, Actual Trap",
+    "price_range": "$8–$13 for 12-mega-roll packs",
+    "unit_price_range": "~$0.027–$0.035 per raw sq ft; ~$0.036–$0.050 per adjusted sq ft after quality multiplier of 0.70–0.75",
+    "who_its_for": "Nobody — this tier appears cheap but delivers worse value than Angel Soft after adjusting for usage rate. Budget-thin basis weight (below ~40 GSM) means more sheets per use, which erases the nominal price savings and then some.",
+    "representative_brands": [],
+    "verdict": "The adjusted effective cost of budget store-brand tissue is worse than Angel Soft despite a lower nominal price. Great Value 12 mega rolls at ~$9.44 works out to ~$0.036 per adjusted sq ft versus Angel Soft's ~$0.024. Charmin Essentials carries brand premium without delivering brand quality. The correct response to any budget is to buy Angel Soft, not to go below it."
+   }
+  ],
+  "consensus": {
+   "expert_view": "Expert reviewers (Wirecutter and similar testing outlets) consistently rank Cottonelle Ultra Comfort and Charmin Ultra Strong as top performers on quality metrics — softness, tensile strength, and cleaning effectiveness. Wirecutter's panel testing repeatedly finds that texture (Cottonelle's CleanRipple emboss) provides a functional cleaning advantage over flat-embossed tissue, and that Ultra Soft underperforms Ultra Strong within the Charmin line. Expert reviews tend to evaluate quality in isolation and focus less on per-sq-ft value calculations; they generally do not normalize for sheet dimensions or basis weight in a way that allows direct cross-brand cost comparison.",
+   "community_view": "Frugal-buyer and personal finance communities (Reddit's r/personalfinance, r/Frugal, r/Costco) converge strongly on Kirkland Signature as the category answer — it is the most-recommended specific product across community discussions. The community tends to have done the sq-ft normalization math and is aware of shrinkflation effects on brand-name tissue. Angel Soft is the near-universal fallback recommendation for buyers without Costco access. There is strong community consensus that Charmin at full retail is overpriced relative to performance, and that drug store promotions rarely beat warehouse-club pricing after accounting for membership cost.",
+   "where_they_disagree": "The primary disagreement is between expert reviewers and the value-buying community on whether premium tissue (Charmin Ultra Strong, Cottonelle Ultra Comfort) is worth its price premium. Experts evaluate quality in relative terms and frequently recommend Cottonelle and Charmin without prominently weighting the 2.5–3× per-sq-ft cost premium over Kirkland. The value community views this premium as unjustifiable regardless of quality delta. A secondary disagreement is on the sustainability tier: some expert reviewers treat post-consumer recycled tissue as the preferred sustainability choice based on recycled-content percentage, while community discussions increasingly favor bamboo on both quality and sustainability grounds, noting that recycled fiber degrades tissue performance without a clear environmental advantage over certified-sustainable virgin pulp."
+  },
+  "products": [
+   {
+    "name": "Kirkland Signature 2-Ply Bath Tissue, 30-roll pack",
+    "brand": "Kirkland (Costco)",
+    "tier": "Warehouse Club",
+    "street_price": 24,
+    "unit_price": 0.01,
+    "quality_score": 82,
+    "value_score": 98,
+    "buy_under": 25,
+    "historical_low": 19.99,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Costco"
+    ],
+    "pros": [
+     "Lowest adjusted cost per sq ft of any named product (~$0.014/sq ft raw, ~$0.014 adjusted)",
+     "Sheet dimensions ~4.5\" x 4.5\" are among the largest of any tested brand",
+     "425 sheets per roll is a high count",
+     "Quality multiplier ~0.95 — holds together well, minimal pilling",
+     "30-roll pack provides long household supply"
+    ],
+    "cons": [
+     "Requires Costco membership ($65/year to amortize)",
+     "Sheet dimensions not prominently advertised — confirmed by measurement and community reports, not official spec table",
+     "Price has crept up from ~$19–20 in 2022 to ~$23–25 in 2025",
+     "No sale cadence to exploit"
+    ],
+    "best_for": "Buyers with Costco access who want the best dollar-per-sq-ft outcome without sacrificing genuine quality"
+   },
+   {
+    "name": "Member's Mark Bath Tissue, 45-roll pack",
+    "brand": "Member's Mark (Sam's Club)",
+    "tier": "Warehouse Club",
+    "street_price": 24,
+    "unit_price": 0.01,
+    "quality_score": 78,
+    "value_score": 95,
+    "buy_under": 26,
+    "historical_low": null,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Sam's Club"
+    ],
+    "pros": [
+     "Adjusted cost per sq ft approximately ties Kirkland (~$0.013/sq ft)",
+     "45-roll pack — very large supply per purchase",
+     "Good bulk quantity for multi-person households",
+     "Viable alternative for buyers with Sam's Club but not Costco"
+    ],
+    "cons": [
+     "Reported as slightly thinner than Kirkland by some users — quality multiplier slightly lower",
+     "Less community analysis and independent testing data than Kirkland",
+     "Requires Sam's Club membership ($50/year) to amortize",
+     "~300 sheets per roll vs Kirkland's ~425 — rolls are not double/mega sized"
+    ],
+    "best_for": "Buyers with Sam's Club access seeking warehouse-club value equivalent to Kirkland"
+   },
+   {
+    "name": "Angel Soft 2-Ply, 36 Double Rolls",
+    "brand": "Angel Soft (Georgia-Pacific)",
+    "tier": "Mid-Tier / Grocery",
+    "street_price": 20,
+    "unit_price": 0.02,
+    "quality_score": 65,
+    "value_score": 80,
+    "buy_under": 17,
+    "historical_low": 15,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Walmart",
+     "Target",
+     "Grocery stores",
+     "Drug stores"
+    ],
+    "pros": [
+     "Best value in the 'no membership required' tier",
+     "Sheet dimensions ~4.5\" x 4.0\" — larger than Charmin",
+     "~200 sheets per double roll",
+     "Acceptable basis weight — better than Great Value, no pilling",
+     "Widely available everywhere",
+     "Quality multiplier ~0.90"
+    ],
+    "cons": [
+     "Not as soft or dense as Charmin Ultra Strong or Cottonelle",
+     "Adjusted cost per sq ft (~$0.024) is roughly 70% higher than Kirkland",
+     "Quality does not match premium tier even at sale prices"
+    ],
+    "best_for": "Buyers without warehouse club access who want the best value at any grocery or mass-market retailer"
+   },
+   {
+    "name": "Charmin Ultra Strong, 18 Mega Rolls",
+    "brand": "Charmin (P&G)",
+    "tier": "Premium",
+    "street_price": 25,
+    "unit_price": 0.04,
+    "quality_score": 88,
+    "value_score": 42,
+    "buy_under": 20,
+    "historical_low": 18,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Walmart",
+     "Target",
+     "CVS",
+     "Walgreens",
+     "Amazon"
+    ],
+    "pros": [
+     "Genuinely high basis weight and tensile strength",
+     "Quality multiplier ~1.10 — fewer sheets needed per use",
+     "Best option within the Charmin line (outperforms Ultra Soft despite same price)",
+     "Widely available without membership",
+     "CleanRipple-equivalent embossing adds functional benefit"
+    ],
+    "cons": [
+     "Raw cost per sq ft (~$0.044) is ~3x Kirkland",
+     "Adjusted cost per sq ft (~$0.040) still ~2.8x Kirkland",
+     "Current Mega Roll contains ~286 sheets at ~4.0\" x 4.0\" — smaller than historical sheet size",
+     "Sheet size has shrunk multiple times since 2019",
+     "At full retail there is no mathematical case over Kirkland"
+    ],
+    "best_for": "Premium-tissue buyers who purchase only on sale below $20, or those without warehouse club access who prioritize softness and basis weight"
+   },
+   {
+    "name": "Charmin Ultra Soft, 18 Mega Rolls",
+    "brand": "Charmin (P&G)",
+    "tier": "Premium / Value Trap",
+    "street_price": 25,
+    "unit_price": 0.04,
+    "quality_score": 72,
+    "value_score": 28,
+    "buy_under": 18,
+    "historical_low": 18,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Walmart",
+     "Target",
+     "CVS",
+     "Walgreens",
+     "Amazon"
+    ],
+    "pros": [
+     "Softest touch of any mainstream brand — genuinely perceptible",
+     "Widely available"
+    ],
+    "cons": [
+     "Quality multiplier ~0.85 — open lofty fiber structure pills and tears under pressure",
+     "Requires more sheets per use than Ultra Strong for equivalent results",
+     "Adjusted effective cost arguably worse than Ultra Strong despite identical price",
+     "Independent panel testing (Wirecutter and others) consistently finds it underperforms Ultra Strong on function",
+     "Not worth the premium over Ultra Strong within the Charmin line"
+    ],
+    "best_for": "Buyers who prioritize tactile softness above all else and accept the functional tradeoff — not recommended on value grounds"
+   },
+   {
+    "name": "Cottonelle Ultra Comfort (formerly Ultra ComfortCare), 18 Mega Rolls",
+    "brand": "Cottonelle (Kimberly-Clark)",
+    "tier": "Premium",
+    "street_price": 23,
+    "unit_price": 0.04,
+    "quality_score": 90,
+    "value_score": 38,
+    "buy_under": 19,
+    "historical_low": 17,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Target",
+     "Walmart",
+     "CVS",
+     "Walgreens",
+     "Amazon"
+    ],
+    "pros": [
+     "Frequently ranked #1 or #2 in expert testing (Wirecutter and similar)",
+     "CleanRipple texture is a genuine functional feature — more effective cleaning than flat tissue",
+     "Quality multiplier ~1.05",
+     "Basis weight is solid for the premium tier",
+     "Strong community and expert consensus on quality"
+    ],
+    "cons": [
+     "Raw and adjusted cost per sq ft (~$0.043–0.045) is ~3x Kirkland",
+     "~284 sheets per mega roll at ~4.0\" x 4.0\" — small sheet geometry",
+     "At full retail, difficult to justify over Angel Soft or Kirkland on value grounds",
+     "Buy-under threshold ($19) rarely hit without active deal-hunting"
+    ],
+    "best_for": "Quality-first buyers who actively stack drug store promotions and coupons to hit sub-$19 price points"
+   },
+   {
+    "name": "Cottonelle Ultra CleanCare, 12 Mega Rolls",
+    "brand": "Cottonelle (Kimberly-Clark)",
+    "tier": "Premium / Secondary Line",
+    "street_price": 17,
+    "unit_price": 0.04,
+    "quality_score": 82,
+    "value_score": 36,
+    "buy_under": 14,
+    "historical_low": 14,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Target",
+     "Walmart",
+     "CVS",
+     "Walgreens",
+     "Amazon"
+    ],
+    "pros": [
+     "Slightly cheaper entry point than Ultra Comfort for same basic sheet size",
+     "Same CleanRipple embossing concept",
+     "Adequate quality for premium tier"
+    ],
+    "cons": [
+     "Less plush embossing than Ultra Comfort — less differentiation than marketing suggests",
+     "Per-sq-ft cost works out approximately the same as Ultra Comfort",
+     "12-roll count requires more frequent purchase"
+    ],
+    "best_for": "Cottonelle buyers who prefer a smaller pack size or find this line more readily on sale"
+   },
+   {
+    "name": "Great Value 2-Ply, 12 Mega Rolls",
+    "brand": "Great Value (Walmart)",
+    "tier": "Budget / Value Trap",
+    "street_price": 9.44,
+    "unit_price": 0.03,
+    "quality_score": 38,
+    "value_score": 32,
+    "buy_under": 8,
+    "historical_low": 7.5,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Walmart"
+    ],
+    "pros": [
+     "Lowest nominal sticker price of any product listed",
+     "Available at every Walmart without membership",
+     "~264 sheets per mega roll"
+    ],
+    "cons": [
+     "Quality multiplier ~0.70–0.75 — thin, pills under pressure, tears at embossing seams",
+     "Adjusted effective cost per sq ft (~$0.036) is worse than Angel Soft despite lower nominal price",
+     "Buyers use more paper per use, erasing apparent savings",
+     "Basis weight measurably lower than Angel Soft — perceptible immediately",
+     "Sheet size ~4.0\" x 4.0\" — among the smaller formats"
+    ],
+    "best_for": "Absolute lowest-budget buyers who understand the functional tradeoff; not recommended when Angel Soft is available at comparable or slightly higher price"
+   },
+   {
+    "name": "Presto! 2-Ply Toilet Paper, 24 Rolls",
+    "brand": "Presto! (Amazon)",
+    "tier": "Mid-Tier / Online",
+    "street_price": 19,
+    "unit_price": 0.03,
+    "quality_score": 62,
+    "value_score": 55,
+    "buy_under": 16,
+    "historical_low": 16,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Amazon"
+    ],
+    "pros": [
+     "Subscribe & Save discount (up to 15%) is real and meaningful",
+     "Sheet dimensions ~4.5\" x 4.0\" — similar to Angel Soft",
+     "Convenient for Amazon-primary households",
+     "Adequate quality comparable to Angel Soft or slightly below"
+    ],
+    "cons": [
+     "Raw cost per sq ft (~$0.032) is worse than Angel Soft at sale price",
+     "Quality reported as comparable to Angel Soft or slightly below — no premium quality upside",
+     "Value proposition relative to Angel Soft is thin",
+     "Amazon base price fluctuates; S&S price may not reflect a genuine discount off inflated base"
+    ],
+    "best_for": "Amazon-primary households already running 5+ Subscribe & Save subscriptions who want toilet paper on autopilot"
+   },
+   {
+    "name": "Who Gives a Crap Premium Bamboo, 48 Rolls",
+    "brand": "Who Gives a Crap",
+    "tier": "Premium / Sustainability",
+    "street_price": 72,
+    "unit_price": 0.05,
+    "quality_score": 86,
+    "value_score": 30,
+    "buy_under": 64,
+    "historical_low": 64,
+    "typical_sale": "",
+    "where_to_buy": [
+     "whogiveacrap.org (direct)"
+    ],
+    "pros": [
+     "3-ply with genuine basis weight — quality multiplier ~1.15–1.20",
+     "Adjusted effective cost (~$0.044/sq ft) broadly comparable to Charmin Ultra Strong",
+     "Bamboo sourcing is more clearly renewable than virgin wood pulp",
+     "Minimal pilling, good tensile strength for 3-ply product",
+     "48-roll pack provides long supply"
+    ],
+    "cons": [
+     "$72 for 48 rolls — highest nominal spend of any product listed",
+     "Sustainability story is more nuanced than marketing suggests — transport and processing offset some bamboo benefit",
+     "Adjusted per-sq-ft cost is still ~3x Kirkland",
+     "Only available direct-to-brand; no retailer sale stacking possible",
+     "Not a value buy on performance-per-dollar basis"
+    ],
+    "best_for": "Buyers who prioritize sustainability sourcing, accept the premium knowingly, and want genuinely good (not just adequate) quality"
+   },
+   {
+    "name": "Seventh Generation 100% Recycled, 24 Rolls",
+    "brand": "Seventh Generation",
+    "tier": "Eco / Value Trap",
+    "street_price": 24,
+    "unit_price": 0.05,
+    "quality_score": 42,
+    "value_score": 20,
+    "buy_under": 18,
+    "historical_low": 19,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Target",
+     "Amazon",
+     "Whole Foods",
+     "Natural grocery stores"
+    ],
+    "pros": [
+     "Post-consumer recycled content — genuine environmental sourcing credential",
+     "FSC certified",
+     "Available at mainstream retailers"
+    ],
+    "cons": [
+     "Quality multiplier ~0.75–0.80 — recycling degrades cellulose fiber length, reducing softness and tensile strength",
+     "Adjusted effective cost (~$0.050–0.065/sq ft) is worst in the lineup on a performance-per-dollar basis",
+     "Softer than cardboard but materially worse than virgin fiber at same price",
+     "If sustainability is the goal, bamboo (Who Gives a Crap) delivers better quality AND arguably better sustainability per dollar",
+     "No functional upside over conventional tissue at any price point tested"
+    ],
+    "best_for": "Buyers with a hard requirement for post-consumer recycled content who understand and accept the quality tradeoff"
+   },
+   {
+    "name": "Charmin Essentials Soft / Essentials Strong",
+    "brand": "Charmin (P&G)",
+    "tier": "Budget / Value Trap",
+    "street_price": 12,
+    "unit_price": 0.04,
+    "quality_score": 44,
+    "value_score": 22,
+    "buy_under": 9,
+    "historical_low": 9,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Drug stores",
+     "Grocery stores",
+     "Walmart"
+    ],
+    "pros": [
+     "Charmin brand name for buyers with strong brand loyalty",
+     "Available at drug stores and grocery stores in smaller pack sizes"
+    ],
+    "cons": [
+     "Budget-positioned Charmin without Ultra-line quality — lower sheet count, smaller sheet size, lower basis weight",
+     "Performs worse than Angel Soft at same or higher price",
+     "Sheet dimensions reported at ~3.92\" x 3.7\" or similar — among the smallest of any listed product",
+     "Exists to capture brand-loyal buyers anchoring on Charmin name while trying to save — explicitly identified as a trap",
+     "Correct response to wanting budget Charmin is to buy Angel Soft instead"
+    ],
+    "best_for": "Not recommended; Angel Soft is the correct substitute at this price point"
+   }
+  ],
+  "verdict": {
+   "headline": "",
+   "buy_score": null,
+   "signal": "BUY_SELECTIVELY",
+   "price_watch_summary": "Kirkland Signature 30-count: buy at any time at Costco street price (~$22–25); no meaningful sales exist. Angel Soft 36 double rolls: buy-under threshold $17, stock up under $15. Charmin Ultra Strong 18 mega rolls: buy-under threshold $20, exceptional deal under $18. Cottonelle Ultra Comfort 18 mega rolls: buy-under threshold $19. All thresholds are for the specific pack sizes noted; adjust proportionally for different counts. Recompute per-sq-ft whenever a 'deal' is claimed — the product has less paper per dollar than 18 months ago.",
+   "reasoning": "Toilet paper is a commodity category where the value spread is enormous and the marketing actively works against informed purchasing. At one extreme, Kirkland Signature delivers roughly 1,793 sq ft of genuinely good 2-ply tissue for ~$24 (~$0.014/sq ft adjusted). At the other, Seventh Generation recycled delivers far fewer effective sq ft for ~$24 at ~$0.050–0.065/sq ft adjusted — roughly a 4–5× price difference for worse product. The 'buy selectively' signal reflects that the right answer is highly path-dependent: warehouse club members should buy Kirkland without hesitation at any time; non-members should buy Angel Soft on sale and ignore everything else except Cottonelle or Charmin Ultra Strong when they hit sub-$20 promotional pricing. The overall market score is penalized because shrinkflation has eroded value-for-money meaningfully since 2020 and most buyers are overpaying due to roll-count confusion.",
+   "confidence": "Moderate-high. Prices confirmed from community reports and retailer listings as of mid-2025; sheet dimensions from published specs and measurement reports. A few retailer pages were inaccessible so current prices should be spot-checked before purchase. The normalized analysis and quality multiplier estimates are directionally reliable but imprecise due to undisclosed GSM data across the category."
+  },
+  "deal_intelligence": {
+   "sale_cadence": [
+    {
+     "event": "Drug store ExtraBucks / Walgreens Cash promotion stacking",
+     "timing": "Roughly every 4–6 weeks at CVS and Walgreens; timing varies by brand — Charmin and Cottonelle rotate through",
+     "typical_depth": "Effective 20–30% below street price when ExtraBucks, manufacturer coupon, and sale price stack correctly; rarely beats warehouse club pricing"
+    },
+    {
+     "event": "Grocery chain circular sale on Angel Soft or store brand",
+     "timing": "Angel Soft goes on sale approximately every 4–6 weeks at major grocery chains",
+     "typical_depth": "$3–4 off bulk pack, bringing 36 double rolls from ~$20 to $15–17; below $15 is rare but real"
+    },
+    {
+     "event": "Walmart / Target rollback or temporary price cut on Charmin/Cottonelle",
+     "timing": "Irregular; no reliable cadence — spot-check with price tracker",
+     "typical_depth": "Typically $2–4 off standard pack prices; occasionally deeper on larger packs"
+    },
+    {
+     "event": "Amazon Subscribe & Save",
+     "timing": "Ongoing; 5% standard discount, up to 15% with 5+ active subscriptions",
+     "typical_depth": "5–15% off list price; verify base price with CamelCamelCamel as Amazon list price fluctuates"
+    },
+    {
+     "event": "Manufacturer digital coupons (Charmin app, Cottonelle app, Ibotta)",
+     "timing": "Rolling availability; typically $1–2 off per pack",
+     "typical_depth": "$1–2 off; most useful when stacked with a sale or drug store promotion"
+    },
+    {
+     "event": "Costco / Sam's Club street price (no sale cadence)",
+     "timing": "Effectively always — warehouse clubs do not meaningfully discount consumables",
+     "typical_depth": "No discount off street price; street price IS the deal (Kirkland ~$0.014/sq ft adjusted)"
+    }
+   ],
+   "volatility": "Moderate-high. Tissue prices have increased meaningfully since 2020 and shrinkflation has made increases partially invisible. Sheet dimensions have been cut multiple times across brands (Charmin's standard sheet was 4.5\"x4.5\" in 2019, now ~4.0\"x4.0\"). Any cached price data or historical low from more than 18 months ago is unreliable because the product has fewer sq ft per dollar than what sold at that historical price. Warehouse club prices (Kirkland, Member's Mark) are relatively stable but have crept up $3–5 over two years. Drug store and mass-market brand pricing is more volatile due to frequent promotional cycling.",
+   "best_time_to_buy": "For warehouse club brands (Kirkland, Member's Mark): buy whenever you need it — no meaningful sale cadence exists and the street price is already the floor. For Angel Soft: buy when grocery chain circular hits $17 or below for 36 double rolls; stock two packs. For Charmin Ultra Strong or Cottonelle Ultra Comfort: buy only when drug store promotion + manufacturer coupon brings price to $20 or below for 18 mega rolls ($19 or below for Cottonelle). Do not buy premium brands at full retail — the value case collapses entirely against Kirkland.",
+   "patience_payoff": "High for premium brands at drug stores (waiting for promotion cycles saves 20–30% and is worth doing), moderate for Angel Soft (sale every 4–6 weeks at grocery), negligible for Kirkland/Member's Mark (no sale cadence to exploit). For a premium-brand buyer who actively stacks promotions, annual savings versus full-retail purchase are estimated at $30–50 per household. For a Kirkland buyer, patience is irrelevant — just buy it.",
+   "discount_honesty": "Drug store deals are real but rarely beat warehouse club pricing even at maximum discount depth. The Charmin/Cottonelle drug store deal ecosystem is best understood as a way to reduce the premium-tier price penalty, not as a way to access genuinely cheap tissue. The only path to the lowest per-sq-ft cost is warehouse club membership. Manufacturer 'Mega Roll = X Regular Rolls' equivalency marketing is self-serving math based on a shrinking baseline — ignore it entirely and compute square footage yourself. Historical lows cited here reflect pre-shrinkflation pack configurations and may represent fewer actual square feet than a current pack at the same nominal price."
+  },
+  "purchase_paths": [
+   {
+    "name": "Cheapest path that isn't a mistake",
+    "total_cost": 45,
+    "goal": "Adequate tissue quality at minimum annual spend, no membership required",
+    "items": [
+     {
+      "item": "Angel Soft 2-Ply, 36 Double Rolls",
+      "why": "purchased at grocery/Walmart sale price of $15–17, two packs — Best value at any store without a warehouse club membership; quality multiplier ~0.90 means adequate performance without the thin-tissue usage-rate penalty; buy two packs when price hits $17 or below",
+      "price": 34
+     }
+    ],
+    "rationale": "For a 1–2 person household using roughly one roll per person per week, two 36-double-roll packs covers the year. Purchasing only on sale ($15–17 per pack) brings annual spend to approximately $34–45. No membership fee required. This is the correct answer for buyers optimizing strictly on cost without warehouse club access.",
+    "tradeoff": "Tissue quality is adequate but not premium — acceptable basis weight, no pilling, but softer/denser options exist at higher cost. Requires mild sale-timing discipline (check circular every 4–6 weeks). Does not beat Kirkland on adjusted per-sq-ft cost even at sale price."
+   },
+   {
+    "name": "Best-value build",
+    "total_cost": 97,
+    "goal": "Optimal dollar-per-sq-ft outcome with genuinely good quality tissue",
+    "items": [
+     {
+      "item": "Costco membership (pro-rated share attributable to toilet paper purchases)",
+      "why": "$65/year membership amortizes across all Costco purchases; a household buying toilet paper, paper towels, and laundry detergent there likely recoups full fee on those alone. Allocating ~$12 to toilet paper share is conservative.",
+      "price": 12
+     },
+     {
+      "item": "Kirkland Signature 2-Ply Bath Tissue, 30-count",
+      "why": "four packs per year for 1–2 person household — At ~$24/pack, four packs covers approximately 120 rolls (~51,000 sq ft of tissue). Kirkland's ~$0.014/sq ft adjusted cost is unbeatable outside industrial purchasing. Quality is genuinely good — 4.5\"x4.5\" sheets, ~425 per roll, quality multiplier ~0.95.",
+      "price": 96
+     }
+    ],
+    "rationale": "Total annual spend approximately $108 including membership share, or $96 if membership is already held for other reasons. Per-sq-ft cost is 3–4x lower than buying Charmin Ultra Strong at full retail for equivalent household supply. This is the recommendation for any buyer who says 'I want optimal dollar spend, not just cheapest.'",
+    "tradeoff": "Requires Costco (or Sam's Club) membership. Tissue is not as plush as Charmin Ultra Soft — it is noticeably softer and more substantial than Angel Soft but not luxury-tier. Large pack size requires storage space. Costco price has crept up ~$3–5 since 2022 and may continue rising."
+   },
+   {
+    "name": "No-compromise build",
+    "total_cost": 150,
+    "goal": "Premium softness and basis weight tissue, purchased at deal prices to partially close the value gap",
+    "items": [
+     {
+      "item": "Cottonelle Ultra Comfort or Charmin Ultra Strong, 18 Mega Rolls",
+      "why": "purchased at drug store promotion below $19–20, stocked at 2 packs per purchase, 6–8 packs per year — At $19/pack for 18 mega rolls, adjusted per-sq-ft cost approaches Angel Soft territory while delivering expert-tested top-tier quality. Active deal-hunting (drug store promotion + manufacturer coupon stack) is required to hit this price.",
+      "price": 140
+     },
+     {
+      "item": "Manufacturer digital coupons via Charmin/Cottonelle app or Ibotta (estimated value per year)",
+      "why": "Charmin and Cottonelle regularly issue $1–2 off coupons; stacking with drug store promotions shaves an additional $10–15/year off effective spend.",
+      "price": -10
+     }
+    ],
+    "rationale": "For a buyer who genuinely prefers premium tissue quality and is willing to spend the time on deal management, purchasing Cottonelle Ultra Comfort or Charmin Ultra Strong exclusively on promotion (sub-$20 for 18 mega rolls) brings annual spend to approximately $130–160 — roughly 50–60% more than the Kirkland build. The perceptible quality improvement is real but functional outcome is incrementally better, not transformatively so.",
+    "tradeoff": "Requires active deal monitoring (drug store weekly circulars, Ibotta, manufacturer app coupons). If discipline lapses and purchases happen at full retail ($23–26), annual spend jumps to $180–230 and the value case collapses. Adjusted per-sq-ft cost even at deal prices (~$0.035–0.040) remains 2.5x Kirkland. Best justified for buyers who use fewer sheets per application due to higher tissue quality, narrowing the gap slightly."
+   }
+  ],
+  "caveats": [
+   "All prices were gathered from current or very recent retailer listings and community reports and are directionally accurate as of mid-2025, but should be spot-checked before purchase — toilet paper is a category where prices shift meaningfully.",
+   "Sheet dimensions for Kirkland Signature (~4.5\" x 4.5\") are confirmed by community measurements and product forum reports, not from a prominently advertised official spec table. Some buyers have reported slight variation. The 425-sheet count per roll is reliable from Kirkland's own product page.",
+   "Sheet dimensions for Charmin Ultra Strong (~4.0\" x 4.0\") are based on Charmin's published 4.0\" length figure and independent measurement reports of 3.92\"–4.0\" width. Charmin does not prominently advertise width; treat the 4.0\" figure as approximate.",
+   "GSM (basis weight) figures are estimates derived from qualitative testing descriptions, consumer forum reports, and product handling assessments — not from manufacturer-disclosed or laboratory-measured data. Manufacturers do not disclose GSM on consumer packaging. Quality multipliers (0.70–1.20) are analytical estimates, not measured values.",
+   "Member's Mark sheet dimensions and quality assessment are based on community reports and have less independent testing data behind them than Kirkland or the major branded products. Treat the slight quality caveat versus Kirkland as directional rather than confirmed.",
+   "Historical low prices reflect specific pack configurations that may have contained more square footage than the current equivalent pack sold at the same nominal price due to ongoing shrinkflation. A 'historical low' of $X in 2022 or 2023 may represent better effective value than the same $X today.",
+   "The 'Mega Roll = X Regular Rolls' equivalency numbers printed on Charmin and Cottonelle packaging are calculated against a baseline that has itself changed over time and should be ignored entirely for cross-brand or cross-time comparison. The only reliable comparison unit is cost per square foot of tissue delivered.",
+   "Costco regional price variation of $2–3 from the national mode is real; check the Costco app for your local warehouse price before computing per-sq-ft costs from this brief.",
+   "Seventh Generation and recycled-content tissue sustainability claims are real but nuanced — the brief's assessment that bamboo is a more defensible sustainability choice reflects the current evidence base but this is an actively debated topic and reasonable people weigh factors differently.",
+   "Amazon Subscribe & Save pricing for toilet paper fluctuates; the 5–15% discount applies to the base list price, which itself changes. Use CamelCamelCamel or a price tracker to verify you are seeing a genuine discount before subscribing.",
+   "The 'Who Gives a Crap' sustainability assessment ('bamboo = better is more complicated than marketing suggests') reflects that transport and processing partially offset bamboo's renewable-sourcing benefits — this is the current general consensus but the full lifecycle analysis is product- and supply-chain-specific."
+  ],
+  "sources": [
+   {
+    "title": "Wirecutter / NYT: Best Toilet Paper",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-toilet-paper/"
+   },
+   {
+    "title": "CamelCamelCamel Amazon Price Tracker",
+    "url": "https://camelcamelcamel.com"
+   },
+   {
+    "title": "Charmin Product Specifications (Walmart listing)",
+    "url": "https://www.walmart.com/search?q=charmin+ultra+strong+mega+roll"
+   },
+   {
+    "title": "Kirkland Signature Bath Tissue (Costco product page)",
+    "url": "https://www.costco.com/kirkland-signature-bath-tissue.product.html"
+   },
+   {
+    "title": "Angel Soft 2-Ply (Walmart listing)",
+    "url": "https://www.walmart.com/search?q=angel+soft+toilet+paper+36+double+rolls"
+   },
+   {
+    "title": "Who Gives a Crap Premium Bamboo Toilet Paper",
+    "url": "https://us.whogivesacrap.org/products/premium-toilet-paper"
+   },
+   {
+    "title": "Seventh Generation 100% Recycled Toilet Paper (Target listing)",
+    "url": "https://www.target.com/s?searchTerm=seventh+generation+toilet+paper"
+   },
+   {
+    "title": "Ibotta Cash Back App (manufacturer coupon stacking)",
+    "url": "https://home.ibotta.com"
+   },
+   {
+    "title": "Cottonelle Ultra Comfort (Target listing)",
+    "url": "https://www.target.com/s?searchTerm=cottonelle+ultra+comfort+mega+rolls"
+   },
+   {
+    "title": "Member's Mark Bath Tissue (Sam's Club product page)",
+    "url": "https://www.samsclub.com/s/members+mark+bath+tissue"
+   }
+  ]
+ }
+}

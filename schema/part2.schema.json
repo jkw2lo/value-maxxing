@@ -1,0 +1,148 @@
+{
+  "type": "object",
+  "properties": {
+    "spec_criteria": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "spec": {
+            "type": "string"
+          },
+          "weight": {
+            "type": "number"
+          },
+          "what_good_looks_like": {
+            "type": "string"
+          },
+          "how_to_check": {
+            "type": "string"
+          },
+          "why_it_matters": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "spec",
+          "weight",
+          "what_good_looks_like",
+          "how_to_check",
+          "why_it_matters"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "marketing_noise": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "claim": {
+            "type": "string"
+          },
+          "reality": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "claim",
+          "reality"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "value_traps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "trap": {
+            "type": "string"
+          },
+          "why_it_looks_good": {
+            "type": "string"
+          },
+          "why_it_isnt": {
+            "type": "string"
+          },
+          "instead": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "trap",
+          "why_it_looks_good",
+          "why_it_isnt",
+          "instead"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "tiers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tier": {
+            "type": "string"
+          },
+          "price_range": {
+            "type": "string"
+          },
+          "unit_price_range": {
+            "type": "string"
+          },
+          "who_its_for": {
+            "type": "string"
+          },
+          "representative_brands": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "verdict": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "tier",
+          "price_range",
+          "unit_price_range",
+          "who_its_for",
+          "representative_brands",
+          "verdict"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "consensus": {
+      "type": "object",
+      "properties": {
+        "expert_view": {
+          "type": "string"
+        },
+        "community_view": {
+          "type": "string"
+        },
+        "where_they_disagree": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "expert_view",
+        "community_view",
+        "where_they_disagree"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "spec_criteria",
+    "marketing_noise",
+    "value_traps",
+    "tiers",
+    "consensus"
+  ],
+  "additionalProperties": false
+}

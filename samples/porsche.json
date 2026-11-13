@@ -1,0 +1,951 @@
+{
+ "expertise": "intermediate",
+ "saved_at": null,
+ "report": {
+  "_recovered": true,
+  "category": "Porsche Automobiles",
+  "scope": "New and used Porsche purchases in the United States market, 2025, for driving enthusiasts intending 3–7 years of ownership including occasional track use",
+  "generated_at": "2026-08-21",
+  "primer": {
+   "what_it_is": "Porsche is a German automaker producing high-performance sports cars, SUVs, and sedans since the 1940s. What separates Porsche from other performance brands is a rare combination: cars that drive exceptionally well and remain genuinely reliable when properly maintained. The used Porsche market is deep and mature, meaning you do not need to buy new to get a great car — but you must be realistic about total cost of ownership, because maintenance done wrong is expensive and maintenance skipped is catastrophic. The enthusiast core of the lineup is the 911 (rear-engined, iconic) and the Cayman/Boxster (mid-engined, arguably the better driver's car at the price). The Cayenne and Macan are well-built SUVs but are not substitutes for the sports car experience.",
+   "must_haves": [
+    {
+     "feature": "Complete, documented service history",
+     "why": "Porsche engines require oil changes, coolant flushes, and other services on a fixed schedule. A car without paper records is a mystery box. In the Porsche world, assume unrecorded services were never performed and price or walk away accordingly."
+    },
+    {
+     "feature": "Pre-purchase inspection (PPI) by an independent Porsche specialist",
+     "why": "The single most important step in buying a used Porsche. A reputable Porsche-specialist shop (not a dealer, not a general mechanic) charges $400–$800 and routinely saves buyers from five-figure surprises. Never waive this step regardless of how clean the car looks."
+    },
+    {
+     "feature": "Engine-specific research before committing to any model",
+     "why": "Porsche has made extraordinary engines and deeply troubled ones. The M96/M97 family (1997–2008) has documented IMS bearing failure risk; the 997.1 Carrera S has bore-scoring risk. Knowing the engine code and production date before you bid determines what failure modes you are buying into."
+    },
+    {
+     "feature": "Verified working electronics throughout",
+     "why": "Porsche's driver aids, HVAC, and entertainment systems are sophisticated and expensive to repair when broken. A failed active suspension controller, AC compressor, or fuse box water intrusion can cost $1,000–$4,000 per repair. Test every switch, window, seat heater, and suspension mode during the PPI or test drive."
+    },
+    {
+     "feature": "Correct transmission for your actual use case",
+     "why": "Manual gearboxes are the enthusiast's choice — more engaging, commands a resale premium among enthusiasts. PDK (dual-clutch) is faster and better for heavy traffic. Tiptronic (older torque-converter automatic in early 997s and 996s) is the worst of both worlds for an enthusiast and should be avoided unless the price strongly reflects it."
+    }
+   ],
+   "premium_features": [
+    {
+     "feature": "Sport Chrono Package (option code A07)",
+     "why": "Adds a physical stopwatch and unlocks additional driving modes including Sport Plus on PDK cars and launch control. Worth having for spirited or track use; adds a modest resale premium. Verify via the window sticker or option code list on the door jamb."
+    },
+    {
+     "feature": "PASM — Porsche Active Suspension Management (option code P55)",
+     "why": "Electronically adjustable dampers that improve both ride comfort at low speeds and handling at high speeds. Verify it is functioning before purchase — a broken PASM actuator costs $1,200–$2,500 per corner to repair."
+    },
+    {
+     "feature": "Limited-slip differential (LSD) or Porsche Torque Vectoring (PTV)",
+     "why": "Prevents power loss to a spinning wheel under hard cornering or on slippery surfaces. Meaningful on track and perceptible on road. Porsche offers mechanical LSDs on some models and the electronic PTV system on others."
+    },
+    {
+     "feature": "Factory color and interior specification",
+     "why": "Porsche factory colors (Guards Red, GT Silver, Chalk, Miami Blue) and well-chosen interiors hold resale value extremely well. A rare factory color with a good interior can be worth $3,000–$8,000 more at resale than the same car in a common color. Matters more on a new purchase than a used one."
+    }
+   ],
+   "avoid": [
+    {
+     "thing": "IMS bearing risk on M96/M97 engines without documented retrofit",
+     "why": "The intermediate shaft bearing in 986 Boxster (all years), 987 first-generation (2005–2008), 996 (all years), and 997.1 (2005–2008) is undersized and can fail suddenly, destroying the entire engine. Replacement costs $10,000–$25,000. The LN Engineering IMS retrofit bearing ($2,000–$3,500 installed alongside a clutch or rear main seal job) resolves the risk. Always verify whether this has been done before buying any affected car."
+    },
+    {
+     "thing": "Bore scoring on 997.1 Carrera S (M97.01 engine) without bore scope inspection",
+     "why": "An estimated 10–15% of M97.01 engines develop cylinder wall scoring from insufficient lubrication, causing progressive oil burning and eventual engine failure. A bore scope exam during the PPI catches this early. Repair costs $8,000–$20,000. A 997.1 Carrera S that passes bore scope is a solid buy at the right price; one that hasn't been inspected is a gamble."
+    },
+    {
+     "thing": "Cheap Porsches with unknown or missing service history",
+     "why": "'Runs great, just needs TLC' in a Porsche listing means the previous owner skipped maintenance. Catch-up work commonly runs $5,000–$15,000, and you won't know the full extent until you're already committed. These look like bargains and are not. A fair-priced car with complete history costs less in the long run."
+    },
+    {
+     "thing": "Tiptronic automatic transmission in older 911s",
+     "why": "The Tiptronic torque-converter automatic found in 996 and early 997 911s is the worst of both worlds for an enthusiast — slower than PDK, less engaging than manual. Avoid unless the price is meaningfully discounted to reflect it."
+    },
+    {
+     "thing": "Buying an SUV expecting a sports car experience",
+     "why": "The Cayenne and Macan are well-built and competitive in their segment against the BMW X5 M50i and Mercedes-AMG GLE 53, but they are SUVs. If you want the low seating position, immediate steering response, and mechanical communication of a 911 or Cayman, an SUV will disappoint regardless of the Porsche badge."
+    }
+   ]
+  },
+  "awards": {
+   "best_overall": {
+    "product": "981 Cayman S (2013–2016)",
+    "why": "The 981 Cayman S represents the intersection of modern Porsche reliability, a naturally aspirated flat-six engine that the community considers one of the finest ever made, a mid-engine chassis that many driver-focused reviewers consider superior to the contemporary 911, and a used price ($38,000–$55,000) that is below its actual quality level. It has none of the M96/M97 legacy problems, its 9A1-family engine has an excellent track record, and the community support is deep. This is the car most Porsche specialists recommend to someone asking 'which Porsche should I buy.'"
+   },
+   "best_value": {
+    "product": "987.2 Cayman S (2009–2012)",
+    "why": "At $25,000–$38,000, the 987.2 Cayman S delivers a 3.4L naturally aspirated flat-six, a resolved IMS bearing (the double-row unit Porsche moved to for the .2 generation), superb handling, and the Cayman's inherently balanced mid-engine character. It is old enough to have depreciated significantly, young enough to have modern enough electronics, and well-understood enough that specialists can assess it quickly. For enthusiasts who want the most Porsche per dollar, this generation is the consistent community consensus answer."
+   },
+   "best_budget": {
+    "product": "987.1 Cayman S with documented IMS retrofit (2006–2008)",
+    "why": "Below $20,000 you are in first-generation 987 territory, which carries IMS risk. A 987.1 Cayman S that has had the LN Engineering IMS retrofit professionally installed and documented — verify with the mechanic's receipt and part number — eliminates the primary risk and delivers a genuinely excellent sports car for the price. Budget an additional $2,500–$4,000 for a fresh PPI and any deferred maintenance. Total entry can be under $25,000 for a car that is genuinely fun to own."
+   },
+   "best_premium": {
+    "product": "991.2 Carrera S (2016–2019) used",
+    "why": "The 991.2 brought a turbocharged flat-six (the 3.0T) to the base Carrera lineup, adding 20 hp and improving torque delivery substantially. Used examples in the $75,000–$95,000 range represent a car that was $110,000+ new, has sorted all of the 991.1's minor rough edges, and provides a genuinely modern driving experience with current-generation PDK. For buyers who need or want a 911 rather than a Cayman, the 991.2 Carrera S used is the most defensible financial choice in the lineup."
+   },
+   "best_for_beginners": {
+    "product": "981 Boxster (2012–2016)",
+    "why": "The 981 Boxster has all of the 981's mechanical virtues — 9A1 engine family, modern electronics, excellent chassis — in a more forgiving convertible body. It is slightly less sharp than the Cayman (which has a stiffer structure) but more accessible for drivers who are new to performance cars or who drive mostly on public roads. Used prices ($32,000–$48,000) are lower than the equivalent Cayman S, and the community support is identical. A beginner who buys a well-documented 981 Boxster with PASM and a manual or PDK transmission is unlikely to regret it."
+   },
+   "longest_lasting": {
+    "product": "996/997-era 911 with documented cooling system and IMS refresh, maintained by a specialist",
+    "why": "The 911's rear-engine layout concentrates mechanical wear in well-understood, well-supported systems, and examples from the early 2000s with proper care regularly reach 150,000–200,000 miles. The key qualifier is 'specialist-maintained' — a 997.2 Carrera (2009–2012, non-S, avoiding the bore-scoring M97.01) that has been serviced on schedule at a competent independent shop has extremely long service life. The 991-generation cars are too new to have long-term data but the 9A1 engine family shows every indication of matching or exceeding its predecessors."
+   },
+   "avoid": {
+    "product": "996 Carrera or 997.1 Carrera S with no PPI, no service history, and unverified IMS status",
+    "why": "These cars represent the highest-risk combination in the used Porsche market: a desirable name at an attractive price with a documented failure mode that the seller has either not addressed or cannot prove was addressed. An unverified 996 or 997.1 Carrera S listed below market can be a genuine bargain if the IMS has been retrofitted and bore scope passes, or it can be a $15,000–$25,000 engine replacement waiting to happen. Without a PPI from a specialist who specifically checks these items, you cannot tell which you are buying. The category to avoid is not the car itself but the car purchased without due diligence."
+   }
+  },
+  "normalization": {
+   "bands": [
+    {
+     "label": "Exceptional value",
+     "verdict": "Rare. A well-bought 987.2 Cayman S or 986 Boxster S with resolved IMS, full history, and strong resale can land here. These cars deliver 85–95% of the Porsche driving experience at a fraction of new-car cost.",
+     "low": 8000,
+     "high": 14000
+    },
+    {
+     "label": "Strong value",
+     "verdict": "The sweet spot for most enthusiasts. Covers well-chosen 981 Cayman, 991.1 Carrera, and 997.2 Carrera S purchases. Expect excellent driving experience, reasonable depreciation, and manageable maintenance.",
+     "low": 14000,
+     "high": 22000
+    },
+    {
+     "label": "Fair value",
+     "verdict": "Covers new 718 Cayman entry models, used 992 Carrera, and 991.2 Carrera S. Still a good ownership experience but the value equation requires that you genuinely want and use the specific car.",
+     "low": 22000,
+     "high": 32000
+    },
+    {
+     "label": "Questionable value",
+     "verdict": "New 992 Carrera S territory and lightly used 992 Turbo. The car is extraordinary but at this annual cost you are paying a substantial premium for newness and the latest technology. Defensible only if depreciation risk is acceptable.",
+     "low": 32000,
+     "high": 45000
+    },
+    {
+     "label": "Avoid on value grounds",
+     "verdict": "New 911 Turbo S, GT3, and GT3 RS territory with dealer markups. Magnificent cars bought at peak price. The driving experience is unmatched but the financial case requires either very high income or genuine collector intent.",
+     "low": 45000,
+     "high": 999999
+    }
+   ],
+   "unit": "cost per year of meaningful ownership at typical 7,500 miles/year street driving",
+   "unit_short": "$/ownership-year",
+   "unit_rationale": "Porsche purchase decisions are rarely about lowest sticker price — they are about total cost over the ownership period including purchase price depreciation, scheduled maintenance, and anticipated repairs. Normalizing to annual ownership cost over a realistic 5-year hold captures this better than sticker price alone and allows fair comparison across a $20,000 986 Boxster and a $130,000 992 Carrera S.",
+   "quality_adjustment": "Quality score is adjusted upward for: resolved engine failure modes (IMS retrofit, bore scope passed), documented service history, desirable factory options (Sport Chrono, PASM, LSD), manual transmission on enthusiast-focused models, and rare factory color. Adjusted downward for: missing service records, unresolved IMS risk, bore scoring risk not yet inspected, Tiptronic transmission, high deferred maintenance, or modified cars with unknown work history.",
+   "formula": "Annual ownership cost = (purchase price − estimated 5-year residual value) ÷ 5 + average annual maintenance ($2,500–$5,000 for routine service on a well-maintained car) + amortized repair reserve ($500–$2,000/year depending on generation and known risk factors)",
+   "size_economics": "Larger engine displacement and more options generally increase purchase price but also improve resale retention among enthusiasts. The flat-six GTS 4.0 engine in the 718 commands a strong premium over the base turbocharged four-cylinder because the community consensus strongly favors the flat-six's sound and character. Within the 911 lineup, Carrera S holds value better than base Carrera. Turbo variants hold value extremely well but cost more to maintain. GT variants (GT3, GT4) have in many cases appreciated from original MSRP, inverting normal depreciation economics — but only if unmolested and with documented history."
+  },
+  "diminishing_returns": {
+   "curve": [
+    {
+     "unit_price": 11000,
+     "quality": 42,
+     "label": "986 Boxster base — IMS risk, needs retrofit, but genuine Porsche DNA at entry cost"
+    },
+    {
+     "unit_price": 15000,
+     "quality": 58,
+     "label": "987.2 Cayman S — IMS resolved, flat-six, great chassis; value sweet spot entry"
+    },
+    {
+     "unit_price": 19000,
+     "quality": 70,
+     "label": "981 Cayman S — modern electronics, 9A1 engine family, no legacy failure modes"
+    },
+    {
+     "unit_price": 22000,
+     "quality": 78,
+     "label": "Knee of curve — 981 Cayman S well-optioned or 991.1 Carrera S"
+    },
+    {
+     "unit_price": 27000,
+     "quality": 84,
+     "label": "991.2 Carrera S used — refinement, PDK, turbocharged flat-six"
+    },
+    {
+     "unit_price": 33000,
+     "quality": 88,
+     "label": null
+    },
+    {
+     "unit_price": 40000,
+     "quality": 91,
+     "label": "New 718 GTS 4.0 or used 992 Carrera — excellence, diminishing delta vs knee"
+    },
+    {
+     "unit_price": 52000,
+     "quality": 95,
+     "label": null
+    },
+    {
+     "unit_price": 70000,
+     "quality": 97,
+     "label": "992 Turbo S or GT3 — near-peak performance, near-peak cost"
+    },
+    {
+     "unit_price": 95000,
+     "quality": 99,
+     "label": "GT3 RS / 911 R equivalents — collector territory, financial case requires appreciation thesis"
+    }
+   ],
+   "knee_unit_price": 22000,
+   "knee_example": "A well-chosen 981 Cayman S at approximately $48,000 purchase price, held 5 years, costs roughly $18,000–$22,000 per ownership-year all-in. At this point you have a resolved flat-six, a genuinely world-class chassis, Sport Chrono and PASM if optioned, and a community with deep knowledge. Spending more buys refinement, power, and prestige — not proportionally more driving joy.",
+   "below_knee": "Below roughly $22,000/year in ownership cost, each additional dollar spent on a higher-trim or newer Porsche returns meaningful gains in reliability, engine quality, chassis refinement, and driving engagement. The jump from a 986 Boxster ($10,000–$14,000/year) to a 987.2 Cayman S ($14,000–$18,000/year) buys significantly better engine reliability and a more sorted car. The jump from 987.2 to 981 buys a modern electrical system and better everyday usability.",
+   "above_knee": "Above roughly $22,000/year in ownership cost, gains are real but increasingly incremental relative to cost. A 991.2 Carrera S at ~$28,000/year is noticeably more refined and faster than a 981 Cayman S, but the driving experience improvement is modest compared to the cost delta. A new 992 Carrera S at ~$35,000+/year is excellent in every measurable way but the value equation requires that you specifically want the 992 experience, not just 'a great Porsche.'"
+  },
+  "spec_criteria": [
+   {
+    "spec": "Engine code and production date",
+    "weight": 28,
+    "what_good_looks_like": "Engine code stamped in bay or on option sheet matches a known-good generation: MA1 (987.2, 2009+), 9A1 (981, 991, and later). IMS retrofit documented for M96/M97 cars. Bore scope clean on 997.1 Carrera S M97.01. Production date verified with PPI specialist for mid-cycle changes.",
+    "how_to_check": "Read engine code from bay plate or option sheet. Pull VIN history at any Porsche dealer. Request bore scope during PPI on any 997.1 Carrera S. Ask for LN Engineering IMS retrofit documentation on any 986, pre-2009 987, 996, or pre-2009 997.",
+    "why_it_matters": "The M96/M97 IMS bearing failure destroys the entire engine without warning; replacement runs $10,000–$25,000. M97.01 bore scoring affects an estimated 10–15% of 997.1 Carrera S engines and costs $8,000–$20,000 to repair. Buying without verifying engine code is the single most common source of catastrophic used-Porsche loss."
+   },
+   {
+    "spec": "Complete, documented service history",
+    "weight": 22,
+    "what_good_looks_like": "Physical maintenance booklet, dealer service records (pullable by VIN at any Porsche dealer), and independent-shop receipts with no unexplained gaps. Oil changes at correct intervals, coolant flushes, spark plugs, and major scheduled services all present.",
+    "how_to_check": "Ask seller for all physical records upfront. Run VIN at a Porsche dealer to pull dealer-side history. Cross-reference dates and mileage across documents to spot gaps. Treat any gap as work that did not happen and price accordingly or walk away.",
+    "why_it_matters": "Deferred maintenance on a Porsche is not a discount — it is a hidden liability. A car with unknown history may need $5,000–$15,000 in catch-up work. Service history is also the primary signal that the IMS and other preventive work was done."
+   },
+   {
+    "spec": "Pre-purchase inspection by an independent Porsche specialist",
+    "weight": 18,
+    "what_good_looks_like": "Full PPI completed before purchase at a shop specializing in Porsche (not a general mechanic, not a Porsche dealership). Inspection includes bore scope on any 997.1 Carrera S, IMS status on any M96/M97 car, electronics function check, and suspension inspection.",
+    "how_to_check": "Budget $400–$800 for the inspection. Require it as a condition of purchase. Do not waive it for any reason, including a car that looks perfect or a seller who claims it was recently serviced.",
+    "why_it_matters": "A PPI is the single most important step in buying a used Porsche. It routinely saves buyers from expensive surprises. The cost is trivial relative to a $8,000–$25,000 engine repair that the inspection would have flagged."
+   },
+   {
+    "spec": "Transmission type",
+    "weight": 12,
+    "what_good_looks_like": "Manual (option code G81 or equivalent) for an enthusiast who drives one and values engagement and resale premium. PDK (option code A76) for buyers who will spend significant time in traffic or are newer drivers. Tiptronic avoided unless price reflects the significant discount it warrants.",
+    "how_to_check": "Check door jamb sticker for option codes. Confirm by test driving — a PDK shifts without a clutch pedal; a manual has three pedals; a Tiptronic is a torque-converter automatic.",
+    "why_it_matters": "The transmission determines a large share of the driving experience. Tiptronic is the worst of both worlds for an enthusiast. Manual commands a resale premium among enthusiasts. PDK is objectively faster but less engaging. Getting this wrong means living with the wrong car for three to seven years."
+   },
+   {
+    "spec": "Key factory options: Sport Chrono, PASM, LSD or PTV",
+    "weight": 10,
+    "what_good_looks_like": "Sport Chrono (A07) present for any spirited or track use — unlocks additional driving modes and launch control on PDK cars. PASM (P55) present and fully functional — verified during PPI with no broken actuators. LSD or PTV present for track use.",
+    "how_to_check": "Pull option code list from window sticker or Porsche dealer VIN lookup. Verify PASM is functional during test drive and PPI — a broken actuator costs $1,200–$2,500 per corner. Verify Sport Chrono stopwatch and mode buttons operate.",
+    "why_it_matters": "Sport Chrono and PASM meaningfully expand the car's capability envelope and add resale value. Broken PASM is expensive. These options are binary — either the car has them or it doesn't — and verifying function is straightforward."
+   },
+   {
+    "spec": "Electronics and ancillary systems condition",
+    "weight": 7,
+    "what_good_looks_like": "All electronics fully functional: windows, AC, heated seats, suspension mode switches, infotainment. No water intrusion into fuse box. HVAC blows cold. No warning lights.",
+    "how_to_check": "Test every electronic function during test drive. Request PPI shop check for water intrusion, scan for fault codes, and verify HVAC output temperature. Treat any non-functional electronic item as a $1,000–$4,000 repair and price accordingly.",
+    "why_it_matters": "Porsche electrical systems are sophisticated and expensive to repair. A water leak into the fuse box, failed AC compressor, or malfunctioning suspension controller can each cost $1,000–$4,000. Broken electronics on a used Porsche typically stay broken at high cost."
+   },
+   {
+    "spec": "Factory color and interior specification",
+    "weight": 3,
+    "what_good_looks_like": "Desirable factory colors (Guards Red, GT Silver, Chalk, Miami Blue) with a well-chosen interior. Rare or special-order colors documented on the window sticker as factory-applied.",
+    "how_to_check": "Verify color is factory-applied via window sticker and option code list. Check for repainted panels during PPI. Confirm interior condition and any wear on high-contact surfaces.",
+    "why_it_matters": "Desirable factory colors and interiors are worth $3,000–$8,000 more at resale than a common color with base interior. This matters more on a new purchase, but affects liquidity and price ceiling on resale after three to seven years of ownership."
+   }
+  ],
+  "marketing_noise": [
+   {
+    "claim": "'Runs great, just needs some TLC'",
+    "reality": "This phrase in a Porsche listing signals that maintenance was deferred. The actual catch-up cost is typically $5,000–$15,000, and the full extent won't be known until after purchase. These cars look like bargains and are not."
+   },
+   {
+    "claim": "'Recently serviced' without documentation",
+    "reality": "Without receipts or records, this is an unverifiable assertion. In the Porsche world, assume undocumented services did not happen. A car represented as recently serviced but with no paper trail should be priced as if it has never been serviced."
+   },
+   {
+    "claim": "Cayenne and Macan deliver the Porsche sports car experience",
+    "reality": "The Cayenne and Macan are genuine Porsches built to Porsche's quality standards, but they are SUVs. Buyers expecting the low seating, immediate steering response, and mechanical communication of a 911 or Cayman will be disappointed. The correct comparison set is BMW X5 M50i and Mercedes-AMG GLE 53, not 911 or Cayman."
+   },
+   {
+    "claim": "The 718's turbocharged four-cylinder is just as good as the flat-six",
+    "reality": "The 718 Cayman and Boxster (2017–2023 base and S) replaced the naturally aspirated flat-six with a turbocharged four-cylinder. Enthusiasts and reviewers widely criticized this for sound, character, and linearity of power delivery. The 718 GTS 4.0 and GT4 returned a flat-six and are regarded as the correct versions. The four-cylinder engine is not the same experience."
+   },
+   {
+    "claim": "A Porsche with no service history is a deal at a low price",
+    "reality": "A Porsche with no service history is a mystery box. The IMS bearing may be on the verge of failure. The M97.01 cylinders may be scored. The oil may not have been changed. The correct price for a no-history Porsche accounts for worst-case repair scenarios, which often makes the 'deal' price a fair price at best."
+   },
+   {
+    "claim": "Dealer markup over MSRP on new Porsches is unavoidable",
+    "reality": "Market conditions for dealer allocation and markup fluctuate. Having an established relationship with a dealer, being on an allocation list, or being willing to order and wait can affect the markup you pay. The situation is not static and varies by model, region, and market conditions."
+   }
+  ],
+  "value_traps": [
+   {
+    "trap": "987.1 or 986 Porsche at an attractive price without IMS retrofit documentation",
+    "why_it_looks_good": "These are genuinely great-driving cars — the 987.1 Cayman and Boxster and the 986 Boxster are widely loved by enthusiasts — and they appear at prices that look like genuine value compared to later generations.",
+    "why_it_isnt": "The M96 and early M97 engines in these cars have an IMS bearing that can fail catastrophically without warning, destroying the entire engine. Replacement costs $10,000–$25,000. A cheap 987.1 without documented IMS retrofit is cheap for a reason.",
+    "instead": "Buy a 987.1 only with documented LN Engineering IMS retrofit and a clean PPI, or step up to a 987.2 (2009–2012) which used an improved bearing that has not shown the same failure rate. Price the IMS retrofit cost ($2,000–$3,500) into any offer on an un-retrofitted car."
+   },
+   {
+    "trap": "997.1 Carrera S at a discount",
+    "why_it_looks_good": "The 997.1 Carrera S is a charismatic, highly regarded sports car that appears at prices significantly below the 997.2 and 991. The M97.01 engine is powerful and sounds exceptional.",
+    "why_it_isnt": "The M97.01 has a documented bore-scoring problem affecting an estimated 10–15% of engines. A 997.1 Carrera S without a bore scope inspection during PPI is a car whose most expensive component has an unknown defect status. Repair costs run $8,000–$20,000.",
+    "instead": "Buy a 997.1 Carrera S only after a PPI that includes a bore scope inspection confirming the cylinders are clean. Use the bore-scoring risk as a negotiating point to get the inspection done at the seller's cost or reduce the price to reflect the risk."
+   },
+   {
+    "trap": "Tiptronic-equipped 911 at a price that looks like a bargain",
+    "why_it_looks_good": "A Tiptronic 911 (torque-converter automatic, found in older 911s) may be priced significantly below equivalent manual or PDK cars, making it appear to offer more car for the money.",
+    "why_it_isnt": "The Tiptronic is the worst of both worlds for a driving enthusiast — slower and less engaging than a manual, and less sophisticated than the PDK. The discount reflects market reality: enthusiasts don't want it and the resale market prices it accordingly. Buying at a discount still means owning a car you'll want to sell at a further discount.",
+    "instead": "Budget for the manual or PDK version you actually want. If you cannot afford a manual or PDK example in the generation you want, consider a different generation rather than compromising on transmission."
+   },
+   {
+    "trap": "High-mileage Porsche with clean cosmetics",
+    "why_it_looks_good": "Porsches age well cosmetically. A 100,000-mile example may look nearly identical to a 40,000-mile example from the outside, and will be priced significantly lower.",
+    "why_it_isnt": "High mileage is not itself the problem — many Porsche engines are built to last well past 150,000 miles with proper maintenance. The problem is that high-mileage cars without complete service history are hiding an unknown quantity of deferred maintenance. Cosmetic condition tells you nothing about whether the IMS was retrofitted, the coolant was changed, or the engine is burning oil.",
+    "instead": "Evaluate high-mileage Porsches on service history completeness and PPI results, not cosmetics. A 120,000-mile car with complete documented service history is a better buy than a 60,000-mile car with gaps."
+   },
+   {
+    "trap": "New 718 Cayman or Boxster base or S trim for the enthusiast who wants the Porsche flat-six experience",
+    "why_it_looks_good": "The 718 Cayman and Boxster are genuine, excellent sports cars. The base and S variants are less expensive than the GTS 4.0 and GT4, making them appear to offer the core Porsche experience at a lower price point.",
+    "why_it_isnt": "The base and S 718 variants use a turbocharged four-cylinder engine that the enthusiast community widely criticized for lacking the sound, character, and linear power delivery of Porsche's flat-six. If the flat-six experience is why you're buying a Porsche, the base 718 does not deliver it.",
+    "instead": "Buy the 718 GTS 4.0 or GT4 for the flat-six, or consider a used 981 Cayman or Boxster (the prior generation) which used a naturally aspirated flat-six across most of its trim range."
+   }
+  ],
+  "tiers": [
+   {
+    "tier": "Entry used — 986 Boxster and 987.1 Cayman/Boxster",
+    "price_range": "$15,000–$35,000 total purchase",
+    "unit_price_range": "$15,000–$35,000",
+    "who_its_for": "Buyers who want the Porsche driving experience at the lowest possible entry point, are willing to do the IMS retrofit research, and can absorb unexpected repair costs or are buying with a large contingency budget. Not recommended for buyers who need reliability above all else.",
+    "representative_brands": [],
+    "verdict": "Genuinely great-driving cars at accessible prices, but the IMS bearing risk makes any example without a documented retrofit a gamble. Buy only with full PPI including IMS status confirmation, documented retrofit if not already done, and complete service history. Budget $2,000–$3,500 for IMS retrofit if not present, and $10,000–$25,000 contingency if the bearing has already failed. Best value in this tier: a 987.1 with documented retrofit and clean bore scope."
+   },
+   {
+    "tier": "Sweet spot used — 987.2 Cayman/Boxster and 997.2 Carrera",
+    "price_range": "$35,000–$65,000 total purchase",
+    "unit_price_range": "$35,000–$65,000",
+    "who_its_for": "Enthusiasts who want the best combination of driving quality, reliability, and value. The 987.2 resolved the IMS issue with an improved bearing. The 997.2 addressed the bore-scoring problem present in the 997.1. Both generations use naturally aspirated flat-six engines universally praised for character and sound.",
+    "representative_brands": [],
+    "verdict": "The community consensus best-value tier. The 987.2 Cayman in particular — especially the Cayman S and the limited Cayman R — is regarded by many Rennlist-community enthusiasts as the finest driver's car Porsche has built relative to its used price. The 997.2 Carrera offers the iconic 911 experience with resolved engine concerns. Expect to pay a premium over 987.1 prices; that premium buys meaningfully lower mechanical risk."
+   },
+   {
+    "tier": "Modern used — 981 Cayman/Boxster and 991.1 Carrera",
+    "price_range": "$45,000–$90,000 total purchase",
+    "unit_price_range": "$45,000–$90,000",
+    "who_its_for": "Buyers who want a more modern driving experience with current safety electronics, better infotainment, and the 9A1 engine family's strong reliability record, and who are willing to pay more for it. Also the right tier for anyone who wants PDK as their primary transmission.",
+    "representative_brands": [],
+    "verdict": "The 9A1 engine family is Porsche's modern benchmark for reliability. The 981 GT4 is a particularly coveted driver's car that has appreciated in value and may continue to do so. The 991.1 Carrera is wider, more refined, and more technologically sophisticated than the 997 at the cost of some of the 997's rawer character. Budget for depreciation that has now largely stabilized on these models."
+   },
+   {
+    "tier": "Late used and nearly new — 718 GTS 4.0/GT4 and 992 Carrera",
+    "price_range": "$80,000–$140,000+ total purchase",
+    "unit_price_range": "$80,000–$140,000+",
+    "who_its_for": "Buyers who want current-generation technology, the newest safety systems, and minimal depreciation risk from mechanical unknowns. The 718 GTS 4.0 and GT4 deliver the flat-six sound and character the base 718 lacks. The 992 is the current pinnacle of road-going 911 development.",
+    "representative_brands": [],
+    "verdict": "The 718 GTS 4.0 and GT4 are widely considered the definitive versions of the 718 generation and worth the premium over base 718 for any buyer who cares about the engine. The 992 is the most capable and refined 911 ever built, though some enthusiasts find it slightly less characterful than the 991.2. Expect to pay current near-market prices with limited depreciation from original MSRP on recent examples. Dealer markup over MSRP has been a feature of this tier in recent years."
+   },
+   {
+    "tier": "New — current production 911 and 718",
+    "price_range": "$75,000–$250,000+ MSRP depending on model and options",
+    "unit_price_range": "$75,000–$250,000+",
+    "who_its_for": "Buyers who want factory warranty, the ability to specify their own color and options, and the latest technology. Requires patience for ordering and allocation, and willingness to navigate dealer markup dynamics. Best for buyers who plan to keep the car long-term.",
+    "representative_brands": [],
+    "verdict": "The factory warranty and known service history from day one are genuine advantages. Sport Chrono, PASM, and color specification are all most meaningful on a new purchase where you control them. Dealer allocation dynamics and markup over MSRP require navigating carefully. A factory-ordered Porsche in a desirable specification holds resale value better than a stock dealer car in a common color."
+   }
+  ],
+  "consensus": {
+   "expert_view": "Specialist shops, PCA technical advisors, and professional reviewers consistently emphasize the IMS bearing and bore-scoring issues as the non-negotiable research items before any used purchase. The PPI from an independent specialist is universally mandated. Experts tend to rate the 987.2 Cayman S and the 997.2 Carrera as the strongest value propositions in the used market, and the 9A1-engined cars (981, 991, 718 GTS/GT4) as the reliability benchmark. The Tiptronic transmission is universally dismissed by experts for enthusiast use.",
+   "community_view": "The Rennlist and PCA community broadly agrees with experts on IMS and PPI requirements, and has done extensive empirical work cataloguing failure rates and repair costs. Community consensus most strongly favors the 987.2 Cayman — particularly the Cayman S and Cayman R — as the best driver's car relative to used price, sometimes above even the 911. The community is sharply divided on the 718 four-cylinder: many owners are satisfied, but purists who care about the flat-six sound and character feel strongly that the base 718 is a lesser car. The 981 GT4 is regarded by the community as a future classic that has already begun appreciating.",
+   "where_they_disagree": "Experts and the community diverge most on the 997.1 Carrera S. Experts tend to be more cautious, emphasizing the bore-scoring risk and recommending the 997.2 as a safer buy. The community is more divided — some enthusiasts argue the 997.1 Carrera S with a clean bore scope inspection is an undervalued car relative to its driving character, and that the bore-scoring risk is manageable with proper due diligence. The other significant disagreement is on the 718 turbocharged four-cylinder: professional reviewers generally rate the 718 base and S as objectively excellent sports cars by measurable performance metrics, while the enthusiast community rates them lower on the experiential and emotional criteria that tend to drive Porsche purchases. Experts also tend to be more neutral on the Cayenne and Macan as Porsches; the purist community largely excludes them from 'real Porsche' conversations."
+  },
+  "products": [
+   {
+    "name": "986 Boxster / 996 911 (1997–2004)",
+    "brand": "Porsche",
+    "tier": "Entry Used",
+    "street_price": 15000,
+    "unit_price": 15000,
+    "quality_score": 42,
+    "value_score": 58,
+    "buy_under": 18000,
+    "historical_low": 8000,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Rennlist classifieds",
+     "PCA forums",
+     "Facebook Marketplace",
+     "Bring a Trailer"
+    ],
+    "pros": [
+     "Lowest entry price into Porsche ownership",
+     "Mid-engine balance on Boxster is exceptional when running",
+     "Parts availability is mature and inexpensive",
+     "Great platform for learning Porsche ownership"
+    ],
+    "cons": [
+     "M96 engine IMS bearing failure risk is highest in this generation — all years affected",
+     "Engine replacement $10,000–$25,000 if bearing fails",
+     "996 styling widely considered the weakest of any 911 generation",
+     "No modern safety tech",
+     "Deferred maintenance endemic at this price point",
+     "Unknown history cars are extremely common"
+    ],
+    "best_for": "Buyers who can verify IMS retrofit has been completed, have mechanical aptitude, and treat this as a project car with eyes open on risk"
+   },
+   {
+    "name": "987.1 Cayman / Boxster (2005–2008)",
+    "brand": "Porsche",
+    "tier": "Entry-Mid Used",
+    "street_price": 22000,
+    "unit_price": 22000,
+    "quality_score": 52,
+    "value_score": 65,
+    "buy_under": 27000,
+    "historical_low": 14000,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Rennlist classifieds",
+     "Bring a Trailer",
+     "PCA Mart",
+     "AutoTrader"
+    ],
+    "pros": [
+     "Mid-engine handling benchmark at this price",
+     "Cayman S is one of the best-driving cars under $30k",
+     "Parts widely available",
+     "Better styling than 996"
+    ],
+    "cons": [
+     "M97 engine still carries IMS bearing risk — all 987.1 years affected",
+     "Cayman S M97.01 engine also subject to bore-scoring risk",
+     "IMS retrofit should be verified before purchase",
+     "Older electronics showing age",
+     "No modern infotainment"
+    ],
+    "best_for": "Enthusiasts buying a known-good, IMS-retrofitted example with full service history who want the best mid-engine driving dynamics per dollar"
+   },
+   {
+    "name": "987.2 Cayman / Boxster (2009–2012)",
+    "brand": "Porsche",
+    "tier": "Mid Used",
+    "street_price": 32000,
+    "unit_price": 32000,
+    "quality_score": 68,
+    "value_score": 78,
+    "buy_under": 38000,
+    "historical_low": 22000,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Bring a Trailer",
+     "Rennlist classifieds",
+     "PCA Mart",
+     "AutoTrader",
+     "CarGurus"
+    ],
+    "pros": [
+     "MA1 engine resolved IMS bearing problem with larger double-row bearing",
+     "Bore-scoring risk eliminated",
+     "Mid-engine handling is class-defining",
+     "PDK option available",
+     "Strong enthusiast community support",
+     "Excellent parts availability"
+    ],
+    "cons": [
+     "No flat-six sound — engine note less celebrated than later 9A1 cars",
+     "Infotainment dated",
+     "No turbocharged power",
+     "Values have risen as community recognized reliability improvement",
+     "Cayman still artificially limited vs 911 by Porsche corporate policy"
+    ],
+    "best_for": "The community consensus sweet spot: buyers who want a reliable, engaging Porsche under $40k without IMS gambling"
+   },
+   {
+    "name": "997.1 Carrera / Carrera S (2005–2008)",
+    "brand": "Porsche",
+    "tier": "Mid Used",
+    "street_price": 35000,
+    "unit_price": 35000,
+    "quality_score": 58,
+    "value_score": 55,
+    "buy_under": 40000,
+    "historical_low": 24000,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Bring a Trailer",
+     "AutoTrader",
+     "Rennlist classifieds",
+     "Porsche dealers"
+    ],
+    "pros": [
+     "Iconic 911 silhouette and lineage",
+     "Carrera S performance is genuinely fast",
+     "Strong enthusiast community",
+     "Flat-six sound and character",
+     "RWD 911 at a fraction of new price"
+    ],
+    "cons": [
+     "997.1 Carrera: M97 IMS risk applies — verify retrofit",
+     "997.1 Carrera S: M97.01 bore-scoring risk, incidence 10–15% per specialists, requires bore scope PPI",
+     "Bore-score repair $8,000–$20,000",
+     "Higher risk than 987.2 at similar or higher price",
+     "Tiptronic-equipped cars avoid for enthusiasts"
+    ],
+    "best_for": "Buyers who want a 911 specifically, pass a bore scope PPI, verify IMS status, and price accordingly — not the recommended entry point without those steps"
+   },
+   {
+    "name": "997.2 Carrera / Carrera S (2009–2011)",
+    "brand": "Porsche",
+    "tier": "Upper-Mid Used",
+    "street_price": 55000,
+    "unit_price": 55000,
+    "quality_score": 77,
+    "value_score": 70,
+    "buy_under": 62000,
+    "historical_low": 40000,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Bring a Trailer",
+     "Porsche CPO",
+     "AutoTrader",
+     "Rennlist classifieds"
+    ],
+    "pros": [
+     "DFI (direct fuel injection) engine resolved bore-scoring risk",
+     "IMS risk resolved",
+     "PDK available and excellent",
+     "Significantly more modern than 997.1",
+     "Real 911 character and performance",
+     "Better electronics than prior generation"
+    ],
+    "cons": [
+     "Higher price than 987.2 for comparable reliability improvement",
+     "Values have held — not cheap",
+     "DFI engines require carbon cleaning every 30,000–40,000 miles ($400–$800 service)",
+     "Older infotainment by today's standards"
+    ],
+    "best_for": "Buyers who want a 911 rather than a Cayman and can spend the premium for the cleaner engine generation"
+   },
+   {
+    "name": "981 Cayman / Boxster (2013–2016)",
+    "brand": "Porsche",
+    "tier": "Upper-Mid Used",
+    "street_price": 48000,
+    "unit_price": 48000,
+    "quality_score": 80,
+    "value_score": 75,
+    "buy_under": 56000,
+    "historical_low": 36000,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Bring a Trailer",
+     "Porsche CPO",
+     "AutoTrader",
+     "Rennlist classifieds"
+    ],
+    "pros": [
+     "9A1 engine family — Porsche's modern reliability benchmark",
+     "Flat-six in base and S models",
+     "Best-in-class handling for a road car at any price",
+     "Excellent PDK and manual options",
+     "More modern electronics and safety",
+     "GT4 variant is a legend"
+    ],
+    "cons": [
+     "Values have risen substantially — no longer cheap",
+     "Flat-six discontinued in favor of turbo-four in 718 generation",
+     "GT4 commands large premium",
+     "Some early 9A1 examples had intermediate shaft bearing issues — verify with PPI specialist"
+    ],
+    "best_for": "Enthusiasts who want the last naturally aspirated flat-six mid-engine Porsche before the turbocharged 718 era, and can spend upper-$40k to $55k"
+   },
+   {
+    "name": "981 Cayman GT4 (2016)",
+    "brand": "Porsche",
+    "tier": "Collector / Enthusiast Premium",
+    "street_price": 95000,
+    "unit_price": 95000,
+    "quality_score": 92,
+    "value_score": 52,
+    "buy_under": 88000,
+    "historical_low": 72000,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Bring a Trailer",
+     "Porsche dealers",
+     "Rennlist classifieds"
+    ],
+    "pros": [
+     "4.0L naturally aspirated flat-six — one of the greatest road car engines ever built",
+     "Track-ready from factory",
+     "Manual transmission only — enthusiast purity",
+     "Values have appreciated, not depreciated",
+     "Benchmark for the class globally"
+    ],
+    "cons": [
+     "Values now at or above original MSRP — no depreciation advantage",
+     "Single model year, very limited supply",
+     "Every known example has been examined — buying blind is nearly impossible but PPI still essential",
+     "Price has risen above pure value into collector territory"
+    ],
+    "best_for": "Collectors and serious track drivers for whom the driving experience justifies the premium; do not buy as a value play at current prices"
+   },
+   {
+    "name": "991.1 Carrera / Carrera S (2012–2016)",
+    "brand": "Porsche",
+    "tier": "Upper-Mid Used",
+    "street_price": 65000,
+    "unit_price": 65000,
+    "quality_score": 81,
+    "value_score": 68,
+    "buy_under": 73000,
+    "historical_low": 50000,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Bring a Trailer",
+     "Porsche CPO",
+     "AutoTrader",
+     "Rennlist classifieds",
+     "Porsche dealers"
+    ],
+    "pros": [
+     "9A1 engine — modern and reliable",
+     "Electric power steering (controversial but precise)",
+     "Significantly larger and more comfortable than 997",
+     "Modern infotainment and safety tech",
+     "Carrera S performance is genuinely supercar-adjacent"
+    ],
+    "cons": [
+     "Electric power steering criticized by purists for reduced road feel",
+     "Larger footprint than prior 911 generations",
+     "Values have held up — not cheap for the age",
+     "991.1 does not have water-cooled turbos (those arrived in 991.2)"
+    ],
+    "best_for": "Buyers wanting a modern, daily-driveable 911 with contemporary electronics and no engine generation risk"
+   },
+   {
+    "name": "991.2 Carrera / Carrera S (2016–2019)",
+    "brand": "Porsche",
+    "tier": "Near-New Used",
+    "street_price": 85000,
+    "unit_price": 85000,
+    "quality_score": 87,
+    "value_score": 63,
+    "buy_under": 92000,
+    "historical_low": 72000,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Porsche CPO",
+     "Bring a Trailer",
+     "AutoTrader",
+     "Porsche dealers"
+    ],
+    "pros": [
+     "Turbocharged flat-six — more torque, faster, more efficient",
+     "9A1 base with turbocharger — reliability well established",
+     "PASM Sport option available",
+     "Modern infotainment",
+     "Very close to new 992 experience at lower price"
+    ],
+    "cons": [
+     "Purists lament loss of naturally aspirated character",
+     "Turbo adds service complexity",
+     "Values remain high — depreciation advantage over new 992 is modest",
+     "DFI plus turbo means carbon cleaning required"
+    ],
+    "best_for": "Buyers who want a current-feeling 911 and can spend $85k–$95k; bridges the gap between used value and new-car experience"
+   },
+   {
+    "name": "718 Cayman / Boxster base (2017–present)",
+    "brand": "Porsche",
+    "tier": "New or Near-New",
+    "street_price": 68000,
+    "unit_price": 68000,
+    "quality_score": 75,
+    "value_score": 60,
+    "buy_under": 72000,
+    "historical_low": 52000,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Porsche dealers",
+     "Porsche CPO",
+     "AutoTrader"
+    ],
+    "pros": [
+     "Modern technology, warranty, and safety features",
+     "Turbocharged 2.0L four-cylinder is genuinely fast",
+     "Best resale protection of any option",
+     "Competent chassis"
+    ],
+    "cons": [
+     "Turbocharged four-cylinder is widely criticized by enthusiasts for engine note and character",
+     "Loss of flat-six is the main community objection",
+     "PDK-only on some trims",
+     "Does not deliver the emotional engagement of 981 or 987 at higher price"
+    ],
+    "best_for": "Buyers prioritizing modernity, warranty, and daily usability over emotional engagement; pragmatic rather than enthusiast-optimized choice"
+   },
+   {
+    "name": "718 Cayman GTS 4.0 / GT4 (2020–present)",
+    "brand": "Porsche",
+    "tier": "New Premium",
+    "street_price": 102000,
+    "unit_price": 102000,
+    "quality_score": 93,
+    "value_score": 55,
+    "buy_under": 105000,
+    "historical_low": 88000,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Porsche dealers (allocation required)",
+     "Bring a Trailer for used",
+     "Porsche CPO"
+    ],
+    "pros": [
+     "4.0L naturally aspirated flat-six returns — the community's most celebrated modern engine",
+     "GT4 RS goes further with Motorsport DNA",
+     "Track capability is world-class from factory",
+     "Manual transmission standard on GT4"
+    ],
+    "cons": [
+     "Allocation-limited — dealers have charged $10,000–$20,000 over MSRP",
+     "MSRP itself is $95,000–$110,000+ depending on options",
+     "At $100k+, competing against 992 Carrera territory",
+     "Used examples have appreciated above MSRP in some cases"
+    ],
+    "best_for": "Serious driving enthusiasts who want the current best mid-engine naturally aspirated Porsche and can navigate dealer allocation or used market pricing"
+   },
+   {
+    "name": "992 Carrera / Carrera S (2020–present)",
+    "brand": "Porsche",
+    "tier": "New",
+    "street_price": 115000,
+    "unit_price": 115000,
+    "quality_score": 90,
+    "value_score": 50,
+    "buy_under": 118000,
+    "historical_low": null,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Porsche dealers",
+     "Porsche CPO"
+    ],
+    "pros": [
+     "State of the art in every category",
+     "Best-in-class infotainment, safety, and driver aids",
+     "Wet-clutch PDK is the benchmark dual-clutch transmission",
+     "Modern turbocharged flat-six with significant torque",
+     "Full warranty"
+    ],
+    "cons": [
+     "Highest price — MSRP $115,000–$145,000+ with options",
+     "Turbo-only flat-six — same objection as 991.2 for purists",
+     "Depreciation not yet established — buying near-peak value",
+     "Large and complex — less pure than older 911s by enthusiast consensus"
+    ],
+    "best_for": "Buyers for whom budget is not a primary constraint and who want the most capable, modern, warrantied Porsche available"
+   }
+  ],
+  "verdict": {
+   "headline": "",
+   "buy_score": null,
+   "signal": "BUY_SELECTIVELY",
+   "price_watch_summary": "987.2 Cayman S: $25,000–$38,000 represents the sweet spot. 981 Cayman S: $38,000–$55,000. 981 GT4: $80,000–$110,000 (appreciating, buy carefully). 991.1 Carrera S: $55,000–$75,000. 991.2 Carrera S: $75,000–$100,000. 992 Carrera used: $95,000–$130,000. New 718 Cayman GTS 4.0: ~$97,000 MSRP. New 992 Carrera S: ~$130,000+ MSRP. New Porsche pricing is subject to dealer allocation markups of $5,000–$30,000 above sticker on popular configurations in 2024–2025.",
+   "reasoning": "The used Porsche market in 2025 offers genuine value at specific points — particularly the 987.2 Cayman S ($25,000–$38,000) and 981 Cayman ($35,000–$55,000) — where you get a resolved IMS bearing, a flat-six engine, a sorted chassis, and deep community support at a price that represents real depreciation from original MSRP. The 991.1 Carrera is also compelling at $55,000–$75,000. New Porsches carry MSRP premiums and, on some allocations, dealer markups above sticker, making them hard to justify purely on value grounds though they are excellent cars. The category earns a BUY_SELECTIVELY rather than BUY_NOW because the risk of a bad purchase is unusually high — a skipped PPI or an unresearched engine code can turn a great deal into a five-figure repair bill within months. The reward for buying correctly is high: a well-chosen used Porsche is one of the most enjoyable cars a person can own at the price, with a supportive community, good parts availability, and depreciation that has largely already occurred.",
+   "confidence": "Moderate-high — used market pricing is current as of mid-2025; new MSRP and dealer markup dynamics are well-documented but shift quarterly"
+  },
+  "deal_intelligence": {
+   "sale_cadence": [
+    {
+     "event": "End of model year — new car",
+     "timing": "August–October, when following year's models arrive",
+     "typical_depth": "Rare on Porsche; dealers rarely discount. At best, leftover prior-year base models may see $2,000–$5,000 off MSRP. Limited editions and GT cars never discount."
+    },
+    {
+     "event": "Bring a Trailer auction cycles",
+     "timing": "Year-round, but volume peaks spring and fall",
+     "typical_depth": "Market-price discovery; no systematic discount. Exceptional condition cars command premiums. Off-season winter listings occasionally close below peak bids."
+    },
+    {
+     "event": "Private party seasonal softness",
+     "timing": "November–February in cold-weather markets",
+     "typical_depth": "5–10% below peak summer pricing for non-collector cars in northern states; minimal effect in California and Florida where Porsches drive year-round."
+    },
+    {
+     "event": "CPO clearance cycles",
+     "timing": "When dealers take in trade-ins on new 992 and 718 orders — unpredictable",
+     "typical_depth": "CPO pricing is generally close to market; limited negotiating room but warranty value is real."
+    }
+   ],
+   "volatility": "Moderate to high. Used Porsche prices rose significantly 2020–2022 driven by pandemic-era demand and new car inventory shortages, then softened 10–20% through 2023–2024 on most models except collector-tier examples (981 GT4, air-cooled cars). Prices have stabilized but remain elevated versus 2019 baseline. The 987.2 sweet spot saw particular price appreciation as enthusiast consensus identified it as the reliability-corrected generation.",
+   "best_time_to_buy": "For used cars, winter in cold-weather markets (November–January) produces slightly softer private-party pricing. For new Porsches, there is no meaningful sale period — GT cars are allocation-limited and base cars move at or near MSRP year-round. The best 'deal' on a new Porsche is finding a dealer with reasonable allocation relationships and ordering at MSRP rather than paying a markup.",
+   "patience_payoff": "High for new GT cars (718 GT4, 992 GT3): prices above MSRP have softened as allocation has expanded. Buyers who waited from 2021–2023 peak markup periods are now finding GT4 examples at or near MSRP. Moderate for used market: the 987.2 sweet spot has already been discovered by the community — waiting for further price drops is unlikely to be rewarded. For 997.1 Carrera S, patience could work if you find a bore-scored car being sold honestly at a discount and want to budget a rebuild, but this is a specialist move.",
+   "discount_honesty": "Porsche dealer markups above MSRP on GT and allocation cars were $10,000–$30,000 in 2021–2022 and have compressed to $0–$15,000 in 2024–2025 depending on model and dealer. Base Carrera and Cayman cars are more negotiable. On used cars, listed prices on AutoTrader and CarGurus are typically aspirational — 5–10% negotiation room exists on private party sales with documentation of any needed repairs, but Bring a Trailer auctions are genuine price discovery and what cars actually sell for."
+  },
+  "purchase_paths": [
+   {
+    "name": "The Reliable Entry: 987.2 Cayman S",
+    "total_cost": 39500,
+    "goal": "Maximum driving engagement per dollar, no engine generation gambling, budget under $40k",
+    "items": [
+     {
+      "item": "987.2 Cayman S (2009–2012), private party, clean history, verified MA1 engine",
+      "why": "Community consensus value sweet spot; MA1 engine resolved IMS bearing risk; mid-engine handling is class-defining; $30k–$38k is the realistic range for a good example",
+      "price": 34000
+     },
+     {
+      "item": "Pre-purchase inspection at independent Porsche specialist",
+      "why": "Non-negotiable; bore scope, compression test, electronic system check, undercarriage inspection",
+      "price": 600
+     },
+     {
+      "item": "Immediate fluids service if not done in last 2 years (oil, coolant, brake fluid)",
+      "why": "Catch-up maintenance on any used purchase; brake fluid hygroscopic and must be fresh for track use",
+      "price": 800
+     },
+     {
+      "item": "IMS bearing retrofit verification / installation if not already done",
+      "why": "Budget for this if not confirmed done; $2,000–$3,500 when performed with clutch or rear main seal; if already done, this is $0",
+      "price": 2500
+     },
+     {
+      "item": "Contingency reserve, year one",
+      "why": "Realistic buffer for minor deferred maintenance discovered post-purchase: tires, brake pads, rubber bushings, HVAC repair",
+      "price": 2600
+     }
+    ],
+    "rationale": "The 987.2 generation sits at the intersection of Porsche's best driving dynamics in the mid-engine format, the resolved engine reliability story, and a price point that still represents genuine value. The flat-six sound and character that the community mourns in the 718 generation is present here. A well-bought 987.2 Cayman S is widely considered the best value proposition in used Porsche ownership by Rennlist consensus.",
+    "tradeoff": "You are buying a 12–16 year old car. Electronics will need attention over time. Infotainment is a 2009 system. No modern safety features (no automatic emergency braking, no lane assist). Track use will accelerate brake and tire wear. This is not a car for someone who wants to hand it to a dealer for all service — independent specialist relationships are essential."
+   },
+   {
+    "name": "The Worry-Free Modern: 991.1 Carrera S",
+    "total_cost": 75500,
+    "goal": "Daily-driveable 911 with modern features, 9A1 engine reliability, no significant known failure risks, budget $65k–$80k",
+    "items": [
+     {
+      "item": "991.1 Carrera S (2013–2016), private party or CPO, Sport Chrono, PASM, documented history",
+      "why": "9A1 engine is Porsche's modern benchmark; Carrera S performance is supercar-adjacent; $65k–$75k range for a well-specified example",
+      "price": 70000
+     },
+     {
+      "item": "Pre-purchase inspection",
+      "why": "9A1 engine is reliable but electrical system complexity warrants thorough inspection; verify PASM function on every corner",
+      "price": 700
+     },
+     {
+      "item": "First major service if overdue (spark plugs, air filters, coolant)",
+      "why": "991 major service is more involved than prior generations; if not done in last 30,000 miles, budget this immediately",
+      "price": 1500
+     },
+     {
+      "item": "Year-one contingency",
+      "why": "991 parts and labor costs are higher than prior generations; $3k–$4k realistic buffer",
+      "price": 3300
+     }
+    ],
+    "rationale": "The 991 generation is the 911 that most current owners would recommend to someone who wants a genuine 911 experience without the engine-generation anxiety of the 996/997.1 era. Electric power steering is the one enthusiast objection — some find it less communicative than the hydraulic steering of prior generations — but by any objective measure the 991 is a better car than the 997 in almost every category.",
+    "tradeoff": "You are spending significantly more than the 987.2 path for a different shape and the 911 badge. The 991 is a heavier, larger car than the Cayman — it is not the purer driving instrument. If your goal is maximum driving engagement per dollar, the 987.2 Cayman S is still the answer. The 991 is the right answer if you want a 911 specifically and want modern reliability."
+   },
+   {
+    "name": "The New Car Path: 718 Cayman GTS 4.0",
+    "total_cost": 108000,
+    "goal": "New Porsche with full warranty, no used-car risk, naturally aspirated flat-six, track-capable, budget $105k–$115k",
+    "items": [
+     {
+      "item": "718 Cayman GTS 4.0, new, base MSRP with core options",
+      "why": "GTS 4.0 is the naturally aspirated flat-six variant that addresses the community's main objection to the 718 generation; MSRP approximately $97,000–$103,000 depending on year and options before any dealer markup",
+      "price": 100000
+     },
+     {
+      "item": "Sport Chrono Package (A07)",
+      "why": "Unlocks additional drive modes, launch control on PDK; meaningful for any spirited driving; strong resale factor",
+      "price": 2700
+     },
+     {
+      "item": "PASM Sport (lowered suspension, firmer PASM)",
+      "why": "Track-oriented suspension setup; meaningful if you intend track days",
+      "price": 1500
+     },
+     {
+      "item": "Dealer markup contingency (current market, allocation-dependent)",
+      "why": "Budget up to $5,000–$10,000 for markup; current market in 2024–2025 is better than 2021–2022 peak but allocation cars still trade above MSRP at many dealers",
+      "price": 3800
+     }
+    ],
+    "rationale": "The GTS 4.0 is what the 718 base should have been, per enthusiast consensus. The 4.0L naturally aspirated flat-six returns the engine character the community lost when the turbo-four arrived. At current prices it is expensive, but you get a full new-car warranty, no history anxiety, modern features, and the best current mid-engine naturally aspirated Porsche platform.",
+    "tradeoff": "At $105k–$110k you are in or above 992 Carrera territory. The 718 GTS 4.0 is a more engaging driver's car in the mid-engine format, but the 992 Carrera is a more complete car in almost every other dimension. The decision at this budget is genuinely a values question: if the driving experience is the primary purpose, GTS 4.0. If daily versatility, technology, and the 911 legacy matter equally, step up to a 992."
+   },
+   {
+    "name": "The Patient Enthusiast: 997.2 Carrera S with Full Vetting",
+    "total_cost": 62000,
+    "goal": "Iconic naturally aspirated Carrera S with resolved engine generation, for the buyer who wants old-school 911 character at a used price, budget $55k–$65k",
+    "items": [
+     {
+      "item": "997.2 Carrera S (2009–2011), manual preferred, complete service history, Sport Chrono and PASM verified",
+      "why": "997.2 resolved the bore-scoring and IMS risks of the 997.1; DFI engine is strong; manual 997.2 Carrera S is among the most celebrated 911 driving experiences; $50k–$60k realistic range",
+      "price": 56000
+     },
+     {
+      "item": "Pre-purchase inspection including bore scope, compression test, PASM verification",
+      "why": "997.2 does not have the 997.1 engine risks but DFI carbon buildup should be inspected and PASM function verified on all four corners",
+      "price": 750
+     },
+     {
+      "item": "Carbon cleaning if not done in last 30,000 miles",
+      "why": "DFI engines accumulate carbon deposits on intake valves; $400–$800 service, necessary every 30k–40k miles",
+      "price": 700
+     },
+     {
+      "item": "Year-one contingency",
+      "why": "997 parts costs are significant; rubber components at 15+ years old; budget $4,000–$5,000 for genuine surprises",
+      "price": 4550
+     }
+    ],
+    "rationale": "The 997.2 Carrera S with a manual transmission represents an argument that this is one of the best driver's cars ever made at any price. The naturally aspirated 3.8L flat-six, the hydraulic steering, the mechanical feel of the chassis — enthusiasts who have driven both 997 and 991 regularly prefer the 997's communication. At $55k–$65k it is not cheap, but it offers an experience that genuinely cannot be replicated new.",
+    "tradeoff": "You are buying a 13–16 year old car. Carbon cleaning is a recurring cost. Parts and labor costs are rising as the car ages. This path requires comfort with an independent specialist shop relationship and a higher contingency reserve than a newer car warrants. It also requires patience: good examples with manual transmissions and complete histories sell quickly on Bring a Trailer and Rennlist, and rushing to buy a compromised example defeats the entire purpose."
+   }
+  ],
+  "caveats": [
+   "All prices in this analysis reflect US market conditions as researched in mid-2025. Porsche used car prices are volatile and can shift 10–20% in either direction within 6–12 months based on new car availability, economic conditions, and collector market sentiment. Verify current pricing on Bring a Trailer sold listings, CarGurus, and AutoTrader before any purchase decision.",
+   "The IMS bearing failure rate statistics cited (particularly the 'sudden failure without warning' characterization) reflect enthusiast community consensus and specialist mechanic observations, not a peer-reviewed engineering study. Porsche has never officially acknowledged the scope of the problem. Individual risk varies by driving habits, oil change frequency, and specific production date. The conservative buyer treats any unverified M96/M97/early M97 engine as carrying this risk.",
+   "Bore-scoring incidence on the M97.01 Carrera S engine is estimated by specialists at roughly 10–15% — this figure comes from independent Porsche shops and is not an official Porsche statistic. Some specialists put the rate lower; others higher. The practical implication (always bore scope a 997.1 Carrera S) is the same regardless of the exact percentage.",
+   "Dealer markup data on GT and allocation cars reflects conditions reported through mid-2025. The allocation environment changes with model year introductions, interest rate effects on luxury purchases, and broader economic conditions. By the time you read this, markup conditions may have changed significantly.",
+   "The 'community consensus' represented here draws primarily from Rennlist.com and Porsche Club of America discussions, supplemented by specialist mechanics. This community skews toward driving enthusiasts and track users. A buyer who primarily wants a prestigious daily driver and never tracks the car may weight the criteria differently — for example, valuing the 991's comfort and technology more relative to the 987.2's driving purity.",
+   "CPO (Certified Pre-Owned) Porsche programs offer extended warranty coverage and are genuinely valuable on complex modern Porsches (991, 992, 718). The coverage details and pricing change; verify current CPO terms directly with a Porsche dealer before factoring CPO premium into a purchase decision.",
+   "Annual maintenance cost estimates for Porsche vary widely depending on whether work is done at a dealership (highest), an independent Porsche specialist (moderate), or by the owner with specialty knowledge (lowest). Budget figures in this analysis assume independent specialist labor rates of $150–$200/hour, which is typical for specialist shops outside major metros. Dealer rates can run $250–$350/hour.",
+   "The 981 Cayman GT4 price appreciation noted here ($95,000 street price, at or above original MSRP) reflects the highly specific collector dynamic of a one-year, limited-production car. This is not representative of Porsche depreciation broadly — most Porsches do depreciate, they just do so more slowly than comparable luxury cars.",
+   "Exchange rate fluctuations between USD and EUR affect the cost of German-sourced parts for older Porsches. This is a background cost driver that most owners absorb invisibly through their repair bills but that can make parts costs feel erratic over multi-year ownership.",
+   "Track use accelerates wear on brakes, tires, and suspension components in ways that are not reflected in standard maintenance schedules. A car used for 6–8 track days per year should budget an additional $3,000–$5,000 annually for track-specific consumables (brake pads, brake fluid, tires) beyond normal street maintenance."
+  ],
+  "sources": [
+   {
+    "title": "Rennlist.com — Porsche owner forum, model-specific subforums",
+    "url": "https://www.rennlist.com"
+   },
+   {
+    "title": "Porsche Club of America — technical library and forums",
+    "url": "https://www.pca.org"
+   },
+   {
+    "title": "Bring a Trailer — sold auction listings for used Porsche market pricing",
+    "url": "https://www.bringatrailer.com"
+   },
+   {
+    "title": "LN Engineering — IMS bearing retrofit documentation and technical background",
+    "url": "https://www.lnengineering.com"
+   },
+   {
+    "title": "CarGurus — used Porsche market pricing and inventory",
+    "url": "https://www.cargurus.com"
+   },
+   {
+    "title": "AutoTrader — used Porsche listings and pricing data",
+    "url": "https://www.autotrader.com"
+   },
+   {
+    "title": "Porsche USA — new car MSRP and configurator",
+    "url": "https://www.porsche.com/usa"
+   },
+   {
+    "title": "Pelican Parts — Porsche technical articles and parts pricing",
+    "url": "https://www.pelicanparts.com"
+   }
+  ]
+ }
+}

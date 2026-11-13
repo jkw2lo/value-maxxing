@@ -1,0 +1,220 @@
+{
+  "type": "object",
+  "properties": {
+    "products": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "brand": {
+            "type": "string"
+          },
+          "tier": {
+            "type": "string"
+          },
+          "street_price": {
+            "type": "number"
+          },
+          "unit_price": {
+            "type": "number"
+          },
+          "quality_score": {
+            "type": "number"
+          },
+          "value_score": {
+            "type": "number"
+          },
+          "historical_low": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "typical_sale": {
+            "type": "string"
+          },
+          "buy_under": {
+            "type": "number"
+          },
+          "where_to_buy": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "pros": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "cons": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "best_for": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "brand",
+          "tier",
+          "street_price",
+          "unit_price",
+          "quality_score",
+          "value_score",
+          "historical_low",
+          "typical_sale",
+          "buy_under",
+          "where_to_buy",
+          "pros",
+          "cons",
+          "best_for"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "deal_intelligence": {
+      "type": "object",
+      "properties": {
+        "volatility": {
+          "type": "string"
+        },
+        "sale_cadence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "event": {
+                "type": "string"
+              },
+              "timing": {
+                "type": "string"
+              },
+              "typical_depth": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "event",
+              "timing",
+              "typical_depth"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "best_time_to_buy": {
+          "type": "string"
+        },
+        "patience_payoff": {
+          "type": "string"
+        },
+        "discount_honesty": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "volatility",
+        "sale_cadence",
+        "best_time_to_buy",
+        "patience_payoff",
+        "discount_honesty"
+      ],
+      "additionalProperties": false
+    },
+    "purchase_paths": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "goal": {
+            "type": "string"
+          },
+          "total_cost": {
+            "type": "number"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "item": {
+                  "type": "string"
+                },
+                "price": {
+                  "type": "number"
+                },
+                "why": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "item",
+                "price",
+                "why"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "rationale": {
+            "type": "string"
+          },
+          "tradeoff": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "goal",
+          "total_cost",
+          "items",
+          "rationale",
+          "tradeoff"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "caveats": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "title",
+          "url"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "products",
+    "deal_intelligence",
+    "purchase_paths",
+    "caveats",
+    "sources"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,850 @@
+{
+ "expertise": "expert",
+ "saved_at": "2026-11-11T05:22:26.757Z",
+ "report": {
+  "generated_at": "2026-11-11",
+  "category": "Japanese sunscreen",
+  "scope": "Daily-wear facial sunscreens from Japanese brands (Biore, Anessa, Skin Aqua, Senka and similar), bought as US imports. Body-only, Korean and US-made 'Japanese-style' products excluded.",
+  "primer": {
+   "what_it_is": "Cosmetic-feeling chemical (organic-filter) essences, gels and milks for daily wear under makeup, at SPF 50+ and PA++++ (Japan's UVA rating). Not sold in US drugstores under US drug rules, so imported.",
+   "must_haves": [
+    {
+     "feature": "SPF 50+ / PA++++",
+     "why": "Top of the Japanese scale, but manufacturer self-reported; the filter system matters more than the label"
+    },
+    {
+     "feature": "Wearable texture",
+     "why": "Dominant factor for daily users; sticky or pilling products get skipped"
+    },
+    {
+     "feature": "Authentic, correct-market variant",
+     "why": "Anessa is heavily counterfeited; Skin Aqua has 16 versions and the Chinese one differs from the Japanese"
+    },
+    {
+     "feature": "Properly dosed application (~1.25 g face and neck)",
+     "why": "Labelled SPF assumes about 2 mg/cm²; under-applying cuts protection (working assumption, not tested)"
+    }
+   ],
+   "premium_features": [
+    {
+     "feature": "Sweat- and water-activated film (Auto Booster-style)",
+     "why": "Anessa's edge for outdoor use"
+    },
+    {
+     "feature": "Tone-up and skincare layers",
+     "why": "Hides white cast; adds refinement, not meaningfully more protection"
+    },
+    {
+     "feature": "Powder formats",
+     "why": "For reapplying over makeup, not as a base layer"
+    }
+   ],
+   "avoid": [
+    {
+     "thing": "Marketplace prices far below specialist price (esp. Anessa)",
+     "why": "Warning sign of fake or old stock, not a bargain"
+    },
+    {
+     "thing": "Marketplace multipacks without per-tube math",
+     "why": "eBay Biore 4-pack at $50.99 (~$12.75 each) costs more than YesStyle's $10.22 tube"
+    },
+    {
+     "thing": "Boutique tubes above about $20",
+     "why": "More than double Biore's price for an unproven edge; no independent testing found"
+    },
+    {
+     "thing": "Tone-up product as only sunscreen",
+     "why": "Feels like makeup, so under-application is common"
+    }
+   ]
+  },
+  "verdict": {
+   "headline": "Buy Biore UV Aqua Rich around $10; add Anessa only for outdoor days.",
+   "signal": "BUY_SELECTIVELY",
+   "buy_score": 70,
+   "confidence": "Low-moderate: partial price snapshot, no lab tests, no price history, some sizes unconfirmed",
+   "reasoning": "Biore at $10.22 sits at the knee and has broad community validation. Pricier options mostly add outdoor film, tone-up, powder and brand, not better desk-and-commute protection. Beware counterfeits, variant mismatches and fake 'sale' discounts.",
+   "price_watch_summary": "YesStyle's '30% off' is the permanent street price (Biore list $14.60, sold $10.22). Buy-under: Biore $10.50 per tube, above $13 is overpaying. Anessa $16.63 rarely discounts (~5%), so buy when needed. No price history seen; cadence inferred."
+  },
+  "normalization": {
+   "unit": "Cost per properly dosed face-and-neck application (1.25 g)",
+   "unit_short": "$/application",
+   "unit_rationale": "Tubes range from about 40 g to 90 g or more, and texture changes how much people apply. Per-gram or per-tube price misleads. 1.25 g is a working assumption (roughly 1.2–1.5 g), not confirmed in testing.",
+   "quality_adjustment": "Effective cost = cost per dosed application ÷ (UVA performance × wearability × authenticity confidence), each factor 0 to 1. Wearability dominates for daily users; authenticity matters most for Anessa.",
+   "formula": "effective cost = cost per dosed application ÷ (UVA performance × wearability × authenticity confidence)",
+   "bands": [
+    {
+     "label": "Below knee",
+     "low": 0,
+     "high": 0.15,
+     "verdict": "Gives up size or a good formula; e.g. Canmake at $8.40 is a smaller tube (~$0.26 per application if 40 g, unconfirmed)"
+    },
+    {
+     "label": "Knee",
+     "low": 0.15,
+     "high": 0.22,
+     "verdict": "Sweet spot, roughly $10–$16 for a 70–90 g tube; Biore ~$0.18, Skin Aqua Tone Up ~$0.20"
+    },
+    {
+     "label": "Above knee",
+     "low": 0.22,
+     "high": 0.5,
+     "verdict": "Buys outdoor film, tone-up, powder, refinement and brand; not meaningfully better desk-and-commute protection"
+    }
+   ],
+   "size_economics": "Biore 70 g at $10.22 gives ~56 applications (~$0.18). Skin Aqua Tone Up 80 g at $12.99 gives ~64 (~$0.20). From memory, unconfirmed: Anessa gel 90 g, Senka 70 g, Canmake ~40 g. Check listings."
+  },
+  "diminishing_returns": {
+   "knee_unit_price": 0.18,
+   "knee_example": "Biore UV Aqua Rich 70 g at $10.22 (YesStyle), about $0.18 per application, is the benchmark.",
+   "below_knee": "You give up either size or a good formula. Canmake Mermaid Skin Gel at $8.40 looks cheap but is a smaller tube, and lacks Biore's broad community validation.",
+   "above_knee": "Extra money buys mainly Anessa's stronger sweat- and water-activated film, tone-up and skincare layers, powder formats, and refinement and brand. For desk-and-commute wear, none buy meaningfully better protection.",
+   "curve": [
+    {
+     "unit_price": 0.08,
+     "quality": 25,
+     "label": null
+    },
+    {
+     "unit_price": 0.12,
+     "quality": 48,
+     "label": null
+    },
+    {
+     "unit_price": 0.15,
+     "quality": 72,
+     "label": "Knee begins ($0.15)"
+    },
+    {
+     "unit_price": 0.18,
+     "quality": 84,
+     "label": "Knee: Biore UV Aqua Rich"
+    },
+    {
+     "unit_price": 0.22,
+     "quality": 89,
+     "label": "Knee ends ($0.22)"
+    },
+    {
+     "unit_price": 0.3,
+     "quality": 92,
+     "label": null
+    },
+    {
+     "unit_price": 0.4,
+     "quality": 94,
+     "label": null
+    },
+    {
+     "unit_price": 0.55,
+     "quality": 95,
+     "label": null
+    }
+   ]
+  },
+  "awards": {
+   "best_overall": {
+    "product": "Biore UV Aqua Rich Watery Essence 70 g",
+    "why": "Value anchor and community default at $10.22 (~$0.18 per application), sitting at the knee."
+   },
+   "best_value": {
+    "product": "Biore UV Aqua Rich 2-pack",
+    "why": "$20.00 for two, $10.00 each; the brief treats $10 as the real price."
+   },
+   "best_budget": {
+    "product": "Canmake Mermaid Skin Gel UV (2-pack)",
+    "why": "$7.14 each in the 2-pack, only if you want the finish; ~40 g size unconfirmed, so worse per application."
+   },
+   "best_premium": {
+    "product": "Anessa Moisture Perfect UV Skincare Gel",
+    "why": "$16.63 on YesStyle; best for sweat and outdoor use; price per application near Biore if 90 g (unconfirmed)."
+   },
+   "best_for_beginners": {
+    "product": "Biore UV Aqua Rich Watery Essence 70 g",
+    "why": "Buy Biore, use it daily for a month, skip everything else."
+   },
+   "longest_lasting": {
+    "product": "Anessa Moisture Perfect UV Skincare Gel",
+    "why": "Stronger sweat- and water-activated film for outdoor wear; no lab test confirms durability."
+   },
+   "avoid": {
+    "product": "Jellys Guard",
+    "why": "$21.96 for one, $41.72 for two: over double Biore's price for an unproven edge; no independent testing found."
+   }
+  },
+  "spec_criteria": [
+   {
+    "spec": "Wearability",
+    "weight": 30,
+    "what_good_looks_like": "Not sticky, doesn't pill under makeup, so you wear it daily",
+    "how_to_check": "Community feedback on texture; try one tube daily for a month before buying more",
+    "why_it_matters": "Dominant factor for daily users: a $0.18 product worn daily beats a $0.40 one skipped when sticky or pilling"
+   },
+   {
+    "spec": "Cost per dosed application",
+    "weight": 25,
+    "what_good_looks_like": "About $0.15-0.22 per application (assuming 1.25 g face and neck); Biore about $0.18",
+    "how_to_check": "Tube size in g ÷ 1.25 g = applications; divide price by that. Confirm size on the listing",
+    "why_it_matters": "Tubes range from about 40 g to 90 g or more, so per-tube price misleads; Canmake at about 40 g is about $0.26"
+   },
+   {
+    "spec": "Authenticity confidence",
+    "weight": 20,
+    "what_good_looks_like": "Bought from a specialist importer at near-specialist price; Anessa especially",
+    "how_to_check": "Check batch codes and QR codes (brief did not read the jbeautydecoded result, so verify its claims); compare price to specialist retailers",
+    "why_it_matters": "Anessa is heavily counterfeited on marketplaces; a price far below specialist price is a warning sign, not a bargain"
+   },
+   {
+    "spec": "UVA performance (filter system)",
+    "weight": 15,
+    "what_good_looks_like": "PA++++ plus modern UVA filters",
+    "how_to_check": "Check PA rating and filter list; no independent lab test was read",
+    "why_it_matters": "PA++++ is manufacturer self-reported and tested differently from EU or ISO UVA methods; the filter system matters more than the label"
+   },
+   {
+    "spec": "Variant and version match",
+    "weight": 10,
+    "what_good_looks_like": "Japanese-formula version from a Japan-origin seller",
+    "how_to_check": "Check label language and seller's origin",
+    "why_it_matters": "Reddit result shows 16 versions of Skin Aqua Super Moisture Gel; the Chinese version differs entirely from the Japanese one"
+   }
+  ],
+  "marketing_noise": [
+   {
+    "claim": "PA++++ means top-tier UVA protection",
+    "reality": "Top of the Japanese scale, but self-reported and tested differently from EU or ISO; filter system matters more"
+   },
+   {
+    "claim": "YesStyle '30% off' (Biore list $14.60, sale $10.22)",
+    "reality": "Discount is near-permanent; $10.22 is the normal street price"
+   },
+   {
+    "claim": "Canmake at $8.40 is cheap",
+    "reality": "Smaller tube (about 40 g, from memory); about $0.26 per application, worse than it looks"
+   },
+   {
+    "claim": "Clean-label story, beautiful package, 'bundle and save' (Jellys Guard)",
+    "reality": "$21.96 single, $41.72 for two: more than double Biore's price; no independent testing showing it is better"
+   },
+   {
+    "claim": "Marketplace 'set of 3' or 4-pack deals",
+    "reality": "eBay Biore 4-pack at $50.99 is about $12.75 each, above YesStyle's $10.22 single tube"
+   },
+   {
+    "claim": "Tone-up tint as sun protection",
+    "reality": "Tint hides white cast, but under-application is common because it feels like makeup"
+   },
+   {
+    "claim": "Labelled SPF protection",
+    "reality": "Assumes about 2 mg/cm²; most people under-apply, so real protection is a fraction"
+   }
+  ],
+  "value_traps": [
+   {
+    "trap": "Marketplace 'set of 3' or 4-pack",
+    "why_it_looks_good": "Multipack implies bulk savings",
+    "why_it_isnt": "eBay Biore 4-pack at $50.99 is about $12.75 each, more than YesStyle's $10.22 single; Amazon 3-pack price not seen",
+    "instead": "Do per-tube math first; YesStyle 2-pack at $20.00 is $10.00 each"
+   },
+   {
+    "trap": "The 'list price' discount",
+    "why_it_looks_good": "YesStyle lists Biore at $14.60 and calls $10.22 '30% off'",
+    "why_it_isnt": "Discount is permanent; it is the normal price",
+    "instead": "Treat about $10 as the real price; anything above $13 is overpaying"
+   },
+   {
+    "trap": "Counterfeit-risk Anessa bargains",
+    "why_it_looks_good": "Price well under $16.63",
+    "why_it_isnt": "Likely fake or old stock from an unknown seller",
+    "instead": "Buy from specialist importers"
+   },
+   {
+    "trap": "Mismatched variants",
+    "why_it_looks_good": "'Skin Aqua' listing from a Chinese-market seller",
+    "why_it_isnt": "Chinese-market version is a different product from the Japanese one",
+    "instead": "Check label language and seller's origin"
+   },
+   {
+    "trap": "Small tubes at low prices",
+    "why_it_looks_good": "Canmake Mermaid Skin Gel at $8.40, or $7.14 each in 2-pack",
+    "why_it_isnt": "Cheap per tube, not per application, assuming 40 g size (unconfirmed)",
+    "instead": "Compare per application; check listing size; Biore at $10.22"
+   },
+   {
+    "trap": "Clearance items",
+    "why_it_looks_good": "Senka Perfect UV Essence at $11.60 (list $14.50)",
+    "why_it_isnt": "May be an old formula or discontinued; stock not confirmed",
+    "instead": "Check batch and expiry date, and whether a newer version replaced it"
+   },
+   {
+    "trap": "Tone-up products as the only sunscreen",
+    "why_it_looks_good": "Tint hides white cast",
+    "why_it_isnt": "Under-application is common because it feels like makeup",
+    "instead": "Apply a full dose, or use a regular daily sunscreen like Biore underneath"
+   },
+   {
+    "trap": "Boutique-pack sunscreens above about $20 for a standard tube",
+    "why_it_looks_good": "Clean-label story, beautiful package, bundle discount (Jellys Guard $21.96 / $41.72 for two; same logic for Brain Cosmos and Mizuhashi)",
+    "why_it_isnt": "More than double Biore's price for an unproven edge; no independent testing found",
+    "instead": "Rohto Skin Aqua Tone Up at about $13 if you want tone-up"
+   }
+  ],
+  "tiers": [
+   {
+    "tier": "Mass-market daily staples",
+    "price_range": "$8.40-$12.99",
+    "unit_price_range": "About $0.18-$0.26 per application",
+    "who_its_for": "Daily desk-and-commute wear; beginners",
+    "representative_brands": [
+     "Biore UV Aqua Rich",
+     "Senka Perfect UV Essence",
+     "Canmake Mermaid Skin Gel UV",
+     "Rohto Skin Aqua Tone Up"
+    ],
+    "verdict": "Biore at $10.22 is the value anchor and knee benchmark; Canmake is cheap per tube only; check Senka stock"
+   },
+   {
+    "tier": "Mid-tier and prestige",
+    "price_range": "$12.32-$33.06",
+    "unit_price_range": "Not much above Biore per application if Anessa tube is 90 g (unconfirmed)",
+    "who_its_for": "Sweat, outdoor or sport use; makeup wearers who reapply",
+    "representative_brands": [
+     "Anessa Perfect UV Skincare Gel",
+     "Anessa Moisture Perfect UV Gel",
+     "Anessa Tone Up Brightening Gel",
+     "Anessa Brush On Powder",
+     "Naris Up by365"
+    ],
+    "verdict": "Anessa gel at $16.63 is best for outdoor use; powder ($33.06, refill $18.72) is for reapplying over makeup; no enthusiast consensus on Naris Up"
+   },
+   {
+    "tier": "Niche, boutique and free-from lines",
+    "price_range": "$12.80-$46.10",
+    "unit_price_range": "Not calculated in brief",
+    "who_its_for": "Sensitive skin or clean-label buyers",
+    "representative_brands": [
+     "Yunth Tone Up UV",
+     "Jellys Guard",
+     "Brain Cosmos Sunlike UV Protection Cream",
+     "Mizuhashi Hojyudo Mela Protect Tone Up UV Base",
+     "MAX Mutenka Seikatsu Additive-Free Sunscreen Milk",
+     "SkinCure Lab Non UV Milk / Mineral Powder"
+    ],
+    "verdict": "Skip Jellys Guard, Brain Cosmos and Mizuhashi: no independent testing, over double Biore's price; MAX Mutenka ($12.80, SPF 35 PA+++) is the low-irritant option to try first"
+   }
+  ],
+  "consensus": {
+   "expert_view": "Dermatologists and regulators note US and Japanese filters differ and popular Japanese products are not FDA-labelled OTC drugs. No independent lab measurement of any product was found, so actual SPF is unconfirmed.",
+   "community_view": "Enthusiasts favour Biore for cosmetic elegance and daily use; Anessa and Allie for sweat and outdoor use. One poster with 9 years of use likes Anessa and Allie for oily skin and humid climates. Snippets only; originals not read.",
+   "where_they_disagree": "Skeptics (Reddit snippet, unread) say Japan's SPF/PA testing isn't identical to US testing, so numbers aren't strictly comparable; enthusiasts rely on the labels and daily-wear experience."
+  },
+  "products": [
+   {
+    "name": "Biore UV Aqua Rich Watery Essence 70 g",
+    "brand": "Kao",
+    "tier": "Mass-market daily staple",
+    "street_price": 10.22,
+    "unit_price": 0.18,
+    "quality_score": 72,
+    "value_score": 95,
+    "historical_low": null,
+    "typical_sale": "YesStyle shows $10.22 as '30% off' list $14.60; that is the normal price. 2-pack $20.00 ($10.00 each)",
+    "buy_under": 10.5,
+    "where_to_buy": [
+     "YesStyle",
+     "Stylevana (no price seen)",
+     "Yami (no price seen)",
+     "Tokyo Shelf (no price seen)",
+     "Amazon 3-pack (no price seen)"
+    ],
+    "pros": [
+     "Value anchor and benchmark",
+     "Community default",
+     "Cosmetic elegance for daily use",
+     "About $0.18 per application"
+    ],
+    "cons": [
+     "No water resistance for outdoor activity",
+     "No tone-up",
+     "Marketplace multipacks cost more per tube"
+    ],
+    "best_for": "Beginners and daily wear; buy one and use it daily for a month."
+   },
+   {
+    "name": "Senka Perfect UV Essence",
+    "brand": "Shiseido",
+    "tier": "Mass-market daily staple",
+    "street_price": 11.6,
+    "unit_price": 0.2,
+    "quality_score": 62,
+    "value_score": 70,
+    "historical_low": null,
+    "typical_sale": "YesStyle clearance $11.60 (list $14.50)",
+    "buy_under": 11.6,
+    "where_to_buy": [
+     "YesStyle"
+    ],
+    "pros": [
+     "Sibling product to Biore"
+    ],
+    "cons": [
+     "Clearance may mean discontinuation or reformulation",
+     "Stock not confirmed",
+     "May be an old formula; check batch and expiry"
+    ],
+    "best_for": "Biore alternative, if it has not been replaced by a newer version."
+   },
+   {
+    "name": "Canmake Mermaid Skin Gel UV",
+    "brand": "Canmake",
+    "tier": "Mass-market daily staple",
+    "street_price": 8.4,
+    "unit_price": 0.26,
+    "quality_score": 50,
+    "value_score": 45,
+    "historical_low": null,
+    "typical_sale": "List $12.00; 2-pack $14.28 ($7.14 each)",
+    "buy_under": 7.5,
+    "where_to_buy": [
+     "YesStyle"
+    ],
+    "pros": [
+     "Cheap per tube",
+     "Popular as body or touch-up product"
+    ],
+    "cons": [
+     "Smaller tube (about 40 g, from memory, unconfirmed)",
+     "Worse per application than it looks",
+     "Less community validation than Biore"
+    ],
+    "best_for": "Buy only as the 2-pack, and only if you want the finish."
+   },
+   {
+    "name": "Rohto Skin Aqua Tone Up UV Essence 80 g",
+    "brand": "Rohto",
+    "tier": "Mass-market daily staple",
+    "street_price": 12.99,
+    "unit_price": 0.2,
+    "quality_score": 65,
+    "value_score": 78,
+    "historical_low": null,
+    "typical_sale": "eBay $12.99 with free shipping, 50 sold",
+    "buy_under": 13,
+    "where_to_buy": [
+     "eBay",
+     "Target (no price seen)",
+     "Walmart (no price seen)"
+    ],
+    "pros": [
+     "Tone-up tint (lavender, blue, mint-green)",
+     "Water-resistant 80 minutes per Target snippet",
+     "Cheaper tone-up path"
+    ],
+    "cons": [
+     "Chinese-market variants differ from Japanese formula",
+     "Tint feels like makeup, so under-application is common"
+    ],
+    "best_for": "Tone-up at about $13."
+   },
+   {
+    "name": "Anessa Moisture Perfect UV Skincare Gel",
+    "brand": "Anessa (Shiseido)",
+    "tier": "Mid-tier and prestige",
+    "street_price": 16.63,
+    "unit_price": 0.2,
+    "quality_score": 85,
+    "value_score": 62,
+    "historical_low": null,
+    "typical_sale": "Discounts only about 5%; rarely discounts",
+    "buy_under": 16.63,
+    "where_to_buy": [
+     "YesStyle",
+     "Specialist importers (Stylevana, Yami, Japanese retailers)"
+    ],
+    "pros": [
+     "Stronger sweat- and water-activated film",
+     "Best choice for sweat or outdoor use",
+     "Per application not much above Biore if 90 g (unconfirmed)"
+    ],
+    "cons": [
+     "Heavily counterfeited on marketplaces",
+     "Price under $16 from unknown seller likely fake or old stock"
+    ],
+    "best_for": "Beach, sport or outdoor days."
+   },
+   {
+    "name": "Anessa Perfect UV Sunscreen Skincare Gel",
+    "brand": "Anessa (Shiseido)",
+    "tier": "Mid-tier and prestige",
+    "street_price": 16.63,
+    "unit_price": 0.2,
+    "quality_score": 85,
+    "value_score": 62,
+    "historical_low": null,
+    "typical_sale": "Brief gives $16.63 on YesStyle; no discount detail",
+    "buy_under": 16.63,
+    "where_to_buy": [
+     "YesStyle"
+    ],
+    "pros": [
+     "Best choice for sweat or outdoor use",
+     "Per application not much above Biore if 90 g (unconfirmed)"
+    ],
+    "cons": [
+     "Counterfeit risk on marketplaces",
+     "Tube size unconfirmed"
+    ],
+    "best_for": "Sweat or outdoor use."
+   },
+   {
+    "name": "Anessa Tone Up Brightening Gel",
+    "brand": "Anessa (Shiseido)",
+    "tier": "Mid-tier and prestige",
+    "street_price": 16.63,
+    "unit_price": 0.2,
+    "quality_score": 82,
+    "value_score": 58,
+    "historical_low": null,
+    "typical_sale": "Jumbo $28.90",
+    "buy_under": 16.63,
+    "where_to_buy": [
+     "YesStyle"
+    ],
+    "pros": [
+     "Tone-up layer",
+     "Anessa film technology"
+    ],
+    "cons": [
+     "Counterfeit risk on marketplaces",
+     "Tone-up adds convenience, not protection"
+    ],
+    "best_for": "Tone-up with Anessa performance."
+   },
+   {
+    "name": "Anessa Perfect UV Brush On Powder",
+    "brand": "Anessa (Shiseido)",
+    "tier": "Mid-tier and prestige",
+    "street_price": 33.06,
+    "unit_price": 0,
+    "quality_score": 70,
+    "value_score": 20,
+    "historical_low": null,
+    "typical_sale": "Refill $18.72",
+    "buy_under": 33.06,
+    "where_to_buy": [
+     "YesStyle"
+    ],
+    "pros": [
+     "Reapplication over makeup"
+    ],
+    "cons": [
+     "Not a base layer",
+     "Adds convenience, not protection"
+    ],
+    "best_for": "Reapplying over makeup; buy only if you wear makeup and reapply."
+   },
+   {
+    "name": "Naris Up by365 Powdery UV Cream / Gel",
+    "brand": "Naris Up",
+    "tier": "Mid-tier and prestige",
+    "street_price": 14.63,
+    "unit_price": 0,
+    "quality_score": 55,
+    "value_score": 50,
+    "historical_low": null,
+    "typical_sale": "5-20% discounts; Cream $14.63 (list $15.40), Tone Up Clear White $14.06, Gel $12.32",
+    "buy_under": 14.63,
+    "where_to_buy": [
+     "YesStyle"
+    ],
+    "pros": [
+     "Powdery finish",
+     "Newer line"
+    ],
+    "cons": [
+     "No enthusiast consensus found"
+    ],
+    "best_for": "Those wanting a powdery finish; buy at street price."
+   },
+   {
+    "name": "Yunth Tone Up UV",
+    "brand": "Yunth",
+    "tier": "Niche and boutique",
+    "street_price": 14.25,
+    "unit_price": 0,
+    "quality_score": 45,
+    "value_score": 35,
+    "historical_low": null,
+    "typical_sale": "Beige $14.25 (list $28.50); Pink $19.04",
+    "buy_under": 14.25,
+    "where_to_buy": [
+     "Not stated in brief"
+    ],
+    "pros": [
+     "Tone-up"
+    ],
+    "cons": [
+     "No independent testing found"
+    ],
+    "best_for": "Not stated; Rohto is the cheaper tone-up path."
+   },
+   {
+    "name": "Jellys Guard",
+    "brand": "Jellys Guard",
+    "tier": "Niche and boutique",
+    "street_price": 21.96,
+    "unit_price": 0,
+    "quality_score": 40,
+    "value_score": 8,
+    "historical_low": null,
+    "typical_sale": "$41.72 for two",
+    "buy_under": 20,
+    "where_to_buy": [
+     "Not stated in brief"
+    ],
+    "pros": [
+     "Clean-label story",
+     "Beautiful package"
+    ],
+    "cons": [
+     "More than double Biore's price",
+     "Unproven edge; no independent testing"
+    ],
+    "best_for": "Recommended against."
+   },
+   {
+    "name": "Brain Cosmos Sunlike UV Protection Cream",
+    "brand": "Brain Cosmos",
+    "tier": "Niche and boutique",
+    "street_price": 21.4,
+    "unit_price": 0,
+    "quality_score": 40,
+    "value_score": 8,
+    "historical_low": null,
+    "typical_sale": "$40.66 for two",
+    "buy_under": 20,
+    "where_to_buy": [
+     "Not stated in brief"
+    ],
+    "pros": [
+     "Boutique positioning"
+    ],
+    "cons": [
+     "Same logic as Jellys Guard: over $20 for unproven edge"
+    ],
+    "best_for": "Recommended against."
+   },
+   {
+    "name": "Mizuhashi Hojyudo Mela Protect Tone Up UV Base",
+    "brand": "Mizuhashi Hojyudo",
+    "tier": "Niche and boutique",
+    "street_price": 22.2,
+    "unit_price": 0,
+    "quality_score": 40,
+    "value_score": 5,
+    "historical_low": null,
+    "typical_sale": "No sale seen",
+    "buy_under": 20,
+    "where_to_buy": [
+     "Not stated in brief"
+    ],
+    "pros": [
+     "Tone-up"
+    ],
+    "cons": [
+     "Same logic as Jellys Guard: over $20 for unproven edge"
+    ],
+    "best_for": "Recommended against; Rohto at about $13 is cheaper tone-up."
+   },
+   {
+    "name": "MAX Mutenka Seikatsu Additive-Free Sunscreen Milk SPF 35 PA+++",
+    "brand": "MAX",
+    "tier": "Niche and free-from",
+    "street_price": 12.8,
+    "unit_price": 0,
+    "quality_score": 40,
+    "value_score": 55,
+    "historical_low": null,
+    "typical_sale": "No sale seen",
+    "buy_under": 12.8,
+    "where_to_buy": [
+     "Not stated in brief"
+    ],
+    "pros": [
+     "Low-irritant option"
+    ],
+    "cons": [
+     "Lower rating (SPF 35 PA+++)"
+    ],
+    "best_for": "Sensitive skin; try first."
+   },
+   {
+    "name": "SkinCure Lab Non UV Milk",
+    "brand": "SkinCure Lab",
+    "tier": "Niche and free-from",
+    "street_price": 35.8,
+    "unit_price": 0,
+    "quality_score": 35,
+    "value_score": 3,
+    "historical_low": null,
+    "typical_sale": "No sale seen",
+    "buy_under": 35.8,
+    "where_to_buy": [
+     "Not stated in brief"
+    ],
+    "pros": [
+     "Sensitive-skin product"
+    ],
+    "cons": [
+     "Highest-priced milk"
+    ],
+    "best_for": "Sensitive skin."
+   },
+   {
+    "name": "SkinCure Lab Mineral Powder",
+    "brand": "SkinCure Lab",
+    "tier": "Niche and free-from",
+    "street_price": 46.1,
+    "unit_price": 0,
+    "quality_score": 35,
+    "value_score": 1,
+    "historical_low": null,
+    "typical_sale": "No sale seen",
+    "buy_under": 46.1,
+    "where_to_buy": [
+     "Not stated in brief"
+    ],
+    "pros": [
+     "Sensitive-skin product"
+    ],
+    "cons": [
+     "Most expensive product covered"
+    ],
+    "best_for": "Sensitive skin."
+   }
+  ],
+  "deal_intelligence": {
+   "volatility": "Low on YesStyle: '30% off' vs list is near-permanent, so sale is the real street price. Cadence inferred from list vs sale pricing, not tracked history.",
+   "sale_cadence": [
+    {
+     "event": "YesStyle permanent '30% off'",
+     "timing": "Almost permanent",
+     "typical_depth": "About 30% off list (Biore $14.60 to $10.22)"
+    },
+    {
+     "event": "Multipack discounts (YesStyle, Stylevana)",
+     "timing": "Ongoing",
+     "typical_depth": "Biore 2-pack $10.00 each; Canmake 2-pack $7.14 each"
+    },
+    {
+     "event": "Anessa discounts",
+     "timing": "Rare",
+     "typical_depth": "About 5%"
+    },
+    {
+     "event": "Naris Up discounts",
+     "timing": "Not stated",
+     "typical_depth": "5-20%"
+    },
+    {
+     "event": "Clearance (e.g., Senka)",
+     "timing": "Not stated",
+     "typical_depth": "$11.60 vs list $14.50; may signal discontinuation or reformulation"
+    }
+   ],
+   "best_time_to_buy": "No timing advantage seen. Anessa rarely discounts, so buy when you need it. Buy Biore at or under $10.50 per tube.",
+   "patience_payoff": "Low. No price history from a tracker, and the brief found no evidence waiting yields deeper discounts.",
+   "discount_honesty": "YesStyle's '30% off' is the normal price. Treat $10 as Biore's real price and anything above $13 as overpaying. Marketplace prices far below specialist prices are warning signs."
+  },
+  "purchase_paths": [
+   {
+    "name": "Cheapest path that isn't a mistake",
+    "goal": "Lowest sensible entry cost, about $10",
+    "total_cost": 10.22,
+    "items": [
+     {
+      "item": "Biore UV Aqua Rich 70 g (YesStyle)",
+      "price": 10.22,
+      "why": "Value anchor; or 2-pack at $20.00"
+     }
+    ],
+    "rationale": "Benchmark at the knee with broad community validation.",
+    "tradeoff": "Give up water resistance for outdoor activity, tone-up and brand prestige. Free shipping needs $35 order; shipping cost not visible."
+   },
+   {
+    "name": "Best value",
+    "goal": "Daily wear plus outdoor coverage, about $22-$30 per brief",
+    "total_cost": 36.63,
+    "items": [
+     {
+      "item": "Biore 2-pack",
+      "price": 20,
+      "why": "Daily wear"
+     },
+     {
+      "item": "Anessa Moisture Perfect UV gel",
+      "price": 16.63,
+      "why": "Beach, sport or outdoor days"
+     }
+    ],
+    "rationale": "Total $36.63 before shipping clears YesStyle's $35 free-shipping threshold.",
+    "tradeoff": "Give up tone-up and powder reapplication."
+   },
+   {
+    "name": "No-compromise",
+    "goal": "Full range, about $90-$110",
+    "total_cost": 98.03,
+    "items": [
+     {
+      "item": "Anessa Moisture Perfect gel",
+      "price": 16.63,
+      "why": "Outdoor and sweat use"
+     },
+     {
+      "item": "Anessa Tone Up Brightening gel",
+      "price": 16.63,
+      "why": "Tone-up"
+     },
+     {
+      "item": "Anessa Brush On Powder",
+      "price": 33.06,
+      "why": "Reapply over makeup"
+     },
+     {
+      "item": "Anessa Brush On Powder refill",
+      "price": 18.72,
+      "why": "Refill"
+     },
+     {
+      "item": "Rohto Skin Aqua Tone Up",
+      "price": 12.99,
+      "why": "Tone-up"
+     }
+    ],
+    "rationale": "Brief totals $98.03 for these items, with Biore at $10.22 for backup.",
+    "tradeoff": "Adds convenience, not protection."
+   }
+  ],
+  "caveats": [
+   "Framework plus partial price snapshot, not a full survey.",
+   "Amazon blocked the browser; Target, Walmart, Stylevana, Reddit and comparison blogs failed to load.",
+   "No prices seen for Amazon, Target, Walmart, Stylevana, Yami or Tokyo Shelf.",
+   "Prices seen only via a YesStyle search page, eBay snippets and search snippets.",
+   "No independent lab test read; actual SPF unconfirmed.",
+   "No price history from a tracker; sale cadence inferred from list vs sale pricing.",
+   "Product sizes marked 'from memory' (Anessa gel 90 g, Senka 70 g, Canmake about 40 g) are unconfirmed.",
+   "1.25 g per face-and-neck application is a working assumption, not confirmed in testing.",
+   "PA++++ is manufacturer self-reported; test method differs from EU or ISO UVA protocols.",
+   "Japanese products are not FDA-labelled OTC drugs; US filters differ.",
+   "Skin Aqua has 16 versions; Chinese-market version differs from Japanese.",
+   "Anessa is heavily counterfeited; jbeautydecoded result not read, so verify its claims.",
+   "Senka clearance stock unconfirmed.",
+   "Allie (Chrono Beauty), Curel and Hada Labo could not be priced.",
+   "No US store-brand Japanese sunscreen found; closest are retailer import bundles.",
+   "No price found for Anessa Perfect UV Milk.",
+   "Lot-tracked sourcing and authenticity checking not researched."
+  ],
+  "sources": [],
+  "price_source": "live"
+ }
+}

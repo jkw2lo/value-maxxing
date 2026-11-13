@@ -1,0 +1,1031 @@
+{
+ "expertise": "intermediate",
+ "saved_at": "2026-11-11T05:43:35.958Z",
+ "report": {
+  "generated_at": "2026-11-11",
+  "category": "Champagne",
+  "scope": "Real appellation-controlled Champagne from France, roughly $30–$250. Cava, Prosecco and American \"champagne\" excluded. No current retail prices confirmed; 2019 Wine Enthusiast prices are a relative floor only.",
+  "primer": {
+   "what_it_is": "Sparkling wine from France's Champagne region, made by traditional method (second fermentation in bottle). Bottle price mostly reflects brand, distribution margin and allocation, not liquid quality.",
+   "must_haves": [
+    {
+     "feature": "\"Champagne\" on label",
+     "why": "Legally protected name, so it means real Champagne"
+    },
+    {
+     "feature": "Traditional method",
+     "why": "Second fermentation in bottle; automatic for real Champagne"
+    },
+    {
+     "feature": "Disclosed producer type and importer",
+     "why": "Producer code (NM, RM, CM, MA) in label fine print predicts quality best"
+    },
+    {
+     "feature": "Identifiable dosage level",
+     "why": "Brut Nature or Extra Brut shows quality naked; Sec and Demi-Sec hide flaws"
+    },
+    {
+     "feature": "Sound storage",
+     "why": "Provenance matters more than any spec; heat and light ruin bottles"
+    }
+   ],
+   "premium_features": [
+    {
+     "feature": "Vintage bottlings",
+     "why": "Single harvest year; adds rarity and ageing"
+    },
+    {
+     "feature": "Single-village or grand cru sourcing",
+     "why": "Terroir, though partly marketing"
+    },
+    {
+     "feature": "Prestige cuvées",
+     "why": "A house's top bottling (e.g. Dom Pérignon); mostly pays for age, allocation and brand"
+    }
+   ],
+   "avoid": [
+    {
+     "thing": "Gift-box or \"Ice\" bundles",
+     "why": "Add cost for packaging, flutes or ice buckets, not wine"
+    },
+    {
+     "thing": "Sparkling wine sold as Champagne",
+     "why": "Cheap \"Champagne-style\" wines and unverifiable sub-$30 unknowns may be thin or mass-market"
+    },
+    {
+     "thing": "Warm-shelf or sun-exposed bottles",
+     "why": "Old stock in light and heat is worth less than nothing"
+    }
+   ]
+  },
+  "verdict": {
+   "headline": "Buy selectively: grower Champagne at the $50–70 knee beats famous names at full price.",
+   "signal": "BUY_SELECTIVELY",
+   "buy_score": 60,
+   "confidence": "Low to moderate: no current retail prices verified; knee is the author's judgment.",
+   "reasoning": "Experts and sommeliers agree growers beat big brands on value. Knee is about $50–70 for non-vintage grower or small-house bottles. Skip full-price famous NV, gift boxes and young prestige cuvées. Thresholds are provisional.",
+   "price_watch_summary": "Big-house NV: buy about 15–20% under shelf, wait for November–December case promotions. Growers: buy at or under about $50–65; Lassaigne at $70–80 is fair. Kirkland, Aldi, Trader Joe's rarely discount. Prestige and vintage rarely discount."
+  },
+  "normalization": {
+   "unit": "Dollars per quality-adjusted pour you will actually enjoy",
+   "unit_short": "$/quality-adjusted pour",
+   "unit_rationale": "Naive $/750 ml bottle misleads: quality varies hugely within a fixed volume, so two $60 bottles can differ by two quality tiers. Per-use equals per-pour since Champagne is consumed in one sitting.",
+   "quality_adjustment": "Quality-adjusted price = shelf price ÷ Q, Q from 0.6 to 1.6. Built from five factors: producer type (NM, RM, CM, MA), time on lees (15 months legal minimum for NV, good bottles 30+), dosage, reserve wine share, base vintage and disgorgement date. Working assumption: grower RM at $50–70 delivers about the same enjoyment as NM house bottle at $75–100.",
+   "formula": "price ÷ (bottle × condition factor × quality multiplier)",
+   "bands": [],
+   "size_economics": "A 1.5 L magnum costs about the same or a bit more per ml but ages better. Buy magnums only for cellaring or large events."
+  },
+  "diminishing_returns": {
+   "knee_unit_price": 60,
+   "knee_example": "Grower or small-house NV at $50–70, e.g. Drappier Brut Nature (~$50) and Lassaigne ($70–80), rated star value picks by VinePair sommeliers.",
+   "below_knee": "At about $30–45 you give up lees time, get more dosage masking and thinner reserve wine. Real Champagne but plainer; sub-$30 bottles need storage confirmed.",
+   "above_knee": "Money buys vintage rarity, grand cru terroir, longer ageing and brand status. A $200+ prestige bottle is not 3× the pleasure of a $65 grower bottle for most drinkers.",
+   "curve": [
+    {
+     "unit_price": 30,
+     "quality": 40,
+     "label": "Entry / store brands"
+    },
+    {
+     "unit_price": 40,
+     "quality": 58,
+     "label": null
+    },
+    {
+     "unit_price": 50,
+     "quality": 74,
+     "label": null
+    },
+    {
+     "unit_price": 60,
+     "quality": 85,
+     "label": "Knee ($50–70 grower zone)"
+    },
+    {
+     "unit_price": 80,
+     "quality": 89,
+     "label": null
+    },
+    {
+     "unit_price": 100,
+     "quality": 92,
+     "label": null
+    },
+    {
+     "unit_price": 150,
+     "quality": 94,
+     "label": null
+    },
+    {
+     "unit_price": 250,
+     "quality": 97,
+     "label": "Prestige cuvées ($200+)"
+    }
+   ]
+  },
+  "awards": {
+   "best_overall": {
+    "product": "De Sousa & Fils Caudalies Grand Cru Blanc de Blancs",
+    "why": "Top scorer in the list seen: 97 pts at $65 in 2019, squarely in the knee zone."
+   },
+   "best_value": {
+    "product": "Collet Blanc de Blancs Premier Cru Brut",
+    "why": "93 pts at $43 in 2019; cheapest high-scoring pick seen."
+   },
+   "best_budget": {
+    "product": "Kirkland Signature Champagne (Costco)",
+    "why": "Cheapest real-Champagne path; clean, simple Brut. Price and sourcing unconfirmed."
+   },
+   "best_premium": {
+    "product": "Dom Pérignon, Krug Grande Cuvée, Cristal",
+    "why": "Prestige tier, well above $200 (unverified); pays mostly for allocation and prestige."
+   },
+   "best_for_beginners": {
+    "product": "Pol Roger Réserve Brut",
+    "why": "Big-house NV, $50 and 90 pts in 2019; teaches baseline style safely. Buy on promotion."
+   },
+   "longest_lasting": {
+    "product": "Dom Pérignon, Krug Grande Cuvée, Cristal",
+    "why": "Prestige cuvées pay for longer ageing; worthwhile only if cellaring. Vintage and grower bottles also cellar."
+   },
+   "avoid": {
+    "product": "Veuve Clicquot Yellow Label at full shelf price, especially gift-box or \"Ice\" bundles (e.g. Moët Ice Impérial)",
+    "why": "Large share of price is marketing and margin; $45–50 houses scored 90–91 pts in 2019. Buy Pol Roger, Ayala or Deutz instead."
+   }
+  },
+  "spec_criteria": [
+   {
+    "spec": "Producer code (RM, NM, CM, MA)",
+    "weight": 30,
+    "what_good_looks_like": "RM (grower) usually better quality per dollar; NM consistent but marketing-heavy; MA is the cheap store label",
+    "how_to_check": "Tiny print on label, e.g. 'NM-123456'",
+    "why_it_matters": "Top predictor of quality. Working assumption: RM at $50–70 ≈ NM house bottle at $75–100"
+   },
+   {
+    "spec": "Disgorgement date or lot code",
+    "weight": 25,
+    "what_good_looks_like": "Recent disgorgement date or lot code (Billecart, Pierre Gimonnet and others print one)",
+    "how_to_check": "Back label",
+    "why_it_matters": "Shows how fresh the bottle is; old oxidized bottles can be worth near zero"
+   },
+   {
+    "spec": "Dosage statement",
+    "weight": 20,
+    "what_good_looks_like": "Extra Brut or Brut Nature; Brut covers most bottles; Sec and Demi-Sec hide flaws",
+    "how_to_check": "Stated plainly on the label",
+    "why_it_matters": "Very dry wines show quality naked, with nothing to hide behind"
+   },
+   {
+    "spec": "Vintage or Grand Cru/Premier Cru village",
+    "weight": 10,
+    "what_good_looks_like": "Named vintage or classified village; lees time of 30+ months (legal NV minimum 15) and higher reserve-wine share are also good",
+    "how_to_check": "Label; many growers disclose lees time, few houses disclose reserve share",
+    "why_it_matters": "Shows where grapes came from, but partly marketing"
+   },
+   {
+    "spec": "Retailer storage",
+    "weight": 15,
+    "what_good_looks_like": "Bottles kept cool and out of light, with good turnover",
+    "how_to_check": "Ask the retailer; avoid warm-shelf or sun-exposed bottles",
+    "why_it_matters": "Provenance matters more than any spec; heat and light ruin bottles"
+   }
+  ],
+  "marketing_noise": [
+   {
+    "claim": "Prestige",
+    "reality": "Does not predict quality"
+   },
+   {
+    "claim": "Reserve or Cuvée with no definition",
+    "reality": "Does not predict quality"
+   },
+   {
+    "claim": "Gift boxes, glittery labels, bottle weight",
+    "reality": "Add packaging cost, not wine"
+   },
+   {
+    "claim": "Critic-score stickers",
+    "reality": "Pay-to-play contest stickers do not predict quality"
+   },
+   {
+    "claim": "Limited edition",
+    "reality": "Does not predict quality"
+   }
+  ],
+  "value_traps": [
+   {
+    "trap": "Gift-box or bundle (e.g. Moët Ice Impérial)",
+    "why_it_looks_good": "Packaging suggests a gift",
+    "why_it_isnt": "Adds cost for cardboard, flutes or ice buckets nobody wants",
+    "instead": "Buy the bottle alone"
+   },
+   {
+    "trap": "Famous-name NV at full price (Veuve Clicquot Yellow Label)",
+    "why_it_looks_good": "Best-known label, feels safe",
+    "why_it_isnt": "Often same quality as bottles $15–25 cheaper; much of price is marketing and distribution margin",
+    "instead": "Pol Roger, Ayala or Deutz at similar price, or grower bottles"
+   },
+   {
+    "trap": "Cheap 'Champagne-style' sparkling wine and sub-$30 unknowns",
+    "why_it_looks_good": "Low price",
+    "why_it_isnt": "Unverified producer may mean thin or mass-market wine",
+    "instead": "Check the producer code first"
+   },
+   {
+    "trap": "Old stock on warm shelves",
+    "why_it_looks_good": "Cheap price",
+    "why_it_isnt": "Bottle exposed to light and heat is worth less than nothing",
+    "instead": "Buy from retailers with cool, dark storage and turnover"
+   },
+   {
+    "trap": "Buying prestige cuvées young",
+    "why_it_looks_good": "Top-of-range status",
+    "why_it_isnt": "Money pays for age and brand; wasted if you aren't cellaring",
+    "instead": "Grower RM bottles at $50–70; prestige cuvées last"
+   }
+  ],
+  "tiers": [
+   {
+    "tier": "Entry and store brands",
+    "price_range": "Unconfirmed; Canard-Duchêne $31 in 2019",
+    "unit_price_range": "Unconfirmed",
+    "who_its_for": "Cheapest real-Champagne path; beginners",
+    "representative_brands": [
+     "Kirkland Signature (Costco)",
+     "Aldi Veuve Monsigny",
+     "Trader Joe's Champagne",
+     "Canard-Duchêne 2012 Brut Millésimé"
+    ],
+    "verdict": "Clean, simple Brut; check producer code. Trader Joe's suppliers rotate, so quality is inconsistent"
+   },
+   {
+    "tier": "Big-house NV (grande marque)",
+    "price_range": "2019: $45–50 (Piper, Deutz, Pol Roger, Ayala); Veuve ~$60–80 and Moët ~$50–60 (unverified)",
+    "unit_price_range": "Unconfirmed",
+    "who_its_for": "Beginners wanting a safe baseline house style",
+    "representative_brands": [
+     "Veuve Clicquot Yellow Label",
+     "Moët & Chandon Impérial",
+     "Piper-Heidsieck",
+     "Deutz",
+     "Pol Roger",
+     "Ayala",
+     "Laurent-Perrier",
+     "Billecart-Salmon",
+     "Louis Roederer"
+    ],
+    "verdict": "$45–50 houses scored 90–91 in 2019; buy on promotion. Famous names at full price are not a value"
+   },
+   {
+    "tier": "Grower and small-house favorites (value zone)",
+    "price_range": "~$50–70 knee; 2019 prices $43–65; Lassaigne $70–80",
+    "unit_price_range": "Unconfirmed",
+    "who_its_for": "Serious hobbyists seeking best value; restaurant buyers",
+    "representative_brands": [
+     "Drappier",
+     "Collet",
+     "Pierre Moncuit",
+     "Voirin-Jumel",
+     "Jacques Lassaigne",
+     "De Sousa & Fils",
+     "Georges Vesselle"
+    ],
+    "verdict": "Best value; De Sousa Caudalies scored 97 and Collet BdB 93 at $43 in 2019. Buy at or under about $50–65"
+   },
+   {
+    "tier": "Prestige tier",
+    "price_range": "Well above $200 (unverified)",
+    "unit_price_range": "Unconfirmed",
+    "who_its_for": "Cellaring, or those wanting the specific bottle",
+    "representative_brands": [
+     "Dom Pérignon",
+     "Krug Grande Cuvée",
+     "Cristal"
+    ],
+    "verdict": "Can be great but not 3× the pleasure of a $65 grower bottle; you pay for allocation and prestige. Rarely discounted"
+   }
+  ],
+  "consensus": {
+   "expert_view": "Experts and sommeliers (VinePair, Wine Independent) agree grower bottles beat big brands on value; grower bottles at $50–100 rival big-brand vintage and prestige cuvées.",
+   "community_view": "Not available: no Reddit thread could be retrieved, so no community consensus is reported.",
+   "where_they_disagree": "Cannot be assessed without community data. The grower-over-brand view is a trade-press and sommelier view, not a verified consumer consensus."
+  },
+  "products": [
+   {
+    "name": "Kirkland Signature Champagne",
+    "brand": "Costco",
+    "tier": "Entry and store brands",
+    "street_price": 0,
+    "unit_price": 0,
+    "quality_score": 35,
+    "value_score": 70,
+    "historical_low": null,
+    "typical_sale": "Rarely discounted; price unconfirmed",
+    "buy_under": 0,
+    "where_to_buy": [
+     "Costco"
+    ],
+    "pros": [
+     "Cheapest real-Champagne path",
+     "Clean, simple Brut"
+    ],
+    "cons": [
+     "Price unconfirmed",
+     "Sourcing from known house unverified",
+     "Not complex"
+    ],
+    "best_for": "Cheapest safe entry; beginners learning baseline style"
+   },
+   {
+    "name": "Champagne Veuve Monsigny (and similar)",
+    "brand": "Aldi",
+    "tier": "Entry and store brands",
+    "street_price": 0,
+    "unit_price": 0,
+    "quality_score": 30,
+    "value_score": 60,
+    "historical_low": null,
+    "typical_sale": "Rarely discounted; price unconfirmed",
+    "buy_under": 0,
+    "where_to_buy": [
+     "Aldi"
+    ],
+    "pros": [
+     "Private-label NV",
+     "Plain but not a mistake"
+    ],
+    "cons": [
+     "Price unconfirmed",
+     "Must check producer code on back"
+    ],
+    "best_for": "Cheap real Champagne after checking producer code"
+   },
+   {
+    "name": "Trader Joe's Champagne (various)",
+    "brand": "Trader Joe's",
+    "tier": "Entry and store brands",
+    "street_price": 0,
+    "unit_price": 0,
+    "quality_score": 30,
+    "value_score": 55,
+    "historical_low": null,
+    "typical_sale": "Rarely discounted; price unconfirmed",
+    "buy_under": 0,
+    "where_to_buy": [
+     "Trader Joe's"
+    ],
+    "pros": [
+     "Real option"
+    ],
+    "cons": [
+     "Rotating suppliers mean inconsistency",
+     "Price unconfirmed"
+    ],
+    "best_for": "Cheap entry if producer code checks out"
+   },
+   {
+    "name": "Canard-Duchêne 2012 Brut Millésimé",
+    "brand": "Canard-Duchêne",
+    "tier": "Entry and store brands",
+    "street_price": 31,
+    "unit_price": 31,
+    "quality_score": 65,
+    "value_score": 85,
+    "historical_low": null,
+    "typical_sale": "$31 in 2019 (Wine Enthusiast, 91 pts); current price unconfirmed",
+    "buy_under": 0,
+    "where_to_buy": [],
+    "pros": [
+     "91 pts in 2019",
+     "Vintage bottling at low price"
+    ],
+    "cons": [
+     "Current price and vintage availability unconfirmed",
+     "Newer releases carry different vintages",
+     "Confirm storage"
+    ],
+    "best_for": "Cheapest path that isn't a mistake, if found near 2019 price"
+   },
+   {
+    "name": "Veuve Clicquot Yellow Label Brut",
+    "brand": "Veuve Clicquot",
+    "tier": "Big-house NV",
+    "street_price": 0,
+    "unit_price": 0,
+    "quality_score": 55,
+    "value_score": 25,
+    "historical_low": null,
+    "typical_sale": "Current price unconfirmed; unverified shelf ~$60–80; holiday/case sales typical",
+    "buy_under": 0,
+    "where_to_buy": [],
+    "pros": [
+     "Best-known label"
+    ],
+    "cons": [
+     "Marketing and distribution margin in price",
+     "Gift-box/bundle versions add packaging cost only",
+     "Not above grower-zone price"
+    ],
+    "best_for": "Only on promotion, at or below grower-zone price"
+   },
+   {
+    "name": "Moët & Chandon Impérial Brut",
+    "brand": "Moët & Chandon",
+    "tier": "Big-house NV",
+    "street_price": 0,
+    "unit_price": 0,
+    "quality_score": 50,
+    "value_score": 30,
+    "historical_low": null,
+    "typical_sale": "Price unconfirmed; unverified ~$50–60; holiday/case sales typical",
+    "buy_under": 0,
+    "where_to_buy": [],
+    "pros": [
+     "Familiar name"
+    ],
+    "cons": [
+     "Price unconfirmed",
+     "Ice bundles are a value trap",
+     "Not above grower-zone price"
+    ],
+    "best_for": "Only on promotion, never in Ice bundles"
+   },
+   {
+    "name": "Piper-Heidsieck Cuvée Brut",
+    "brand": "Piper-Heidsieck",
+    "tier": "Big-house NV",
+    "street_price": 45,
+    "unit_price": 45,
+    "quality_score": 62,
+    "value_score": 55,
+    "historical_low": null,
+    "typical_sale": "$45 in 2019, 90 pts; holiday/case sales typical",
+    "buy_under": 0,
+    "where_to_buy": [],
+    "pros": [
+     "90 pts in 2019",
+     "Safe baseline style"
+    ],
+    "cons": [
+     "2019 price outdated",
+     "Famous-name NV can cost $15–25 more than equal bottles"
+    ],
+    "best_for": "Beginners buying a big-house NV on promotion"
+   },
+   {
+    "name": "Deutz Brut Classic",
+    "brand": "Deutz",
+    "tier": "Big-house NV",
+    "street_price": 45,
+    "unit_price": 45,
+    "quality_score": 62,
+    "value_score": 55,
+    "historical_low": null,
+    "typical_sale": "$45 in 2019, 90 pts; holiday/case sales typical",
+    "buy_under": 0,
+    "where_to_buy": [],
+    "pros": [
+     "90 pts in 2019",
+     "Recommended alternative to Veuve"
+    ],
+    "cons": [
+     "2019 price outdated"
+    ],
+    "best_for": "Beginners buying a big-house NV on promotion"
+   },
+   {
+    "name": "Pol Roger Réserve Brut",
+    "brand": "Pol Roger",
+    "tier": "Big-house NV",
+    "street_price": 50,
+    "unit_price": 50,
+    "quality_score": 66,
+    "value_score": 60,
+    "historical_low": null,
+    "typical_sale": "$50 in 2019, 90 pts; holiday/case sales typical",
+    "buy_under": 0,
+    "where_to_buy": [],
+    "pros": [
+     "Long-time enthusiast favorite",
+     "90 pts in 2019",
+     "Easy house-style pour"
+    ],
+    "cons": [
+     "2019 price outdated"
+    ],
+    "best_for": "Easy house-style pour; Veuve alternative at similar price"
+   },
+   {
+    "name": "Ayala Brut Majeur",
+    "brand": "Ayala",
+    "tier": "Big-house NV",
+    "street_price": 49,
+    "unit_price": 49,
+    "quality_score": 68,
+    "value_score": 68,
+    "historical_low": null,
+    "typical_sale": "$49 in 2019, 91 pts; holiday/case sales typical",
+    "buy_under": 0,
+    "where_to_buy": [],
+    "pros": [
+     "91 pts in 2019",
+     "Bollinger-group house",
+     "Often a bargain"
+    ],
+    "cons": [
+     "2019 price outdated"
+    ],
+    "best_for": "Easy house-style pour; Veuve alternative at similar price"
+   },
+   {
+    "name": "Laurent-Perrier 2008 Millésimé",
+    "brand": "Laurent-Perrier",
+    "tier": "Big-house vintage",
+    "street_price": 80,
+    "unit_price": 80,
+    "quality_score": 72,
+    "value_score": 40,
+    "historical_low": null,
+    "typical_sale": "$80 in 2019; vintage rarely discounted",
+    "buy_under": 0,
+    "where_to_buy": [],
+    "pros": [
+     "Vintage bottling"
+    ],
+    "cons": [
+     "2019 price outdated",
+     "Money buys rarity and ageing"
+    ],
+    "best_for": "Vintage add-on in a no-compromise build"
+   },
+   {
+    "name": "Billecart-Salmon Extra Brut 2008",
+    "brand": "Billecart-Salmon",
+    "tier": "Big-house vintage",
+    "street_price": 95,
+    "unit_price": 95,
+    "quality_score": 78,
+    "value_score": 30,
+    "historical_low": null,
+    "typical_sale": "$95 in 2019; vintage rarely discounted",
+    "buy_under": 0,
+    "where_to_buy": [],
+    "pros": [
+     "Extra Brut dosage",
+     "Vintage bottling",
+     "Prints disgorgement date"
+    ],
+    "cons": [
+     "2019 price outdated",
+     "Low value density"
+    ],
+    "best_for": "Vintage add-on in a no-compromise build"
+   },
+   {
+    "name": "Louis Roederer 2012",
+    "brand": "Louis Roederer",
+    "tier": "Big-house vintage",
+    "street_price": 80,
+    "unit_price": 80,
+    "quality_score": 74,
+    "value_score": 40,
+    "historical_low": null,
+    "typical_sale": "$80 in 2019; vintage rarely discounted",
+    "buy_under": 0,
+    "where_to_buy": [],
+    "pros": [
+     "Vintage bottling"
+    ],
+    "cons": [
+     "2019 price outdated",
+     "Money buys rarity and ageing"
+    ],
+    "best_for": "Vintage add-on in a no-compromise build"
+   },
+   {
+    "name": "Louis Roederer Collection (NV)",
+    "brand": "Louis Roederer",
+    "tier": "Big-house NV",
+    "street_price": 0,
+    "unit_price": 0,
+    "quality_score": 70,
+    "value_score": 45,
+    "historical_low": null,
+    "typical_sale": "No price seen; holiday/case sales typical for big-house NV",
+    "buy_under": 0,
+    "where_to_buy": [],
+    "pros": [
+     "Enthusiast staple"
+    ],
+    "cons": [
+     "No price seen"
+    ],
+    "best_for": "Enthusiasts wanting a big-house NV staple"
+   },
+   {
+    "name": "Billecart-Salmon Brut Réserve (NV)",
+    "brand": "Billecart-Salmon",
+    "tier": "Big-house NV",
+    "street_price": 0,
+    "unit_price": 0,
+    "quality_score": 68,
+    "value_score": 42,
+    "historical_low": null,
+    "typical_sale": "No price seen; holiday/case sales typical for big-house NV",
+    "buy_under": 0,
+    "where_to_buy": [],
+    "pros": [
+     "Enthusiast staple",
+     "Prints disgorgement date"
+    ],
+    "cons": [
+     "No price seen"
+    ],
+    "best_for": "Enthusiasts wanting a big-house NV staple"
+   },
+   {
+    "name": "Drappier Brut Nature Zero Dosage",
+    "brand": "Drappier",
+    "tier": "Grower and small-house",
+    "street_price": 50,
+    "unit_price": 50,
+    "quality_score": 80,
+    "value_score": 80,
+    "historical_low": null,
+    "typical_sale": "\"In the $50 range\" per 2025 sommelier quote; shallow discounts",
+    "buy_under": 65,
+    "where_to_buy": [],
+    "pros": [
+     "100% Pinot Noir",
+     "No added sugar",
+     "Sommelier star value pick"
+    ],
+    "cons": [
+     "Limited stock",
+     "Shallow discounts"
+    ],
+    "best_for": "Value-zone buyers wanting zero dosage"
+   },
+   {
+    "name": "Drappier Blanc de Blancs Brut",
+    "brand": "Drappier",
+    "tier": "Grower and small-house",
+    "street_price": 62,
+    "unit_price": 62,
+    "quality_score": 88,
+    "value_score": 70,
+    "historical_low": null,
+    "typical_sale": "$62 in 2019, 93 pts; shallow discounts",
+    "buy_under": 65,
+    "where_to_buy": [],
+    "pros": [
+     "93 pts in 2019"
+    ],
+    "cons": [
+     "2019 price outdated",
+     "Limited stock"
+    ],
+    "best_for": "Value-zone blanc de blancs"
+   },
+   {
+    "name": "Collet Blanc de Blancs Premier Cru Brut",
+    "brand": "Collet",
+    "tier": "Grower and small-house",
+    "street_price": 43,
+    "unit_price": 43,
+    "quality_score": 88,
+    "value_score": 92,
+    "historical_low": null,
+    "typical_sale": "$43 in 2019, 93 pts; shallow discounts",
+    "buy_under": 65,
+    "where_to_buy": [],
+    "pros": [
+     "93 pts in 2019",
+     "Cheapest high-scoring pick seen",
+     "Best bargain by 2019 score"
+    ],
+    "cons": [
+     "2019 price outdated",
+     "Limited stock"
+    ],
+    "best_for": "Cheap entry to learn dosage preference; best bargain"
+   },
+   {
+    "name": "Pierre Moncuit Delos Blanc de Blancs Extra Brut",
+    "brand": "Pierre Moncuit",
+    "tier": "Grower and small-house",
+    "street_price": 0,
+    "unit_price": 0,
+    "quality_score": 85,
+    "value_score": 85,
+    "historical_low": null,
+    "typical_sale": "Price unconfirmed; shallow discounts",
+    "buy_under": 65,
+    "where_to_buy": [],
+    "pros": [
+     "Grand Cru Le Mesnil fruit",
+     "Sommeliers call it \"amazing value\"",
+     "Extra Brut"
+    ],
+    "cons": [
+     "Price unconfirmed",
+     "Limited stock"
+    ],
+    "best_for": "Grand cru grower quality in the value zone"
+   },
+   {
+    "name": "Voirin-Jumel Tradition Brut",
+    "brand": "Voirin-Jumel",
+    "tier": "Grower and small-house",
+    "street_price": 0,
+    "unit_price": 0,
+    "quality_score": 75,
+    "value_score": 75,
+    "historical_low": null,
+    "typical_sale": "Price unconfirmed; shallow discounts",
+    "buy_under": 65,
+    "where_to_buy": [],
+    "pros": [
+     "Organic grower"
+    ],
+    "cons": [
+     "Price unconfirmed",
+     "Limited stock"
+    ],
+    "best_for": "Organic grower pick in a best-value mix"
+   },
+   {
+    "name": "Jacques Lassaigne Les Vignes de Montgueux",
+    "brand": "Jacques Lassaigne",
+    "tier": "Grower and small-house",
+    "street_price": 80,
+    "unit_price": 80,
+    "quality_score": 88,
+    "value_score": 68,
+    "historical_low": null,
+    "typical_sale": "$70–80 per 2025 sommelier quote; $70–80 is fair; shallow discounts",
+    "buy_under": 80,
+    "where_to_buy": [],
+    "pros": [
+     "Enthusiast favorite",
+     "Sommelier star value pick"
+    ],
+    "cons": [
+     "Top of grower price range",
+     "Limited stock"
+    ],
+    "best_for": "Grower-first buyers paying a fair $70–80"
+   },
+   {
+    "name": "De Sousa & Fils Caudalies Grand Cru Blanc de Blancs",
+    "brand": "De Sousa & Fils",
+    "tier": "Grower and small-house",
+    "street_price": 65,
+    "unit_price": 65,
+    "quality_score": 97,
+    "value_score": 78,
+    "historical_low": null,
+    "typical_sale": "$65 in 2019, 97 pts; shallow discounts",
+    "buy_under": 65,
+    "where_to_buy": [],
+    "pros": [
+     "97 pts in 2019",
+     "Top-scoring bottle in list seen",
+     "Grand Cru"
+    ],
+    "cons": [
+     "2019 price outdated",
+     "Limited stock"
+    ],
+    "best_for": "Highest-quality grower pick in a no-compromise build"
+   },
+   {
+    "name": "Georges Vesselle 2012 Grand Cru Brut Nature",
+    "brand": "Georges Vesselle",
+    "tier": "Grower and small-house",
+    "street_price": 51,
+    "unit_price": 51,
+    "quality_score": 88,
+    "value_score": 80,
+    "historical_low": null,
+    "typical_sale": "$51 in 2019, 93 pts; shallow discounts",
+    "buy_under": 65,
+    "where_to_buy": [],
+    "pros": [
+     "93 pts in 2019",
+     "Grand Cru",
+     "Brut Nature"
+    ],
+    "cons": [
+     "2019 price outdated",
+     "Limited stock"
+    ],
+    "best_for": "Grand cru zero-dosage value"
+   },
+   {
+    "name": "Dom Pérignon",
+    "brand": "Moët & Chandon",
+    "tier": "Prestige",
+    "street_price": 0,
+    "unit_price": 0,
+    "quality_score": 90,
+    "value_score": 10,
+    "historical_low": null,
+    "typical_sale": "No price confirmed; unverified well above $200; rarely discounted",
+    "buy_under": 0,
+    "where_to_buy": [],
+    "pros": [
+     "Great wine"
+    ],
+    "cons": [
+     "Pay mostly for allocation and prestige",
+     "Wasted if not cellaring"
+    ],
+    "best_for": "Cellaring buyers wanting prestige; buy last"
+   },
+   {
+    "name": "Krug Grande Cuvée",
+    "brand": "Krug",
+    "tier": "Prestige",
+    "street_price": 0,
+    "unit_price": 0,
+    "quality_score": 92,
+    "value_score": 8,
+    "historical_low": null,
+    "typical_sale": "No price confirmed; unverified well above $200; rarely discounted",
+    "buy_under": 0,
+    "where_to_buy": [],
+    "pros": [
+     "Great wine"
+    ],
+    "cons": [
+     "Pay mostly for allocation and prestige",
+     "Wasted if not cellaring"
+    ],
+    "best_for": "Cellaring buyers wanting prestige; buy last"
+   },
+   {
+    "name": "Cristal",
+    "brand": "Louis Roederer",
+    "tier": "Prestige",
+    "street_price": 0,
+    "unit_price": 0,
+    "quality_score": 90,
+    "value_score": 8,
+    "historical_low": null,
+    "typical_sale": "No price confirmed; unverified well above $200; rarely discounted",
+    "buy_under": 0,
+    "where_to_buy": [],
+    "pros": [
+     "Great wine"
+    ],
+    "cons": [
+     "Pay mostly for allocation and prestige",
+     "Wasted if not cellaring"
+    ],
+    "best_for": "Cellaring buyers wanting prestige; buy last"
+   }
+  ],
+  "deal_intelligence": {
+   "volatility": "Varies by tier: big-house NV discounts; store labels, grower and prestige rarely do. No current prices verified.",
+   "sale_cadence": [
+    {
+     "event": "Holiday and case promotions (big-house NV)",
+     "timing": "November–December",
+     "typical_depth": "Buy-under roughly 15–20% below normal shelf price"
+    },
+    {
+     "event": "Grower and small-house discounts",
+     "timing": "No cadence given; stock limited",
+     "typical_depth": "Shallow; buy at about normal retailer price"
+    },
+    {
+     "event": "Store labels (Kirkland, Aldi, Trader Joe's)",
+     "timing": "Rarely discount; buy whenever",
+     "typical_depth": "None; shelf price is the buy-under"
+    },
+    {
+     "event": "Prestige and vintage cellar-release reissues",
+     "timing": "Only if you need that specific bottle",
+     "typical_depth": "Rarely discounted"
+    }
+   ],
+   "best_time_to_buy": "November–December case promotions for big-house NV (Veuve, Moët, Piper, Deutz, Pol Roger, Ayala).",
+   "patience_payoff": "Moderate for big-house NV (about 15–20% off); little for grower, store-label and prestige bottles.",
+   "discount_honesty": "Famous-name NV at full price is often no better than bottles $15–25 cheaper; gift-box/Ice bundles add packaging cost, not wine. For Veuve and Moët, don't pay above grower-zone price."
+  },
+  "purchase_paths": [
+   {
+    "name": "Cheapest path that isn't a mistake",
+    "goal": "Real Champagne at the lowest sensible cost",
+    "total_cost": 31,
+    "items": [
+     {
+      "item": "Canard-Duchêne at about 2019 level",
+      "price": 31,
+      "why": "$31 in 2019 (91 pts); current price unconfirmed"
+     },
+     {
+      "item": "Kirkland, Aldi or Trader Joe's real Champagne (alternative)",
+      "price": 0,
+      "why": "Price unconfirmed; check producer code and disgorgement/lot date"
+     }
+    ],
+    "rationale": "Roughly one bottle price, unconfirmed; check producer code and a recent disgorgement or lot date.",
+    "tradeoff": "Gives up complexity, ageing potential and a named producer."
+   },
+   {
+    "name": "Best-value build (default)",
+    "goal": "Case-split mix of six bottles at the knee",
+    "total_cost": 300,
+    "items": [
+     {
+      "item": "Collet Blanc de Blancs Premier Cru",
+      "price": 43,
+      "why": "Best bargain by 2019 score; 2019 price"
+     },
+     {
+      "item": "Drappier Brut Nature",
+      "price": 50,
+      "why": "\"In the $50 range\" per 2025 quote"
+     },
+     {
+      "item": "Pol Roger Réserve or Ayala",
+      "price": 50,
+      "why": "Easy house-style pour; 2019 price ($50 / $49)"
+     },
+     {
+      "item": "Voirin-Jumel or Moncuit",
+      "price": 0,
+      "why": "Price unconfirmed"
+     }
+    ],
+    "rationale": "Budget about $50–65 per bottle; six bottles about $300–390, Collet bottles lower. Total shown is the low end.",
+    "tradeoff": "Gives up prestige names and cellaring-grade bottles."
+   },
+   {
+    "name": "No-compromise build",
+    "goal": "Top quality six-bottle selection",
+    "total_cost": 400,
+    "items": [
+     {
+      "item": "De Sousa Caudalies Grand Cru",
+      "price": 65,
+      "why": "97 pts in 2019"
+     },
+     {
+      "item": "Jacques Lassaigne Montgueux",
+      "price": 70,
+      "why": "$70–80 per 2025 quote; low end shown"
+     },
+     {
+      "item": "Pierre Moncuit Delos",
+      "price": 0,
+      "why": "Price unconfirmed"
+     },
+     {
+      "item": "Billecart or Roederer vintage",
+      "price": 80,
+      "why": "2019 vintage lines $80–$95; low end shown"
+     },
+     {
+      "item": "Prestige bottle (Dom Pérignon or Krug), optional",
+      "price": 0,
+      "why": "Price unconfirmed; unverified well above $200"
+     }
+    ],
+    "rationale": "Well over $400 for six bottles, mostly from unverified estimates; total shown is a floor.",
+    "tradeoff": "Gives up value density; extra money mainly buys rarity and ageing."
+   }
+  ],
+  "caveats": [
+   "No current retail price was confirmed for any product; retailer pages were blocked.",
+   "Most prices come from a December 2019 Wine Enthusiast list; Champagne prices have risen a lot since.",
+   "Only 2025 prices: Drappier Brut Nature ~$50, Lassaigne $70–80 (VinePair).",
+   "A price or buy_under of 0 means unconfirmed or no figure given; unit_price equals bottle price (750 ml).",
+   "Background figures (Veuve ~$60–80, Moët ~$50–60, prestige well above $200) are unverified.",
+   "Buy-under thresholds are provisional rules; check Wine-Searcher or a local store.",
+   "The $50–70 knee is the author's judgment, not verified against current prices.",
+   "Kirkland's sourcing from a known house is unverified.",
+   "Quality and value scores are comparative, relying on 2019 critic points where available.",
+   "No Reddit or community consensus retrieved; the growers-beat-big-brands view is trade-press and sommelier opinion.",
+   "Totals for purchase paths are rough and built on unverified prices.",
+   "Provenance and storage matter more than any spec; warm-shelf or old stock can be worth near zero."
+  ],
+  "sources": [
+   {
+    "title": "Wine Enthusiast: 15 best Champagnes under $100 (December 2019)",
+    "url": ""
+   },
+   {
+    "title": "VinePair: sommelier Champagne picks (2025)",
+    "url": ""
+   },
+   {
+    "title": "The Wine Independent: Champagne price explosion and grower bottles",
+    "url": ""
+   }
+  ],
+  "price_source": "live"
+ }
+}

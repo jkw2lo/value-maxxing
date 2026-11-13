@@ -1,0 +1,355 @@
+{
+  "category": "watercolor paint",
+  "scope": "Serious hobbyist, pan and tube formats, artist and student grade.",
+  "generated_at": "2026-08-01",
+  "primer": {
+    "what_it_is": "Watercolor paint is pigment suspended in a water-soluble gum binder, sold as pans (dry cakes you wet with a brush) or tubes (moist paste you squeeze out and dilute). It's used for illustration, sketching, and fine art painting.",
+    "must_haves": [
+      {
+        "feature": "Single-pigment formulas",
+        "why": "The tube lists one pigment code (like PB29), not a mix \u2014 these mix more predictably with other colors."
+      },
+      {
+        "feature": "ASTM lightfastness rating",
+        "why": "Tells you whether the color will fade in a few years of normal light exposure."
+      },
+      {
+        "feature": "Gum arabic binder",
+        "why": "The traditional binder that rewets cleanly and doesn't crack in the pan over time."
+      }
+    ],
+    "premium_features": [
+      {
+        "feature": "Rare mineral pigments (genuine ultramarine, cobalt)",
+        "why": "Slightly different handling and luminosity than modern synthetic substitutes \u2014 a refinement, not a necessity."
+      },
+      {
+        "feature": "Fine granulation control",
+        "why": "Lets advanced painters predict exactly how a wash will separate on paper."
+      }
+    ],
+    "avoid": [
+      {
+        "thing": "Sets labeled only by color count (e.g. \"48 colors!\")",
+        "why": "Color count says nothing about pigment quality \u2014 many large sets are mostly convenience mixes."
+      },
+      {
+        "thing": "\"Professional\" on the label alone",
+        "why": "It's an unregulated marketing term, not a quality guarantee."
+      }
+    ]
+  },
+  "verdict": {
+    "headline": "Buy artist-grade in tubes, refill your own pans, and skip the pre-filled sets.",
+    "signal": "BUY_SELECTIVELY",
+    "buy_score": 62,
+    "confidence": "High for pigment economics, medium for current sale timing.",
+    "reasoning": "Artist-grade tube paint normalizes to a far better cost-per-use than pre-filled pans once you account for how little paint a pan actually holds versus a tube.",
+    "price_watch_summary": "Watch Daniel Smith 15ml tubes for the semi-annual sale \u2014 street $9.49, historical low $6.99."
+  },
+  "normalization": {
+    "unit": "cost per gram of paint solids delivered",
+    "unit_short": "$/g solids",
+    "unit_rationale": "Package price ignores pigment load and fill volume; a 5ml pan can be 40% binder and water by the time it's usable.",
+    "quality_adjustment": "Multiply by pigment load (single-pigment vs. convenience mixes) and lightfastness rating.",
+    "formula": "unit_price = tube_price / (ml \u00d7 density \u00d7 pigment_load_factor)",
+    "bands": [
+      {
+        "label": "Student",
+        "low": 0.08,
+        "high": 0.15,
+        "verdict": "fine for practice, muddy mixes"
+      },
+      {
+        "label": "Artist",
+        "low": 0.15,
+        "high": 0.32,
+        "verdict": "sweet spot"
+      },
+      {
+        "label": "Premium",
+        "low": 0.32,
+        "high": 0.6,
+        "verdict": "diminishing returns"
+      }
+    ],
+    "size_economics": "15ml tubes beat 5ml on a per-gram basis by roughly 30% once you're using a color regularly."
+  },
+  "diminishing_returns": {
+    "knee_unit_price": 0.22,
+    "knee_example": "Daniel Smith Extra Fine 15ml",
+    "below_knee": "Fewer single-pigment options, chalkier mixes, weaker lightfastness ratings.",
+    "above_knee": "Mostly buying rarity pigments (genuine ultramarine, PBr7 variants) and brand loyalty, not everyday performance.",
+    "curve": [
+      {
+        "unit_price": 0.05,
+        "quality": 20,
+        "label": "Student"
+      },
+      {
+        "unit_price": 0.12,
+        "quality": 45,
+        "label": null
+      },
+      {
+        "unit_price": 0.22,
+        "quality": 78,
+        "label": "Knee"
+      },
+      {
+        "unit_price": 0.35,
+        "quality": 85,
+        "label": "Artist"
+      },
+      {
+        "unit_price": 0.6,
+        "quality": 90,
+        "label": "Premium"
+      }
+    ]
+  },
+  "spec_criteria": [
+    {
+      "spec": "Single-pigment vs. mix",
+      "weight": 35,
+      "what_good_looks_like": "One pigment code (e.g. PB29) listed, not three",
+      "how_to_check": "Pigment code on the tube label",
+      "why_it_matters": "Single pigments mix predictably; convenience mixes turn muddy."
+    },
+    {
+      "spec": "Lightfastness rating",
+      "weight": 30,
+      "what_good_looks_like": "ASTM I",
+      "how_to_check": "Printed rating on tube or manufacturer chart",
+      "why_it_matters": "Below ASTM II, colors visibly fade within years."
+    },
+    {
+      "spec": "Granulation/staining behavior",
+      "weight": 20,
+      "what_good_looks_like": "Matches intended technique",
+      "how_to_check": "Manufacturer swatch chart",
+      "why_it_matters": "Determines how the paint actually behaves in washes."
+    },
+    {
+      "spec": "Binder quality",
+      "weight": 15,
+      "what_good_looks_like": "Gum arabic, minimal filler",
+      "how_to_check": "Rarely disclosed \u2014 mostly reputation",
+      "why_it_matters": "Cheap binders cake and crack in pans."
+    }
+  ],
+  "marketing_noise": [
+    {
+      "claim": "\"Professional\" on the label",
+      "reality": "Unregulated term \u2014 some \"professional\" lines are mid-tier convenience mixes."
+    },
+    {
+      "claim": "Number of colors in a set",
+      "reality": "Irrelevant once you understand single-pigment mixing \u2014 a 12-color single-pigment set beats a 48-color mixed set."
+    }
+  ],
+  "value_traps": [
+    {
+      "trap": "Pre-filled 24/48-pan sets",
+      "why_it_looks_good": "Looks like a complete kit at a low per-color price.",
+      "why_it_isnt": "Pans are shallow-filled and mostly convenience mixes; per-gram cost is 2\u20133x tube paint.",
+      "instead": "Buy an empty pan palette and fill it yourself from tubes."
+    }
+  ],
+  "tiers": [
+    {
+      "tier": "Student",
+      "price_range": "$4\u2013$7 / tube",
+      "unit_price_range": "$0.08\u2013$0.15/g",
+      "who_its_for": "Absolute beginners testing the hobby",
+      "representative_brands": [
+        "Cotman",
+        "Van Gogh"
+      ],
+      "verdict": "Fine for the first month, replace quickly"
+    },
+    {
+      "tier": "Artist",
+      "price_range": "$8\u2013$14 / tube",
+      "unit_price_range": "$0.15\u2013$0.32/g",
+      "who_its_for": "Anyone painting regularly",
+      "representative_brands": [
+        "Daniel Smith",
+        "M. Graham"
+      ],
+      "verdict": "The value tier"
+    },
+    {
+      "tier": "Premium",
+      "price_range": "$15\u2013$30 / tube",
+      "unit_price_range": "$0.32\u2013$0.6/g",
+      "who_its_for": "Specific rare pigments only",
+      "representative_brands": [
+        "Sennelier",
+        "Schmincke"
+      ],
+      "verdict": "Buy single tubes, not full sets"
+    }
+  ],
+  "consensus": {
+    "expert_view": "Reviewers consistently rank Daniel Smith and M. Graham highest for pigment purity per dollar.",
+    "community_view": "Forums favor building a custom palette from single tubes over any boxed set.",
+    "where_they_disagree": "Community is more tolerant of granulating, unpredictable pigments than professional reviewers."
+  },
+  "products": [
+    {
+      "name": "Extra Fine Watercolor 15ml",
+      "brand": "Daniel Smith",
+      "tier": "Artist",
+      "street_price": 9.49,
+      "unit_price": 0.19,
+      "quality_score": 88,
+      "value_score": 91,
+      "historical_low": 6.99,
+      "typical_sale": "40% off twice a year",
+      "buy_under": 7.5,
+      "where_to_buy": [
+        "Blick",
+        "Jerry's Artarama"
+      ],
+      "pros": [
+        "Huge single-pigment range",
+        "Consistent lightfastness"
+      ],
+      "cons": [
+        "Some colors granulate more than expected"
+      ],
+      "best_for": "Building a custom palette"
+    },
+    {
+      "name": "Cotman 8-Pan Set",
+      "brand": "Winsor & Newton",
+      "tier": "Student",
+      "street_price": 24.99,
+      "unit_price": 0.11,
+      "quality_score": 42,
+      "value_score": 58,
+      "historical_low": 18.99,
+      "typical_sale": "Never really discounts",
+      "buy_under": 24.99,
+      "where_to_buy": [
+        "Amazon",
+        "Michaels"
+      ],
+      "pros": [
+        "Cheap entry point"
+      ],
+      "cons": [
+        "Mostly convenience mixes"
+      ],
+      "best_for": "First-month beginners only"
+    }
+  ],
+  "deal_intelligence": {
+    "volatility": "Moderate \u2014 major retailers run predictable seasonal sales.",
+    "sale_cadence": [
+      {
+        "event": "Blick anniversary sale",
+        "timing": "Spring",
+        "typical_depth": "25\u201340%"
+      },
+      {
+        "event": "Black Friday",
+        "timing": "November",
+        "typical_depth": "20\u201330%"
+      }
+    ],
+    "best_time_to_buy": "Spring anniversary sales for the deepest cuts on single tubes.",
+    "patience_payoff": "Waiting for sale windows saves roughly 30% versus street price.",
+    "discount_honesty": "Sales are real reductions, not inflate-then-discount \u2014 street price is stable between events."
+  },
+  "purchase_paths": [
+    {
+      "name": "Cheapest that isn't a mistake",
+      "goal": "Try the hobby without wasting money",
+      "total_cost": 45,
+      "items": [
+        {
+          "item": "6 single-pigment student tubes",
+          "price": 30,
+          "why": "Covers a usable primary+secondary palette"
+        },
+        {
+          "item": "Empty pan palette",
+          "price": 15,
+          "why": "Reusable once you upgrade"
+        }
+      ],
+      "rationale": "Skip boxed sets entirely; six well-chosen tubes cover more than a 24-pan set.",
+      "tradeoff": "Slightly muddier mixes than artist grade until you upgrade."
+    },
+    {
+      "name": "Best value",
+      "goal": "A palette that will last years",
+      "total_cost": 140,
+      "items": [
+        {
+          "item": "12 Daniel Smith single-pigment tubes",
+          "price": 114,
+          "why": "Core palette at the diminishing-returns knee"
+        },
+        {
+          "item": "Empty pan palette",
+          "price": 15,
+          "why": "Refillable"
+        },
+        {
+          "item": "Notebook for pigment testing",
+          "price": 11,
+          "why": "Track mixes"
+        }
+      ],
+      "rationale": "Sits right at the knee \u2014 near-premium quality at artist-tier price.",
+      "tradeoff": "None significant; this is the recommended default."
+    }
+  ],
+  "awards": {
+    "best_overall": {
+      "product": "Daniel Smith Extra Fine 15ml",
+      "why": "Best pigment purity per dollar across the widest color range."
+    },
+    "best_value": {
+      "product": "Daniel Smith Extra Fine 15ml",
+      "why": "Sits right at the diminishing-returns knee."
+    },
+    "best_budget": {
+      "product": "Cotman 8-Pan Set",
+      "why": "Cheapest way to confirm you'll stick with the hobby."
+    },
+    "best_premium": {
+      "product": "Sennelier genuine ultramarine",
+      "why": "Only worth it for a handful of rare single-pigment colors."
+    },
+    "best_for_beginners": {
+      "product": "Cotman 8-Pan Set",
+      "why": "Low commitment, widely available."
+    },
+    "longest_lasting": {
+      "product": "Daniel Smith Extra Fine 15ml",
+      "why": "ASTM I lightfastness across the line."
+    },
+    "avoid": {
+      "product": "Generic 48-pan gift sets",
+      "why": "Worst cost-per-gram in the category and mostly unlabeled pigment mixes."
+    }
+  },
+  "caveats": [
+    "Prices were current as of research time and shift with retailer promotions.",
+    "Lightfastness ratings self-reported by manufacturers, not independently retested here."
+  ],
+  "sources": [
+    {
+      "title": "Daniel Smith pigment index",
+      "url": "https://www.danielsmith.com"
+    },
+    {
+      "title": "Blick Art Materials",
+      "url": "https://www.dickblick.com"
+    }
+  ]
+}

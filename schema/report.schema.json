@@ -1,0 +1,727 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Value Maxxing report",
+  "type": "object",
+  "properties": {
+    "generated_at": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "primer": {
+      "type": "object",
+      "properties": {
+        "what_it_is": {
+          "type": "string"
+        },
+        "must_haves": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "feature": {
+                "type": "string"
+              },
+              "why": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "feature",
+              "why"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "premium_features": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "feature": {
+                "type": "string"
+              },
+              "why": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "feature",
+              "why"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "avoid": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "thing": {
+                "type": "string"
+              },
+              "why": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "thing",
+              "why"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "what_it_is",
+        "must_haves",
+        "premium_features",
+        "avoid"
+      ],
+      "additionalProperties": false
+    },
+    "verdict": {
+      "type": "object",
+      "properties": {
+        "headline": {
+          "type": "string"
+        },
+        "signal": {
+          "type": "string",
+          "enum": [
+            "BUY_NOW",
+            "WAIT_FOR_SALE",
+            "BUY_SELECTIVELY",
+            "AVOID_CATEGORY"
+          ]
+        },
+        "buy_score": {
+          "type": "number"
+        },
+        "confidence": {
+          "type": "string"
+        },
+        "reasoning": {
+          "type": "string"
+        },
+        "price_watch_summary": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "headline",
+        "signal",
+        "buy_score",
+        "confidence",
+        "reasoning",
+        "price_watch_summary"
+      ],
+      "additionalProperties": false
+    },
+    "normalization": {
+      "type": "object",
+      "properties": {
+        "unit": {
+          "type": "string"
+        },
+        "unit_short": {
+          "type": "string"
+        },
+        "unit_rationale": {
+          "type": "string"
+        },
+        "quality_adjustment": {
+          "type": "string"
+        },
+        "formula": {
+          "type": "string"
+        },
+        "bands": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "low": {
+                "type": "number"
+              },
+              "high": {
+                "type": "number"
+              },
+              "verdict": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "label",
+              "low",
+              "high",
+              "verdict"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "size_economics": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "unit",
+        "unit_short",
+        "unit_rationale",
+        "quality_adjustment",
+        "formula",
+        "bands",
+        "size_economics"
+      ],
+      "additionalProperties": false
+    },
+    "diminishing_returns": {
+      "type": "object",
+      "properties": {
+        "knee_unit_price": {
+          "type": "number"
+        },
+        "knee_example": {
+          "type": "string"
+        },
+        "below_knee": {
+          "type": "string"
+        },
+        "above_knee": {
+          "type": "string"
+        },
+        "curve": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "unit_price": {
+                "type": "number"
+              },
+              "quality": {
+                "type": "number"
+              },
+              "label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "unit_price",
+              "quality",
+              "label"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "knee_unit_price",
+        "knee_example",
+        "below_knee",
+        "above_knee",
+        "curve"
+      ],
+      "additionalProperties": false
+    },
+    "awards": {
+      "type": "object",
+      "properties": {
+        "best_overall": {
+          "type": "object",
+          "properties": {
+            "product": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "product",
+            "why"
+          ],
+          "additionalProperties": false
+        },
+        "best_value": {
+          "type": "object",
+          "properties": {
+            "product": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "product",
+            "why"
+          ],
+          "additionalProperties": false
+        },
+        "best_budget": {
+          "type": "object",
+          "properties": {
+            "product": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "product",
+            "why"
+          ],
+          "additionalProperties": false
+        },
+        "best_premium": {
+          "type": "object",
+          "properties": {
+            "product": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "product",
+            "why"
+          ],
+          "additionalProperties": false
+        },
+        "best_for_beginners": {
+          "type": "object",
+          "properties": {
+            "product": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "product",
+            "why"
+          ],
+          "additionalProperties": false
+        },
+        "longest_lasting": {
+          "type": "object",
+          "properties": {
+            "product": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "product",
+            "why"
+          ],
+          "additionalProperties": false
+        },
+        "avoid": {
+          "type": "object",
+          "properties": {
+            "product": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "product",
+            "why"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "best_overall",
+        "best_value",
+        "best_budget",
+        "best_premium",
+        "best_for_beginners",
+        "longest_lasting",
+        "avoid"
+      ],
+      "additionalProperties": false
+    },
+    "spec_criteria": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "spec": {
+            "type": "string"
+          },
+          "weight": {
+            "type": "number"
+          },
+          "what_good_looks_like": {
+            "type": "string"
+          },
+          "how_to_check": {
+            "type": "string"
+          },
+          "why_it_matters": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "spec",
+          "weight",
+          "what_good_looks_like",
+          "how_to_check",
+          "why_it_matters"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "marketing_noise": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "claim": {
+            "type": "string"
+          },
+          "reality": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "claim",
+          "reality"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "value_traps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "trap": {
+            "type": "string"
+          },
+          "why_it_looks_good": {
+            "type": "string"
+          },
+          "why_it_isnt": {
+            "type": "string"
+          },
+          "instead": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "trap",
+          "why_it_looks_good",
+          "why_it_isnt",
+          "instead"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "tiers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "tier": {
+            "type": "string"
+          },
+          "price_range": {
+            "type": "string"
+          },
+          "unit_price_range": {
+            "type": "string"
+          },
+          "who_its_for": {
+            "type": "string"
+          },
+          "representative_brands": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "verdict": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "tier",
+          "price_range",
+          "unit_price_range",
+          "who_its_for",
+          "representative_brands",
+          "verdict"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "consensus": {
+      "type": "object",
+      "properties": {
+        "expert_view": {
+          "type": "string"
+        },
+        "community_view": {
+          "type": "string"
+        },
+        "where_they_disagree": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "expert_view",
+        "community_view",
+        "where_they_disagree"
+      ],
+      "additionalProperties": false
+    },
+    "products": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "brand": {
+            "type": "string"
+          },
+          "tier": {
+            "type": "string"
+          },
+          "street_price": {
+            "type": "number"
+          },
+          "unit_price": {
+            "type": "number"
+          },
+          "quality_score": {
+            "type": "number"
+          },
+          "value_score": {
+            "type": "number"
+          },
+          "historical_low": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "typical_sale": {
+            "type": "string"
+          },
+          "buy_under": {
+            "type": "number"
+          },
+          "where_to_buy": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "pros": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "cons": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "best_for": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "brand",
+          "tier",
+          "street_price",
+          "unit_price",
+          "quality_score",
+          "value_score",
+          "historical_low",
+          "typical_sale",
+          "buy_under",
+          "where_to_buy",
+          "pros",
+          "cons",
+          "best_for"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "deal_intelligence": {
+      "type": "object",
+      "properties": {
+        "volatility": {
+          "type": "string"
+        },
+        "sale_cadence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "event": {
+                "type": "string"
+              },
+              "timing": {
+                "type": "string"
+              },
+              "typical_depth": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "event",
+              "timing",
+              "typical_depth"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "best_time_to_buy": {
+          "type": "string"
+        },
+        "patience_payoff": {
+          "type": "string"
+        },
+        "discount_honesty": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "volatility",
+        "sale_cadence",
+        "best_time_to_buy",
+        "patience_payoff",
+        "discount_honesty"
+      ],
+      "additionalProperties": false
+    },
+    "purchase_paths": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "goal": {
+            "type": "string"
+          },
+          "total_cost": {
+            "type": "number"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "item": {
+                  "type": "string"
+                },
+                "price": {
+                  "type": "number"
+                },
+                "why": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "item",
+                "price",
+                "why"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "rationale": {
+            "type": "string"
+          },
+          "tradeoff": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "name",
+          "goal",
+          "total_cost",
+          "items",
+          "rationale",
+          "tradeoff"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "caveats": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "title",
+          "url"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "category",
+    "scope",
+    "primer",
+    "verdict",
+    "normalization",
+    "diminishing_returns",
+    "awards",
+    "generated_at",
+    "spec_criteria",
+    "marketing_noise",
+    "value_traps",
+    "tiers",
+    "consensus",
+    "products",
+    "deal_intelligence",
+    "purchase_paths",
+    "caveats",
+    "sources"
+  ],
+  "additionalProperties": false
+}

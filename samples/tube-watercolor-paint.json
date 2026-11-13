@@ -1,0 +1,1333 @@
+{
+ "expertise": "intermediate",
+ "saved_at": "2026-11-11T21:35:49.880Z",
+ "report": {
+  "generated_at": "2026-11-11",
+  "category": "Tube watercolor paint",
+  "scope": "Tube-format watercolor only (no pans, gouache or acrylic), for a buyer who has bought paint before and wants the most usable paint per dollar.",
+  "primer": {
+   "what_it_is": "Soft, concentrated paint you squeeze onto a palette and thin with water. Tubes give far more paint per dollar than pans and suit anyone painting regularly.",
+   "must_haves": [
+    {
+     "feature": "Artist grade (also called \"professional\")",
+     "why": "More pigment, less filler, so colors stay vivid and mix cleanly."
+    },
+    {
+     "feature": "Pigment code on every tube (e.g. PB29)",
+     "why": "Shows exactly what's in the tube, so you can compare brands and avoid mystery mixes."
+    },
+    {
+     "feature": "ASTM lightfastness I or II",
+     "why": "Rates fade resistance. Without it, paintings can fade."
+    },
+    {
+     "feature": "Single-pigment colors where possible",
+     "why": "They mix predictably and stay clean."
+    },
+    {
+     "feature": "Tube size printed in ml",
+     "why": "Needed to compute cost per ml, since tubes range from 5 to 37 ml."
+    }
+   ],
+   "premium_features": [
+    {
+     "feature": "Mineral and granulating colors (Daniel Smith PrimaTek, Genuine)",
+     "why": "Textured, unique effects; you pay for pigment rarity."
+    },
+    {
+     "feature": "Honey binder (M. Graham)",
+     "why": "Keeps paint moist and rewets easily; the premium is small."
+    },
+    {
+     "feature": "Cadmium and cobalt true pigments",
+     "why": "Brighter and more opaque than \"hue\" substitutes, but 30–60% more per tube."
+    },
+    {
+     "feature": "Huge color range (Daniel Smith, about 278 colors)",
+     "why": "Helps if you want unusual colors; irrelevant for a limited palette."
+    }
+   ],
+   "avoid": [
+    {
+     "thing": "\"Hue\" colors in student sets",
+     "why": "Cotman's \"Cadmium Yellow Hue\" and \"Cerulean Hue\" are cheap substitute pigments, weaker and less lightfast."
+    },
+    {
+     "thing": "Washable or kids' paint (Crayola, Prang, Sargent)",
+     "why": "Dye-based or filler-heavy; fades and looks chalky."
+    },
+    {
+     "thing": "Sets with no pigment codes (Arteza and similar)",
+     "why": "Lightfastness can't be verified; the claim rests on trust."
+    },
+    {
+     "thing": "Pans-only store-brand sets",
+     "why": "Wrong format for this buyer."
+    }
+   ]
+  },
+  "verdict": {
+   "headline": "Buy Daniel Smith tubes at Merri Artist now; they sit at or near the buy-under.",
+   "signal": "BUY_NOW",
+   "confidence": "Moderate: only Merri's pricing was checked, not other stores or sale history.",
+   "reasoning": "The pick already sits at or near its buy-under, so waiting buys little. Merri's ~40% markdown appears to be standing, not a flash sale.",
+   "price_watch_summary": "Daniel Smith 15 ml at Merri: $11.74 for series 1 (list $19.57), $15.72 for cadmium and cobalt types. How often this changes is unknown. Most other prices are estimates, ±20%."
+  },
+  "recommendation": {
+   "action": "BUY_NOW",
+   "product": "Daniel Smith Extra Fine 15 ml tubes (e.g. Burnt Sienna, Burnt Umber, Alizarin Crimson)",
+   "retailer": "Merri Artist (merriartist.com)",
+   "current_price": 11.74,
+   "strike_price": 11.75,
+   "pack_size": 15,
+   "strike_unit_price": 0.78,
+   "wait_for": "",
+   "why": "Series-1 colors at $11.74 are at the ~$11.75 strike (≤$15.75 for cadmium and cobalt types); buy 5–8 core colors and check shipping first."
+  },
+  "normalization": {
+   "unit": "Adjusted dollars per ml of artist-grade-equivalent paint",
+   "unit_short": "ml",
+   "unit_rationale": "Per-tube or per-set prices mislead: a 5 ml and a 15 ml tube differ 3×, and a 12 ml student tube holds less pigment than a 12 ml artist tube. A hobbyist uses tubes down, so tube count isn't the constraint.",
+   "quality_adjustment": "Quality multiplier (set by judgment, not lab tests) = pigment load × lightfast usability × (1 − waste). Artist grade (DS, M. Graham, Schmincke, Holbein, Sennelier, W&N Pro, Jackson's, Blick Artists'): 1.0. Mid-student (Cotman, Van Gogh, Rembrandt): about 0.5–0.6. Dyed or washable kids' paint (Crayola, Prang, Sargent): about 0.2. Student paint costs roughly double its sticker price per ml.",
+   "formula": "adjusted $/ml = (price ÷ ml) ÷ quality multiplier",
+   "bands": [
+    {
+     "label": "Below the sweet spot (student/kids)",
+     "low": 0,
+     "high": 0.75,
+     "verdict": "Loses lightfastness assurance, vividness and clean mixing."
+    },
+    {
+     "label": "Sweet spot (artist grade)",
+     "low": 0.75,
+     "high": 1.1,
+     "verdict": "Best value: Daniel Smith at Merri ($0.78–$1.05/ml) and M. Graham ($1.08/ml at Michaels)."
+    },
+    {
+     "label": "Above the sweet spot (Schmincke, Sennelier, W&N Pro)",
+     "low": 1.3,
+     "high": 3,
+     "verdict": "Pays for refinement, brand and special pigments, not meaningful performance gain (~estimates)."
+    }
+   ],
+   "size_economics": "Tube sizes range from 5 to 37 ml, so compare per ml. Lukas 24 ml tubes (~$9–14) offer good volume per dollar."
+  },
+  "diminishing_returns": {
+   "knee_unit_price": 0.9,
+   "knee_example": "Daniel Smith series-1 colors at $11.74 per 15 ml ($0.78/ml) at Merri Artist, against a $19.57 list price.",
+   "below_knee": "You lose lightfastness assurance, vividness and clean mixing.",
+   "above_knee": "Schmincke, Sennelier and W&N Pro at roughly $1.3–3/ml buy refinement, brand and special pigments, not meaningful performance gain.",
+   "curve": [
+    {
+     "unit_price": 0.1,
+     "quality": 12,
+     "label": "Kids' paint (Crayola, Prang, Sargent)"
+    },
+    {
+     "unit_price": 0.3,
+     "quality": 38,
+     "label": null
+    },
+    {
+     "unit_price": 0.5,
+     "quality": 58,
+     "label": "Mid-student (Cotman, Van Gogh)"
+    },
+    {
+     "unit_price": 0.78,
+     "quality": 85,
+     "label": null
+    },
+    {
+     "unit_price": 0.9,
+     "quality": 91,
+     "label": "Sweet spot: artist grade (Daniel Smith, M. Graham)"
+    },
+    {
+     "unit_price": 1.3,
+     "quality": 94,
+     "label": null
+    },
+    {
+     "unit_price": 2,
+     "quality": 96,
+     "label": "Schmincke, Sennelier, W&N Pro"
+    },
+    {
+     "unit_price": 3,
+     "quality": 97,
+     "label": null
+    }
+   ]
+  },
+  "awards": {
+   "best_overall": {
+    "product": "Daniel Smith Extra Fine 15 ml",
+    "why": "Artist grade with pigment codes, huge color range and granulating options, priced at the sweet spot at Merri."
+   },
+   "best_value": {
+    "product": "Daniel Smith Extra Fine 15 ml (series 1) at Merri Artist",
+    "why": "$11.74 per 15 ml ($0.78/ml) against a $19.57 list price, at the low end of the sweet spot."
+   },
+   "best_budget": {
+    "product": "Art Philosophy (Cheap Joe's) 15 ml or Blick Artists' Watercolor 14 ml",
+    "why": "Artist-grade tubes at ~$8–12 each; a 5-color starter palette is about $45–60. Prices are estimates and unverified."
+   },
+   "best_premium": {
+    "product": "Daniel Smith PrimaTek or Genuine mineral colors",
+    "why": "Textured granulating effects at $14.57–$19.58 per 15 ml, seen at Merri."
+   },
+   "best_for_beginners": {
+    "product": "Blick Artists' Watercolor 14 ml",
+    "why": "Real artist-grade tubes at ~$9–12 each, so a 5-tube palette avoids the student-set trap. Price is an estimate."
+   },
+   "longest_lasting": {
+    "product": "",
+    "why": ""
+   },
+   "avoid": {
+    "product": "W&N Cotman 12-tube set",
+    "why": "Student set with hue substitutes, costing about as much per adjusted ml as DS at Merri. Buy 5–6 DS or Art Philosophy tubes instead."
+   }
+  },
+  "spec_criteria": [
+   {
+    "spec": "Artist-grade line (\"artist\" or \"professional\")",
+    "weight": 30,
+    "what_good_looks_like": "Line name says \"artist\" or \"professional\": more pigment, less filler",
+    "how_to_check": "Read the line name on the tube or listing; many brands sell several lines",
+    "why_it_matters": "Colors stay vivid and mix cleanly; student paint has more dextrin filler, dries duller and matte, and often uses \"hue\" mixes"
+   },
+   {
+    "spec": "Pigment code on every tube",
+    "weight": 25,
+    "what_good_looks_like": "Code printed on tube (e.g. PB29 for ultramarine, PR108)",
+    "how_to_check": "Read the tube or listing; compare brands by pigment using Jane Blundell's swatch library (~50 brands)",
+    "why_it_matters": "Shows exactly what's in the tube so you can compare brands and avoid mystery mixes"
+   },
+   {
+    "spec": "ASTM lightfastness I or II",
+    "weight": 20,
+    "what_good_looks_like": "Rated I or II",
+    "how_to_check": "Check the tube or listing for the ASTM rating",
+    "why_it_matters": "Resists fading; without a rating, paintings can fade"
+   },
+   {
+    "spec": "Tube size in ml",
+    "weight": 15,
+    "what_good_looks_like": "Size printed in ml so cost per ml can be computed",
+    "how_to_check": "Read the tube or listing; sizes range from 5 to 37 ml",
+    "why_it_matters": "A 5 ml and a 15 ml tube differ 3×, and a 12 ml student tube holds less pigment than a 12 ml artist tube"
+   },
+   {
+    "spec": "Single-pigment colors",
+    "weight": 6,
+    "what_good_looks_like": "One pigment per color where possible",
+    "how_to_check": "Look at the pigment code(s) listed for the color",
+    "why_it_matters": "Mixes predictably and stays clean"
+   },
+   {
+    "spec": "Series or price tier",
+    "weight": 4,
+    "what_good_looks_like": "Series-1 colors sit at the low end of the price range",
+    "how_to_check": "Check the series or price tier on the tube or listing",
+    "why_it_matters": "Rare and mineral pigments cost more; cadmium and cobalt true pigments run 30–60% more per tube"
+   }
+  ],
+  "marketing_noise": [
+   {
+    "claim": "\"Professional quality\" on student lines",
+    "reality": "Doesn't predict quality; check for an \"artist\" or \"professional\" line name instead"
+   },
+   {
+    "claim": "\"Non-toxic\"",
+    "reality": "Doesn't predict paint quality"
+   },
+   {
+    "claim": "\"AP-certified\"",
+    "reality": "A safety seal that anyone can buy"
+   },
+   {
+    "claim": "\"Super pigmented\"",
+    "reality": "Pigment-load claims need trust; they can't be verified on the label"
+   },
+   {
+    "claim": "\"Museum quality\"",
+    "reality": "Doesn't predict quality"
+   },
+   {
+    "claim": "A famous brand name",
+    "reality": "Most brands sell several lines, so confirm the line says \"artist\" or \"professional\""
+   },
+   {
+    "claim": "Huge color range (Daniel Smith, ~278 colors)",
+    "reality": "Irrelevant if you stick to a limited palette"
+   }
+  ],
+  "value_traps": [
+   {
+    "trap": "Cotman sets (W&N Cotman 12-tube set)",
+    "why_it_looks_good": "Familiar brand, neat box, sticker only slightly below artist-grade price for equal volume",
+    "why_it_isnt": "Mid-priced student set with \"hue\" substitutes (Cadmium Yellow Hue, Cerulean Hue); per adjusted ml it costs about the same as Daniel Smith at the Merri price",
+    "instead": "Buy 5–6 Daniel Smith or Art Philosophy tubes for the same money"
+   },
+   {
+    "trap": "Large Amazon sets (Arteza, Mont Marte)",
+    "why_it_looks_good": "Many colors at a low price",
+    "why_it_isnt": "24 colors you won't use, no verifiable pigment codes, unknown lightfastness",
+    "instead": "Buy a limited palette of 8–10 real artist-grade tubes"
+   },
+   {
+    "trap": "Kids' paint (Crayola, Prang, Sargent)",
+    "why_it_looks_good": "Very cheap (~$6–10 per set)",
+    "why_it_isnt": "Dye-based or filler-heavy; fades and looks chalky; no pigment codes or lightfastness ratings",
+    "instead": "Skip it even for practice unless it's for children"
+   },
+   {
+    "trap": "Student-grade first buy",
+    "why_it_looks_good": "Low entry cost",
+    "why_it_isnt": "Many buyers replace it within months",
+    "instead": "Go straight to a small artist-grade palette"
+   },
+   {
+    "trap": "High-priced \"premium\" without the sweet-spot benefit (Schmincke, W&N Pro at $20+ per tube)",
+    "why_it_looks_good": "Prestige brands",
+    "why_it_isnt": "Buys refinement, brand and special pigments, not much more performance",
+    "instead": "Stay near $0.75–1.10 per ml artist grade, such as Daniel Smith at Merri"
+   }
+  ],
+  "tiers": [
+   {
+    "tier": "Kids' and washable paint",
+    "price_range": "~$6–10 per set",
+    "unit_price_range": "~$0.10–0.15 per ml; ~$0.50–0.75 per ml adjusted (Sargent, 0.2 multiplier)",
+    "who_its_for": "Children, classrooms, throwaway craft projects",
+    "representative_brands": [
+     "Crayola",
+     "Prang",
+     "Sargent Art"
+    ],
+    "verdict": "Skip; dyed or filler-heavy, fades and looks chalky"
+   },
+   {
+    "tier": "Mid-student sets",
+    "price_range": "~$25–40 per set",
+    "unit_price_range": "Adjusted cost is about double sticker price per ml (0.5–0.6 multiplier)",
+    "who_its_for": "Beginners wanting a boxed set",
+    "representative_brands": [
+     "W&N Cotman",
+     "Van Gogh",
+     "Rembrandt",
+     "Grumbacher Academy"
+    ],
+    "verdict": "Not recommended; hue substitutes and little saving over artist grade. Rembrandt buy-under ≤$10 per tube, Van Gogh ≤$28 per set, Cotman ≤$25"
+   },
+   {
+    "tier": "Large unverified sets",
+    "price_range": "~$10–30 per set",
+    "unit_price_range": "",
+    "who_its_for": "Buyers chasing color count",
+    "representative_brands": [
+     "Arteza",
+     "Mont Marte Signature",
+     "Artists' Loft"
+    ],
+    "verdict": "Skip; no verifiable pigment codes or lightfastness"
+   },
+   {
+    "tier": "Budget artist grade",
+    "price_range": "~$8–13 per tube",
+    "unit_price_range": "~$0.60–0.90 per ml",
+    "who_its_for": "Cheapest path that isn't a mistake (~$45–60 for 5 colors)",
+    "representative_brands": [
+     "Art Philosophy (Cheap Joe's)",
+     "Blick Artists'",
+     "Lukas Aquarell 1862",
+     "Jackson's Artist"
+    ],
+    "verdict": "Good value; gives up wide color range and some rewetting quality. Prices are estimates; Jackson's carries shipping and tariffs"
+   },
+   {
+    "tier": "Sweet-spot artist grade",
+    "price_range": "$11.74–$16.14 per 15 ml tube (seen)",
+    "unit_price_range": "~$0.75–1.10 per ml",
+    "who_its_for": "Buyers who want the best dollars per usable paint",
+    "representative_brands": [
+     "Daniel Smith",
+     "M. Graham",
+     "Holbein Artists'"
+    ],
+    "verdict": "Best value; Daniel Smith at Merri sits here, at the low end on discount. Holbein ~$14–18 (est.)"
+   },
+   {
+    "tier": "Premium artist grade",
+    "price_range": "~$15–25 per tube (est.)",
+    "unit_price_range": "~$1.3–3 per ml (est.)",
+    "who_its_for": "Buyers wanting refinement, brand or special pigments for specific colors",
+    "representative_brands": [
+     "Schmincke Horadam",
+     "Sennelier L'Aquarelle",
+     "W&N Professional",
+     "Qor Modern Watercolors",
+     "Maimeri Blu"
+    ],
+    "verdict": "Pay for refinement, not meaningful performance gain; buy only for specific colors or on sale"
+   },
+   {
+    "tier": "Top-end and mineral",
+    "price_range": "$14.57–$19.58 per tube for Daniel Smith mineral (seen); Old Holland higher",
+    "unit_price_range": "~$0.97–1.31 per ml for Daniel Smith mineral",
+    "who_its_for": "No-compromise builds (~$200+) wanting granulating and rare pigments",
+    "representative_brands": [
+     "Daniel Smith PrimaTek",
+     "Daniel Smith Genuine",
+     "Old Holland"
+    ],
+    "verdict": "Pay for pigment rarity; Old Holland is the most expensive tier, not a value pick"
+   }
+  ],
+  "consensus": {
+   "expert_view": "Bruce MacEvoy (Handprint), repeated by review sites (affiliate-style, weak sources): student paints carry more dextrin filler and less pigment, dry duller and matte, and are often \"hue\" mixes. Jane Blundell's swatches across ~50 brands, with pigment codes, support comparing by pigment rather than brand.",
+   "community_view": "r/Watercolor: above student grade the \"best\" brand is subjective. Sennelier is \"magic\" for soft transparent layers; M. Graham is \"gorgeous\" for smooth washes and bold pigment load. Brand name alone doesn't guarantee quality because most brands sell several lines. Old Holland is seen as the most expensive tier.",
+   "where_they_disagree": "Little real conflict: experts focus on grade and pigment data, while the community says brand choice above student grade is a matter of taste. Wet Canvas, Handprint and Doodlewash pages were not scanned directly."
+  },
+  "products": [
+   {
+    "name": "Daniel Smith Extra Fine, 15 ml",
+    "brand": "Daniel Smith",
+    "tier": "Artist grade",
+    "price_basis": "seen",
+    "street_price": 11.74,
+    "pack_size": 15,
+    "unit_price": 0.78,
+    "quality_score": 92,
+    "value_score": 95,
+    "historical_low": null,
+    "typical_sale": "Merri Artist's ~40% markdown (list $19.57-$26.20) appears standing, not a flash sale; how often it changes is unknown",
+    "buy_under": 12,
+    "where_to_buy": [
+     "Merri Artist",
+     "Walmart"
+    ],
+    "pros": [
+     "Series-1 colors $11.74 (~$0.78/ml) at Merri",
+     "Huge range (~278 colors)",
+     "Granulating PrimaTek and Genuine mineral colors",
+     "Sits on the sweet spot"
+    ],
+    "cons": [
+     "Cadmium/cobalt/azo colors $15.72",
+     "Mineral colors up to $19.58",
+     "Some colors sold out",
+     "Merri shipping cost not confirmed"
+    ],
+    "best_for": "Buyers wanting the best dollars per usable artist-grade paint; buy-under ≤$12 for $11.74-type colors, ≤$15 for pricier ones"
+   },
+   {
+    "name": "M. Graham Artists' Watercolor, 15 ml",
+    "brand": "M. Graham",
+    "tier": "Artist grade",
+    "price_basis": "seen",
+    "street_price": 16.14,
+    "pack_size": 15,
+    "unit_price": 1.076,
+    "quality_score": 88,
+    "value_score": 60,
+    "historical_low": null,
+    "typical_sale": "Blick price not captured (~$11-14)",
+    "buy_under": 12.5,
+    "where_to_buy": [
+     "Michaels",
+     "Blick"
+    ],
+    "pros": [
+     "Honey binder keeps paint moist and rewets easily",
+     "Smooth washes, bold pigment load",
+     "Small premium for honey binder"
+    ],
+    "cons": [
+     "$16.14 (Indigo, Michaels snippet) is above buy-under",
+     "Price not confirmed elsewhere"
+    ],
+    "best_for": "Smooth washes and a moist honey-binder feel, at ≤$12.50"
+   },
+   {
+    "name": "Holbein Artists', 15 ml",
+    "brand": "Holbein",
+    "tier": "Artist grade",
+    "price_basis": "estimate",
+    "street_price": null,
+    "pack_size": 15,
+    "unit_price": null,
+    "quality_score": 88,
+    "value_score": 55,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": 13,
+    "where_to_buy": [],
+    "pros": [
+     "Artist grade"
+    ],
+    "cons": [
+     "Price ~$14-18 is above buy-under",
+     "Price not verified"
+    ],
+    "best_for": "Artist-grade buyers if found at ≤$13"
+   },
+   {
+    "name": "Schmincke Horadam, 15 ml",
+    "brand": "Schmincke",
+    "tier": "Premium artist grade",
+    "price_basis": "estimate",
+    "street_price": null,
+    "pack_size": 15,
+    "unit_price": null,
+    "quality_score": 94,
+    "value_score": 35,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": 17,
+    "where_to_buy": [],
+    "pros": [
+     "Refinement and brand",
+     "Artist grade"
+    ],
+    "cons": [
+     "Price ~$19-24",
+     "Above the sweet spot; buys refinement, not much more performance"
+    ],
+    "best_for": "Specific colors where you want refinement, at ≤$17"
+   },
+   {
+    "name": "Sennelier L'Aquarelle, 10 ml",
+    "brand": "Sennelier",
+    "tier": "Premium artist grade",
+    "price_basis": "estimate",
+    "street_price": null,
+    "pack_size": 10,
+    "unit_price": null,
+    "quality_score": 92,
+    "value_score": 35,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": 14,
+    "where_to_buy": [],
+    "pros": [
+     "Described as \"magic\" for soft transparent layers"
+    ],
+    "cons": [
+     "Price ~$15-20 for 10 ml",
+     "Above the sweet spot"
+    ],
+    "best_for": "Soft transparent layers, at ≤$14"
+   },
+   {
+    "name": "Winsor & Newton Professional, 14 ml",
+    "brand": "Winsor & Newton",
+    "tier": "Premium artist grade",
+    "price_basis": "estimate",
+    "street_price": null,
+    "pack_size": 14,
+    "unit_price": null,
+    "quality_score": 90,
+    "value_score": 30,
+    "historical_low": null,
+    "typical_sale": "Blick/Jerry's sales",
+    "buy_under": 15,
+    "where_to_buy": [
+     "Blick",
+     "Jerry's"
+    ],
+    "pros": [
+     "Classic colors",
+     "Artist grade"
+    ],
+    "cons": [
+     "Price ~$17-25",
+     "$20+ per tube buys refinement, not much more performance"
+    ],
+    "best_for": "A few classic colors on sale, at ≤$15"
+   },
+   {
+    "name": "Rembrandt (Royal Talens), 10 ml",
+    "brand": "Royal Talens",
+    "tier": "Mid-student",
+    "price_basis": "estimate",
+    "street_price": null,
+    "pack_size": 10,
+    "unit_price": null,
+    "quality_score": 62,
+    "value_score": 45,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": 10,
+    "where_to_buy": [],
+    "pros": [
+     "Artist-grade pigments in a mid-student line (quality multiplier ~0.5-0.6)"
+    ],
+    "cons": [
+     "Price ~$11-15",
+     "Adjusted cost roughly double sticker per ml"
+    ],
+    "best_for": "Only at ≤$10"
+   },
+   {
+    "name": "Maimeri Blu, 12 ml",
+    "brand": "Maimeri",
+    "tier": "Mid-range",
+    "price_basis": "estimate",
+    "street_price": null,
+    "pack_size": 12,
+    "unit_price": null,
+    "quality_score": 70,
+    "value_score": 50,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": 11,
+    "where_to_buy": [],
+    "pros": [],
+    "cons": [
+     "Price ~$12-15",
+     "Not verified"
+    ],
+    "best_for": "Only at ≤$11"
+   },
+   {
+    "name": "Qor Modern Watercolors, 11 ml",
+    "brand": "Qor",
+    "tier": "Artist grade",
+    "price_basis": "estimate",
+    "street_price": null,
+    "pack_size": 11,
+    "unit_price": null,
+    "quality_score": 85,
+    "value_score": 45,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": 14,
+    "where_to_buy": [],
+    "pros": [
+     "Artist grade"
+    ],
+    "cons": [
+     "Price ~$15-18 for 11 ml"
+    ],
+    "best_for": "Buyers wanting Qor specifically, at ≤$14"
+   },
+   {
+    "name": "Jackson's Artist, 15 ml",
+    "brand": "Jackson's",
+    "tier": "Artist grade",
+    "price_basis": "estimate",
+    "street_price": null,
+    "pack_size": 15,
+    "unit_price": null,
+    "quality_score": 85,
+    "value_score": 75,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": 11,
+    "where_to_buy": [
+     "Jackson's"
+    ],
+    "pros": [
+     "Artist grade",
+     "Price ~$11-13"
+    ],
+    "cons": [
+     "UK-based; shipping and tariffs apply",
+     "Not researched first-hand"
+    ],
+    "best_for": "Buyers comfortable with UK shipping, at ≤$11 delivered"
+   },
+   {
+    "name": "Art Philosophy (Cheap Joe's), 15 ml",
+    "brand": "Art Philosophy",
+    "tier": "Artist grade (budget)",
+    "price_basis": "estimate",
+    "street_price": null,
+    "pack_size": 15,
+    "unit_price": null,
+    "quality_score": 78,
+    "value_score": 82,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": 9,
+    "where_to_buy": [
+     "Cheap Joe's"
+    ],
+    "pros": [
+     "Price ~$8-10",
+     "Basis of the cheapest sensible path"
+    ],
+    "cons": [
+     "Not verified"
+    ],
+    "best_for": "Cheapest non-mistake limited palette, at ≤$9"
+   },
+   {
+    "name": "Blick Artists' Watercolor, 14 ml",
+    "brand": "Blick",
+    "tier": "Artist grade (budget)",
+    "price_basis": "estimate",
+    "street_price": null,
+    "pack_size": 14,
+    "unit_price": null,
+    "quality_score": 80,
+    "value_score": 85,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": 10,
+    "where_to_buy": [
+     "Blick"
+    ],
+    "pros": [
+     "Price ~$9-12",
+     "Artist grade"
+    ],
+    "cons": [
+     "Not verified"
+    ],
+    "best_for": "Cheap artist-grade palette, at ≤$10"
+   },
+   {
+    "name": "Lukas Aquarell 1862, 24 ml",
+    "brand": "Lukas",
+    "tier": "Artist grade",
+    "price_basis": "estimate",
+    "street_price": null,
+    "pack_size": 24,
+    "unit_price": null,
+    "quality_score": 78,
+    "value_score": 85,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": 11,
+    "where_to_buy": [],
+    "pros": [
+     "Larger tube, good volume per dollar",
+     "Price ~$9-14"
+    ],
+    "cons": [
+     "Not verified"
+    ],
+    "best_for": "High volume per dollar, at ≤$11"
+   },
+   {
+    "name": "Winsor & Newton Cotman 12-tube set, 8 ml",
+    "brand": "Winsor & Newton",
+    "tier": "Mid-student",
+    "price_basis": "estimate",
+    "street_price": null,
+    "pack_size": 96,
+    "unit_price": null,
+    "quality_score": 50,
+    "value_score": 25,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": 25,
+    "where_to_buy": [
+     "Walmart",
+     "Michaels"
+    ],
+    "pros": [
+     "Brand and neat box"
+    ],
+    "cons": [
+     "Price ~$25-35",
+     "\"Hue\" colors (Cadmium Yellow Hue, Cerulean Hue) are weaker and less lightfast",
+     "Costs about as much per adjusted ml as Daniel Smith at Merri",
+     "Listings show 8 ml, not 5 ml"
+    ],
+    "best_for": "Not recommended; buy 5-6 Daniel Smith or Art Philosophy tubes instead"
+   },
+   {
+    "name": "Winsor & Newton Cotman Painting Plus",
+    "brand": "Winsor & Newton",
+    "tier": "Mid-student",
+    "price_basis": "unknown",
+    "street_price": null,
+    "pack_size": null,
+    "unit_price": null,
+    "quality_score": 45,
+    "value_score": 20,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": null,
+    "where_to_buy": [
+     "Walmart",
+     "Michaels"
+    ],
+    "pros": [
+     "12-tube travel set with a brush"
+    ],
+    "cons": [
+     "Cotman student line with \"hue\" colors"
+    ],
+    "best_for": "Travel convenience only; not a value pick"
+   },
+   {
+    "name": "Van Gogh, 12 × 10 ml set",
+    "brand": "Van Gogh",
+    "tier": "Mid-student",
+    "price_basis": "estimate",
+    "street_price": null,
+    "pack_size": 120,
+    "unit_price": null,
+    "quality_score": 52,
+    "value_score": 25,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": 28,
+    "where_to_buy": [],
+    "pros": [
+     "Artist-grade pigments in a mid-student line (quality multiplier ~0.5-0.6)"
+    ],
+    "cons": [
+     "Price ~$30-40",
+     "Not researched first-hand"
+    ],
+    "best_for": "Only at ≤$28"
+   },
+   {
+    "name": "Grumbacher Academy, 12-tube set",
+    "brand": "Grumbacher",
+    "tier": "Student",
+    "price_basis": "estimate",
+    "street_price": 25,
+    "pack_size": null,
+    "unit_price": null,
+    "quality_score": 40,
+    "value_score": 15,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": null,
+    "where_to_buy": [],
+    "pros": [],
+    "cons": [
+     "Reformulation status unconfirmed"
+    ],
+    "best_for": "Skip"
+   },
+   {
+    "name": "Artists' Loft 12-tube set (Michaels)",
+    "brand": "Artists' Loft",
+    "tier": "Student",
+    "price_basis": "estimate",
+    "street_price": null,
+    "pack_size": null,
+    "unit_price": null,
+    "quality_score": 35,
+    "value_score": 15,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": null,
+    "where_to_buy": [
+     "Michaels"
+    ],
+    "pros": [
+     "Price ~$10-15"
+    ],
+    "cons": [
+     "Not verified"
+    ],
+    "best_for": "Skip"
+   },
+   {
+    "name": "Arteza 24-tube set, 12 ml",
+    "brand": "Arteza",
+    "tier": "Student",
+    "price_basis": "estimate",
+    "street_price": null,
+    "pack_size": 288,
+    "unit_price": null,
+    "quality_score": 30,
+    "value_score": 15,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": null,
+    "where_to_buy": [
+     "Amazon"
+    ],
+    "pros": [
+     "Looks like a bargain"
+    ],
+    "cons": [
+     "Price ~$20-30",
+     "24 colors you won't use",
+     "No verifiable pigment codes",
+     "Unknown lightfastness"
+    ],
+    "best_for": "Skip; buy 8-10 real artist-grade tubes instead"
+   },
+   {
+    "name": "Mont Marte Signature, 18-tube set",
+    "brand": "Mont Marte",
+    "tier": "Student",
+    "price_basis": "estimate",
+    "street_price": null,
+    "pack_size": null,
+    "unit_price": null,
+    "quality_score": 30,
+    "value_score": 15,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": null,
+    "where_to_buy": [
+     "Amazon"
+    ],
+    "pros": [
+     "Looks like a bargain"
+    ],
+    "cons": [
+     "Price ~$15-20",
+     "No verifiable pigment codes",
+     "Unknown lightfastness"
+    ],
+    "best_for": "Skip"
+   },
+   {
+    "name": "Crayola, Prang, Sargent washable/kids' paint",
+    "brand": "Crayola / Prang / Sargent",
+    "tier": "Kids' paint",
+    "price_basis": "estimate",
+    "street_price": null,
+    "pack_size": null,
+    "unit_price": null,
+    "quality_score": 10,
+    "value_score": 10,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": null,
+    "where_to_buy": [],
+    "pros": [
+     "Cheap, ~$6-10"
+    ],
+    "cons": [
+     "Dye-based or filler-heavy",
+     "Fades and looks chalky"
+    ],
+    "best_for": "Children only; skip for this buyer"
+   },
+   {
+    "name": "Sargent Art Watercolor tubes, 12-tube set",
+    "brand": "Sargent Art",
+    "tier": "Kids' paint",
+    "price_basis": "estimate",
+    "street_price": 8,
+    "pack_size": null,
+    "unit_price": null,
+    "quality_score": 12,
+    "value_score": 12,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": 8,
+    "where_to_buy": [
+     "Walmart",
+     "Amazon",
+     "Michaels",
+     "Blick",
+     "School-supply stores"
+    ],
+    "pros": [
+     "Very low entry cost",
+     "Fine for kids, classrooms, testing a technique",
+     "Widely available"
+    ],
+    "cons": [
+     "Fading, chalky or dull colors likely",
+     "No pigment codes or ASTM ratings",
+     "Heavy filler, weak mixing",
+     "Not for work to keep or sell"
+    ],
+    "best_for": "Children, classrooms and throwaway craft; ≤$8 per set for kids' use only"
+   },
+   {
+    "name": "Himi",
+    "brand": "Himi",
+    "tier": "Different category (mostly gouache)",
+    "price_basis": "estimate",
+    "street_price": 20,
+    "pack_size": null,
+    "unit_price": null,
+    "quality_score": 0,
+    "value_score": 0,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": null,
+    "where_to_buy": [],
+    "pros": [],
+    "cons": [
+     "Mostly gouache, a different category"
+    ],
+    "best_for": "Excluded"
+   },
+   {
+    "name": "Kuretake Gansai Tambi",
+    "brand": "Kuretake",
+    "tier": "Pan-based",
+    "price_basis": "unknown",
+    "street_price": null,
+    "pack_size": null,
+    "unit_price": null,
+    "quality_score": 0,
+    "value_score": 0,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": null,
+    "where_to_buy": [],
+    "pros": [],
+    "cons": [
+     "Pan-based, not tubes",
+     "Kuretake/Zig tube lines unconfirmed"
+    ],
+    "best_for": "Excluded"
+   },
+   {
+    "name": "Turner / Pebeo",
+    "brand": "Turner / Pebeo",
+    "tier": "Not researched",
+    "price_basis": "unknown",
+    "street_price": null,
+    "pack_size": null,
+    "unit_price": null,
+    "quality_score": 0,
+    "value_score": 0,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": null,
+    "where_to_buy": [],
+    "pros": [],
+    "cons": [
+     "Not researched; Lukas covers this niche"
+    ],
+    "best_for": "Excluded"
+   },
+   {
+    "name": "Old Holland",
+    "brand": "Old Holland",
+    "tier": "Top-priced artist grade",
+    "price_basis": "unknown",
+    "street_price": null,
+    "pack_size": null,
+    "unit_price": null,
+    "quality_score": 0,
+    "value_score": 0,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": null,
+    "where_to_buy": [],
+    "pros": [],
+    "cons": [
+     "Most expensive tier on Reddit; not a value pick"
+    ],
+    "best_for": "Not a value pick"
+   },
+   {
+    "name": "Colors of Nature",
+    "brand": "Colors of Nature",
+    "tier": "Eco line",
+    "price_basis": "unknown",
+    "street_price": null,
+    "pack_size": null,
+    "unit_price": null,
+    "quality_score": 0,
+    "value_score": 0,
+    "historical_low": null,
+    "typical_sale": "",
+    "buy_under": null,
+    "where_to_buy": [],
+    "pros": [
+     "Canadian eco line"
+    ],
+    "cons": [
+     "Jane Blundell hasn't tried it"
+    ],
+    "best_for": ""
+   }
+  ],
+  "deal_intelligence": {
+   "volatility": "Sale history unknown. Merri's Daniel Smith markdown (~40% off list) appears standing, not a flash sale, but how often it changes is unconfirmed.",
+   "sale_cadence": [
+    {
+     "event": "Blick and Jerry's sales",
+     "timing": "",
+     "typical_depth": "Cited as the route to W&N Professional at ≤$15"
+    }
+   ],
+   "best_time_to_buy": "Now at Merri Artist, where Daniel Smith already sits at or near buy-under.",
+   "patience_payoff": "Little. Waiting buys little because the pick is already at or near its buy-under.",
+   "discount_honesty": "Merri's list prices ($19.57-$26.20) are above the usual ~$15.50 average Daniel Smith price. That average is closer to a discounted price, so the 'list' is inflated. Merri's $11.74-$15.72 is the real price to judge."
+  },
+  "purchase_paths": [
+   {
+    "name": "Cheapest path that isn't a mistake",
+    "goal": "Cheapest sensible artist-grade starter palette",
+    "total_cost": null,
+    "items": [
+     {
+      "item": "Art Philosophy or Blick Artists' tubes, 5 core colors (ultramarine, warm and cool red, warm and cool yellow)",
+      "price": null,
+      "why": "~$8-12 each; whole path ~$45-60"
+     }
+    ],
+    "rationale": "Real artist-grade tubes at the lowest cost.",
+    "tradeoff": "Gives up wide color range and some rewetting quality."
+   },
+   {
+    "name": "Best-value build",
+    "goal": "Best dollars per usable paint",
+    "total_cost": 110,
+    "items": [
+     {
+      "item": "4 Daniel Smith series-1 tubes (e.g. Burnt Sienna, Burnt Umber) from Merri",
+      "price": 46.96,
+      "why": "4 × $11.74"
+     },
+     {
+      "item": "4 Daniel Smith pricier tubes (e.g. Cobalt Blue, cadmium hue-type) from Merri",
+      "price": 62.88,
+      "why": "4 × $15.72"
+     }
+    ],
+    "rationale": "Sits on the sweet spot at prices seen. Sample basket ≈$110; path quoted as ~$85-100, cheaper with mostly series-1 earth colors.",
+    "tradeoff": "Gives up M. Graham's honey feel, but adds granulating options."
+   },
+   {
+    "name": "No-compromise build",
+    "goal": "Best available regardless of cost",
+    "total_cost": null,
+    "items": [
+     {
+      "item": "Daniel Smith PrimaTek or Genuine mineral colors",
+      "price": null,
+      "why": "$14.57-$19.58 each, seen at Merri"
+     },
+     {
+      "item": "Schmincke or Sennelier for specific colors",
+      "price": null,
+      "why": "Refinement for chosen colors"
+     },
+     {
+      "item": "W&N Professional for a few classics",
+      "price": null,
+      "why": "Classic colors"
+     }
+    ],
+    "rationale": "Total about $200+.",
+    "tradeoff": "Gives up nothing except cost."
+   },
+   {
+    "name": "Entering cheaply and upgrading",
+    "goal": "Start small and upgrade over time",
+    "total_cost": null,
+    "items": [
+     {
+      "item": "5 tubes in a limited palette",
+      "price": null,
+      "why": "Low-cost start"
+     },
+     {
+      "item": "Replace weakest, most-used colors (staining and \"hue\" ones) with single-pigment artist-grade tubes",
+      "price": null,
+      "why": "First upgrade"
+     },
+     {
+      "item": "Add granulating colors",
+      "price": null,
+      "why": "Next upgrade"
+     }
+    ],
+    "rationale": "Spend upgrades where use is highest.",
+    "tradeoff": "Slower to reach a full artist-grade palette."
+   }
+  ],
+  "deals_found": [
+   {
+    "product": "Daniel Smith Extra Fine 15 ml, series-1 colors (Alizarin Crimson, Burnt Sienna, Burnt Umber, Chinese White and others)",
+    "retailer": "Merri Artist",
+    "price": 11.74,
+    "pack_size": 15,
+    "url": "https://merriartist.com/collections/daniel-smith-watercolors-in-15ml-tubes",
+    "note": "List $19.57; no conditions stated; some colors sold out"
+   },
+   {
+    "product": "Daniel Smith Extra Fine 15 ml, cadmium and cobalt hues",
+    "retailer": "Merri Artist",
+    "price": 15.72,
+    "pack_size": 15,
+    "url": "https://merriartist.com/collections/daniel-smith-watercolors-in-15ml-tubes",
+    "note": "No conditions stated; some colors sold out"
+   },
+   {
+    "product": "Daniel Smith Extra Fine 15 ml, Genuine and mineral colors (low end)",
+    "retailer": "Merri Artist",
+    "price": 14.57,
+    "pack_size": 15,
+    "url": "https://merriartist.com/collections/daniel-smith-watercolors-in-15ml-tubes",
+    "note": "Range $14.57-$19.58; some colors sold out"
+   },
+   {
+    "product": "M. Graham Artists' Watercolor Indigo 15 ml",
+    "retailer": "Michaels",
+    "price": 16.14,
+    "pack_size": 15,
+    "url": "https://www.michaels.com/product/m-graham-artists'-watercolor-indigo-15-ml-tube-520586849850605577",
+    "note": "From a search snippet, page not opened; free shipping mentioned; not a deal at this price"
+   }
+  ],
+  "caveats": [
+   "Research was cut short by tool failures. Only Merri Artist Daniel Smith prices and one Michaels M. Graham price were seen.",
+   "All other prices are estimates from prior knowledge; treat as ±20% and check before buying.",
+   "Jackson's, Blick Studio, Art Philosophy, Van Gogh, Arteza and other store brands were not checked; no first-hand evidence.",
+   "Wet Canvas, Handprint and Doodlewash pages were not scanned.",
+   "Merri's shipping cost, price-change frequency and sale history are unconfirmed.",
+   "Quality multipliers are judgment calls, not lab measurements.",
+   "Cotman set size is uncertain: 5 ml vs 8 ml in listings.",
+   "Sargent set price (~$8) and tube size (~5-7 ml) are estimates.",
+   "Pack sizes for sets are total ml (tubes × ml per tube)."
+  ],
+  "sources": [
+   {
+    "title": "Merri Artist: Daniel Smith watercolors in 15 ml tubes",
+    "url": "https://merriartist.com/collections/daniel-smith-watercolors-in-15ml-tubes"
+   },
+   {
+    "title": "Michaels: M. Graham Artists' Watercolor Indigo 15 ml tube",
+    "url": "https://www.michaels.com/product/m-graham-artists'-watercolor-indigo-15-ml-tube-520586849850605577"
+   },
+   {
+    "title": "dickblick.com: Title: M. Graham Artists' Watercolor - Indigo, 15 ml Tube",
+    "url": "https://www.dickblick.com/items/m-graham-artists-watercolor-indigo-15-ml/"
+   }
+  ],
+  "price_source": "live",
+  "coverage": {
+   "brands": [
+    {
+     "brand": "Winsor & Newton",
+     "segment": "budget",
+     "status": "estimate"
+    },
+    {
+     "brand": "Daniel Smith",
+     "segment": "premium",
+     "status": "seen"
+    },
+    {
+     "brand": "Holbein",
+     "segment": "premium",
+     "status": "estimate"
+    },
+    {
+     "brand": "M. Graham",
+     "segment": "premium",
+     "status": "seen"
+    },
+    {
+     "brand": "Schmincke",
+     "segment": "premium",
+     "status": "estimate"
+    },
+    {
+     "brand": "Sennelier",
+     "segment": "premium",
+     "status": "estimate"
+    },
+    {
+     "brand": "Rembrandt",
+     "segment": "premium",
+     "status": "estimate"
+    },
+    {
+     "brand": "Van Gogh",
+     "segment": "mainstream",
+     "status": "estimate"
+    },
+    {
+     "brand": "Grumbacher",
+     "segment": "mainstream",
+     "status": "estimate"
+    },
+    {
+     "brand": "Artists' Loft",
+     "segment": "store brand",
+     "status": "unknown"
+    },
+    {
+     "brand": "Arteza",
+     "segment": "budget",
+     "status": "unknown"
+    },
+    {
+     "brand": "Crayola",
+     "segment": "mainstream",
+     "status": "unknown"
+    },
+    {
+     "brand": "Sargent Art",
+     "segment": "budget",
+     "status": "estimate"
+    },
+    {
+     "brand": "Mont Marte",
+     "segment": "budget",
+     "status": "unknown"
+    },
+    {
+     "brand": "Himi (Miya)",
+     "segment": "budget",
+     "status": "estimate"
+    },
+    {
+     "brand": "Prang",
+     "segment": "budget",
+     "status": "unknown"
+    },
+    {
+     "brand": "Blick",
+     "segment": "store brand",
+     "status": "estimate"
+    },
+    {
+     "brand": "Jackson's",
+     "segment": "enthusiast",
+     "status": "estimate"
+    },
+    {
+     "brand": "Maimeri Blu",
+     "segment": "premium",
+     "status": "estimate"
+    },
+    {
+     "brand": "Kuretake Gansai Tambi / Zig",
+     "segment": "eco/niche",
+     "status": "unknown"
+    },
+    {
+     "brand": "Qor (Golden)",
+     "segment": "enthusiast",
+     "status": "estimate"
+    },
+    {
+     "brand": "Art Philosophy (Cheap Joe's)",
+     "segment": "enthusiast",
+     "status": "estimate"
+    },
+    {
+     "brand": "Turner / Pebeo / Lukas",
+     "segment": "enthusiast",
+     "status": "unknown"
+    }
+   ],
+   "found_in_research": [
+    "Royal Talens",
+    "Old Holland",
+    "Colors of Nature"
+   ],
+   "added_in_check": [
+    "Sargent Art"
+   ]
+  }
+ }
+}

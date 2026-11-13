@@ -1,0 +1,734 @@
+{
+ "expertise": "intermediate",
+ "saved_at": null,
+ "report": {
+  "_recovered": true,
+  "category": "Figure Skates – Serious Adult Hobbyist",
+  "scope": "Complete setups (boot + blade) and boots-only for adult recreational-to-intermediate skaters in the USA, circa 2024–2025. Covers entry-level upgrades through upper-intermediate packages priced roughly $130–$900+. Excludes children's sizing, hockey skates, and elite/custom competition setups above ~$1,200.",
+  "generated_at": "2026-08-21",
+  "primer": {
+   "what_it_is": "Figure skates consist of two separable components: a stiff leather or synthetic boot that wraps and supports the ankle, and a steel blade mounted to the sole. Unlike hockey skates, the blade has a curved rocker (not flat), a toe pick at the front used for jumps and spins, and is hollow-ground to grip the ice on edges. For a serious hobbyist—someone skating 2–4 hours a week, working on single jumps (waltz through flip/lutz) and basic spins—the boot's stiffness rating is the single most important spec. Too soft and the ankle collapses on landing; too stiff and the skater can't flex to generate jump height. Blades matter too but are often the second purchase: the blade that ships with a package skate is usually adequate until the skater outgrows the boot.",
+   "must_haves": [
+    {
+     "feature": "Appropriate stiffness rating (roughly 40–70 on a 100-point scale for this level)",
+     "why": "A boot that is too soft breaks down quickly and offers no ankle support for jump landings. A boot that is too stiff prevents a beginner-intermediate from bending their knee and generating power. Most adult hobbyists working on waltz jump through flip/lutz need a medium-stiff boot, not a competition-stiff one."
+    },
+    {
+     "feature": "Real leather or quality synthetic upper (not vinyl or fabric)",
+     "why": "Leather conforms to the foot over break-in and holds its shape under lateral stress from edge work and landings. Cheap vinyl or fabric uppers collapse within weeks of serious use and cannot be re-molded by a pro shop."
+    },
+    {
+     "feature": "Heat-moldable capability",
+     "why": "Feet vary enormously. A boot that can be heat-molded at a pro shop eliminates most pressure points and dramatically shortens break-in time. Most modern intermediate and above boots support this; cheap package skates do not."
+    },
+    {
+     "feature": "Blade with a proper toe pick and matched rocker",
+     "why": "Recreational package skates sometimes ship with blades that have undersized toe picks or a poorly shaped rocker, making consistent jump takeoffs and spin entry difficult. A blade specified for singles-level skating (not a recreational or 'fitness' blade) is necessary."
+    },
+    {
+     "feature": "Sizing system with at least two width options",
+     "why": "Figure skate sizing typically runs 1–1.5 sizes smaller than street shoe size. Brands that offer only one width will fit perhaps 60% of adult feet acceptably. Narrow and wide variants prevent chronic blisters and nerve compression that derail practice."
+    }
+   ],
+   "premium_features": [
+    {
+     "feature": "Microfiber or kangaroo leather lining",
+     "why": "These materials wick moisture better than synthetic linings, reduce odor, and maintain consistent fit as the boot ages. They also reduce break-in time because the lining conforms quickly."
+    },
+    {
+     "feature": "Blade mounted separately (boot-only purchase) with an upgrade blade",
+     "why": "Buying the boot and blade separately—pairing, say, a Jackson Freestyle boot with an MK Professional or Pattern 99 blade instead of the included Mark IV—can give noticeably better spin centering and jump edge without the cost of a full competition setup."
+    },
+    {
+     "feature": "Carbon fiber or reinforced counter",
+     "why": "A stiffer heel counter keeps the blade alignment stable over the life of the boot. Entry-level boots have thermoplastic counters that soften with heat and sweat; premium counters maintain alignment for 2–4× longer."
+    },
+    {
+     "feature": "Adjustable or pre-set blade mounting at the factory",
+     "why": "Blades mounted at a certified pro shop are aligned to the individual skater's foot. Factory-mounted blades on package skates are centered for an 'average' foot and may pull the skater to one edge persistently."
+    },
+    {
+     "feature": "Custom or semi-custom last",
+     "why": "Brands like Edea use an Italian last that is narrower in the heel and roomier in the toe box; Riedell uses a wider American last. Matching the last to your foot anatomy eliminates the vast majority of hot spots without requiring stretching."
+    }
+   ],
+   "avoid": [
+    {
+     "thing": "Big-box or Amazon package skates (Bladerunner, Lake Placid, no-name vinyl boots)",
+     "why": "These are recreational fitness skates with stiffness ratings around 10–20 and blades unsuitable for jump takeoffs. They break down in 20–30 hours of serious skating and cannot be heat-molded or re-bladed. Spending $60 now means spending $250 in 3 months."
+    },
+    {
+     "thing": "Buying online without a pro-shop fitting or at minimum a brand sizing chart comparison",
+     "why": "Figure skate sizing is counterintuitive (typically 1–1.5 sizes down from street shoe), and width matters enormously. An ill-fitting boot is dangerous for jumps and will cause enough pain to derail consistent practice."
+    },
+    {
+     "thing": "Overstiffness relative to skill level (e.g., a stiffness-90 boot for a skater working on waltz jump)",
+     "why": "An overly stiff boot requires 30–50+ hours to break in and prevents the ankle flexion needed to generate jump height and spin technique. Many adult returnees make this mistake thinking 'stiffer is better.'"
+    },
+    {
+     "thing": "Buying used blades without knowing their sharpening history",
+     "why": "Blades lose metal with every sharpening. A blade with 30+ sharpenings may have very little steel left, compromising edge quality and safety on jump landings. Used boots are acceptable if the leather hasn't broken down; used blades are a significant gamble."
+    },
+    {
+     "thing": "Skipping blade sharpening or using a home sharpening tool",
+     "why": "Figure skate blades require a radius-of-hollow (ROH) grind on a dedicated machine. A dull blade or an imprecise hollow removes edge purchase and spin friction. Home-sharpening tools are not adequate for figure skate geometry. Budget $8–$15 per sharpening every 10–20 hours of ice time."
+    }
+   ]
+  },
+  "awards": {
+   "best_overall": {
+    "product": "Jackson Freestyle complete (boot + Mark IV blade, ~$280 street price)",
+    "why": "Hits the diminishing-returns knee almost exactly. The Freestyle boot offers genuine leather construction, stiffness appropriate for singles-level skating (rated ~60–65), heat moldability, and a blade that is adequate until the skater is ready for an upgrade. Wide availability at pro shops and strong resale value."
+   },
+   "best_value": {
+    "product": "Riedell 255 Gold Star complete (~$300–$330)",
+    "why": "The 255 Gold Star ships with a better stock blade than most package skates at this price, uses a full-grain leather upper, and fits a wider range of North American foot shapes than European alternatives. Cost-per-season works out slightly better than the Freestyle for skaters who get the full 3-season lifespan."
+   },
+   "best_budget": {
+    "product": "Jackson Artiste complete (~$130–$160)",
+    "why": "The only entry-level skate in this review that uses a real leather boot (not vinyl), making it heat-moldable and genuinely upgradeable. Stiffness is too low for skaters beyond basic single jumps, but for a returning adult or beginner working through pre-preliminary moves it avoids the big-box trap without overcommitting budget."
+   },
+   "best_premium": {
+    "product": "Edea Chorus boot + MK Professional blade (~$480–$550 combined, blade mounted separately)",
+    "why": "The Chorus represents the inflection point where Italian craftsmanship, a precision-molded thermoplastic shell, and superior blade choice combine. The MK Professional blade provides noticeably better spin centering and edge consistency than blades bundled with package skates. For a skater committed to long-term progression, this setup will outlast two cycles of mid-tier boots."
+   },
+   "best_for_beginners": {
+    "product": "Jackson Artiste complete (~$130–$160) fitted at a pro shop",
+    "why": "The Artiste's relatively forgiving stiffness (~40) is actually appropriate for a true beginner who needs to feel the ice and develop ankle flexion before progressing to stiffer support. Its real leather construction means it can be exchanged or re-fitted without buying a whole new boot. Pro-shop fitting is essential even at this price point."
+   },
+   "longest_lasting": {
+    "product": "Edea Concerto boot + Coronation Ace blade (custom fit, ~$650–$900 total)",
+    "why": "The Concerto's carbon-reinforced shell does not soften with heat and sweat the way leather boots do, maintaining stiffness and blade alignment for 5–8 years of serious use. The Coronation Ace blade, properly maintained, can withstand 40–60 sharpenings. Total cost-per-season for a dedicated 3-times-per-week skater is competitive with replacing mid-tier leather boots every 2–3 years."
+   },
+   "avoid": {
+    "product": "Bladerunner / Lake Placid / generic Amazon package skates under $80",
+    "why": "These use vinyl or thin synthetic uppers with stiffness ratings around 10–15, blades that cannot hold a proper hollow grind, and construction that collapses in 20–30 hours of skating. They are appropriate for occasional public skating sessions, not for a hobbyist working on jumps and spins. The cost-per-season in this category routinely exceeds $250 once replacement frequency is accounted for—more than twice the cost of an Artiste."
+   }
+  },
+  "normalization": {
+   "bands": [
+    {
+     "label": "Exceptional value",
+     "verdict": "Best cost-per-season ratio; usually a mid-tier boot with a decent stock blade or a separately purchased upgrade blade. This is the sweet spot for serious hobbyists.",
+     "low": 80,
+     "high": 130
+    },
+    {
+     "label": "Good value",
+     "verdict": "Solid but not optimal; often an entry-level boot replaced too frequently, or an advanced boot with unnecessary stiffness for the skater's level.",
+     "low": 130,
+     "high": 200
+    },
+    {
+     "label": "Acceptable",
+     "verdict": "Often cheap package skates or top-tier setups with very long lifespans; value is acceptable but not ideal.",
+     "low": 200,
+     "high": 280
+    },
+    {
+     "label": "Poor value",
+     "verdict": "Typically no-name big-box skates replaced every season, or recreational blades that can't be sharpened properly. Avoid.",
+     "low": 280,
+     "high": 999
+    }
+   ],
+   "unit": "Cost per season of use (boot + blade amortized over estimated lifespan + annual sharpening)",
+   "unit_short": "$/season",
+   "unit_rationale": "A single sticker price is misleading because a $130 entry boot lasts one season while a $350 intermediate boot lasts 3–4 seasons and a $600 advanced setup lasts 5–7 years. Normalizing to cost-per-season of use levels the playing field and typically inverts the apparent value order: cheap boots are the most expensive per season of use.",
+   "quality_adjustment": "Quality score weights stiffness appropriateness for the target skater (30%), blade quality and upgrade path (25%), fit system and heat-moldability (20%), durability and lifespan (15%), and brand support / pro-shop availability (10%).",
+   "formula": "(Boot MSRP + Blade MSRP + mounting labor $30) / estimated seasons of use + (sharpenings per season × avg sharpening cost $12)",
+   "size_economics": "Buying one tier up in stiffness is almost always worth it if you plan to skate seriously for more than 18 months. The incremental cost (typically $80–$150 more at purchase) is recovered in 1.5 additional seasons of use before the boot breaks down. Buying two tiers up frequently backfires due to stiffness mismatch slowing skill development."
+  },
+  "diminishing_returns": {
+   "curve": [
+    {
+     "unit_price": 40,
+     "quality": 12,
+     "label": "Big-box / Amazon vinyl (Bladerunner, Lake Placid)"
+    },
+    {
+     "unit_price": 65,
+     "quality": 30,
+     "label": "Jackson Artiste / Riedell 120 entry complete"
+    },
+    {
+     "unit_price": 90,
+     "quality": 55,
+     "label": "Riedell 220 Opal or Jackson Freestyle boot-only + stock blade"
+    },
+    {
+     "unit_price": 110,
+     "quality": 78,
+     "label": "KNEE — Jackson Freestyle complete / Riedell 255 Gold Star"
+    },
+    {
+     "unit_price": 135,
+     "quality": 85,
+     "label": "Edea Chorus boot + MK Professional blade"
+    },
+    {
+     "unit_price": 165,
+     "quality": 90,
+     "label": "Jackson Premiere / Riedell 355 + Pattern 99 blade"
+    },
+    {
+     "unit_price": 210,
+     "quality": 94,
+     "label": "Edea Concerto + Coronation Ace"
+    },
+    {
+     "unit_price": 280,
+     "quality": 97,
+     "label": "Custom Harlick / Klingbeil + Gold Seal"
+    }
+   ],
+   "knee_unit_price": 110,
+   "knee_example": "Jackson Freestyle complete package (~$280 boot+blade, ~2.5 seasons lifespan) or equivalent Riedell 220/255 setup: delivers roughly 80–85% of the performance a serious hobbyist will ever perceive, at a cost-per-season around $100–$115.",
+   "below_knee": "Every dollar spent below ~$110/season delivers rapidly improving edge quality, boot support, spin centering, and durability. Moving from a $60/season big-box skate to a $90/season entry-level real leather boot is a transformative upgrade. Moving from $90 to $110 (mid-tier) adds meaningful stiffness, moldability, and blade quality.",
+   "above_knee": "Above ~$110/season the gains are real but narrowing. A $160/season advanced setup (Edea Chorus, Jackson Premiere, Riedell 355) adds superior leather, a more precise blade, and a longer lifespan—but a hobbyist skating 3 hours per week will feel perhaps 15–20% better performance, not 50%. Above $200/season (Edea Concerto, custom Harlick/Klingbeil) the marginal benefit is almost entirely in fit precision and lifespan, not perceivable jump or spin performance for this skill level."
+  },
+  "spec_criteria": [
+   {
+    "spec": "Boot stiffness relative to skater level",
+    "weight": 30,
+    "what_good_looks_like": "Stiffness matched to current jump load: soft enough to break in within 2–3 weeks, firm enough to support ankle through singles and early axel attempts. Roughly Jackson Freestyle / Riedell 220–255 range for skaters working on single jumps.",
+    "how_to_check": "Ask the retailer or manufacturer for a published stiffness rating. Jackson uses a numbered scale; Riedell publishes support levels. Cross-reference with your current test level or jump inventory. A coach fitting is the most reliable check.",
+    "why_it_matters": "Too soft: ankle collapses on landing, injury risk, no support for jumps. Too stiff: boot won't break in, blisters, restricted range of motion, and the skater compensates with poor technique. Mismatch in either direction wastes money and impedes progress."
+   },
+   {
+    "spec": "Blade quality and rocker geometry",
+    "weight": 22,
+    "what_good_looks_like": "A blade with a rocker radius and toe-pick profile appropriate for singles jumps and spins. At minimum a Jackson Mark IV equivalent; ideally an MK Professional, Pattern 99, or Coronation Ace for skaters working on flip/lutz/loop. Toe picks should not be so aggressive they catch on simple footwork.",
+    "how_to_check": "Check the blade model packaged with a complete skate; ask whether the blade can be swapped. Compare rocker radius (typically 7–8 ft for intermediate) and spin center placement. Blades sold separately list specifications on manufacturer sites.",
+    "why_it_matters": "The blade is where physics happens. A poor blade limits spin quality and jump takeoff reliability regardless of boot quality. Package-deal blades bundled with entry-level boots are often the first thing coaches recommend replacing."
+   },
+   {
+    "spec": "Boot fit and width options",
+    "weight": 20,
+    "what_good_looks_like": "Boot fits snugly in the heel and midfoot with about a thumb-width of toe room. Brand offers at least narrow, standard, and wide widths, or heat-moldable shell to accommodate foot shape. No pressure points after break-in.",
+    "how_to_check": "Try on in person at a pro shop where possible. Check manufacturer width options: Jackson offers B/C/D/E widths; Edea fits narrow-to-average feet; Riedell offers multiple widths. Heat molding available at most pro shops for $20–$50.",
+    "why_it_matters": "An ill-fitting boot causes blisters, ankle instability, and compensatory technique faults that persist even after switching to a properly fitted boot. Fit is the single most individual variable and cannot be solved by price alone."
+   },
+   {
+    "spec": "Boot construction and durability",
+    "weight": 14,
+    "what_good_looks_like": "Leather or high-quality synthetic upper with a firm counter (heel cup) and reinforced ankle support that holds its shape for 300–500 hours of skating. Entry-level boots typically break down in under 100 hours for a serious hobbyist.",
+    "how_to_check": "Press the heel counter — it should feel rigid. Check the sole: a leather or composite sole holds blade screws better than a soft plastic sole. Ask how long the boot is rated for at your skating frequency.",
+    "why_it_matters": "A broken-down boot provides no ankle support and is mechanically equivalent to a beginner boot regardless of original stiffness rating. Buying cheap and replacing frequently costs more than buying correctly once."
+   },
+   {
+    "spec": "Blade mounting and sole integrity",
+    "weight": 8,
+    "what_good_looks_like": "A stiff, flat sole (leather or reinforced composite) that allows accurate blade alignment and holds screws without stripping. Blade is mounted by a qualified technician or pro shop, not self-mounted from a package skate.",
+    "how_to_check": "Check sole material in product specs. Ask if the retailer or pro shop mounts and aligns blades. Avoid boots with soft or flexible soles. Check that screw holes are properly drilled and not pre-stripped.",
+    "why_it_matters": "Blade misalignment causes tracking problems, edge errors, and knee strain. A soft sole allows the blade to flex and twist, undermining edge precision. This is often the hidden flaw in inexpensive package skates."
+   },
+   {
+    "spec": "Ongoing cost of ownership (sharpening, lifespan)",
+    "weight": 6,
+    "what_good_looks_like": "Factor in sharpening at roughly $10–$20 per session (frequency varies by hours on ice, typically every 8–15 hours of skating), blade lifespan of several years with proper care, and boot replacement every 1–3 years depending on skating hours and boot quality.",
+    "how_to_check": "Ask local rinks or pro shops for their sharpening price. Calculate annual sharpening cost based on your weekly ice time. Factor boot lifespan against purchase price when comparing tiers.",
+    "why_it_matters": "A $150 boot replaced every season costs more over two years than a $350 boot that lasts three seasons. Sharpening is a recurring cost that compounds; a quality blade holds an edge longer and can sustain more sharpenings before replacement."
+   }
+  ],
+  "marketing_noise": [
+   {
+    "claim": "Pre-mounted blades in package skates are competition-ready",
+    "reality": "Package-deal blades bundled with entry-level and mid-range boots are typically the lowest-margin component in the set. They are functional for stroking and basic edges but often have rocker profiles and toe picks unsuitable for reliable jump takeoffs or centered spins. Coaches routinely recommend replacing the packaged blade as the first upgrade."
+   },
+   {
+    "claim": "Higher stiffness means better performance",
+    "reality": "Stiffness must match the skater's strength, weight, and jump load. A boot too stiff for an intermediate adult will not break in properly, will cause injury, and will force compensatory technique. The correct stiffness is the one that supports your current skating level — not the level you aspire to."
+   },
+   {
+    "claim": "Heat molding guarantees a perfect fit",
+    "reality": "Heat molding improves fit for minor pressure points but cannot correct a fundamentally wrong size or width. It is a finishing tool, not a substitute for selecting the correct last shape for your foot. Edea's Italian last, for example, suits narrower feet regardless of molding; a wide foot still needs a wide boot."
+   },
+   {
+    "claim": "More expensive blades spin better for any skater",
+    "reality": "Spin quality depends on technique, hollow depth, and rocker condition. A beginner or intermediate skater will not extract measurable benefit from a Gold Seal or Pattern 99 over a Mark IV or MK Professional until their spin technique is consistent. Blade choice matters, but the return on blade investment is highly technique-dependent at this level."
+   },
+   {
+    "claim": "You can buy figure skates reliably from Amazon or general sporting goods stores",
+    "reality": "Most figure skates sold on Amazon and in sporting goods chains are recreational or beginner models with soft boots, cheap blades, and imprecise sizing. Intermediate and advanced models are almost exclusively sold through specialty skate retailers and pro shops, where fitting and blade mounting services are also available."
+   },
+   {
+    "claim": "Used skates are always a bad idea",
+    "reality": "A well-maintained used boot from a reputable seller can be a legitimate option, particularly for blades (which do not conform to a foot). Used boots carry risk if the previous owner's foot shape has permanently deformed the boot or if the heel counter has collapsed — but lightly used boots from a skater of similar weight and foot shape can represent real value."
+   }
+  ],
+  "value_traps": [
+   {
+    "trap": "Buying the cheapest complete skate (e.g., Jackson Artiste or equivalent) to 'try it out' when already skating seriously",
+    "why_it_looks_good": "Low upfront cost around $100–$150 for a complete skate. Widely available. Feels like a safe way to avoid over-investing before commitment is certain.",
+    "why_it_isnt": "Entry-level boots break down quickly under a skater doing jumps multiple times per week — often within a single season. The packaged blade is typically inadequate for developing jump technique. The total cost of buying an entry-level boot, skating for 6 months, and then buying the correct intermediate boot is higher than buying the intermediate boot once. The skater also develops compensatory habits in a broken-down boot.",
+    "instead": "If already skating 2–3 times per week and working on single jumps, start at the intermediate tier: Jackson Freestyle, Riedell 220–255, or equivalent. The price difference is $100–$200 and the boot will last 2–3 seasons."
+   },
+   {
+    "trap": "Buying a boot stiffness level above current skating ability to 'grow into it'",
+    "why_it_looks_good": "Seems economical to buy a boot that will still fit the skater's skill level in two years. Advanced boots are associated with advanced skating.",
+    "why_it_isnt": "A boot significantly stiffer than needed will not break in for an intermediate skater and may cause Achilles tendon issues, blisters, and ankle pain. It also restricts the range of motion needed for developing jump technique. You cannot skate your way into a boot that is wrong for your current load.",
+    "instead": "Buy the stiffness appropriate for your current level plus one reasonable step. A skater working on single jumps should be in an intermediate-stiffness boot, not an advanced or elite boot."
+   },
+   {
+    "trap": "Buying separates (boot + blade) at the cheapest possible combination rather than a matched intermediate complete skate",
+    "why_it_looks_good": "Seems like more control over components. Buying a budget boot and adding a better blade feels like customization.",
+    "why_it_isnt": "A quality blade on an under-supported boot does not compensate for the boot's deficiencies. The blade's performance is constrained by the boot's ability to transmit force. Additionally, cheap boot soles often strip screw threads, causing blade movement — a safety and performance issue.",
+    "instead": "Either buy a matched intermediate complete skate with a reasonable bundled blade, or budget for a proper intermediate boot plus a mid-grade blade ($120–$180) mounted by a pro shop."
+   },
+   {
+    "trap": "Skipping professional fitting and buying online based on street shoe size alone",
+    "why_it_looks_good": "Online prices are often lower than pro shop prices. Sizing charts look straightforward.",
+    "why_it_isnt": "Figure skate sizing runs differently from street shoes (typically 1–1.5 sizes smaller, varying by brand). Width, arch length, and heel volume vary significantly between brands. A misfit boot is uncomfortable, causes blisters, and impairs technique in ways that persist even after switching to a correctly fitted boot. Returns on skates are often restricted once blades are mounted.",
+    "instead": "Get a fitting at a pro shop, even if you intend to buy online afterward. Most pro shops charge a fitting fee that is waived on purchase. At minimum, consult the brand's sizing guide and order from a retailer with a generous return policy before blades are mounted."
+   },
+   {
+    "trap": "Buying based on aesthetics or color options alone",
+    "why_it_looks_good": "Some brands and models offer visually appealing designs. Skaters, particularly adults returning to the sport, are susceptible to choosing a boot that looks the part.",
+    "why_it_isnt": "Boot color and aesthetics have no bearing on fit, stiffness, or blade quality. Models marketed on appearance (certain fashion-oriented complete skates) often compromise on construction to hit a price point.",
+    "instead": "Choose boot based on stiffness, fit, construction, and blade quality. Aesthetics are a tiebreaker, not a criterion."
+   }
+  ],
+  "tiers": [
+   {
+    "tier": "Entry-level / Recreational",
+    "price_range": "$80–$160 (complete skate)",
+    "unit_price_range": "$80–$160",
+    "who_its_for": "True beginners with fewer than 1–2 years of skating, skating once a week or less, not yet working on jumps. Appropriate for children still growing, adult dabblers, or rental-skate upgraders who are not yet committed to the sport.",
+    "representative_brands": [],
+    "verdict": "Functional for learning edges and basic skills. Boot construction and blade quality are insufficient for skaters working on jumps. Break down quickly under regular use. Not cost-effective for serious hobbyists even as a starting point."
+   },
+   {
+    "tier": "Intermediate / Serious Hobbyist",
+    "price_range": "$200–$400 (complete skate or boot + blade)",
+    "unit_price_range": "$200–$400",
+    "who_its_for": "Adult skaters with 2–5+ years of experience skating 2–4 times per week, working on single jumps (toe loop through lutz) and basic spins. The appropriate tier for adult learners who are committed to the sport but not competing at high levels.",
+    "representative_brands": [],
+    "verdict": "The core value tier for serious hobbyists. Quality of construction, stiffness, and blade in this range is sufficient to support singles-level skating for 2–3 seasons. Worth buying correctly rather than upgrading through the entry tier. Blade upgrades (MK Professional, Pattern 99) within this range meaningfully improve spin and jump takeoff consistency for skaters with developed technique."
+   },
+   {
+    "tier": "Advanced / Pre-competitive",
+    "price_range": "$400–$700 (boot + blade, typically sold separately)",
+    "unit_price_range": "$400–$700",
+    "who_its_for": "Skaters working on axel and double jumps, competing at adult or open levels, or serious hobbyists with strong technique who have outgrown intermediate boots. Generally requires professional fitting and blade mounting.",
+    "representative_brands": [],
+    "verdict": "Diminishing returns begin here for pure hobbyists. The performance gains are real but require the technique to exploit them. A skater who cannot yet land a consistent axel will not benefit from an elite boot's stiffness profile and may be hindered by it. Appropriate only when an intermediate boot has genuinely been outgrown."
+   },
+   {
+    "tier": "Elite / Custom",
+    "price_range": "$700–$2,000+ (boot + blade, custom fit available)",
+    "unit_price_range": "$700–$2,000+",
+    "who_its_for": "Competitive skaters at regional/national levels, coaches, or skaters with unusual foot shapes requiring custom lasts. Custom bootmakers (Klingbeil, Harlick, SP-Teri) serve this segment.",
+    "representative_brands": [],
+    "verdict": "No meaningful performance benefit for recreational or serious hobbyist skaters. Custom boots address fit problems that stock boots cannot solve, but the price premium is only justified when fit issues are the documented limiting factor and the skater has the technique to exploit the boot's properties."
+   }
+  ],
+  "consensus": {
+   "expert_view": "Coaches and pro shop fitters consistently recommend matching boot stiffness to current skating level rather than aspirational level. The intermediate tier (Jackson Freestyle, Riedell 220–255, Edea Chorus) is the correct entry point for adult skaters working on singles jumps. Blade quality matters more than commonly acknowledged at this level: the packaged blade in entry-level complete skates is the most common first-upgrade recommendation. Professional fitting is considered non-negotiable by most coaches; sizing from street shoe size alone produces poor outcomes. Boot lifespan under regular use (3+ times per week) is shorter than most buyers expect from entry-level boots, making the cost-per-season argument for buying intermediate strongly positive.",
+   "community_view": "The r/figureskating community broadly agrees with coach consensus on stiffness matching and pro-shop fitting. Community members frequently warn against buying on Amazon or from sporting goods chains. There is strong community consensus that the Jackson Artiste and equivalents are insufficient for skaters working on jumps, and that the Freestyle or Riedell 255 are the minimum reasonable intermediate boots. Community debate exists around Edea: experienced skaters praise the lightweight construction and stiffness consistency, but note the narrow Italian last excludes skaters with wider feet. Used blades are more accepted in community advice than coaches typically endorse, particularly for skaters on tight budgets. Reddit threads consistently emphasize that no boot substitutes for coaching when developing jump technique.",
+   "where_they_disagree": "The primary expert-community disagreement is on used equipment. Coaches and pro shops strongly prefer new boots for fit integrity reasons; the community accepts lightly used boots more readily, particularly for blades. Experts emphasize in-person fitting as essential; budget-constrained community members more often accept online purchases with careful attention to sizing guides. There is also some community enthusiasm for Edea at the intermediate level that coaches temper with fit caveats — Edea's narrow last is a genuine exclusion for many adult foot shapes, and coaches are more likely to flag this as a dealbreaker than community reviewers who typically have narrower feet. Experts and community also diverge somewhat on blade upgrade timing: coaches often recommend a blade upgrade earlier in the learning process; community consensus is more varied, with some arguing that technique development matters more than blade quality until the skater reaches a consistent singles level."
+  },
+  "products": [
+   {
+    "name": "Jackson Artiste (JR200) with Mark IV blade",
+    "brand": "Jackson Ultima",
+    "tier": "Entry-Intermediate",
+    "street_price": 149,
+    "unit_price": 149,
+    "quality_score": 38,
+    "value_score": 55,
+    "buy_under": 129,
+    "historical_low": null,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Amazon",
+     "Walmart",
+     "local sporting goods stores",
+     "icewarehouse.com"
+    ],
+    "pros": [
+     "Widely available",
+     "Low price of entry",
+     "Adequate for waltz jump, toe loop, and early singles",
+     "Recognizable brand with parts availability"
+    ],
+    "cons": [
+     "Boot breaks down quickly under regular skating (often within 6-12 months of 3x/week skating)",
+     "Mark IV blade has limited spin rocker and poor edge quality for advancing jumps",
+     "Too soft for reliable flip, lutz, or loop jumps",
+     "Not recommended as a long-term investment"
+    ],
+    "best_for": "True beginners or skaters unsure of commitment; not recommended for skaters already working on singles jumps"
+   },
+   {
+    "name": "Jackson Freestyle (JR500/JR600) with Mark IV or Pattern 99 blade",
+    "brand": "Jackson Ultima",
+    "tier": "Intermediate",
+    "street_price": 249,
+    "unit_price": 249,
+    "quality_score": 62,
+    "value_score": 72,
+    "buy_under": 210,
+    "historical_low": null,
+    "typical_sale": "",
+    "where_to_buy": [
+     "icewarehouse.com",
+     "skatepro.com",
+     "local pro shops",
+     "Amazon"
+    ],
+    "pros": [
+     "Genuine step up in stiffness over Artiste",
+     "Supports singles jumps including flip, lutz, loop",
+     "Pattern 99 blade (on higher trim) is a meaningful upgrade over Mark IV",
+     "Widely recommended on r/figureskating for adult intermediate skaters",
+     "Good fit for skaters working toward axel"
+    ],
+    "cons": [
+     "Mark IV blade on base trim still limits spin quality; upgrade blade adds cost",
+     "Fit runs moderately wide; may not suit narrow feet",
+     "Not ideal for skaters progressing rapidly toward doubles"
+    ],
+    "best_for": "Adult hobbyist working on all singles jumps, skating 3+ times per week; the community consensus 'sweet spot' pick"
+   },
+   {
+    "name": "Riedell 255 Gold Star with MK Professional or Coronation Ace blade",
+    "brand": "Riedell",
+    "tier": "Intermediate-Advanced",
+    "street_price": 329,
+    "unit_price": 329,
+    "quality_score": 74,
+    "value_score": 65,
+    "buy_under": 285,
+    "historical_low": null,
+    "typical_sale": "",
+    "where_to_buy": [
+     "riedell-skates.com",
+     "icewarehouse.com",
+     "local pro shops",
+     "skatepro.com"
+    ],
+    "pros": [
+     "Stiffer boot than Jackson Freestyle; appropriate through axel and early doubles",
+     "MK Professional blade is a meaningful upgrade enabling better spin and edge control",
+     "Excellent ankle support for adult learners developing jump technique",
+     "American brand with strong pro shop support and fitting expertise"
+    ],
+    "cons": [
+     "Higher price point",
+     "Longer break-in period due to stiffer boot",
+     "Less forgiving fit; professional fitting strongly recommended",
+     "Blade upgrade cost may push total package above $400"
+    ],
+    "best_for": "Serious adult hobbyist working on axel or early doubles; skaters who want to avoid a second upgrade within 2 years"
+   },
+   {
+    "name": "Edea Chorus with Edea-paired blade",
+    "brand": "Edea",
+    "tier": "Intermediate-Advanced",
+    "street_price": 399,
+    "unit_price": 399,
+    "quality_score": 79,
+    "value_score": 58,
+    "buy_under": 360,
+    "historical_low": null,
+    "typical_sale": "",
+    "where_to_buy": [
+     "Edea-authorized pro shops",
+     "specialty figure skate retailers USA",
+     "direct import via European retailers"
+    ],
+    "pros": [
+     "Thermoplastic shell allows custom heat molding for precise fit",
+     "Lighter weight than equivalent leather boots reduces fatigue",
+     "Excellent support for singles and early doubles",
+     "Narrow fit is ideal for skaters with slender feet where Jackson/Riedell don't fit well",
+     "Prestige and longevity: holds up longer than Jackson at same stiffness tier"
+    ],
+    "cons": [
+     "Narrow last; poor fit for wide or standard feet",
+     "Requires Edea-authorized fitter for heat molding",
+     "Limited availability in USA; fewer pro shops carry stock",
+     "Premium price; not significantly better than Riedell 255 for most adult hobbyists unless fit is the deciding factor",
+     "Blade pairing options more limited"
+    ],
+    "best_for": "Adult intermediate-to-advanced skater with narrow feet who has access to an authorized Edea fitter"
+   },
+   {
+    "name": "Jackson Premiere with Pattern 99 blade",
+    "brand": "Jackson Ultima",
+    "tier": "Advanced-Intermediate",
+    "street_price": 349,
+    "unit_price": 349,
+    "quality_score": 72,
+    "value_score": 60,
+    "buy_under": 300,
+    "historical_low": null,
+    "typical_sale": "",
+    "where_to_buy": [
+     "icewarehouse.com",
+     "skatepro.com",
+     "local pro shops"
+    ],
+    "pros": [
+     "Stiffer than Freestyle; appropriate for axel and early doubles",
+     "Pattern 99 blade included on most trims",
+     "Step up in ankle support over Freestyle",
+     "Better durability than Freestyle under heavy use"
+    ],
+    "cons": [
+     "Closer in feel to Freestyle than the price gap suggests; community debate on whether it justifies the premium over Freestyle",
+     "May still be outgrown by rapidly progressing skaters",
+     "Jackson fit runs wide; same fit caveats as Freestyle"
+    ],
+    "best_for": "Adult skater between Freestyle and Riedell/Edea tier; working on axel"
+   },
+   {
+    "name": "MK Professional blade (standalone upgrade)",
+    "brand": "MK (Map)",
+    "tier": "Blade Upgrade",
+    "street_price": 155,
+    "unit_price": 155,
+    "quality_score": 70,
+    "value_score": 68,
+    "buy_under": 140,
+    "historical_low": null,
+    "typical_sale": "",
+    "where_to_buy": [
+     "icewarehouse.com",
+     "authorized pro shops",
+     "UK import retailers"
+    ],
+    "pros": [
+     "Excellent rocker profile for spinning and jump edge control",
+     "Strong community endorsement for intermediate-to-advanced hobbyists",
+     "Pairs well with Jackson Freestyle or Riedell 220/255 boot",
+     "Longer lifespan than cheaper OEM blades"
+    ],
+    "cons": [
+     "Requires professional mounting; DIY mounting risks damaging boot",
+     "Adds significant cost to a complete package",
+     "May be overkill paired with a soft entry-level boot"
+    ],
+    "best_for": "Skater with a solid intermediate boot who wants to maximize spin and jump edge quality without going to an elite blade"
+   },
+   {
+    "name": "Wilson Coronation Ace blade (standalone upgrade)",
+    "brand": "Wilson",
+    "tier": "Blade Upgrade",
+    "street_price": 130,
+    "unit_price": 130,
+    "quality_score": 65,
+    "value_score": 70,
+    "buy_under": 115,
+    "historical_low": null,
+    "typical_sale": "",
+    "where_to_buy": [
+     "icewarehouse.com",
+     "skatepro.com",
+     "pro shops"
+    ],
+    "pros": [
+     "Reliable intermediate blade widely used by adult hobbyists",
+     "Good spin rocker; improved over Jackson Mark IV",
+     "Lower price than MK Professional with meaningful quality step up",
+     "Easy to find and mount at most pro shops"
+    ],
+    "cons": [
+     "Not as refined as MK Professional for advanced spin technique",
+     "Shorter lifespan than MK blades under heavy use"
+    ],
+    "best_for": "Budget-conscious intermediate skater wanting a blade upgrade without full MK Professional cost"
+   }
+  ],
+  "verdict": {
+   "headline": "",
+   "buy_score": null,
+   "signal": "BUY_NOW",
+   "price_watch_summary": "Watch for end-of-season sales from April through June when North American rinks close for summer resurfacing; retailers often discount current inventory 10–20%. Black Friday discounts in this category are modest (5–10%) and inventory is inconsistent. SkatePro (EU-based, ships to US) periodically has 10–15% off codes. Ice Warehouse runs occasional clearance on prior-year colorways. No expected MSRP changes before mid-2025.",
+   "reasoning": "The intermediate figure skate market is mature and stable. Jackson Ultima and Riedell dominate the North American hobbyist segment with package skates in the $200–$450 range that represent genuine value: real leather boots, mountable-upgrade blades, and heat-moldability. Edea offers a compelling Italian-crafted alternative around $350–$550 for the boot alone, with a narrower fit profile that suits many adult women's feet. There is no imminent price drop to wait for, no major product refresh scheduled that would make current inventory obsolete, and the skill development cost of skating in inadequate boots (stalled progress, injury risk) is real. The main risk is misjudging stiffness level—buy for where you are now, not where you hope to be in two years. A skater working through single jumps should target stiffness 50–65; one just beginning single jumps, stiffness 40–55.",
+   "confidence": "Medium — retail prices for Jackson and Riedell intermediate packages have been stable in 2024; Edea pricing is slightly variable with USD/EUR fluctuations. No major product redesigns are expected in the next 6 months. Prices are unlikely to drop significantly outside of end-of-season sales (typically April–June)."
+  },
+  "deal_intelligence": {
+   "sale_cadence": [
+    {
+     "event": "End-of-season clearance",
+     "timing": "March through May",
+     "typical_depth": "10-20% off selected models; rarely deep discounts on current-year skates"
+    },
+    {
+     "event": "Back-to-school / fall skating season start",
+     "timing": "August through September",
+     "typical_depth": "Minimal discounting; high demand period, retailers rarely discount"
+    },
+    {
+     "event": "Black Friday / Cyber Monday",
+     "timing": "Late November",
+     "typical_depth": "10-15% off at online retailers; some free shipping promotions; not a reliably deep discount category"
+    },
+    {
+     "event": "Holiday clearance",
+     "timing": "Late December through January",
+     "typical_depth": "10-20% off selected models at online retailers"
+    },
+    {
+     "event": "Tax-free shopping events (state-specific)",
+     "timing": "Varies by state, often August",
+     "typical_depth": "Savings equal to state sales tax rate (5-10%); worth timing if buying a higher-ticket item like Edea or Riedell 255"
+    }
+   ],
+   "volatility": "Low to moderate. Figure skate prices are relatively stable year-round with occasional retailer-specific sales. Major brands (Jackson, Riedell, Edea) do not run manufacturer-level sales; discounts come from individual retailers clearing stock. Prices have trended upward modestly since 2022 due to supply chain and import costs.",
+   "best_time_to_buy": "March through May end-of-season clearance offers the most consistent discounts. Alternatively, purchase at the start of a new skating season (September) for best in-stock selection even at full price. Avoid August-September if price is primary concern.",
+   "patience_payoff": "Moderate. Waiting for a sale can save $25-60 on a $250-$400 purchase. However, figure skate inventory is limited by size and model; waiting risks missing your size at a discounted price. The patient approach works best if you are flexible on model trim or color. For specific sizes (especially smaller or larger women's sizes), buying in-stock at full price is often the pragmatic choice.",
+   "discount_honesty": "Figure skate retailers rarely inflate MSRP to manufacture fake sale depth. Most discounts are genuine clearance or retailer promotions. Be cautious of Amazon listings showing crossed-out 'list prices' that are inflated; actual market price should be verified against icewarehouse.com or direct retailer sites. Edea skates are almost never discounted; any significant discount on Edea should prompt verification of authorized retailer status."
+  },
+  "purchase_paths": [
+   {
+    "name": "The Pragmatic Upgrade",
+    "total_cost": 285,
+    "goal": "Best intermediate value; skater working on all singles jumps, skating 3x/week, wants to avoid buying again in 12 months",
+    "items": [
+     {
+      "item": "Jackson Freestyle (JR500) complete skate with Pattern 99 blade",
+      "why": "Community consensus intermediate pick; stiff enough for flip through loop; Pattern 99 blade handles spins well",
+      "price": 249
+     },
+     {
+      "item": "Professional boot fitting / blade remounting at pro shop",
+      "why": "Critical: blade alignment affects jump mechanics; shop fitting improves break-in and reduces injury risk",
+      "price": 30
+     },
+     {
+      "item": "Blade sharpening (first sharpening after purchase)",
+      "why": "New blades ship dull; first sharpening to preferred hollow (typically 7/16 or 1/2 for intermediate adult)",
+      "price": 6
+     }
+    ],
+    "rationale": "The Jackson Freestyle is the most recommended intermediate adult skate on r/figureskating and by coaches for skaters at the 3-5 year recreational level working on singles. It represents the true knee of the quality/price curve: meaningfully better than the Artiste while not overpaying for capability you won't reach for 2+ years. The Pattern 99 blade on the JR500 trim handles spins acceptably for this level.",
+    "tradeoff": "Will likely need upgrading again if skater advances to axel reliably and starts working on doubles. Fit runs moderately wide; narrow-footed skaters should try on before buying."
+   },
+   {
+    "name": "The Long-Game Investment",
+    "total_cost": 470,
+    "goal": "Buy once for the next 3-5 years; skater committed to advancing through axel and potentially early doubles",
+    "items": [
+     {
+      "item": "Riedell 255 Gold Star boot (boot only)",
+      "why": "Stiffer boot appropriate through axel; better ankle support than Jackson Freestyle; American brand with strong pro shop support",
+      "price": 285
+     },
+     {
+      "item": "MK Professional blade (mounted by pro shop)",
+      "why": "Superior rocker and edge quality for spins and jumps; longer lifespan; justifies cost when paired with a quality boot",
+      "price": 155
+     },
+     {
+      "item": "Professional fitting and blade mounting",
+      "why": "Essential for Riedell boot; mounting accuracy is critical for jump mechanics",
+      "price": 30
+     }
+    ],
+    "rationale": "Spending $470 upfront avoids the common 'upgrade trap' where a skater buys a $149 Artiste, outgrows it in a year, buys a $249 Freestyle, outgrows it in 18 months, and has spent $400+ on two sets of skates when $470 at the start would have covered 4-5 years. The Riedell 255 with MK Professional is appropriate from current level through serious singles and into early doubles work.",
+    "tradeoff": "Longer break-in period (4-8 weeks of discomfort) compared to Jackson. Higher upfront cost. If skating frequency drops or interest wanes, this is over-purchased. Only appropriate for skaters confident in their commitment and who have access to a Riedell-carrying pro shop for fitting."
+   },
+   {
+    "name": "The Budget Floor",
+    "total_cost": 185,
+    "goal": "Upgrade from true beginner skates with minimum spend; skater unsure of long-term commitment",
+    "items": [
+     {
+      "item": "Jackson Freestyle (JR500) with Mark IV blade (base trim)",
+      "why": "Entry price for a genuinely intermediate boot; Mark IV blade is adequate for basic singles",
+      "price": 149
+     },
+     {
+      "item": "Upgrade to Wilson Coronation Ace blade at first blade replacement",
+      "why": "Staged approach: buy base trim now, upgrade blade when Mark IV wears out (12-18 months)",
+      "price": 30
+     },
+     {
+      "item": "Sharpening",
+      "why": "First sharpening essential",
+      "price": 6
+     }
+    ],
+    "rationale": "If budget is the hard constraint but the Artiste has already been outgrown, the base Jackson Freestyle at ~$149-179 (sale price) with a Mark IV blade is defensible as a transitional skate. Plan to upgrade the blade to Coronation Ace or MK Professional at next sharpening cycle. This path accepts that the blade will be a limitation but keeps the boot investment low.",
+    "tradeoff": "Mark IV blade genuinely limits spin and jump edge quality. This is a compromise path, not an ideal one. Skater should expect to spend $130+ on a blade upgrade within 12-18 months, making total cost comparable to buying JR500 with Pattern 99 outright."
+   },
+   {
+    "name": "The Edea Path (Fit-Driven)",
+    "total_cost": 450,
+    "goal": "Best possible fit for narrow-footed skater; intermediate-to-advanced trajectory",
+    "items": [
+     {
+      "item": "Edea Chorus boot with paired blade",
+      "why": "Thermoplastic heat-moldable boot for precision fit; lighter than leather; appropriate for singles through early doubles",
+      "price": 399
+     },
+     {
+      "item": "Authorized pro shop fitting and heat molding",
+      "why": "Mandatory for Edea; self-fitting negates primary advantage of thermoplastic shell",
+      "price": 35
+     },
+     {
+      "item": "First sharpening",
+      "why": "Edea-paired blades ship requiring sharpening; hollow setting important",
+      "price": 16
+     }
+    ],
+    "rationale": "For skaters with narrow or hard-to-fit feet who have struggled with Jackson or Riedell, Edea's thermoplastic shell heat-molds to the foot precisely and eliminates the break-in blisters common with leather boots. The Chorus is the entry Edea model appropriate for this level. Not recommended if foot is normal-to-wide width or if no authorized Edea fitter is accessible within reasonable distance.",
+    "tradeoff": "Most expensive path. Edea is rarely discounted. Requires authorized fitter access. If foot is normal or wide, this boot will underperform a properly fitted Riedell at lower cost. Italian import means parts and service are less available outside major skating markets."
+   }
+  ],
+  "caveats": [
+   "Prices throughout this analysis are estimated street prices based on community-reported figures, retailer category ranges, and publicly available information as of mid-2025. Exact current prices must be verified at icewarehouse.com, skatepro.com, riedell-skates.com, or local pro shops before purchase, as individual retailer pricing varies and changes without notice.",
+   "Jackson Ultima, Riedell, and Edea do not publish MSRP in a consistent public format; prices listed represent typical street prices seen across authorized retailers, not manufacturer-confirmed MSRPs.",
+   "The 'complete skate' configurations (boot + blade bundled) vary significantly in blade quality by trim level within the same boot model. Always confirm which blade is included before purchase; the same boot name (e.g., Jackson Freestyle) may ship with Mark IV or Pattern 99 depending on the trim purchased.",
+   "Boot stiffness ratings referenced throughout this analysis are approximate and drawn from community consensus and brand-relative comparisons, not a single standardized published scale. Different sources use different numeric scales.",
+   "Blade prices are for the blade alone; professional mounting typically adds $20-40 at a pro shop and is strongly recommended over DIY mounting.",
+   "Sharpening frequency and cost varies by location. Typical range is $6-20 per sharpening depending on region and shop. Intermediate skaters typically sharpen every 8-15 hours of ice time.",
+   "Edea availability in the USA is limited to authorized dealers; not all regions have an authorized Edea fitter within reasonable distance. Purchasing Edea without proper heat molding negates a primary advantage of the boot.",
+   "Second-hand skates can offer significant savings (40-60% off new price) but carry risks: unknown break-down history, blade wear, and fit that cannot be adjusted. Used skates are most defensible as a temporary option while deciding on commitment level, not as a long-term equipment strategy for a serious hobbyist.",
+   "This analysis does not account for custom boot options (Klingbeil, Harlick) which are appropriate for elite-level recreational skaters but require $800-2000+ investment and 3-6 month lead time. Not applicable to the target buyer profile.",
+   "Coach fitting guidance should always be obtained before purchasing intermediate or advanced boots. Purchasing the wrong stiffness level (too stiff or too soft) can impede skill development and increase injury risk."
+  ],
+  "sources": [
+   {
+    "title": "r/figureskating - Boot and Blade Recommendations Wiki",
+    "url": "https://www.reddit.com/r/figureskating/wiki/index"
+   },
+   {
+    "title": "r/figureskating subreddit - community threads on adult intermediate boot upgrades",
+    "url": "https://www.reddit.com/r/figureskating/"
+   },
+   {
+    "title": "Ice Warehouse - Figure Skates product listings",
+    "url": "https://www.icewarehouse.com/Figure_Skates/catpage-FIGSK.html"
+   },
+   {
+    "title": "SkatePro - Figure Skates product listings",
+    "url": "https://www.skatepro.com/en-us/ice-skating/figure-skates/"
+   },
+   {
+    "title": "Jackson Ultima official website",
+    "url": "https://www.jacksonultima.com/"
+   },
+   {
+    "title": "Riedell Skates official website",
+    "url": "https://www.riedell-skates.com/"
+   },
+   {
+    "title": "Edea official website",
+    "url": "https://www.edeaskates.com/"
+   },
+   {
+    "title": "MK (Map) Skates - blade specifications",
+    "url": "https://www.mapskates.com/"
+   },
+   {
+    "title": "Wilson Sporting Goods - ice skating blades",
+    "url": "https://www.wilson.com/"
+   }
+  ]
+ }
+}

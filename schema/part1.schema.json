@@ -1,0 +1,373 @@
+{
+  "type": "object",
+  "properties": {
+    "generated_at": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "primer": {
+      "type": "object",
+      "properties": {
+        "what_it_is": {
+          "type": "string"
+        },
+        "must_haves": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "feature": {
+                "type": "string"
+              },
+              "why": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "feature",
+              "why"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "premium_features": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "feature": {
+                "type": "string"
+              },
+              "why": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "feature",
+              "why"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "avoid": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "thing": {
+                "type": "string"
+              },
+              "why": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "thing",
+              "why"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "what_it_is",
+        "must_haves",
+        "premium_features",
+        "avoid"
+      ],
+      "additionalProperties": false
+    },
+    "verdict": {
+      "type": "object",
+      "properties": {
+        "headline": {
+          "type": "string"
+        },
+        "signal": {
+          "type": "string",
+          "enum": [
+            "BUY_NOW",
+            "WAIT_FOR_SALE",
+            "BUY_SELECTIVELY",
+            "AVOID_CATEGORY"
+          ]
+        },
+        "buy_score": {
+          "type": "number"
+        },
+        "confidence": {
+          "type": "string"
+        },
+        "reasoning": {
+          "type": "string"
+        },
+        "price_watch_summary": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "headline",
+        "signal",
+        "buy_score",
+        "confidence",
+        "reasoning",
+        "price_watch_summary"
+      ],
+      "additionalProperties": false
+    },
+    "normalization": {
+      "type": "object",
+      "properties": {
+        "unit": {
+          "type": "string"
+        },
+        "unit_short": {
+          "type": "string"
+        },
+        "unit_rationale": {
+          "type": "string"
+        },
+        "quality_adjustment": {
+          "type": "string"
+        },
+        "formula": {
+          "type": "string"
+        },
+        "bands": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "low": {
+                "type": "number"
+              },
+              "high": {
+                "type": "number"
+              },
+              "verdict": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "label",
+              "low",
+              "high",
+              "verdict"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "size_economics": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "unit",
+        "unit_short",
+        "unit_rationale",
+        "quality_adjustment",
+        "formula",
+        "bands",
+        "size_economics"
+      ],
+      "additionalProperties": false
+    },
+    "diminishing_returns": {
+      "type": "object",
+      "properties": {
+        "knee_unit_price": {
+          "type": "number"
+        },
+        "knee_example": {
+          "type": "string"
+        },
+        "below_knee": {
+          "type": "string"
+        },
+        "above_knee": {
+          "type": "string"
+        },
+        "curve": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "unit_price": {
+                "type": "number"
+              },
+              "quality": {
+                "type": "number"
+              },
+              "label": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "unit_price",
+              "quality",
+              "label"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "knee_unit_price",
+        "knee_example",
+        "below_knee",
+        "above_knee",
+        "curve"
+      ],
+      "additionalProperties": false
+    },
+    "awards": {
+      "type": "object",
+      "properties": {
+        "best_overall": {
+          "type": "object",
+          "properties": {
+            "product": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "product",
+            "why"
+          ],
+          "additionalProperties": false
+        },
+        "best_value": {
+          "type": "object",
+          "properties": {
+            "product": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "product",
+            "why"
+          ],
+          "additionalProperties": false
+        },
+        "best_budget": {
+          "type": "object",
+          "properties": {
+            "product": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "product",
+            "why"
+          ],
+          "additionalProperties": false
+        },
+        "best_premium": {
+          "type": "object",
+          "properties": {
+            "product": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "product",
+            "why"
+          ],
+          "additionalProperties": false
+        },
+        "best_for_beginners": {
+          "type": "object",
+          "properties": {
+            "product": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "product",
+            "why"
+          ],
+          "additionalProperties": false
+        },
+        "longest_lasting": {
+          "type": "object",
+          "properties": {
+            "product": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "product",
+            "why"
+          ],
+          "additionalProperties": false
+        },
+        "avoid": {
+          "type": "object",
+          "properties": {
+            "product": {
+              "type": "string"
+            },
+            "why": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "product",
+            "why"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "best_overall",
+        "best_value",
+        "best_budget",
+        "best_premium",
+        "best_for_beginners",
+        "longest_lasting",
+        "avoid"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "category",
+    "scope",
+    "primer",
+    "verdict",
+    "normalization",
+    "diminishing_returns",
+    "awards",
+    "generated_at"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,574 @@
+{
+ "expertise": "expert",
+ "saved_at": "2026-11-11T05:37:43.168Z",
+ "report": {
+  "generated_at": "2026-11-11",
+  "category": "Laundry detergent pods/pacs",
+  "scope": "Unit-dose pods for ordinary US washers. Liquid, powder and sheets appear only as price benchmarks. Prices are Walmart search-page prices unless noted; Kirkland comes from a third-party tracker.",
+  "primer": {
+   "what_it_is": "A pod is PVA (water-soluble polymer) film holding a surfactant/enzyme concentrate. Multi-chamber designs separate oxidizers and enzymes from the liquid. Fill weight varies roughly 2x between brands.",
+   "must_haves": [
+    {
+     "feature": "Fill weight per pod",
+     "why": "Net-weight line ÷ count is verifiable on the label and is the real denominator."
+    },
+    {
+     "feature": "Dosing chart (pods per load)",
+     "why": "On the back panel; shows whether 1 pod is enough for your loads."
+    },
+    {
+     "feature": "Independent lab results",
+     "why": "CR, GH, Wirecutter, Reviewed. Where they disagree, trust the one testing hard and cold water like yours."
+    },
+    {
+     "feature": "Enzyme and oxygen-bleach content",
+     "why": "\"Oxi\" means color-safe oxygen bleach (CR). Check ingredients for protease, amylase, percarbonate."
+    },
+    {
+     "feature": "Free & clear status",
+     "why": "Label lists dyes, perfume and brighteners. CR notes fragrance can leave residue."
+    }
+   ],
+   "premium_features": [
+    {
+     "feature": "Larger fill (e.g. ~1.5 oz Power PODS)",
+     "why": "Heavy fill built for one pod per load; costs 44¢ per pod at Walmart."
+    },
+    {
+     "feature": "Top-tested Tide lines (Hygienic Clean, Ultra Oxi)",
+     "why": "CR's best pods and GH's best overall; the cost of best tested performance."
+    }
+   ],
+   "avoid": [
+    {
+     "thing": "Per-pod price on its own",
+     "why": "Gain Flings is 26.6¢ per pod but 40¢ per oz with a small fill."
+    },
+    {
+     "thing": "\"10X\", \"Power\", \"Ultra\", \"Odor Blasters\", \"Pro\"",
+     "why": "No standard definition."
+    },
+    {
+     "thing": "Scent-duration claims (e.g. Persil \"up to 100 days\")",
+     "why": "Test fragrance retention, not cleaning."
+    },
+    {
+     "thing": "\"Eco\", \"plant-based\", \"sensitive skin\"",
+     "why": "Don't predict performance; Molly's Suds ranked last by CR and Wirecutter."
+    },
+    {
+     "thing": "Safer Choice label as a cleaning signal",
+     "why": "Real EPA program, but about ingredient safety, not cleaning."
+    },
+    {
+     "thing": "Detergent sheets and tablets (e.g. Blueland)",
+     "why": "CR says sheets are too weak to recommend; Wirecutter called tested sheets \"all terrible cleaners\"."
+    },
+    {
+     "thing": "Unverified multi-pack and subscription prices",
+     "why": "Walmart shows \"Subscribe\" and \"Options from\" prices; not verified to beat base price."
+    }
+   ]
+  },
+  "verdict": {
+   "headline": "Buy selectively: Kirkland or Tide at the 22–27¢ knee; pay 44¢ only if you'd use 2 pods.",
+   "signal": "BUY_SELECTIVELY",
+   "buy_score": 60,
+   "confidence": "Low-moderate: only about 8 products priced, one retailer, no CR pod table, no price history.",
+   "reasoning": "Kirkland (~13¢/pod) is the value floor, but its pod stain scores are unverified. Tide at 22–27¢ has the strongest lab results. Above ~27¢ you pay for scent, marketing or heavier fill.",
+   "price_watch_summary": "No sale or historical prices were seen; thresholds are judgment calls. Kirkland ≤~$19; Tide Free & Gentle 102 ct <~$22; Tide PODS 76 ct at $19.94 or ~$17 on sale; Gain Flings <~$12 or skip; Tide Power PODS 45 ct wait for ~$16; A&H $9.12 buy-whenever."
+  },
+  "normalization": {
+   "unit": "Cost per effective wash (pods needed × price per pod), cross-checked with dollars per ounce of fill",
+   "unit_short": "$/wash",
+   "unit_rationale": "Count is set by the manufacturer and fill varies ~2x: Tide Power PODS ~1.47 oz per pod, Gain Flings ~0.67 oz, A&H Paks ~0.70 oz, Kirkland ~0.84 oz. Ounce figures are derived from Walmart per-lb prices, not label numbers. Per-ounce alone also misleads because dose rules differ.",
+   "quality_adjustment": "Value = stain-removal score ÷ cost per effective wash, with a hard-water penalty (CR: hard water degrades performance) and a dissolution/residue penalty (film left in cold or short cycles forces a rewash, weighed most). No full numeric score: CR's pod table was not retrieved.",
+   "formula": "Cost per effective wash = pods per load × price per pod. Assume 1 pod for a normal load, 2 for heavy or large loads with thinner-fill products. Value = stain-removal score ÷ cost per wash, minus hard-water and residue penalties.",
+   "bands": [
+    {
+     "label": "Value floor (Kirkland)",
+     "low": 12.5,
+     "high": 13,
+     "verdict": "Warehouse-club store-brand tier; pod stain scores unverified."
+    },
+    {
+     "label": "Knee: top-tier name brand",
+     "low": 22,
+     "high": 27,
+     "verdict": "Best-tested brand at a sensible price; the sweet spot."
+    },
+    {
+     "label": "Above knee",
+     "low": 27,
+     "high": 44.3,
+     "verdict": "Paying for scent-boost and marketing (Gain Flings) or larger fill (Power PODS)."
+    }
+   ],
+   "size_economics": "Larger packs cost less per pod: Kirkland 152 ct ~12.5–13¢ vs Tide Free & Gentle 102 ct 24.5¢ vs Tide PODS 76 ct 26.2¢. Subscribe and multi-pack deals were not verified. Check Tide PODS 76 ct fill before buying (35¢/oz implies ~0.75 oz per pod)."
+  },
+  "diminishing_returns": {
+   "knee_unit_price": 25,
+   "knee_example": "Tide Free & Gentle 102 ct at $24.94 (24.5¢ per pod) or Tide PODS Original 76 ct at $19.94 (26.2¢). Knee range is about 22–27¢ per pod.",
+   "below_knee": "Below ~13¢ you leave warehouse-club pricing for the store-brand tier. Kirkland pod stain scores unconfirmed; one Reddit thread title reports a formula change and visibly smaller pods (thread unread).",
+   "above_knee": "Above ~27¢ you pay for scent-boost and marketing (Gain Flings) or larger fill (Power PODS 44.3¢). Best tested performance costs about 3x Kirkland; the buyer decides if it is worth it.",
+   "curve": [
+    {
+     "unit_price": 9,
+     "quality": 35,
+     "label": null
+    },
+    {
+     "unit_price": 12.75,
+     "quality": 58,
+     "label": "Kirkland value floor"
+    },
+    {
+     "unit_price": 18,
+     "quality": 72,
+     "label": null
+    },
+    {
+     "unit_price": 21.7,
+     "quality": 80,
+     "label": "A&H Odor Blasters"
+    },
+    {
+     "unit_price": 24.5,
+     "quality": 88,
+     "label": "Knee: Tide Free & Gentle"
+    },
+    {
+     "unit_price": 27,
+     "quality": 91,
+     "label": null
+    },
+    {
+     "unit_price": 33,
+     "quality": 93,
+     "label": null
+    },
+    {
+     "unit_price": 38,
+     "quality": 94,
+     "label": null
+    },
+    {
+     "unit_price": 44.3,
+     "quality": 96,
+     "label": "Tide Power PODS Oxi"
+    }
+   ]
+  },
+  "awards": {
+   "best_overall": {
+    "product": "Tide Hygienic Clean Power Pods / Tide Ultra Oxi Power Pods",
+    "why": "CR's best pods; GH best overall; Jeeves NY scored Hygienic Clean 100. No Hygienic Clean price found."
+   },
+   "best_value": {
+    "product": "Tide Free & Gentle 102 ct",
+    "why": "$24.94 (24.5¢ per pod) at the knee, from the brand with the strongest lab results; no club membership."
+   },
+   "best_budget": {
+    "product": "Kirkland Signature Ultra Clean 152 ct",
+    "why": "About $19 (~12.5–13¢ per pod), tracker price; stain scores unverified and Costco membership required. A&H $9.12 is the no-membership runner-up."
+   },
+   "best_premium": {
+    "product": "Tide Oxi Boost Power PODS 45 ct",
+    "why": "$19.94 (44.3¢ per pod) at Walmart; heavy fill. Not confirmed identical to CR's pick."
+   },
+   "best_for_beginners": {
+    "product": "Tide PODS Original 76 ct",
+    "why": "$19.94 (26.2¢), strongest-tested brand, no membership. Check the pack's fill first."
+   },
+   "longest_lasting": {
+    "product": "Kirkland Signature Ultra Clean 152 ct",
+    "why": "Largest pack: 152 pods (127 oz). No durability testing in the brief."
+   },
+   "avoid": {
+    "product": "Molly's Suds Original Unscented powder",
+    "why": "Not a pod; ranked last by CR and Wirecutter despite gentle, natural marketing. Worst detergent of any type per Wirecutter."
+   }
+  },
+  "spec_criteria": [
+   {
+    "spec": "Fill weight per pod",
+    "weight": 30,
+    "what_good_looks_like": "Net weight ÷ count; fill varies about 2x between brands (e.g. ~1.47 oz Tide Power PODS vs ~0.67 oz Gain Flings)",
+    "how_to_check": "Net-weight line on label ÷ count",
+    "why_it_matters": "It is the real denominator; per-pod price alone misleads"
+   },
+   {
+    "spec": "Dosing chart (pods per load)",
+    "weight": 25,
+    "what_good_looks_like": "1 pod enough for your normal loads; Kirkland label says 1 for most loads, 2 for heavily soiled",
+    "how_to_check": "Back-panel dosing chart",
+    "why_it_matters": "Sets cost per effective wash; a 1.5 oz Power Pod is built for one per load"
+   },
+   {
+    "spec": "Independent lab results",
+    "weight": 25,
+    "what_good_looks_like": "Strong results from CR, GH, Wirecutter, Reviewed, tested in hard and cold water like yours",
+    "how_to_check": "Read CR, GH, Wirecutter and Reviewed; where they disagree (Tide vs Persil), trust the test closest to your water",
+    "why_it_matters": "CR says hard water degrades performance; soft-water-only winners get downgraded"
+   },
+   {
+    "spec": "Enzyme and oxygen-bleach content",
+    "weight": 12,
+    "what_good_looks_like": "\"Oxi\" (color-safe oxygen bleach per CR); protease, amylase and percarbonate listed",
+    "how_to_check": "Ingredient list",
+    "why_it_matters": "Drives stain removal"
+   },
+   {
+    "spec": "Free & clear status",
+    "weight": 8,
+    "what_good_looks_like": "Label lists dyes, perfume and brighteners; fewer is better for sensitivity",
+    "how_to_check": "Label ingredient and free-of claims",
+    "why_it_matters": "CR notes fragrance can leave residue"
+   }
+  ],
+  "marketing_noise": [
+   {
+    "claim": "\"10X\", \"Power\", \"Ultra\", \"Odor Blasters\", \"Pro\"",
+    "reality": "No standard definition"
+   },
+   {
+    "claim": "Scent-duration claims, e.g. Persil \"up to 100 days of freshness\"",
+    "reality": "Tests fragrance retention, not cleaning"
+   },
+   {
+    "claim": "\"Eco\", \"plant-based\", \"sensitive skin\"",
+    "reality": "Don't predict performance; Molly's Suds ranked last by CR and Wirecutter despite a sensitive-skin claim"
+   },
+   {
+    "claim": "Safer Choice",
+    "reality": "Real EPA program, but about ingredient safety, not cleaning"
+   }
+  ],
+  "value_traps": [
+   {
+    "trap": "Per-pod price on its own",
+    "why_it_looks_good": "Gain Flings 60 ct is 26.6¢ per pod",
+    "why_it_isnt": "40¢ per oz with a small fill (~0.67 oz)",
+    "instead": "Compare cost per effective wash and per-oz fill"
+   },
+   {
+    "trap": "Tide Power PODS 45 ct ($19.94)",
+    "why_it_looks_good": "Looks like a deal at the 1.5 oz fill",
+    "why_it_isnt": "44¢ per pod; only worth it if you'd otherwise use 2 regular pods",
+    "instead": "Wait for about $16, or buy Tide PODS Original/Free & Gentle at the knee price"
+   },
+   {
+    "trap": "Blueland tablets ($43.99/120, about 37¢ each)",
+    "why_it_looks_good": "Eco premium branding",
+    "why_it_isnt": "Test results unconfirmed; CR says sheets in general fail; Wirecutter calls Dirty Labs a weak cleaner. Not a value play",
+    "instead": "Kirkland or Tide pods"
+   },
+   {
+    "trap": "Multi-pack and subscription deals",
+    "why_it_looks_good": "Walmart shows \"Subscribe\" and \"Options from\" prices",
+    "why_it_isnt": "Not verified to beat the base price",
+    "instead": "Compare to base price per pod and per oz first"
+   },
+   {
+    "trap": "Molly's Suds Original Unscented powder (recommend against)",
+    "why_it_looks_good": "Marketed as gentle, natural and simple",
+    "why_it_isnt": "Two labs ranked it last; Wirecutter called it the worst detergent of any type. Not a pod",
+    "instead": "Tide or Kirkland pods"
+   }
+  ],
+  "tiers": [
+   {
+    "tier": "Warehouse-club / store brand (value floor)",
+    "price_range": "about $19 for 152 ct (third-party tracker $18.99–$19.99; unconfirmed at Costco)",
+    "unit_price_range": "about 12.5–13¢ per pod; about 15¢ per oz",
+    "who_its_for": "Costco members wanting the cheapest sensible option",
+    "representative_brands": [
+     "Kirkland Signature Ultra Clean"
+    ],
+    "verdict": "True value floor; pod stain scores unconfirmed, and a Reddit title notes a formula change and smaller pods. Ignore the \"9¢ per load\" claim"
+   },
+   {
+    "tier": "Knee: name-brand, top-tier in tests",
+    "price_range": "$9.12–$24.94 (A&H 42 ct, Tide Free & Gentle 102 ct, Tide PODS 76 ct, Gain Flings 60 ct)",
+    "unit_price_range": "about 22–27¢ per pod (A&H 21.7¢, Tide F&G 24.5¢, Tide PODS 26.2¢, Gain 26.6¢)",
+    "who_its_for": "Buyers wanting the strongest lab-backed brand without a club membership",
+    "representative_brands": [
+     "Tide Free & Gentle",
+     "Tide PODS Original",
+     "Arm & Hammer Odor Blasters",
+     "Gain Flings"
+    ],
+    "verdict": "Best-value zone; Tide has the strongest lab results. A&H is the no-membership runner-up with untested caveat. Gain (40¢/oz) pays for scent. Tide 76 ct implies ~0.75 oz/pod, so check the pack"
+   },
+   {
+    "tier": "Premium / heavy fill",
+    "price_range": "$19.94 for 45 ct (Tide Power PODS); Blueland $43.99 for 120",
+    "unit_price_range": "44.3¢ per pod (30¢ per oz) for Power PODS; Blueland about 36.7¢ per tablet",
+    "who_its_for": "Buyers wanting best tested performance on heavy or large loads",
+    "representative_brands": [
+     "Tide Power PODS Oxi/Original",
+     "Tide Hygienic Clean Power Pods (no price found)",
+     "Blueland tablets"
+    ],
+    "verdict": "About 3x Kirkland per pod; buyer decides if worth it. Hygienic Clean (CR/GH top pick) price unconfirmed; Blueland not a value play"
+   }
+  ],
+  "consensus": {
+   "expert_view": "CR names Tide Hygienic Clean Heavy Duty 10X and Tide Ultra Oxi Power Pods best pods; GH picks Tide Hygienic Clean. Jeeves NY scored Tide Hygienic Clean pods 100, Tide Original liquid 92.7, Persil 62.6. CR says sheets are too weak to recommend.",
+   "community_view": "Only Reddit thread title found (unreadable): people noticed a Kirkland formula change and visibly smaller pods. Launderwise, a compiler not a lab, says Tide evo tiles are the sheet exception.",
+   "where_they_disagree": "Tide vs Persil: Reviewed prefers Persil; Wirecutter has Persil as runner-up to Tide among liquids. CR's Kirkland best-value verdict is confirmed for the liquid only, not pods. CR's pod table was not retrieved."
+  },
+  "products": [
+   {
+    "name": "Kirkland Signature Ultra Clean Pacs, 152 ct",
+    "brand": "Kirkland Signature",
+    "tier": "Warehouse-club store brand (value floor)",
+    "street_price": 19,
+    "unit_price": 0.125,
+    "quality_score": 55,
+    "value_score": 95,
+    "historical_low": null,
+    "typical_sale": "Rarely discounts; Costco runs periodic instant savings (not verified)",
+    "buy_under": 19,
+    "where_to_buy": [
+     "Costco (membership required)"
+    ],
+    "pros": [
+     "About 12.5–13¢ per pod",
+     "CR best-value pick (stated for the liquid)",
+     "Dosing: 1 pac for most loads"
+    ],
+    "cons": [
+     "Pod stain scores unconfirmed",
+     "Price from third-party tracker ($18.99–$19.99), not Costco",
+     "Reddit title notes formula change, smaller pods",
+     "Costco membership required"
+    ],
+    "best_for": "Lowest cost per load if you have a Costco membership"
+   },
+   {
+    "name": "Arm & Hammer Odor Blasters Paks, 42 ct",
+    "brand": "Arm & Hammer",
+    "tier": "Cheapest name-brand pod",
+    "street_price": 9.12,
+    "unit_price": 0.217,
+    "quality_score": 45,
+    "value_score": 80,
+    "historical_low": null,
+    "typical_sale": "None observed; treat as buy-whenever",
+    "buy_under": 9.12,
+    "where_to_buy": [
+     "Walmart"
+    ],
+    "pros": [
+     "Cheapest name-brand pod",
+     "21.7¢ per pod",
+     "No club membership needed"
+    ],
+    "cons": [
+     "Test results unconfirmed",
+     "About 0.70 oz fill per pod",
+     "'Odor Blasters' is not a quality claim"
+    ],
+    "best_for": "Budget runner-up if you have no Costco membership"
+   },
+   {
+    "name": "Tide Free & Gentle Pods, 102 ct",
+    "brand": "Tide",
+    "tier": "Knee (name brand, top-tier in tests)",
+    "street_price": 24.94,
+    "unit_price": 0.245,
+    "quality_score": 80,
+    "value_score": 70,
+    "historical_low": null,
+    "typical_sale": "No sale observed; about $22 (21.5¢) is a guess at sale depth",
+    "buy_under": 22,
+    "where_to_buy": [
+     "Walmart"
+    ],
+    "pros": [
+     "24.5¢ per pod",
+     "Brand with strongest lab results",
+     "No club membership needed",
+     "Free & gentle formula"
+    ],
+    "cons": [
+     "Specific product test scores not retrieved",
+     "About 33¢ per oz"
+    ],
+    "best_for": "Best-value build at knee pricing, without a club membership"
+   },
+   {
+    "name": "Tide PODS Original, 76 ct",
+    "brand": "Tide",
+    "tier": "Knee (name brand, top-tier in tests)",
+    "street_price": 19.94,
+    "unit_price": 0.262,
+    "quality_score": 80,
+    "value_score": 65,
+    "historical_low": null,
+    "typical_sale": "Already near Tide floor; a sale reaching about $17 would be a deal",
+    "buy_under": 19.94,
+    "where_to_buy": [
+     "Walmart"
+    ],
+    "pros": [
+     "26.2¢ per pod",
+     "Strongest-tested brand",
+     "No club membership needed"
+    ],
+    "cons": [
+     "Walmart's 35¢/oz implies about 0.75 oz per pod, versus the 1.5 oz pod Reddit describes",
+     "Unclear if reformulation or Walmart data error"
+    ],
+    "best_for": "Best-value build; check the pack before buying"
+   },
+   {
+    "name": "Gain Flings, 60 ct",
+    "brand": "Gain",
+    "tier": "Above knee (scent-boost marketing)",
+    "street_price": 15.94,
+    "unit_price": 0.266,
+    "quality_score": 40,
+    "value_score": 25,
+    "historical_low": null,
+    "typical_sale": "None observed; buy under about $12, or skip",
+    "buy_under": 12,
+    "where_to_buy": [
+     "Walmart"
+    ],
+    "pros": [
+     "Looks cheap at 26.6¢ per pod"
+    ],
+    "cons": [
+     "About 40¢ per oz, poor value",
+     "Small fill, about 0.67 oz per pod",
+     "Paying for scent-boost and marketing"
+    ],
+    "best_for": "Buyers wanting strong scent; otherwise skip"
+   },
+   {
+    "name": "Tide Power PODS Oxi/Original, 45 ct",
+    "brand": "Tide",
+    "tier": "Above knee (larger fill, best tested performance)",
+    "street_price": 19.94,
+    "unit_price": 0.443,
+    "quality_score": 92,
+    "value_score": 35,
+    "historical_low": null,
+    "typical_sale": "Most likely product to be discounted; wait for about $16",
+    "buy_under": 16,
+    "where_to_buy": [
+     "Walmart"
+    ],
+    "pros": [
+     "Heavy fill, about 1.47 oz per pod",
+     "About 30¢ per oz",
+     "Oxi line named among CR's best pods"
+    ],
+    "cons": [
+     "44.3¢ per pod, about 3x Kirkland",
+     "Not confirmed to be the same product as CR's pick",
+     "Only worth it if you'd otherwise use 2 regular pods"
+    ],
+    "best_for": "Heavy or large loads where you would use 2 regular pods"
+   },
+   {
+    "name": "Blueland Tablets, 120 ct",
+    "brand": "Blueland",
+    "tier": "Eco premium (not a pod)",
+    "street_price": 43.99,
+    "unit_price": 0.367,
+    "quality_score": 20,
+    "value_score": 10,
+    "historical_low": null,
+    "typical_sale": "None observed",
+    "buy_under": 43.99,
+    "where_to_buy": [
+     "Walmart"
+    ],
+    "pros": [
+     "Eco-positioned"
+    ],
+    "cons": [
+     "About 37¢ per tablet",
+     "Test results unconfirmed",
+     "CR says sheets in general fail",
+     "Not a value play"
+    ],
+    "best_for": "Buyers prioritizing eco positioning over cost and cleaning"
+   }
+  ],
+  "deal_intelligence": {
+   "volatility": "Unknown: no sale or price-history data retrieved. Thresholds are judgment calls from a single observed price each.",
+   "sale_cadence": [
+    {
+     "event": "Costco instant savings",
+     "timing": "Periodic; not verified",
+     "typical_depth": "Unknown; Kirkland rarely discounts"
+    }
+   ],
+   "best_time_to_buy": "No timing data. Tide Power PODS is the most likely to be discounted; wait for about $16.",
+   "patience_payoff": "Tide Power PODS: wait from $19.94 to about $16. Tide Free & Gentle: about $22 (guess). Tide PODS Original: only if a sale reaches about $17. Gain Flings: about $12 or skip.",
+   "discount_honesty": "No observed sales or historical lows. Walmart shows 'Subscribe' and 'Options from' prices; not verified to beat the base price. Ignore the '9¢ per load' Kirkland claim, which doesn't match $19 ÷ 152."
+  },
+  "purchase_paths": [
+   {
+    "name": "Cheapest path that isn't a mistake",
+    "goal": "Lowest cost per load",
+    "total_cost": 19,
+    "items": [
+     {
+      "item": "Kirkland Ultra Clean pacs, 152 ct",
+      "price": 19,
+      "why": "About 12.5–13¢ per load"
+     }
+    ],
+    "rationale": "True value floor of the pod market. With no Costco membership, Arm & Hammer Odor Blasters 42 ct at $9.12 (21.7¢) is the runner-up.",
+    "tradeoff": "Pod stain scores unverified; Costco membership required. A&H has the same testing caveat."
+   },
+   {
+    "name": "Best-value build",
+    "goal": "Knee pricing from the strongest-tested brand, no club membership",
+    "total_cost": 24.94,
+    "items": [
+     {
+      "item": "Tide Free & Gentle, 102 ct (24.5¢ per pod)",
+      "price": 24.94,
+      "why": "Knee price; brand with strongest lab results"
+     }
+    ],
+    "rationale": "Alternative: Tide PODS Original 76 ct at $19.94 (26.2¢). Both sit at the knee and need no club membership.",
+    "tradeoff": "About 2x Kirkland per pod; check the 76-ct pack for fill before buying."
+   },
+   {
+    "name": "No-compromise build",
+    "goal": "Best tested cleaning performance",
+    "total_cost": 19.94,
+    "items": [
+     {
+      "item": "Tide Oxi Boost Power PODS, 45 ct (44¢ per pod)",
+      "price": 19.94,
+      "why": "Closest priced match to CR's top pods; can't confirm it's the same product"
+     }
+    ],
+    "rationale": "CR's top pods are Tide Hygienic Clean Heavy Duty 10X Power Pods and Ultra Oxi Power Pods. No current price found for the Hygienic Clean pods.",
+    "tradeoff": "About 3x Kirkland per pod; the buyer decides if the performance is worth it."
+   }
+  ],
+  "caveats": [
+   "Amazon blocked the agent and Target returned an empty page. Costco, Wirecutter and Reddit pages would not load.",
+   "All shelf prices are Walmart prices unless stated; the Kirkland figure is from a third-party tracker.",
+   "No current price confirmed for Persil Discs, Great Value, up&up, Purex, All Mighty, Seventh Generation, Dropps, Method, Ecos or Tide Hygienic Clean Power Pods, so none are ranked or given thresholds.",
+   "CR's pod ratings table was not retrieved; CR verdicts come from search snippets and the Launderwise roundup.",
+   "CR's Kirkland best-value verdict is stated for the liquid; no pod-specific value verdict was confirmed.",
+   "Ounce and per-pod fill figures are derived from Walmart's per-lb prices, not label numbers.",
+   "Buy-under thresholds are judgment calls from a single observed price; no sales or historical prices were seen.",
+   "Tide PODS 76 ct implies about 0.75 oz per pod; unclear if reformulation or Walmart data error.",
+   "Only about 8 products have confirmed prices, short of the 12–20 target.",
+   "Recommend against Molly's Suds Original Unscented powder: two labs ranked it last, and Wirecutter called it the worst detergent of any type."
+  ],
+  "sources": [],
+  "price_source": "live"
+ }
+}
