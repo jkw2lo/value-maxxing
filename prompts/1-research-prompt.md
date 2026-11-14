@@ -69,9 +69,9 @@ Deliver the analysis at the scope asked. If the category is ambiguous (it spans 
 </calibration>
 
 <your_call>
-End the brief with YOUR CALL, two parts a shopper can act on today:
-1. STRIKE PRICE: the pack price (and the price per unit) at or below which to buy your recommended item.
-2. TODAY'S PRICE vs. USUAL: for that exact item and pack size, its usual price range when it is not on sale (low and high, from what you saw across retailers and its price history), today's best price and the store. Say whether today's price is lower than usual (on sale now), typical, or higher than usual. If it isn't at or under the strike price, say which sale or month usually gets it there. If the category isn't worth buying, say what to buy instead.
+End the brief with YOUR CALL, which a shopper can act on today:
+1. TOP THREE PICKS: your best value, best of class and budget picks (three different items). For each, give the exact item and pack size, the target price at or below which to buy it (pack price and price per unit), today's best price and the store, and its usual price range when it is not on sale (low and high, from what you saw across retailers and its price history).
+2. TODAY'S PRICE vs. USUAL: for each of the three, say whether today's price is lower than usual (on sale now), typical, or higher than usual, and if it isn't at or under its target, which sale or month usually gets it there. Name the one you'd recommend to most readers. If the category isn't worth buying, say what to buy instead.
 Then list DEALS SEEN: specific current offers you actually saw on a store page or listing during research (product and pack size, store, price, link, any condition such as a coupon, membership or subscription). List only offers you saw; if you saw none, write "none seen".
 </your_call>
 

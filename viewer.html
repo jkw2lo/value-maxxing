@@ -243,6 +243,17 @@
   /* the call: strike price + buy now / wait */
   .vm-call { display: grid; grid-template-columns: minmax(0, 260px) minmax(0, 1fr); border: 1px solid var(--rule); border-radius: var(--radius); background: var(--paper); overflow: hidden; }
   .vm-call-one { grid-template-columns: minmax(0, 1fr); }
+  .vm-picks3 { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+  @media (max-width: 860px) { .vm-picks3 { grid-template-columns: minmax(0, 1fr); } }
+  .vm-pick3 { border: 1px solid var(--rule); border-radius: var(--radius); background: var(--paper); padding: 14px 16px 16px; min-width: 0; display: flex; flex-direction: column; }
+  .vm-pick3-label { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); margin: 0 0 4px; }
+  .vm-pick3-name { font-weight: 700; font-size: 15px; line-height: 1.3; margin: 0 0 6px; color: var(--ink); }
+  .vm-pick3-why { font-size: 13px; color: var(--ink-soft); line-height: 1.45; margin: 0 0 10px; }
+  .vm-pick3-price { margin-top: auto; border-top: 1px solid var(--rule); padding-top: 10px; }
+  .vm-pick3-verb { font-family: var(--font-head); font-weight: 700; font-size: 17px; margin: 0; }
+  .vm-pick3-line { font-size: 13px; color: var(--ink-soft); line-height: 1.45; margin: 6px 0 0; }
+  .vm-pick3-line b { color: var(--ink); }
+  .vm-pick3 .vm-gauge { margin-top: 28px; }
   .vm-gauge { position: relative; margin: 30px 2px 4px; max-width: 420px; }
   .vm-gauge-bar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; gap: 2px; }
   .vm-gauge-bar span { display: block; height: 100%; opacity: 0.85; }
@@ -280,7 +291,6 @@
   .vm-keyfact-long { font-size: 13.5px; line-height: 1.5; margin: 0; color: var(--ink); }
   .vm-keyfact-note { font-size: 12.5px; color: var(--ink-soft); margin: 4px 0 0; line-height: 1.45; }
   .vm-summary-picks { padding: 22px 28px 26px; border-top: 1px solid var(--rule); background: color-mix(in srgb, var(--paper) 55%, var(--card)); }
-  .vm-summary .vm-h2h { box-shadow: none; }
 
   .vm-analysis-head { display: flex; align-items: baseline; gap: 14px; margin: 44px 0 18px; }
   .vm-analysis-head h2 { font-family: var(--font-head); font-size: 15px; letter-spacing: 0.1em; text-transform: uppercase; margin: 0; color: var(--ink-soft); white-space: nowrap; }
@@ -310,15 +320,6 @@
   .vm-primer-avoid h4 { color: var(--status-critical); }
 
   /* ---------- head-to-head: best of class vs best value ---------- */
-  .vm-h2h { display: grid; grid-template-columns: minmax(0,1fr) auto minmax(0,1fr); gap: 18px; align-items: center; background: var(--card); border: 1px solid var(--rule); border-radius: var(--radius); padding: 22px; box-shadow: var(--shadow); }
-  @media (max-width: 640px) { .vm-h2h { grid-template-columns: minmax(0, 1fr); } .vm-h2h-divider { justify-self: center; } }
-  .vm-h2h-col { text-align: center; min-width: 0; }
-  .vm-h2h-label { font-size: 11.5px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--ink-faint); margin: 0 0 8px; font-weight: 600; }
-  .vm-h2h-product { font-family: var(--font-head); font-size: 20px; font-weight: 700; margin: 0 0 8px; line-height: 1.28; }
-  .vm-h2h-why { font-size: 13.5px; color: var(--ink-soft); margin: 0; line-height: 1.5; }
-  .vm-h2h-overall .vm-h2h-label { color: var(--accent); }
-  .vm-h2h-value .vm-h2h-label { color: var(--tier-3); }
-  .vm-h2h-divider { font-family: var(--font-head); font-size: 13px; color: var(--ink-faint); border: 1px solid var(--rule-strong); border-radius: 50%; width: 34px; height: 34px; display:flex; align-items:center; justify-content:center; }
 
   /* ---------- secondary awards ---------- */
   .vm-awards { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin-top: 12px; }
@@ -914,9 +915,9 @@
   // price and a Google Flights-style gauge of today's price vs. usual.
   var YOUR_CALL = [
 "<your_call>",
-"End the brief with YOUR CALL, two parts a shopper can act on today:",
-"1. STRIKE PRICE: the pack price (and the price per unit) at or below which to buy your recommended item.",
-"2. TODAY'S PRICE vs. USUAL: for that exact item and pack size, its usual price range when it is not on sale (low and high, from what you saw across retailers and its price history), today's best price and the store. Say whether today's price is lower than usual (on sale now), typical, or higher than usual. If it isn't at or under the strike price, say which sale or month usually gets it there. If the category isn't worth buying, say what to buy instead.",
+"End the brief with YOUR CALL, which a shopper can act on today:",
+"1. TOP THREE PICKS: your best value, best of class and budget picks (three different items). For each, give the exact item and pack size, the target price at or below which to buy it (pack price and price per unit), today's best price and the store, and its usual price range when it is not on sale (low and high, from what you saw across retailers and its price history).",
+"2. TODAY'S PRICE vs. USUAL: for each of the three, say whether today's price is lower than usual (on sale now), typical, or higher than usual, and if it isn't at or under its target, which sale or month usually gets it there. Name the one you'd recommend to most readers. If the category isn't worth buying, say what to buy instead.",
 "Then list DEALS SEEN: specific current offers you actually saw on a store page or listing during research (product and pack size, store, price, link, any condition such as a coupon, membership or subscription). List only offers you saw; if you saw none, write \"none seen\".",
 "</your_call>"
   ].join("\n");
@@ -1001,7 +1002,7 @@ YOUR_CALL
 "",
 "- Units: normalization.unit_short is the singular thing a shopper can count from the package label (pod, oz, sheet, roll, bottle, g) \u2014 never \"$/x\" or \"per x\". EVERY unit price in the output (normalization.bands, diminishing_returns.curve and knee_unit_price, products.unit_price) is in US dollars per ONE unit_short, so 24.5 cents is 0.245. If the brief normalizes on something that isn't on the label (washes, applications), convert to the label unit and state the conversion in quality_adjustment. products.pack_size is how many unit_short are in the package that street_price buys (102 for a 102-count tub), or null.",
 "",
-"- products: one row for EVERY product the brief names, including ones with estimated or missing prices. price_basis is \"seen\" when the brief cites a price seen at a store or listing during research, \"estimate\" when it is marked (est.), approximate or from memory, and \"unknown\" when the brief gives no price (then the price fields are null). A number the brief does not give is null, never 0.",
+"- products: one row for EVERY product the brief names, including ones with estimated or missing prices. price_basis is \"seen\" when the brief cites a price seen at a store or listing during research, \"estimate\" when it is marked (est.), approximate or from memory, and \"unknown\" when the brief gives no price (then the price fields are null). A number the brief does not give is null, never 0. usual_low and usual_high are the item's usual pack price range when not on sale, when the brief gives one (it does for the top three picks); otherwise null.",
 "",
 "- verdict.signal: use what the brief states. If it states none, apply these rules:",
 VERDICT_RULES,
@@ -1010,7 +1011,7 @@ VERDICT_RULES,
 "",
 "- deals_found: only the specific offers the brief says were seen on a store page or listing (DEALS SEEN, or prices it cites with a store). Never an estimate. url only when the brief gives one, else empty. note is a condition such as \"Subscribe & Save\", \"membership required\" or \"rollback\", else empty. Empty array if none were seen.",
 "",
-"- awards: leave an award's product and why empty when it doesn't really apply to this category (e.g. longest_lasting for a consumable) rather than repeating another pick.",
+"- awards: best_value, best_overall and best_budget are the brief's top three picks, named exactly as their products rows. Leave an award's product and why empty when it doesn't really apply to this category (e.g. longest_lasting for a consumable) rather than repeating another pick.",
 "",
 "- price_segments: the brief's price breakdown by segment. dimension is the attribute it segments by, as a shopper would say it (\"Total carat weight\", \"Ply\", \"Sourcing\", \"Quality tier\"); why is its one-sentence reason. segments are ordered cheapest first. label is the segment name as a shopper would say it (\"1 ct\", \"2-ply\", \"Organic\", \"Mid-range\"). price_low and price_high are the dollar range for a typical item or common pack in that segment (not per unit); typical_price is what most people pay; unit_price_range is the per-unit range as text (\"$0.04–$0.06 / sheet\"), or empty. what_you_get is what the money buys over the segment below; best_pick is the best-value product in the segment, using the same name as its products row; watch_out is the main risk at that level. Use null for a number the brief does not give.",
 "",
@@ -1149,8 +1150,8 @@ VERDICT_RULES,
       products: arr(strObj({
         name: S, brand: S, tier: S, segment: S, price_basis: { type: "string", enum: ["seen", "estimate", "unknown"] },
         street_price: NN, pack_size: NN, unit_price: NN, quality_score: N, value_score: N,
-        historical_low: NN, typical_sale: S, buy_under: NN, where_to_buy: SA, pros: SA, cons: SA, best_for: S
-      }, ["name","brand","tier","segment","price_basis","street_price","pack_size","unit_price","quality_score","value_score","historical_low","typical_sale","buy_under","where_to_buy","pros","cons","best_for"])),
+        historical_low: NN, usual_low: NN, usual_high: NN, typical_sale: S, buy_under: NN, where_to_buy: SA, pros: SA, cons: SA, best_for: S
+      }, ["name","brand","tier","segment","price_basis","street_price","pack_size","unit_price","quality_score","value_score","historical_low","usual_low","usual_high","typical_sale","buy_under","where_to_buy","pros","cons","best_for"])),
       deal_intelligence: strObj({
         volatility: S,
         sale_cadence: arr(strObj({ event: S, timing: S, typical_depth: S }, ["event","timing","typical_depth"])),
@@ -1339,7 +1340,7 @@ VERDICT_RULES,
     r.brands = L(r.brands).map(O).filter(function (b) { return b.brand; }).map(function (b) { b.pros = L(b.pros); b.cons = L(b.cons); return b; });
     r.products = L(r.products).map(function (p) {
       p = O(p); p.pros = L(p.pros); p.cons = L(p.cons); p.where_to_buy = L(p.where_to_buy); p.segment = String(p.segment || "").trim();
-      ["street_price", "unit_price", "quality_score", "value_score", "historical_low", "buy_under"].forEach(function (k) { p[k] = N0(p[k]); });
+      ["street_price", "unit_price", "quality_score", "value_score", "historical_low", "usual_low", "usual_high", "buy_under"].forEach(function (k) { p[k] = N0(p[k]); });
       // A price of 0 is never real: older reports used 0 for "couldn't find it".
       ["street_price", "unit_price", "historical_low", "buy_under"].forEach(function (k) { if (p[k] === 0) p[k] = null; });
       if (["seen", "estimate", "unknown"].indexOf(p.price_basis) < 0) p.price_basis = r.price_source === "estimate" ? "estimate" : "seen";
@@ -1443,7 +1444,7 @@ VERDICT_RULES,
     if (c.strikeUnit == null && c.strike != null && c.pack) c.strikeUnit = c.strike / c.pack;
     if (c.action === "WAIT" && !c.waitFor) {
       var sc = r.deal_intelligence.sale_cadence.filter(function (x) { return x.event; })[0];
-      if (sc) c.waitFor = sc.event + (sc.timing ? " (" + firstSentence(sc.timing).replace(/[.;]$/, "") + ")" : "");
+      if (sc) c.waitFor = sc.event + (sc.timing ? " (" + firstSentence(sc.timing).replace(/\s*\([^)]*\)/g, "").replace(/[.;]$/, "") + ")" : "");
     }
     // A stored call can disagree with its own numbers; trust the numbers.
     if (c.action === "BUY_NOW" && c.now != null && c.strike != null && c.now > c.strike * 1.08) c.action = "WAIT";
@@ -1478,10 +1479,10 @@ VERDICT_RULES,
   function levelAction(c, lv) {
     if (lv.key === "low") {
       var off = lv.lo ? Math.round((lv.lo - c.now) / lv.lo * 100) : 0;
-      return c.strike != null && c.now <= c.strike * 1.005 ? "<b>On sale now</b>, at or under the strike price. A good time to buy."
-        : "<b>On sale now</b>" + (off >= 1 ? ", " + off + "% below usual" : "") + "." + (c.strike != null ? " The strike price is " + fmtMoney(c.strike) + "." : "");
+      return c.strike != null && c.now <= c.strike * 1.005 ? "<b>On sale now</b>, at or under the " + fmtMoney(c.strike) + " target. A good time to buy."
+        : "<b>On sale now</b>" + (off >= 1 ? ", " + off + "% below usual" : "") + "." + (c.strike != null ? " Target: " + fmtMoney(c.strike) + "." : "");
     }
-    if (c.strike != null && c.now <= c.strike * 1.005) return "<b>Good time to buy:</b> at or under the strike price.";
+    if (c.strike != null && c.now <= c.strike * 1.005) return "<b>Good time to buy:</b> at or under the " + fmtMoney(c.strike) + " target.";
     if (lv.waitWorth) return "<b>Wait for a sale</b> and buy at " + fmtMoney(c.strike) + " or less." + (c.waitFor ? " Watch for " + esc(c.waitFor) + "." : "");
     if (lv.key === "high") return "<b>Wait</b> for it to come back to about " + fmtMoney(lv.hi) + ".";
     return "<b>Rarely discounts much.</b> Fine to buy at this price.";
@@ -1495,42 +1496,90 @@ VERDICT_RULES,
     function pos(v) { return (Math.max(0, Math.min(1, (v - dMin) / (dMax - dMin))) * 100).toFixed(2); }
     var a = pos(lv.lo), b = pos(lv.hi), n = pos(c.now);
     var nowEdge = n < 12 ? "0" : n > 88 ? "-100%" : "-50%";
-    var strike = showStrike ? '<span class="vm-gauge-strike" style="left:' + pos(c.strike) + '%" title="Strike price ' + esc(fmtMoney(c.strike)) + '"></span>' : "";
+    var strike = showStrike ? '<span class="vm-gauge-strike" style="left:' + pos(c.strike) + '%" title="Target ' + esc(fmtMoney(c.strike)) + '"></span>' : "";
     return '<div class="vm-gauge" role="img" aria-label="' + esc("Today " + fmtMoney(c.now) + ", " + LEVEL_META[lv.key].label.toLowerCase() + (usualText(lv, fmtMoney, c.now) ? "; " + usualText(lv, fmtMoney, c.now) : "")) + '">' +
       '<span class="vm-gauge-now-label" style="left:' + n + "%;transform:translateX(" + nowEdge + ')">' + (c.nowEst ? "~" : "") + fmtMoney(c.now) + " today</span>" +
       '<div class="vm-gauge-bar"><span style="width:' + a + '%;background:var(--status-good)"></span><span style="width:' + (b - a).toFixed(2) + '%;background:var(--status-warning)"></span><span style="flex:1;background:var(--status-critical)"></span></div>' +
       strike + '<span class="vm-gauge-now" style="left:' + n + '%"></span>' +
-      '<div class="vm-gauge-scale"><span>Lower than usual</span><span>Typical</span><span>Higher</span></div></div>';
+      '<div class="vm-gauge-scale"><span>Low</span><span>Typical</span><span>High</span></div></div>';
   }
 
+  // "Not worth buying": the one case that replaces the picks with a single call.
   function callHTML(r, o) {
     o = o || {};
     var c = buildCall(r);
-    if (!c) return "";
-    var u = r.normalization.unit_short, lv = priceLevel(c);
-    var money = function (n) { return (c.nowEst ? "~" : "") + fmtMoney(n); };
-    var packTxt = c.pack ? Math.round(c.pack) + " " + unitPlural(u, Math.round(c.pack)) : "";
-    var strikeCol = c.action === "SKIP" || c.strike == null ? "" :
-      '<p class="vm-call-k">1 · Strike price</p>' +
-      '<p class="vm-call-big">' + fmtMoney(c.strike) + " <span>or less</span></p>" +
-      '<p class="vm-call-sub">' + [packTxt ? "for " + packTxt : "", c.strikeUnit != null ? fmtUnit(c.strikeUnit) + " per " + esc(u) : ""].filter(Boolean).join(" · ") + "</p>" +
-      (r.diminishing_returns.knee_unit_price != null ? '<p class="vm-call-note">Category sweet spot: ' + fmtUnit(r.diminishing_returns.knee_unit_price) + " per " + esc(u) + "</p>" : "");
-    var lines = [];
-    if (c.now != null) lines.push("Now <b>" + money(c.now) + "</b>" + (c.retailer ? " at " + esc(c.retailer) : "") + (lv && usualText(lv, money, c.now) ? " · " + usualText(lv, money, c.now) : ""));
-    else if (c.retailer) lines.push("At " + esc(c.retailer) + " · no current price found");
-    if (lv) lines.push(levelAction(c, lv));
-    else if (c.action !== "SKIP" && c.waitFor) lines.push("Watch for: " + esc(c.waitFor));
-    var alt = c.alt && c.alt.buy_under != null ? '<p class="vm-call-alt">Prefer ' + esc(c.alt.name) + "? Wait for " + pMoney(c.alt, c.alt.buy_under) + (c.alt.street_price != null ? " (now " + pMoney(c.alt, c.alt.street_price) + ")" : "") + ".</p>" : "";
-    var verb = c.action === "SKIP" ? { label: "Not worth buying", cls: "critical" } : lv ? LEVEL_META[lv.key] : { label: "No current price found", cls: "" };
-    var actCol = '<p class="vm-call-k">' + (strikeCol ? "2 · " : "") + (c.action === "SKIP" ? "Our call" : "Today’s price") + "</p>" +
-      '<p class="vm-call-verb vm-tone-' + verb.cls + '">' + esc(verb.label) + "</p>" +
-      (c.action !== "SKIP" && c.name ? '<p class="vm-call-item">' + esc(c.name) + "</p>" : "") +
-      (lv && !o.doc ? priceGaugeHTML(c, lv) : "") +
-      lines.map(function (l) { return '<p class="vm-call-line">' + l + "</p>"; }).join("") +
-      (c.why ? '<p class="vm-call-why">' + esc(c.why) + "</p>" : "") + alt;
-    if (o.doc) return '<table class="q-cols doc-call" cellspacing="0" cellpadding="0"><tr>' + (strikeCol ? "<td>" + strikeCol + "</td>" : "") + "<td>" + actCol + "</td></tr></table>";
-    return '<div class="vm-call' + (strikeCol ? "" : " vm-call-one") + '">' + (strikeCol ? '<div class="vm-call-strike">' + strikeCol + "</div>" : "") + '<div class="vm-call-act">' + actCol + "</div></div>";
+    if (!c || c.action !== "SKIP") return "";
+    var body = '<p class="vm-call-k">Our call</p><p class="vm-call-verb vm-tone-critical">Not worth buying</p>' + (c.why ? '<p class="vm-call-why">' + esc(c.why) + "</p>" : "");
+    if (o.doc) return '<table class="q-cols doc-call" cellspacing="0" cellpadding="0"><tr><td>' + body + "</td></tr></table>";
+    return '<div class="vm-call vm-call-one"><div class="vm-call-act">' + body + "</div></div>";
   }
+
+  // ------------------------------------------------------------
+  // Top 3 picks (best value, best of class, budget), each with its own
+  // price check: today's price against its usual range and its target.
+  // ------------------------------------------------------------
+  function topPicks(r) {
+    var c = buildCall(r), a = r.awards;
+    if (c && c.action === "SKIP") return [];
+    var avoidP = a.avoid.product ? matchProduct(r.products, a.avoid.product) : null;
+    var picks = [];
+    [["Best value", a.best_value], ["Best of class", a.best_overall], ["Budget pick", a.best_budget]].forEach(function (x) {
+      if (!x[1].product) return;
+      var p = matchProduct(r.products, x[1].product);
+      var same = picks.filter(function (k) { return p ? k.p === p : k.name === x[1].product; })[0];
+      if (same) { same.label += " · " + x[0]; return; } // one product winning two awards shows once
+      picks.push({ label: x[0], name: x[1].product, why: x[1].why, p: p });
+    });
+    r.products.filter(function (p) { return p.buy_under != null && p !== avoidP && !picks.some(function (k) { return k.p === p; }); })
+      .sort(byValue).forEach(function (p) { if (picks.length < 3) picks.push({ label: "Also worth a look", name: p.name, why: p.best_for, p: p }); });
+    return picks.slice(0, 3).map(function (k) {
+      var p = k.p, isRec = !!(c && p && c.p === p);
+      k.action = ""; k.now = null; k.nowEst = false; k.strike = null; k.usualLow = null; k.usualHigh = null; k.retailer = ""; k.waitFor = "";
+      // A stored strike far above the item's own price (older reports mixed items up) loses to the item's buy-under.
+      if (isRec && c.strike != null && p.buy_under != null && c.strike > (c.now || p.street_price || c.strike) * 1.25) c = Object.assign({}, c, { strike: p.buy_under });
+      if (isRec) { k.now = c.now; k.nowEst = !!c.nowEst; k.strike = c.strike; k.usualLow = c.usualLow; k.usualHigh = c.usualHigh; k.retailer = c.retailer; k.waitFor = c.waitFor; }
+      if (p) {
+        if (k.now == null) { k.now = p.street_price; k.nowEst = isEst(p); }
+        if (k.strike == null) k.strike = p.buy_under;
+        if (k.usualLow == null) k.usualLow = p.usual_low;
+        if (k.usualHigh == null) k.usualHigh = p.usual_high;
+        if (!k.retailer) k.retailer = p.where_to_buy[0] || "";
+      }
+      if (!k.waitFor) {
+        var sc = r.deal_intelligence.sale_cadence.filter(function (x) { return x.event; })[0];
+        if (sc) k.waitFor = sc.event + (sc.timing ? " (" + firstSentence(sc.timing).replace(/\s*\([^)]*\)/g, "").replace(/[.;]$/, "") + ")" : "");
+      }
+      k.lv = priceLevel(k);
+      return k;
+    });
+  }
+  function pickPriceLines(k) {
+    var money = function (n) { return (k.nowEst ? "~" : "") + fmtMoney(n); };
+    if (!k.lv) return ["No current price found" + (k.strike != null ? ". Buy at " + fmtMoney(k.strike) + " or less." : ".")];
+    var usual = usualText(k.lv, money, k.now);
+    return ["Now <b>" + money(k.now) + "</b>" + (k.retailer && k.retailer.length <= 40 ? " at " + esc(k.retailer) : "") + (usual ? " · " + usual : ""), levelAction(k, k.lv)];
+  }
+  function picksHTML(r, o) {
+    o = o || {};
+    var skip = callHTML(r, o);
+    if (skip) return skip;
+    var picks = topPicks(r);
+    if (!picks.length) return "";
+    if (o.doc) {
+      return '<div class="q-wrap"><table class="q-table" cellspacing="0" cellpadding="0"><thead><tr><th>Pick</th><th>Price today</th></tr></thead><tbody>' + picks.map(function (k) {
+        return "<tr><td><b>" + esc(k.name) + '</b><small class="vm-deal-note">' + esc(k.label) + "</small></td><td>" +
+          (k.lv ? "<b>" + esc(LEVEL_META[k.lv.key].label) + ".</b> " : "") + pickPriceLines(k).join(". ").replace(/\.\./g, ".") + "</td></tr>";
+      }).join("") + "</tbody></table></div>";
+    }
+    return '<div class="vm-picks3">' + picks.map(function (k) {
+      var m = k.lv ? LEVEL_META[k.lv.key] : null;
+      return '<div class="vm-pick3"><p class="vm-pick3-label">' + esc(k.label) + '</p><p class="vm-pick3-name">' + esc(k.name) + "</p>" +
+        (k.why ? '<p class="vm-pick3-why">' + esc(firstSentence(k.why)) + "</p>" : "") +
+        '<div class="vm-pick3-price">' + (m ? '<p class="vm-pick3-verb vm-tone-' + m.cls + '">' + esc(m.label) + "</p>" + priceGaugeHTML(k, k.lv) : "") +
+        pickPriceLines(k).map(function (l) { return '<p class="vm-pick3-line">' + l + "</p>"; }).join("") + "</div></div>";
+    }).join("") + "</div>";
+  }
+  function pickNames(r) { return topPicks(r).map(function (k) { return k.name; }); }
 
   // Specific offers seen during research, cheapest per unit first.
   function dealsHTML(r, o) {
@@ -1811,31 +1860,18 @@ VERDICT_RULES,
     var headline = v.headline || firstSentence(v.reasoning);
     var timing = firstSentence(v.price_watch_summary);
     if (timing === headline) timing = "";
-    // The call below is the recommendation; the older timing badge only shows without one.
-    var qCall = callHTML(r, o), qPill = qCall ? "" : pill();
+    // The top picks carry the price check; the older timing badge only shows without them.
+    var qPicks = picksHTML(r, o), qPill = qPicks ? "" : pill();
     out += '<section class="q-verdict"><p class="q-label">The verdict</p>' +
       (headline ? '<p class="q-headline">' + esc(headline) + "</p>" : "") +
       (qPill || timing ? '<p class="q-meta">' + qPill + (timing ? " <span>" + esc(timing) + "</span>" : "") + "</p>" : "") +
-      qCall + "</section>";
+      "</section>";
+    if (qPicks) out += h("Top 3 picks") + qPicks;
     var deals = dealsHTML(r, o);
     if (deals) out += h("Deals found") + deals;
-
-    function pick(label, aw, cls) {
-      if (!aw.product) return "";
-      var p = matchProduct(r.products, aw.product);
-      var price = "";
-      if (p && p.buy_under != null) {
-        var off = pctOff(p.street_price, p.buy_under);
-        price = '<p class="q-pick-price">Buy at <b>' + pMoney(p, p.buy_under) + "</b> or less" + (off && off >= 0.005 && off <= 0.7 ? " · street " + pMoney(p, p.street_price) : "") + "</p>";
-      }
-      return '<div class="q-pick ' + cls + '"><p class="q-pick-label">' + esc(label) + '</p><p class="q-pick-name">' + esc(aw.product) + "</p>" +
-        (aw.why ? '<p class="q-pick-why">' + esc(firstSentence(aw.why)) + "</p>" : "") + price + "</div>";
-    }
-    var picks = cols(pick("Best of class", a.best_overall, "q-pick-a"), pick("Best value", a.best_value, "q-pick-b"));
-    var others = awardGroups(r, [["best_budget", "Budget"], ["best_premium", "Premium"], ["best_for_beginners", "Beginners"], ["longest_lasting", "Lasts longest"], ["avoid", "Avoid"]], [a.best_overall.product, a.best_value.product]);
-    if (picks || others.length) {
-      out += h("Top picks") + picks;
-      if (others.length) out += '<table class="q-list" cellspacing="0" cellpadding="0">' + others.map(function (x) {
+    var others = awardGroups(r, [["best_overall", "Best of class"], ["best_value", "Best value"], ["best_budget", "Budget"], ["best_premium", "Premium"], ["best_for_beginners", "Beginners"], ["longest_lasting", "Lasts longest"], ["avoid", "Avoid"]], pickNames(r));
+    if (others.length) {
+      out += h("Other picks") + '<table class="q-list" cellspacing="0" cellpadding="0">' + others.map(function (x) {
         return "<tr" + (x.key === "avoid" ? ' class="q-avoid"' : "") + "><td>" + esc(x.labels.join(" · ")) + "</td><td>" + esc(x.a.product) + "</td></tr>";
       }).join("") + "</table>";
     }
@@ -1910,14 +1946,14 @@ VERDICT_RULES,
     var shortPws = v.price_watch_summary && v.price_watch_summary.length <= 170 ? v.price_watch_summary : "";
     var headline = v.headline || shortPws;
     var pws = v.price_watch_summary && v.price_watch_summary !== headline ? (shortPws || firstSentence(v.price_watch_summary)) : "";
-    var awards = awardGroups(r, [["best_budget", "Best budget"], ["best_premium", "Best premium"], ["best_for_beginners", "Best for beginners"], ["longest_lasting", "Lasts longest"], ["avoid", "Avoid"]],
-      [r.awards.best_overall.product, r.awards.best_value.product]).map(function (g) {
+    var picks = picksHTML(r, {});
+    var awards = awardGroups(r, [["best_overall", "Best of class"], ["best_value", "Best value"], ["best_budget", "Best budget"], ["best_premium", "Best premium"], ["best_for_beginners", "Best for beginners"], ["longest_lasting", "Lasts longest"], ["avoid", "Avoid"]],
+      pickNames(r)).map(function (g) {
       var a = g.a, av = g.key === "avoid";
       return '<div class="vm-award' + (av ? " vm-avoid" : "") + '"><p class="vm-award-label">' + (av ? "✕ " : "") + esc(g.labels.join(" · ")) + '</p><p class="vm-award-product">' + esc(a.product) + "</p>" +
         (a.why ? '<p class="vm-award-why">' + esc(firstSentence(a.why)) + "</p>" : "") + "</div>";
     }).join("");
-    var overall = r.awards.best_overall, value = r.awards.best_value;
-    var call = callHTML(r, {}), deals = dealsHTML(r, {}), badge = call ? "" : signalBadge(v);
+    var deals = dealsHTML(r, {}), badge = picks ? "" : signalBadge(v);
     return '<section class="vm-summary" id="acc-summary" aria-label="Summary">' + renderHero(r, false) +
       '<div class="vm-summary-body"><div>' +
         '<p class="vm-summary-label">The verdict</p>' +
@@ -1926,13 +1962,9 @@ VERDICT_RULES,
         (badge || pws ? '<div class="vm-timing-badge" style="margin:0">' + badge + (pws ? '<span class="vm-timing-note">' + esc(pws) + "</span>" : "") + "</div>" : "") +
         (v.confidence ? '<p class="vm-summary-conf">Confidence: ' + esc(firstSentence(v.confidence)) + "</p>" : "") +
       "</div></div>" +
-      (call ? '<div class="vm-summary-call">' + call + "</div>" : "") +
+      (picks ? '<div class="vm-summary-call"><p class="vm-summary-label">Top 3 picks</p>' + picks + "</div>" : "") +
       (deals ? '<div class="vm-summary-deals"><p class="vm-summary-label">Deals found</p>' + deals + "</div>" : "") +
-      '<div class="vm-summary-picks"><div class="vm-h2h">' +
-        '<div class="vm-h2h-col vm-h2h-overall"><p class="vm-h2h-label">Best of class</p><p class="vm-h2h-product">' + esc(overall.product || "—") + '</p><p class="vm-h2h-why">' + esc(overall.why || "") + "</p></div>" +
-        '<div class="vm-h2h-divider">vs</div>' +
-        '<div class="vm-h2h-col vm-h2h-value"><p class="vm-h2h-label">Best value</p><p class="vm-h2h-product">' + esc(value.product || "—") + '</p><p class="vm-h2h-why">' + esc(value.why || "") + "</p></div>" +
-      "</div>" + (awards ? '<div class="vm-awards">' + awards + "</div>" : "") + "</div>" +
+      (awards ? '<div class="vm-summary-picks"><div class="vm-awards">' + awards + "</div></div>" : "") +
     "</section>";
   }
 
@@ -2687,13 +2719,11 @@ VERDICT_RULES,
 
     var facts = [];
     var docPws = v.price_watch_summary && v.price_watch_summary !== headline ? (v.price_watch_summary.length <= 170 ? v.price_watch_summary : firstSentence(v.price_watch_summary)) : "";
-    if (buildCall(r)) pill = "";
+    var docPicks = picksHTML(r, { doc: true });
+    if (docPicks) pill = "";
     if (pill || docPws) facts.push(["Timing", pill + (docPws ? (pill ? "<br>" : "") + esc(docPws) : "")]);
     var dc = buildCall(r);
-    if (dc && dc.strike != null && dc.action !== "SKIP") facts.push(["Strike price", "<b>" + fmtMoney(dc.strike) + "</b> or less" + (dc.pack ? " for " + Math.round(dc.pack) + " " + esc(unitPlural(n.unit_short, Math.round(dc.pack))) : "") + (dc.strikeUnit != null ? " (" + fmtUnit(dc.strikeUnit) + " per " + esc(n.unit_short) + ")" : "") + (dc.name ? " — " + esc(dc.name) : "")]);
-    var dlv = priceLevel(dc);
     if (dc && dc.action === "SKIP") facts.push(["Our call", "<b>Not worth buying.</b>" + (dc.why ? " " + esc(dc.why) : "")]);
-    else if (dc && dlv) facts.push(["Today’s price", "<b>" + esc(LEVEL_META[dlv.key].label) + "</b>" + (dc.name ? ": " + esc(dc.name) : "") + ", now " + fmtMoney(dc.now) + (dc.retailer ? " at " + esc(dc.retailer) : "") + (usualText(dlv, fmtMoney, dc.now) ? " (" + usualText(dlv, fmtMoney, dc.now) + ")" : "") + ". " + levelAction(dc, dlv)]);
     if (v.confidence) facts.push(["Confidence", esc(firstSentence(v.confidence))]);
     var docEx = kneeExamples(r, 2).map(function (x) { return x.text; }).join(" or ");
     if (dr.knee_unit_price != null) facts.push(["Sweet-spot price", "<b>" + fmtUnit(dr.knee_unit_price) + " per " + esc(n.unit_short) + "</b>" + (docEx ? " — in real packs, " + esc(docEx) : dr.knee_example && dr.knee_example.length <= 90 ? " — about what " + esc(dr.knee_example) + " costs" : "")]);
@@ -2704,15 +2734,11 @@ VERDICT_RULES,
       (v.reasoning ? "<p>" + esc(v.reasoning) + "</p>" : "") +
       (facts.length ? '<table class="doc-facts sans" cellspacing="0" cellpadding="0">' + facts.map(function (f) { return '<tr><td class="k">' + esc(f[0]) + "</td><td>" + f[1] + "</td></tr>"; }).join("") + "</table>" : "") +
       "</td></tr></table>";
+
+    if (docPicks && !/doc-call/.test(docPicks)) out += '<p class="doc-label" style="margin:26px 0 6px">Top 3 picks</p>' + docPicks;
     var docDeals = dealsHTML(r, { doc: true });
     if (docDeals) out += '<p class="doc-label" style="margin:26px 0 6px">Deals found</p>' + docDeals;
-
-    var bo = r.awards.best_overall, bv = r.awards.best_value;
-    out += '<table class="doc-picks" cellspacing="0" cellpadding="0"><tr>' +
-      '<td><p class="doc-pick-label" style="color:' + DOC_ACCENT + '">Best of class</p><p class="doc-pick-name">' + esc(bo.product || "—") + '</p><p class="doc-pick-why">' + esc(bo.why || "") + "</p></td>" +
-      '<td><p class="doc-pick-label" style="color:#1c5cab">Best price-to-value</p><p class="doc-pick-name">' + esc(bv.product || "—") + '</p><p class="doc-pick-why">' + esc(bv.why || "") + "</p></td>" +
-      "</tr></table>";
-    var awardRows = awardGroups(r, [["best_budget", "Best budget"], ["best_premium", "Best premium"], ["best_for_beginners", "Best for beginners"], ["longest_lasting", "Longest lasting"], ["avoid", "Avoid"]], [bo.product, bv.product])
+    var awardRows = awardGroups(r, [["best_overall", "Best of class"], ["best_value", "Best value"], ["best_budget", "Best budget"], ["best_premium", "Best premium"], ["best_for_beginners", "Best for beginners"], ["longest_lasting", "Longest lasting"], ["avoid", "Avoid"]], pickNames(r))
       .map(function (g) { var a = g.a; return ['<b class="sans" style="font-size:12px;letter-spacing:.06em;text-transform:uppercase;' + (g.key === "avoid" ? "color:#b02f2f" : "color:" + DOC_SOFT) + '">' + esc(g.labels.join(" · ")) + "</b>", "<b>" + esc(a.product) + "</b>", esc(a.why || "")]; });
     if (awardRows.length) out += tbl(["Award", "Pick", "Why"], awardRows);
 

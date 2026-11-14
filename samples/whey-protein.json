@@ -363,7 +363,9 @@
      "Membership required",
      "One flavor; price varies by warehouse"
     ],
-    "best_for": "Anyone with a Costco membership"
+    "best_for": "Anyone with a Costco membership",
+    "usual_low": 48.99,
+    "usual_high": 64.99
    },
    {
     "name": "Optimum Nutrition Gold Standard 100% Whey, 5 lb",
@@ -392,7 +394,9 @@
      "About 4.7¢ per gram at Walmart; list price runs to $114.99",
      "Blend of concentrate and isolate"
     ],
-    "best_for": "Non-members who want a known brand"
+    "best_for": "Non-members who want a known brand",
+    "usual_low": 99.99,
+    "usual_high": 114.99
    },
    {
     "name": "Optimum Nutrition Gold Standard 100% Whey, 5.64 lb (Costco, 80 servings)",
@@ -418,7 +422,9 @@
      "Price not current",
      "Not always stocked"
     ],
-    "best_for": "Costco members who prefer Gold Standard"
+    "best_for": "Costco members who prefer Gold Standard",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Myprotein Impact Whey Protein, 5.5 lb",
@@ -445,7 +451,9 @@
      "List prices exist to be discounted",
      "Shipping times vary"
     ],
-    "best_for": "Price hunters who order online"
+    "best_for": "Price hunters who order online",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Equate Whey Protein Powder",
@@ -472,7 +480,9 @@
      "Price not confirmed",
      "Limited flavors"
     ],
-    "best_for": "Walmart shoppers wanting a cheap, tested option"
+    "best_for": "Walmart shoppers wanting a cheap, tested option",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Naked Whey (unflavored grass-fed concentrate), 5 lb",
@@ -499,7 +509,9 @@
     "cons": [
      "Unflavored; needs blending"
     ],
-    "best_for": "People who want no sweeteners"
+    "best_for": "People who want no sweeteners",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Muscle Milk Pro Series Protein Powder",
@@ -524,7 +536,9 @@
     "cons": [
      "Milk-protein blend, not pure whey"
     ],
-    "best_for": "Shoppers already loyal to Muscle Milk"
+    "best_for": "Shoppers already loyal to Muscle Milk",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "NOW Sports Whey Protein Isolate, unflavored, 5 lb",
@@ -552,7 +566,9 @@
      "Unflavored",
      "Nearly 2x Kirkland per gram"
     ],
-    "best_for": "Lactose-sensitive buyers on a budget"
+    "best_for": "Lactose-sensitive buyers on a budget",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Dymatize ISO100 Hydrolyzed Whey Isolate, 20 servings",
@@ -580,7 +596,9 @@
     "cons": [
      "About 8.4¢ per gram in the small bag"
     ],
-    "best_for": "Lactose-sensitive buyers who care about taste"
+    "best_for": "Lactose-sensitive buyers who care about taste",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Isopure Zero Carb Whey Isolate, 3 lb",
@@ -606,7 +624,9 @@
     "cons": [
      "About 8.5¢ per gram"
     ],
-    "best_for": "Strict low-carb diets"
+    "best_for": "Strict low-carb diets",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Ghost Whey Protein, 2 lb",
@@ -633,7 +653,9 @@
     "cons": [
      "About 8.5¢ per gram for a blend: paying for flavor branding"
     ],
-    "best_for": "Taste-first buyers"
+    "best_for": "Taste-first buyers",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Transparent Labs Grass-Fed Whey Protein Isolate, 30 servings",
@@ -661,7 +683,9 @@
     "cons": [
      "About 7.7¢ per gram, 2.6x Kirkland"
     ],
-    "best_for": "Clean-label isolate buyers"
+    "best_for": "Clean-label isolate buyers",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Momentous Essential Grass-Fed Whey Isolate, 24 servings",
@@ -687,7 +711,9 @@
     "cons": [
      "About 11¢ per gram, nearly 4x Kirkland"
     ],
-    "best_for": "Tested athletes who need certification"
+    "best_for": "Tested athletes who need certification",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Clean Simple Eats Whey Protein Powder",
@@ -712,7 +738,9 @@
     "cons": [
      "Roughly 12¢ per gram (price estimated)"
     ],
-    "best_for": "Buyers prioritizing lowest tested lead"
+    "best_for": "Buyers prioritizing lowest tested lead",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Optimum Nutrition Serious Mass Weight Gainer, 12 lb",
@@ -739,7 +767,9 @@
      "Mostly sugar: ~1,250 calories a serving",
      "CR flagged 8.5 µg inorganic arsenic per serving, twice its limit"
     ],
-    "best_for": "No one buying for protein"
+    "best_for": "No one buying for protein",
+    "usual_low": null,
+    "usual_high": null
    }
   ],
   "deal_intelligence": {
@@ -1037,7 +1067,8 @@
    "Protein per tub is estimated from serving counts and protein per scoop (e.g. Kirkland ~76 servings × 25 g).",
    "Myprotein, Naked, NOW, Isopure, Ghost, Momentous, Clean Simple Eats and Serious Mass prices come from price trackers or reviews, not store pages seen this week.",
    "Equate and Muscle Milk show only a tracked price per gram; tub prices weren't confirmed.",
-   "Consumer Reports didn't publish full lab data for every product."
+   "Consumer Reports didn't publish full lab data for every product.",
+   "Gold Standard's usual range ($99.99–$114.99) is its Walmart list price across flavors; $82.99 was a sale price."
   ],
   "sources": [
    {

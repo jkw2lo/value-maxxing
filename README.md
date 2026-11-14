@@ -8,9 +8,8 @@ Type a product category and get a **buying strategy**: what's worth buying, what
 
 ## What a report gives you
 
-- **Today's price:** a strike price (buy at or under this) for one specific item, and a Google Flights-style gauge showing whether today's price is lower than usual, typical or higher than usual. It says *on sale now* or *wait for a sale*, and which sale to watch for.
+- **Top 3 picks:** best value, best of class and a budget pick, each with its target price and a Google Flights-style gauge showing whether today's price is lower than usual, typical or higher than usual, plus *on sale now* or *wait for a sale* (and which sale).
 - **Deals found:** specific offers seen while researching, with store, price, price per unit and link.
-- **Best of class vs. best value:** usually two different products, shown side by side.
 - **Price per unit that makes sense for the category:** for example ¢ per pod, $ per ml of paint or $ per square foot of toilet paper, so different pack sizes compare fairly.
 - **Where extra money stops paying off:** the price per unit above which you mostly pay for brand or rarity, with a chart.
 - **Prices by segment:** the price range for each segment of the market, split by whatever drives price in that category: carat weight for diamond jewelry, ply for toilet paper, organic vs. conventional for food, or budget / mid-range / premium when nothing else fits. Each segment gets a typical price and a best-value pick.
