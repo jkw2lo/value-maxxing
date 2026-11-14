@@ -739,6 +739,18 @@
               "null"
             ]
           },
+          "usual_low": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "usual_high": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
           "typical_sale": {
             "type": "string"
           },
@@ -782,6 +794,8 @@
           "quality_score",
           "value_score",
           "historical_low",
+          "usual_low",
+          "usual_high",
           "typical_sale",
           "buy_under",
           "where_to_buy",

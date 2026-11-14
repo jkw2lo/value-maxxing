@@ -20,7 +20,7 @@ Two fields need care:
 
 - Units: normalization.unit_short is the singular thing a shopper can count from the package label (pod, oz, sheet, roll, bottle, g) — never "$/x" or "per x". EVERY unit price in the output (normalization.bands, diminishing_returns.curve and knee_unit_price, products.unit_price) is in US dollars per ONE unit_short, so 24.5 cents is 0.245. If the brief normalizes on something that isn't on the label (washes, applications), convert to the label unit and state the conversion in quality_adjustment. products.pack_size is how many unit_short are in the package that street_price buys (102 for a 102-count tub), or null.
 
-- products: one row for EVERY product the brief names, including ones with estimated or missing prices. price_basis is "seen" when the brief cites a price seen at a store or listing during research, "estimate" when it is marked (est.), approximate or from memory, and "unknown" when the brief gives no price (then the price fields are null). A number the brief does not give is null, never 0.
+- products: one row for EVERY product the brief names, including ones with estimated or missing prices. price_basis is "seen" when the brief cites a price seen at a store or listing during research, "estimate" when it is marked (est.), approximate or from memory, and "unknown" when the brief gives no price (then the price fields are null). A number the brief does not give is null, never 0. usual_low and usual_high are the item's usual pack price range when not on sale, when the brief gives one (it does for the top three picks); otherwise null.
 
 - verdict.signal: use what the brief states. If it states none, apply these rules:
 <verdict_rules>
@@ -36,7 +36,7 @@ Having better and worse products, or recommending specific picks, is NOT a reaso
 
 - deals_found: only the specific offers the brief says were seen on a store page or listing (DEALS SEEN, or prices it cites with a store). Never an estimate. url only when the brief gives one, else empty. note is a condition such as "Subscribe & Save", "membership required" or "rollback", else empty. Empty array if none were seen.
 
-- awards: leave an award's product and why empty when it doesn't really apply to this category (e.g. longest_lasting for a consumable) rather than repeating another pick.
+- awards: best_value, best_overall and best_budget are the brief's top three picks, named exactly as their products rows. Leave an award's product and why empty when it doesn't really apply to this category (e.g. longest_lasting for a consumable) rather than repeating another pick.
 
 - price_segments: the brief's price breakdown by segment. dimension is the attribute it segments by, as a shopper would say it ("Total carat weight", "Ply", "Sourcing", "Quality tier"); why is its one-sentence reason. segments are ordered cheapest first. label is the segment name as a shopper would say it ("1 ct", "2-ply", "Organic", "Mid-range"). price_low and price_high are the dollar range for a typical item or common pack in that segment (not per unit); typical_price is what most people pay; unit_price_range is the per-unit range as text ("$0.04–$0.06 / sheet"), or empty. what_you_get is what the money buys over the segment below; best_pick is the best-value product in the segment, using the same name as its products row; watch_out is the main risk at that level. Use null for a number the brief does not give.
 

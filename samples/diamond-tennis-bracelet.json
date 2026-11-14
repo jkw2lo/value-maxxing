@@ -380,7 +380,9 @@
      "Two prongs per stone hold less securely than four",
      "Price swings with promos; $4,820 list is an anchor"
     ],
-    "best_for": "The most bracelet for the money if lab-grown is fine for you"
+    "best_for": "The most bracelet for the money if lab-grown is fine for you",
+    "usual_low": 3374,
+    "usual_high": 4820
    },
    {
     "name": "Brilliant Earth Lab-Grown Tennis Bracelet, 14K, 5 ct tw",
@@ -408,7 +410,9 @@
      "About $830 per carat, ~23% above Blue Nile's sale price",
      "Rarely discounted"
     ],
-    "best_for": "Buyers who want to see it in person before buying"
+    "best_for": "Buyers who want to see it in person before buying",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Brilliant Earth Lab-Grown Tennis Bracelet, 14K, 3 ct tw",
@@ -434,7 +438,9 @@
     "cons": [
      "$983 per carat; small sizes cost more per carat"
     ],
-    "best_for": "A daily-wear bracelet with a showroom nearby"
+    "best_for": "A daily-wear bracelet with a showroom nearby",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Brilliant Earth Lab-Grown Tennis Bracelet, 14K, 1 ct tw",
@@ -461,7 +467,9 @@
      "$1,895 per carat: most of the price is gold and labor",
      "Natural version is only $600 more"
     ],
-    "best_for": "A thin stacking bracelet"
+    "best_for": "A thin stacking bracelet",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Brilliant Earth Natural Diamond Tennis Bracelet, 14K, 1 ct tw",
@@ -486,7 +494,9 @@
     "cons": [
      "Small stones; little visible difference from lab"
     ],
-    "best_for": "Someone who wants natural stones on a smaller budget"
+    "best_for": "Someone who wants natural stones on a smaller budget",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Brilliant Earth Natural Diamond Tennis Bracelet, 14K, 5 ct tw",
@@ -512,7 +522,9 @@
     "cons": [
      "$1,500 per carat, 1.8x the lab version"
     ],
-    "best_for": "A natural heirloom piece bought in person"
+    "best_for": "A natural heirloom piece bought in person",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Blue Nile Four-Prong Diamond Tennis Bracelet, 14K white gold, 5 ct tw (H-I / SI1-SI2)",
@@ -539,7 +551,9 @@
      "$1,938 per carat at list, 2.9x the lab bracelet",
      "Resale is a fraction of the price"
     ],
-    "best_for": "An heirloom natural piece, bought on a big sale"
+    "best_for": "An heirloom natural piece, bought on a big sale",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Blue Nile Diamond Tennis Bracelet, 14K white gold, 5 ct tw (H-I / I1)",
@@ -565,7 +579,9 @@
      "I1 clarity: inclusions may show on close look",
      "Fewer, larger stones (49) at lower grade"
     ],
-    "best_for": "Natural on a budget, if you inspect the stones"
+    "best_for": "Natural on a budget, if you inspect the stones",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Blue Nile 7\" Four-Prong Lab-Grown Tennis Bracelet, 14K white gold, 2 ct (F-G / VS2-SI1)",
@@ -591,7 +607,9 @@
     "cons": [
      "$1,455 per carat; the 5 ct costs only ~$460 more on sale"
     ],
-    "best_for": "Daily wear where security matters most"
+    "best_for": "Daily wear where security matters most",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "James Allen Three-Prong Lab-Grown Tennis Bracelet, 14K white gold, 2 ct tw (F-G / VS2-SI1)",
@@ -618,7 +636,9 @@
      "$1,410 per carat",
      "Three prongs: between two and four for security"
     ],
-    "best_for": "A first tennis bracelet in a modest size"
+    "best_for": "A first tennis bracelet in a modest size",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "James Allen Four-Prong Lab-Grown Tennis Bracelet, 14K white gold, 3 ct tw",
@@ -643,7 +663,9 @@
     "cons": [
      "$1,183 per carat, pricier than Brilliant Earth's 3 ct"
     ],
-    "best_for": "Buyers set on four prongs at 3 ct"
+    "best_for": "Buyers set on four prongs at 3 ct",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Clean Origin Round Lab-Grown Diamond Tennis Bracelet, 14K white gold, 10 ct tw",
@@ -670,7 +692,9 @@
      "Stone grade not shown on the listing",
      "10 ct is a very bold look"
     ],
-    "best_for": "Maximum sparkle per dollar, if you confirm the grade first"
+    "best_for": "Maximum sparkle per dollar, if you confirm the grade first",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "LabGrownDiamonds.com Round Lab-Grown Tennis Bracelet, 5 ct tw",
@@ -695,7 +719,9 @@
     "cons": [
      "Smaller seller; check return terms and grading"
     ],
-    "best_for": "A second quote against Blue Nile"
+    "best_for": "A second quote against Blue Nile",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "KAY Signature Collection Lab-Grown Diamond Tennis Bracelet, 10K white gold, 3 ct tw",
@@ -723,7 +749,9 @@
      "10K gold: less gold, more alloy",
      "Quality grade not shown"
     ],
-    "best_for": "The cheapest gold bracelet that isn't a mistake"
+    "best_for": "The cheapest gold bracelet that isn't a mistake",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Zales 3 ct tw Lab-Grown Diamond Tennis Bracelet, sterling silver (F/VS2)",
@@ -750,7 +778,9 @@
      "Sterling silver prongs wear and bend; tarnishes",
      "Hard to resize or repair"
     ],
-    "best_for": "Occasional wear, or trying the look first"
+    "best_for": "Occasional wear, or trying the look first",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Kay Outlet Diamond Tennis Bracelet, 10K rose gold, 3 ct tw (natural)",
@@ -776,7 +806,9 @@
      "$1,333 per carat in 10K, with no grade shown",
      "The 50% off is against a price few pay"
     ],
-    "best_for": "Only if you need natural and must buy in person"
+    "best_for": "Only if you need natural and must buy in person",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Kay Diamond Tennis Bracelet, 14K yellow gold, 3 ct tw (natural)",
@@ -802,7 +834,9 @@
      "$3,220 per carat: about 1.7x Blue Nile's best natural",
      "Grade not shown"
     ],
-    "best_for": "No one: buy the same thing online for about half"
+    "best_for": "No one: buy the same thing online for about half",
+    "usual_low": null,
+    "usual_high": null
    },
    {
     "name": "Costco Round Brilliant 5.00 ctw Diamond Tennis Bracelet, 14kt gold (VS2 / I)",
@@ -829,7 +863,9 @@
      "US price not seen; listing unavailable",
      "Membership required"
     ],
-    "best_for": "Costco members wanting natural with an easy return"
+    "best_for": "Costco members wanting natural with an easy return",
+    "usual_low": null,
+    "usual_high": null
    }
   ],
   "deal_intelligence": {
