@@ -1475,28 +1475,39 @@ VERDICT_RULES,
     var given = c.usualLow != null && c.usualHigh != null && c.usualHigh >= c.usualLow;
     var lo = given ? c.usualLow : ref * 0.95, hi = given ? c.usualHigh : ref * 1.05;
     var key = c.now < lo * 0.995 ? "low" : c.now > hi * 1.005 ? "high" : "typical";
-    return { key: key, lo: lo, hi: hi, ref: ref, given: given, waitWorth: c.strike != null && c.strike < c.now * 0.97 };
+    return { key: key, lo: lo, hi: hi, ref: ref, given: given };
   }
   function usualText(lv, money, now) {
     if (!lv.given && now != null && Math.abs(now - lv.ref) < lv.ref * 0.005) return ""; // "now $43 · regular price $43" says nothing
     if (lv.given) return "usually " + (Math.abs(lv.hi - lv.lo) < 0.005 ? money(lv.lo) : money(lv.lo) + "–" + money(lv.hi));
     return "regular price " + money(lv.ref);
   }
+  // How far today's price is from the target. Within 5% (or 50 cents on cheap items) the gap is
+  // ordinary price noise between stores, so it reads as "at target" and the target isn't drawn
+  // separately: $10.22 today vs. a $10.50 target is not a decision.
+  function targetGap(c) {
+    if (c.strike == null || c.now == null) return null;
+    var d = c.now - c.strike;
+    return { near: Math.abs(d) <= Math.max(c.now * 0.05, 0.5), under: d <= 0 };
+  }
   // The one line that says what to do about today's price.
   function levelAction(c, lv) {
+    var g = targetGap(c);
     if (lv.key === "low") {
       var off = lv.lo ? Math.round((lv.lo - c.now) / lv.lo * 100) : 0;
-      return c.strike != null && c.now <= c.strike * 1.005 ? "<b>On sale now</b>, at or under the " + fmtMoney(c.strike) + " target. A good time to buy."
-        : "<b>On sale now</b>" + (off >= 1 ? ", " + off + "% below usual" : "") + "." + (c.strike != null ? " Target: " + fmtMoney(c.strike) + "." : "");
+      return "<b>On sale now</b>" + (off >= 1 ? ", " + off + "% below usual" : "") + "." +
+        (!g || g.near || g.under ? " A good time to buy." : " Your target is " + fmtMoney(c.strike) + ".");
     }
-    if (c.strike != null && c.now <= c.strike * 1.005) return "<b>Good time to buy:</b> at or under the " + fmtMoney(c.strike) + " target.";
-    if (lv.waitWorth) return "<b>Wait for a sale</b> and buy at " + fmtMoney(c.strike) + " or less." + (c.waitFor ? " Watch for " + esc(c.waitFor) + "." : "");
+    if (g && g.near) return "<b>Good time to buy:</b> today's price is at the target.";
+    if (g && g.under) return "<b>Good time to buy:</b> below the " + fmtMoney(c.strike) + " target.";
+    if (g) return "<b>Wait for a sale</b> and buy at " + fmtMoney(c.strike) + " or less." + (c.waitFor ? " Watch for " + esc(c.waitFor) + "." : "");
     if (lv.key === "high") return "<b>Wait</b> for it to come back to about " + fmtMoney(lv.hi) + ".";
     return "<b>Rarely discounts much.</b> Fine to buy at this price.";
   }
   function priceGaugeHTML(c, lv) {
     // A strike far outside the usual range (odd source data) would squash the bands, so it isn't drawn then.
-    var showStrike = c.strike != null && c.strike >= lv.lo * 0.6 && c.strike <= lv.hi * 1.15;
+    var g = targetGap(c);
+    var showStrike = !!g && !g.near && c.strike >= lv.lo * 0.6 && c.strike <= lv.hi * 1.15;
     var vals = [lv.lo, lv.hi, c.now].concat(showStrike ? [c.strike] : []);
     var span = Math.max.apply(null, vals) - Math.min.apply(null, vals) || lv.hi * 0.1 || 1;
     var dMin = Math.max(0, Math.min.apply(null, vals) - span * 0.6), dMax = Math.max.apply(null, vals) + span * 0.6;
@@ -1998,7 +2009,7 @@ VERDICT_RULES,
         }).join("");
     }).join("");
     main += '<div class="vm-part" id="part-notes"><div class="vm-part-row"><span class="vm-part-num">Notes</span><h3 class="vm-part-title">Caveats &amp; sources</h3><span class="vm-part-rule"></span></div></div>' + renderNotes(r);
-    main += '<div class="vm-end-actions"><button class="vm-btn-ghost" type="button" id="vm-expand-all">Expand all</button>' +
+    main += '<div class="vm-end-actions"><button class="vm-btn-ghost" type="button" data-acc-all="open">Expand all</button>' +
       '<button class="vm-btn-ghost" type="button" id="vm-new-report">New report</button></div>';
     var summary = renderSummary(r);
     var qMin = readingMinutes(quickBody), fMin = Math.max(qMin + 1, readingMinutes(summary + sectionsAll));
@@ -2030,7 +2041,7 @@ VERDICT_RULES,
         '<div class="vm-end-actions"><button class="vm-btn-ghost" type="button" id="vm-new-report">New report</button></div>';
     }
     return bar + recovered + summary + calcHTML(r) +
-      '<div class="vm-analysis-head"><h2>Full analysis</h2><span></span><button class="vm-link-btn" type="button" id="vm-collapse-all">Collapse all</button></div>' +
+      '<div class="vm-analysis-head"><h2>Full analysis</h2><span></span><button class="vm-link-btn" type="button" data-acc-all="open">Expand all</button><button class="vm-link-btn" type="button" data-acc-all="close">Collapse all</button></div>' +
       '<div class="vm-report-layout"><div class="vm-report-toc-col">' + renderTOC(takeaways, r) + "</div>" +
       '<div class="vm-report-main">' + main + "</div></div>";
   }
@@ -2484,8 +2495,8 @@ VERDICT_RULES,
 
   var OPEN_DEFAULTS = {
     beginner: ["primer", "priceexp", "segments", "contenders", "paths"],
-    intermediate: ["priceexp", "segments", "dr", "tiers", "brands", "contenders", "paths"],
-    expert: ["priceexp", "segments", "norm", "dr", "specs", "traps", "tiers", "brands", "contenders", "dealintel", "paths"]
+    intermediate: ["primer", "priceexp", "segments", "dr", "tiers", "brands", "contenders", "paths"],
+    expert: ["primer", "priceexp", "segments", "norm", "dr", "specs", "traps", "tiers", "brands", "contenders", "dealintel", "paths"]
   };
 
   function buildTakeaways(r) {
@@ -2944,13 +2955,11 @@ VERDICT_RULES,
         setAccordionOpen(acc, !acc.classList.contains("vm-open"));
       });
     });
-    var expandBtn = document.getElementById("vm-expand-all");
-    if (expandBtn) expandBtn.addEventListener("click", function () {
-      container.querySelectorAll(".vm-accordion").forEach(function (acc) { setAccordionOpen(acc, true); });
-    });
-    var collapseBtn = document.getElementById("vm-collapse-all");
-    if (collapseBtn) collapseBtn.addEventListener("click", function () {
-      container.querySelectorAll(".vm-accordion").forEach(function (acc) { setAccordionOpen(acc, false); });
+    container.querySelectorAll("[data-acc-all]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var open = btn.getAttribute("data-acc-all") === "open";
+        container.querySelectorAll(".vm-accordion").forEach(function (acc) { setAccordionOpen(acc, open); });
+      });
     });
     container.querySelectorAll("[data-toc-jump]").forEach(function (btn) {
       btn.addEventListener("click", function () {
